@@ -1,0 +1,7 @@
+/out/production
+.idea/
+*.iml
+.file_store_414
+.classpath
+.project
+bin/
