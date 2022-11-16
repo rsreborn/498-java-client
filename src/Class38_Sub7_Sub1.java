@@ -55,9 +55,9 @@ public class Class38_Sub7_Sub1 extends Class38_Sub7
 	}
 	
 	static final void method1093(int i) {
-		if (Class13.aClass11_264 != null) {
-			synchronized (Class13.aClass11_264) {
-				Class13.aClass11_264 = null;
+		if (CacheIndex.aClass11_264 != null) {
+			synchronized (CacheIndex.aClass11_264) {
+				CacheIndex.aClass11_264 = null;
 			}
 		}
 		anInt4375++;
@@ -75,7 +75,7 @@ public class Class38_Sub7_Sub1 extends Class38_Sub7
 		}
 		byte[] bs;
 		if (i >= 32768) {
-			bs = Class13.aClass105_265.method1544(0x7fff & i, 0, 1);
+			bs = CacheIndex.aClass105_265.method1544(0x7fff & i, 0, 1);
 		} else {
 			bs = Class23_Sub4_Sub14.aClass105_3119.method1544(i, 0, 1);
 		}
@@ -205,15 +205,15 @@ public class Class38_Sub7_Sub1 extends Class38_Sub7
 				break;
 			}
 			Class23_Sub4_Sub39.aClass27_3520.method934(i, class23_sub13_sub26);
-			Class29.anOa451.a(class23_sub13_sub26, (byte) -14, class23_sub13_sub26.aLong358);
+			CacheFileChannel.anOa451.a(class23_sub13_sub26, (byte) -14, class23_sub13_sub26.aLong358);
 			Class68.anInt1190++;
 			Class23_Sub13_Sub8_Sub1.anInt4501--;
 		}
 		if ((Class95.aByte1613 ^ 0xffffffff) != -1) {
 			try {
 				Buffer class23_sub5 = new Buffer(4);
-				class23_sub5.method460((byte) 103, 4);
-				class23_sub5.method460((byte) 125, Class95.aByte1613);
+				class23_sub5.writeByte(4);
+				class23_sub5.writeByte(Class95.aByte1613);
 				class23_sub5.method443(0, (byte) 51);
 				Class23_Sub23.aClass34_2427.method977(i + 30000, 4, 0, class23_sub5.payload);
 			} catch (java.io.IOException ioexception) {

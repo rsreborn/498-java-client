@@ -306,7 +306,7 @@ abstract class Class38_Sub7 extends Class38
 		anInt2704++;
 		while (bs.length > i) {
 			int i_17_ = bs[i++] * 64 - Class102.anInt1702;
-			int i_18_ = bs[i++] * 64 - Class29.anInt445;
+			int i_18_ = bs[i++] * 64 - CacheFileChannel.anInt445;
 			if ((i_17_ ^ 0xffffffff) >= -1 || (i_18_ ^ 0xffffffff) >= -1 || (Class70.anInt1238 ^ 0xffffffff) >= (i_17_ + 64 ^ 0xffffffff) || 64 + i_18_ >= anInt2697) {
 				for (int i_19_ = 0; i_19_ < 64; i_19_++) {
 					for (int i_20_ = -64; (i_20_ ^ 0xffffffff) > -1; i_20_++) {

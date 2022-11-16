@@ -235,7 +235,7 @@ class Class71_Sub2 extends Class71
 						aBoolean2736 = false;
 						Class104.method1529(b ^ 0x77);
 					} else {
-						RSString class16 = Class23_Sub4_Sub14.method322(new RSString[] { Class23_Sub4_Sub37.aClass16_3481, class82.aClass16_1449, Class23_Sub11.aClass16_2283, Class23_Sub4_Sub23.method360((byte) -9, Class23_Sub13_Sub15.anInt4036), Class23_Sub4_Sub23.aClass16_3288, Class23_Sub4_Sub23.method360((byte) -9, Class7.aBoolean170 ? 1 : 0), Class23_Sub13_Sub10.aClass16_3875, Class23_Sub4_Sub23.method360((byte) -9, Class47.anInt741), Class105_Sub1.aClass16_2856, Class23_Sub4_Sub23.method360((byte) -9, Class38_Sub7_Sub1.anInt4376) }, -58);
+						RSString class16 = Class23_Sub4_Sub14.method322(new RSString[] { Class23_Sub4_Sub37.aClass16_3481, class82.aClass16_1449, Class23_Sub11.aClass16_2283, Class23_Sub4_Sub23.method360((byte) -9, Class23_Sub13_Sub15.anInt4036), Class23_Sub4_Sub23.aClass16_3288, Class23_Sub4_Sub23.method360((byte) -9, Class7.aBoolean170 ? 1 : 0), Class23_Sub13_Sub10.aClass16_3875, Class23_Sub4_Sub23.method360((byte) -9, Class47.anInt741), CacheArchive.aClass16_2856, Class23_Sub4_Sub23.method360((byte) -9, Class38_Sub7_Sub1.anInt4376) }, -58);
 						try {
 							applet_sub1.getAppletContext().showDocument(class16.method153((byte) -74), "_self");
 						} catch (Exception exception) {

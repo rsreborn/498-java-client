@@ -90,7 +90,7 @@ public class Class97
 					}
 					if (Class23_Sub4_Sub8.aClass64_3028 == class64) {
 						if ((i_8_ ^ 0xffffffff) != 1412584498 && !class64.aBoolean1061) {
-							Class13.anInt250 = i_11_;
+							CacheIndex.anInt250 = i_11_;
 							Class31.aClass64Array484 = class64s;
 							Class58.anInt907 = i_6_;
 							continue;
@@ -145,7 +145,7 @@ public class Class97
 							if (class64.anInt1149 == 1337) {
 								Class70.anInt1222 = i_17_;
 								anInt1632 = i_15_;
-								Class105_Sub1.method1568(class64.anInt1128, i_15_, class64.anInt999, i_17_, 1920);
+								CacheArchive.method1568(class64.anInt1128, i_15_, class64.anInt999, i_17_, 1920);
 								Class20.method210(i, i_5_, i_9_, i_7_);
 								continue;
 							}
@@ -355,7 +355,7 @@ public class Class97
 											if (Class42.aClass64_663 == class64 && (class64.anInt1057 ^ 0xffffffff) != -1) {
 												i_43_ = class64.anInt1057;
 											}
-											if ((class64.aClass16_1095.method171(-61) ^ 0xffffffff) < -1) {
+											if ((class64.aClass16_1095.method171() ^ 0xffffffff) < -1) {
 												class16 = class64.aClass16_1095;
 											}
 										}
@@ -550,7 +550,7 @@ public class Class97
 										Class23_Sub13_Sub8 class23_sub13_sub8 = Class38_Sub7.aClass23_Sub13_Sub8_2637;
 										RSString class16 = class64.aClass16_1070;
 										class16 = Class54.method1178(12445, class64, class16);
-										while (class16.method171(i_12_ + -60) > 0) {
+										while (class16.method171() > 0) {
 											int i_67_ = class16.method173(95, Class14.aClass16_276);
 											RSString class16_68_;
 											if (i_67_ != -1) {
@@ -584,7 +584,7 @@ public class Class97
 										int i_72_ = i_70_ - (-class23_sub13_sub8.anInt3811 - 2);
 										class16 = class64.aClass16_1070;
 										class16 = Class54.method1178(12445, class64, class16);
-										while ((class16.method171(i_12_ + -60) ^ 0xffffffff) < -1) {
+										while ((class16.method171() ^ 0xffffffff) < -1) {
 											int i_73_ = class16.method173(104, Class14.aClass16_276);
 											RSString class16_74_;
 											if ((i_73_ ^ 0xffffffff) == 0) {

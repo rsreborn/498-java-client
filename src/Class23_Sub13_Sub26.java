@@ -11,7 +11,7 @@ public class Class23_Sub13_Sub26 extends Class23_Sub13
 	static RSString aClass16_4301;
 	protected byte aByte4302;
 	protected int anInt4303;
-	protected Class105_Sub1 aClass105_Sub1_4304;
+	protected CacheArchive aClass105_Sub1_4304;
 	static int anInt4305;
 	static int anInt4306;
 	static RSString[] aClass16Array4307;

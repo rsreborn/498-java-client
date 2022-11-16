@@ -214,7 +214,7 @@ public class Class23_Sub13_Sub20 extends Class23_Sub13
 		int i_14_ = class105.method1540(74, class16);
 		int i_15_ = class105.method1543(class16_13_, -97, i_14_);
 		anInt4174++;
-		return Class29.method945(i_15_, i_14_, class105, (byte) 114);
+		return CacheFileChannel.method945(i_15_, i_14_, class105, (byte) 114);
 	}
 	
 	static final void method818(int i, int i_16_) {

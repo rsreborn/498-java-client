@@ -49,7 +49,7 @@ public class Class44
 		anInt675++;
 		Class89 class89 = Class82.aClass89ArrayArrayArray1453[Class23_Sub13_Sub11.anInt3916][i][i_3_];
 		if (class89 == null) {
-			Class29.method949(Class23_Sub13_Sub11.anInt3916, i, i_3_);
+			CacheFileChannel.method949(Class23_Sub13_Sub11.anInt3916, i, i_3_);
 		} else {
 			int i_4_ = -99999999;
 			Class23_Sub13_Sub1 class23_sub13_sub1 = (Class23_Sub13_Sub1) class89.method1437(65);
@@ -66,7 +66,7 @@ public class Class44
 				}
 			}
 			if (class23_sub13_sub1_5_ == null) {
-				Class29.method949(Class23_Sub13_Sub11.anInt3916, i, i_3_);
+				CacheFileChannel.method949(Class23_Sub13_Sub11.anInt3916, i, i_3_);
 			} else {
 				if (b <= 112) {
 					anIntArray672 = null;

@@ -7,7 +7,7 @@ public class Class30
 	static int anInt472;
 	static int anInt473;
 	static RSString aClass16_474;
-	static Class105_Sub1 aClass105_Sub1_475;
+	static CacheArchive aClass105_Sub1_475;
 	private static RSString aClass16_476;
 	static int anInt477;
 	static int anInt478 = 0;
@@ -44,14 +44,14 @@ public class Class30
 		int i = 93 / ((-15 - b) / 61);
 		Class23_Sub13_Sub23.anInterface2_4248 = interface2;
 		anInt472++;
-		Class13.aClass105_265 = class105_13_;
+		CacheIndex.aClass105_265 = class105_13_;
 		Class23_Sub4_Sub14.aClass105_3119 = class105;
 	}
 	
 	static final void method958(byte b) {
 		Class23_Sub4_Sub6.aFont2988 = null;
 		anInt480++;
-		Class13.aFontMetrics267 = null;
+		CacheIndex.aFontMetrics267 = null;
 		Class23_Sub27.anImage2481 = null;
 		if (b != 11) {
 			method959(-108);

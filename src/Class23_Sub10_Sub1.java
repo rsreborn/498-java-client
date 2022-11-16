@@ -596,12 +596,12 @@ public class Class23_Sub10_Sub1 extends Class23_Sub10
 			}
 			anInt3563 += i;
 			if (anInt3550 == 256 && (anInt3553 & 0xff) == 0) {
-				if (Class13.aBoolean257) {
+				if (CacheIndex.aBoolean257) {
 					i = method533(0, ((Class23_Sub6_Sub1) aClass23_Sub6_2278).aByteArray3544, is, anInt3553, i, anInt3551, anInt3556, anInt3557, anInt3561, 0, i_60_, i_57_, this);
 				} else {
 					i = method540(((Class23_Sub6_Sub1) aClass23_Sub6_2278).aByteArray3544, is, anInt3553, i, anInt3552, anInt3555, 0, i_60_, i_57_, this);
 				}
-			} else if (Class13.aBoolean257) {
+			} else if (CacheIndex.aBoolean257) {
 				i = method517(0, 0, ((Class23_Sub6_Sub1) aClass23_Sub6_2278).aByteArray3544, is, anInt3553, i, anInt3551, anInt3556, anInt3557, anInt3561, 0, i_60_, i_57_, this, anInt3550, i_59_);
 			} else {
 				i = method516(0, 0, ((Class23_Sub6_Sub1) aClass23_Sub6_2278).aByteArray3544, is, anInt3553, i, anInt3552, anInt3555, 0, i_60_, i_57_, this, anInt3550, i_59_);
@@ -615,12 +615,12 @@ public class Class23_Sub10_Sub1 extends Class23_Sub10
 			}
 		}
 		if (anInt3550 == 256 && (anInt3553 & 0xff) == 0) {
-			if (Class13.aBoolean257) {
+			if (CacheIndex.aBoolean257) {
 				return method545(0, ((Class23_Sub6_Sub1) aClass23_Sub6_2278).aByteArray3544, is, anInt3553, i, anInt3551, anInt3556, 0, i_58_, i_57_, this);
 			}
 			return method509(((Class23_Sub6_Sub1) aClass23_Sub6_2278).aByteArray3544, is, anInt3553, i, anInt3552, 0, i_58_, i_57_, this);
 		}
-		if (Class13.aBoolean257) {
+		if (CacheIndex.aBoolean257) {
 			return method525(0, 0, ((Class23_Sub6_Sub1) aClass23_Sub6_2278).aByteArray3544, is, anInt3553, i, anInt3551, anInt3556, 0, i_58_, i_57_, this, anInt3550, i_59_);
 		}
 		return method530(0, 0, ((Class23_Sub6_Sub1) aClass23_Sub6_2278).aByteArray3544, is, anInt3553, i, anInt3552, 0, i_58_, i_57_, this, anInt3550, i_59_);
@@ -634,12 +634,12 @@ public class Class23_Sub10_Sub1 extends Class23_Sub10
 			}
 			anInt3563 += i;
 			if (anInt3550 == -256 && (anInt3553 & 0xff) == 0) {
-				if (Class13.aBoolean257) {
+				if (CacheIndex.aBoolean257) {
 					i = method539(0, ((Class23_Sub6_Sub1) aClass23_Sub6_2278).aByteArray3544, is, anInt3553, i, anInt3551, anInt3556, anInt3557, anInt3561, 0, i_64_, i_61_, this);
 				} else {
 					i = method518(((Class23_Sub6_Sub1) aClass23_Sub6_2278).aByteArray3544, is, anInt3553, i, anInt3552, anInt3555, 0, i_64_, i_61_, this);
 				}
-			} else if (Class13.aBoolean257) {
+			} else if (CacheIndex.aBoolean257) {
 				i = method535(0, 0, ((Class23_Sub6_Sub1) aClass23_Sub6_2278).aByteArray3544, is, anInt3553, i, anInt3551, anInt3556, anInt3557, anInt3561, 0, i_64_, i_61_, this, anInt3550, i_63_);
 			} else {
 				i = method537(0, 0, ((Class23_Sub6_Sub1) aClass23_Sub6_2278).aByteArray3544, is, anInt3553, i, anInt3552, anInt3555, 0, i_64_, i_61_, this, anInt3550, i_63_);
@@ -653,12 +653,12 @@ public class Class23_Sub10_Sub1 extends Class23_Sub10
 			}
 		}
 		if (anInt3550 == -256 && (anInt3553 & 0xff) == 0) {
-			if (Class13.aBoolean257) {
+			if (CacheIndex.aBoolean257) {
 				return method522(0, ((Class23_Sub6_Sub1) aClass23_Sub6_2278).aByteArray3544, is, anInt3553, i, anInt3551, anInt3556, 0, i_62_, i_61_, this);
 			}
 			return method514(((Class23_Sub6_Sub1) aClass23_Sub6_2278).aByteArray3544, is, anInt3553, i, anInt3552, 0, i_62_, i_61_, this);
 		}
-		if (Class13.aBoolean257) {
+		if (CacheIndex.aBoolean257) {
 			return method542(0, 0, ((Class23_Sub6_Sub1) aClass23_Sub6_2278).aByteArray3544, is, anInt3553, i, anInt3551, anInt3556, 0, i_62_, i_61_, this, anInt3550, i_63_);
 		}
 		return method541(0, 0, ((Class23_Sub6_Sub1) aClass23_Sub6_2278).aByteArray3544, is, anInt3553, i, anInt3552, 0, i_62_, i_61_, this, anInt3550, i_63_);

@@ -88,7 +88,7 @@ public class Class71_Sub1_Sub1 extends Class71_Sub1
 				Class23_Sub7.outBuffer.method486(233, 2976);
 				Class23_Sub7.outBuffer.method463(b + -16, i_0_);
 				Class23_Sub7.outBuffer.method427(i_3_, b ^ 0x51c26906);
-				Class23_Sub7.outBuffer.writeIntBE(i_1_, b ^ 0x43d2e3b6);
+				Class23_Sub7.outBuffer.writeIntBE(i_1_);
 				Class23_Sub4_Sub38.anInt3500 = 0;
 				Class32.aClass64_502 = Class23_Sub24.method905(i_1_, (byte) 111);
 				Class24.anInt362 = i_0_;
@@ -127,7 +127,7 @@ public class Class71_Sub1_Sub1 extends Class71_Sub1
 			if (i_2_ == 11) {
 				Class23_Sub4_Sub15.anInt3145++;
 				Class23_Sub7.outBuffer.method486(60, 2976);
-				Class23_Sub7.outBuffer.writeIntBE(i_1_, -1137894376);
+				Class23_Sub7.outBuffer.writeIntBE(i_1_);
 				Class23_Sub7.outBuffer.method443(i_3_, (byte) 51);
 				Class23_Sub7.outBuffer.method463(108, i_0_);
 				Class23_Sub4_Sub38.anInt3500 = 0;
@@ -176,7 +176,7 @@ public class Class71_Sub1_Sub1 extends Class71_Sub1
 			if (i_2_ == 28) {
 				Class100.anInt1683++;
 				Class23_Sub7.outBuffer.method486(243, 2976);
-				Class23_Sub7.outBuffer.writeIntBE(i_1_, -1137894376);
+				Class23_Sub7.outBuffer.writeIntBE(i_1_);
 				Class23_Sub7.outBuffer.method463(-59, i_3_);
 				Class23_Sub7.outBuffer.method427(i_0_, -1371695448);
 				Class23_Sub4_Sub38.anInt3500 = 0;
@@ -194,7 +194,7 @@ public class Class71_Sub1_Sub1 extends Class71_Sub1
 			}
 			if (i_2_ == 34) {
 				boolean bool = Class5.method66(0, i_1_, 2, i_0_, false, false, 0, 0, Class105.aClass38_Sub7_Sub2_1812.anIntArray2663[0], 0, Class105.aClass38_Sub7_Sub2_1812.anIntArray2694[0], 0);
-				Class29.anInt439++;
+				CacheFileChannel.anInt439++;
 				if (!bool) {
 					bool = Class5.method66(0, i_1_, 2, i_0_, false, false, 0, 0, Class105.aClass38_Sub7_Sub2_1812.anIntArray2663[0], 1, Class105.aClass38_Sub7_Sub2_1812.anIntArray2694[0], 1);
 				}
@@ -323,8 +323,8 @@ public class Class71_Sub1_Sub1 extends Class71_Sub1
 			}
 			if (i_2_ == 57) {
 				Class23_Sub7.outBuffer.method486(180, 2976);
-				Class29.anInt442++;
-				Class23_Sub7.outBuffer.writeIntBE(i_1_, -1137894376);
+				CacheFileChannel.anInt442++;
+				Class23_Sub7.outBuffer.writeIntBE(i_1_);
 				Class64 class64 = Class23_Sub24.method905(i_1_, (byte) 111);
 				if (class64.anIntArrayArray1058 != null && class64.anIntArrayArray1058[0][0] == 5) {
 					int i_4_ = class64.anIntArrayArray1058[0][1];
@@ -403,7 +403,7 @@ public class Class71_Sub1_Sub1 extends Class71_Sub1
 					Class23_Sub4_Sub27.anInt3327 = Class90.anInt1538;
 					Class51.anInt798 = 0;
 					Class23_Sub7.outBuffer.method486(61, 2976);
-					Class23_Sub7.outBuffer.writeIntBE(Class49.anInt759, -1137894376);
+					Class23_Sub7.outBuffer.writeIntBE(Class49.anInt759);
 					Class23_Sub7.outBuffer.method443(Class27.anInt411, (byte) 51);
 					Class23_Sub7.outBuffer.method427(Class17.anInt302, b ^ 0x51c26906);
 					Class23_Sub7.outBuffer.method463(-83, i_3_);
@@ -437,9 +437,9 @@ public class Class71_Sub1_Sub1 extends Class71_Sub1
 					bool = Class38_Sub7_Sub1.method1092(class64, b + 287);
 				}
 				if (bool) {
-					Class29.anInt442++;
+					CacheFileChannel.anInt442++;
 					Class23_Sub7.outBuffer.method486(180, b + 3058);
-					Class23_Sub7.outBuffer.writeIntBE(i_1_, b + -1137894294);
+					Class23_Sub7.outBuffer.writeIntBE(i_1_);
 				}
 			}
 			if (i_2_ == 18) {
@@ -517,7 +517,7 @@ public class Class71_Sub1_Sub1 extends Class71_Sub1
 					Class23_Sub7.outBuffer.method443(Class23_Sub13_Sub14.anInt4013, (byte) 51);
 					Class23_Sub13_Sub11.anInt3912++;
 					Class23_Sub7.outBuffer.method430(Class58.anInt903 + i_1_, 14982);
-					Class23_Sub7.outBuffer.writeIntBE(Class7.anInt169, b ^ 0x43d2e3b6);
+					Class23_Sub7.outBuffer.writeIntBE(Class7.anInt169);
 					Class23_Sub7.outBuffer.method443(i_0_ - -Class42.anInt662, (byte) 51);
 					Class23_Sub7.outBuffer.method430((int) (l >>> 32) & 0x7fffffff, b + 15064);
 				}
@@ -532,8 +532,8 @@ public class Class71_Sub1_Sub1 extends Class71_Sub1
 				}
 				if (i_2_ == 23) {
 					Class23_Sub7.outBuffer.method486(180, 2976);
-					Class23_Sub7.outBuffer.writeIntBE(i_1_, -1137894376);
-					Class29.anInt442++;
+					Class23_Sub7.outBuffer.writeIntBE(i_1_);
+					CacheFileChannel.anInt442++;
 					Class64 class64 = Class23_Sub24.method905(i_1_, (byte) 111);
 					if (class64.anIntArrayArray1058 != null && class64.anIntArrayArray1058[0][0] == 5) {
 						int i_5_ = class64.anIntArrayArray1058[0][1];
@@ -579,7 +579,7 @@ public class Class71_Sub1_Sub1 extends Class71_Sub1
 					Class23_Sub7.outBuffer.method486(108, 2976);
 					Class23_Sub7.outBuffer.method443(Class23_Sub13_Sub14.anInt4013, (byte) 51);
 					Class23_Sub7.outBuffer.method463(118, i_0_);
-					Class23_Sub7.outBuffer.writeIntBE(i_1_, -1137894376);
+					Class23_Sub7.outBuffer.writeIntBE(i_1_);
 					Class23_Sub7.outBuffer.method481(Class7.anInt169, (byte) -67);
 				}
 				if (b != -82) {
@@ -642,7 +642,7 @@ public class Class71_Sub1_Sub1 extends Class71_Sub1
 					Class23_Sub7.outBuffer.method486(251, b + 3058);
 					Class23_Sub7.outBuffer.method427(i_0_, -1371695448);
 					Class83.anInt1466++;
-					Class23_Sub7.outBuffer.writeIntBE(Class7.anInt169, -1137894376);
+					Class23_Sub7.outBuffer.writeIntBE(Class7.anInt169);
 					Class23_Sub7.outBuffer.method427(i_3_, -1371695448);
 					Class23_Sub7.outBuffer.method445(i_1_, (byte) 66);
 					Class23_Sub7.outBuffer.method463(115, Class23_Sub13_Sub14.anInt4013);
@@ -653,7 +653,7 @@ public class Class71_Sub1_Sub1 extends Class71_Sub1
 				if (i_2_ == 26) {
 					Class25.anInt390++;
 					Class23_Sub7.outBuffer.method486(188, 2976);
-					Class23_Sub7.outBuffer.writeIntBE(i_1_, -1137894376);
+					Class23_Sub7.outBuffer.writeIntBE(i_1_);
 					Class23_Sub7.outBuffer.method463(118, i_3_);
 					Class23_Sub7.outBuffer.method427(i_0_, b + -1371695366);
 					Class23_Sub7.outBuffer.method430(Class27.anInt411, 14982);
@@ -892,7 +892,7 @@ public class Class71_Sub1_Sub1 extends Class71_Sub1
 				}
 				if (i_13_ != Class21.anInt342) {
 					if (Class21.anInt342 == 0 && Class83.anInt1460 != -1) {
-						Class23_Sub13_Sub16.method778(Class83.anInt1460, Class29.aClass105_Sub1_457, 1, 0, i_13_, false);
+						Class23_Sub13_Sub16.method778(Class83.anInt1460, CacheFileChannel.aClass105_Sub1_457, 1, 0, i_13_, false);
 						Class105.aBoolean1806 = false;
 					} else if ((i_13_ ^ 0xffffffff) != -1) {
 						Class65.method1229(i_13_, 110);

@@ -35,14 +35,14 @@ public class Class28
 		}
 	}
 	
-	static final void method939(int i, int i_2_, boolean bool, int i_3_, byte b, Class105_Sub1 class105_sub1, int i_4_) {
+	static final void method939(int i, int i_2_, boolean bool, int i_3_, byte b, CacheArchive class105_sub1, int i_4_) {
 		long l = (long) ((i_4_ << 16) - -i_3_);
 		Class23_Sub13_Sub26 class23_sub13_sub26 = (Class23_Sub13_Sub26) Class8.anOa172.a((byte) -127, l);
 		anInt427++;
 		if (class23_sub13_sub26 == null) {
 			class23_sub13_sub26 = (Class23_Sub13_Sub26) Class42.anOa649.a((byte) 126, l);
 			if (class23_sub13_sub26 == null) {
-				class23_sub13_sub26 = (Class23_Sub13_Sub26) Class29.anOa451.a((byte) 97, l);
+				class23_sub13_sub26 = (Class23_Sub13_Sub26) CacheFileChannel.anOa451.a((byte) 97, l);
 				if (class23_sub13_sub26 != null) {
 					if (bool) {
 						class23_sub13_sub26.method601(false);
@@ -69,7 +69,7 @@ public class Class28
 						Buffer.anInt2166++;
 					} else {
 						Class23_Sub4_Sub39.aClass27_3520.method931(class23_sub13_sub26, (byte) 92);
-						Class29.anOa451.a(class23_sub13_sub26, (byte) -14, l);
+						CacheFileChannel.anOa451.a(class23_sub13_sub26, (byte) -14, l);
 						Class68.anInt1190++;
 					}
 				}

@@ -20,7 +20,7 @@ public class Class5
 	static int anInt115;
 	static RSString aClass16_116;
 	static int anInt117;
-	static Class105_Sub1 aClass105_Sub1_118;
+	static CacheArchive aClass105_Sub1_118;
 	private static RSString aClass16_119;
 	static int anInt120;
 	private Class27 aClass27_121 = new Class27();

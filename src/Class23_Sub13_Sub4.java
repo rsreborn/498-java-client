@@ -235,7 +235,7 @@ public class Class23_Sub13_Sub4 extends Class23_Sub13
 			for (Class23_Sub21 class23_sub21 = (Class23_Sub21) RSString.aClass89_1951.method1437(10); class23_sub21 != null; class23_sub21 = (Class23_Sub21) RSString.aClass89_1951.method1431((byte) -89)) {
 				int i_83_ = class23_sub21.anInt2412;
 				int i_84_ = class23_sub21.anInt2415;
-				i_84_ = -i_84_ + (Class38_Sub7.anInt2697 + Class29.anInt445);
+				i_84_ = -i_84_ + (Class38_Sub7.anInt2697 + CacheFileChannel.anInt445);
 				i_83_ -= Class102.anInt1702;
 				int i_85_ = (-i_60_ + i_66_) * (-i_63_ + i_83_) / (i_62_ + -i_63_) + i_60_;
 				int i_86_ = (i_84_ + -i_65_) * (i_67_ + -i_61_) / (-i_65_ + i) + i_61_;

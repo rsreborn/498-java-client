@@ -140,16 +140,16 @@ public class Class71_Sub2_Sub1 extends Class71_Sub2
 		Class91.anInt1556 = i / i_18_;
 	}
 	
-	static final Class105_Sub1 method1285(byte b, int i, boolean bool, boolean bool_19_, boolean bool_20_) {
+	static final CacheArchive loadArchive(byte b, int i, boolean bool, boolean bool_19_, boolean bool_20_) {
 		if (b < 126) {
 			method1284(73, -75);
 		}
-		Class13 class13 = null;
+		CacheIndex class13 = null;
 		anInt4465++;
 		if (Class23_Sub4_Sub6.aClass29_2990 != null) {
-			class13 = new Class13(i, Class23_Sub4_Sub6.aClass29_2990, Class78.aClass29Array1410[i], 1000000);
+			class13 = new CacheIndex(i, Class23_Sub4_Sub6.aClass29_2990, Class78.aClass29Array1410[i], 1000000);
 		}
-		return new Class105_Sub1(class13, Class73.aClass13_1318, i, bool_20_, bool_19_, bool);
+		return new CacheArchive(class13, Class73.aClass13_1318, i, bool_20_, bool_19_, bool);
 	}
 	
 	public static void method1286(byte b) {

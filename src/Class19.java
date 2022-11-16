@@ -32,7 +32,7 @@ public class Class19
 		byte[][] bs_3_ = new byte[Class70.anInt1238][Class38_Sub7.anInt2697];
 		while (i_1_ < bs.length) {
 			int i_4_ = -Class102.anInt1702 + (0xff & bs[i_1_++]) * 64;
-			int i_5_ = -Class29.anInt445 + 64 * (bs[i_1_++] & 0xff);
+			int i_5_ = -CacheFileChannel.anInt445 + 64 * (bs[i_1_++] & 0xff);
 			if (i_4_ > 0 && i_5_ > 0 && i_4_ - -64 < Class70.anInt1238 && Class38_Sub7.anInt2697 > i_5_ - -64) {
 				for (int i_6_ = 0; i_6_ < 64; i_6_++) {
 					int i_7_ = -i_5_ + Class38_Sub7.anInt2697 + -1;

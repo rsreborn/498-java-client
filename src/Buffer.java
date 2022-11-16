@@ -103,15 +103,12 @@ class Buffer extends Class23
 		}
 	}
 	
-	final void writeIntBE(int i, int i_3_) {
+	final void writeIntBE(int i) {
 		anInt2143++;
 		payload[position++] = (byte) (i >> 24);
 		payload[position++] = (byte) (i >> 16);
 		payload[position++] = (byte) (i >> 8);
 		payload[position++] = (byte) i;
-		if (i_3_ != -1137894376) {
-			anInt2127 = 23;
-		}
 	}
 	
 	final void method430(int i, int i_4_) {
@@ -126,7 +123,7 @@ class Buffer extends Class23
 	final int method431(int i, int i_5_) {
 		int i_6_ = Class36.method989(i_5_, position, (byte) -118, payload);
 		anInt2131++;
-		writeIntBE(i_6_, -1137894376);
+		writeIntBE(i_6_);
 		if (i != 32258) {
 			position = -41;
 		}
@@ -169,18 +166,16 @@ class Buffer extends Class23
 		return -128 + payload[position++] & 0xff;
 	}
 	
-	final void method436(long l, byte b) {
+	final void writeLongBE(long l) {
 		payload[position++] = (byte) (int) (l >> 56);
 		payload[position++] = (byte) (int) (l >> 48);
 		payload[position++] = (byte) (int) (l >> 40);
 		anInt2126++;
-		if (b < -107) {
-			payload[position++] = (byte) (int) (l >> 32);
-			payload[position++] = (byte) (int) (l >> 24);
-			payload[position++] = (byte) (int) (l >> 16);
-			payload[position++] = (byte) (int) (l >> 8);
-			payload[position++] = (byte) (int) l;
-		}
+		payload[position++] = (byte) (int) (l >> 32);
+		payload[position++] = (byte) (int) (l >> 24);
+		payload[position++] = (byte) (int) (l >> 16);
+		payload[position++] = (byte) (int) (l >> 8);
+		payload[position++] = (byte) (int) l;
 	}
 	
 	final int method437(boolean bool) {
@@ -195,7 +190,7 @@ class Buffer extends Class23
 		return i_7_ | i;
 	}
 	
-	final void method438(int i, int i_8_, byte[] bs, int i_9_) {
+	final void writeBytes(int i, int i_8_, byte[] bs, int i_9_) {
 		if (i_8_ >= 10) {
 			for (int i_10_ = i; (i_10_ ^ 0xffffffff) > (i + i_9_ ^ 0xffffffff); i_10_++)
 				payload[position++] = bs[i_10_];
@@ -252,7 +247,7 @@ class Buffer extends Class23
 		Class5.anInt104++;
 		Class23_Sub7.outBuffer.method486(95, 2976);
 		if (i != -7602) {
-			method470((byte) -31, null);
+			method470(null);
 		}
 		for (Class23_Sub25 class23_sub25 = (Class23_Sub25) Class36.anOa565.a((byte) -25); class23_sub25 != null; class23_sub25 = (Class23_Sub25) Class36.anOa565.a(true)) {
 			if ((class23_sub25.anInt2461 ^ 0xffffffff) == -1) {
@@ -276,11 +271,8 @@ class Buffer extends Class23
 		payload[position++] = (byte) (i >> 16);
 	}
 	
-	final void method446(RSString class16, int i) {
-		if (i >= -68) {
-			aClass16_2169 = null;
-		}
-		position += class16.method137(0, position, class16.method171(-61), payload, 2514);
+	final void writeString(RSString string) {
+		position += string.method137(0, position, string.method171(), payload, 2514);
 		payload[position++] = (byte) 0;
 		anInt2171++;
 	}
@@ -354,7 +346,7 @@ class Buffer extends Class23
 	
 	final int method453(int i) {
 		if (i != 65280) {
-			writeIntBE(38, -4);
+			writeIntBE(38);
 		}
 		anInt2174++;
 		position += 2;
@@ -417,12 +409,9 @@ class Buffer extends Class23
 		return method476((byte) -119) - 49152;
 	}
 	
-	final void method460(byte b, int i) {
+	final void writeByte(int i) {
 		anInt2188++;
 		payload[position++] = (byte) i;
-		if (b <= 102) {
-			method443(-7, (byte) 0);
-		}
 	}
 	
 	final int method461(int i) {
@@ -446,8 +435,8 @@ class Buffer extends Class23
 			position = 14;
 		}
 		position = 0;
-		method460((byte) 126, bs_27_.length);
-		method438(0, 85, bs_27_, bs_27_.length);
+		writeByte(bs_27_.length);
+		writeBytes(0, 85, bs_27_, bs_27_.length);
 	}
 	
 	final void method463(int i, int i_28_) {
@@ -491,7 +480,7 @@ class Buffer extends Class23
 		}
 		anInt2146++;
 		if (i >= 0 && i < 128) {
-			method460((byte) 110, i);
+			writeByte(i);
 		} else if (i >= 0 && (i ^ 0xffffffff) > -32769) {
 			method443(i + 32768, (byte) 51);
 		} else {
@@ -529,13 +518,13 @@ class Buffer extends Class23
 				i_42_ -= is[0x3 & i_40_] + i_40_ ^ i_43_ + (i_43_ << 4 ^ i_43_ >>> 5);
 			}
 			position -= 8;
-			writeIntBE(i_42_, -1137894376);
-			writeIntBE(i_43_, -1137894376);
+			writeIntBE(i_42_);
+			writeIntBE(i_43_);
 		}
 		position = i_37_;
 	}
 	
-	static final void method470(byte b, Buffer class23_sub5) {
+	static final void method470(Buffer class23_sub5) {
 		anInt2133++;
 		byte[] bs = new byte[24];
 		if (Class23_Sub7.aClass29_2196 != null) {
@@ -556,8 +545,7 @@ class Buffer extends Class23
 					bs[i] = (byte) -1;
 			}
 		}
-		int i = 43 / ((-36 - b) / 58);
-		class23_sub5.method438(0, 101, bs, 24);
+		class23_sub5.writeBytes(0, 101, bs, 24);
 	}
 	
 	final int method471(int i) {
@@ -634,19 +622,19 @@ class Buffer extends Class23
 			if ((i & ~0x3fff ^ 0xffffffff) != -1) {
 				if ((~0x1fffff & i ^ 0xffffffff) != -1) {
 					if ((i & ~0xfffffff) != 0) {
-						method460((byte) 105, i >>> 28 | 0x80);
+						writeByte(i >>> 28 | 0x80);
 					}
-					method460((byte) 105, 0x80 | i >>> 21);
+					writeByte(0x80 | i >>> 21);
 				}
-				method460((byte) 125, (0x201f5b | i) >>> 14);
+				writeByte((0x201f5b | i) >>> 14);
 			}
-			method460((byte) 113, 0x80 | i >>> 7);
+			writeByte(0x80 | i >>> 7);
 		}
 		anInt2148++;
 		if (i_49_ != 128) {
 			method483(78);
 		}
-		method460((byte) 124, i & 0x7f);
+		writeByte(i & 0x7f);
 	}
 	
 	final int method480(byte b) {

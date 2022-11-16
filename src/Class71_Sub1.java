@@ -25,7 +25,7 @@ class Class71_Sub1 extends Class71
 	
 	static final Class23_Sub21 method1269(RSString class16, byte b) {
 		anInt2731++;
-		if (class16.method171(-61) == 0) {
+		if (class16.method171() == 0) {
 			return null;
 		}
 		Class23_Sub21 class23_sub21 = (Class23_Sub21) RSString.aClass89_1951.method1437(12);

@@ -4,8 +4,8 @@
 
 public class Class23_Sub14 extends Class23
 {
-	protected Class105_Sub1 aClass105_Sub1_2321;
-	protected Class13 aClass13_2322;
+	protected CacheArchive aClass105_Sub1_2321;
+	protected CacheIndex aClass13_2322;
 	static int anInt2323;
 	static int anInt2324;
 	static Class81 aClass81_2325;
@@ -148,7 +148,7 @@ public class Class23_Sub14 extends Class23
 		}
 	}
 	
-	static final void method865(Class13 class13, int i, int i_40_, Class105_Sub1 class105_sub1) {
+	static final void method865(CacheIndex class13, int i, int i_40_, CacheArchive class105_sub1) {
 		anInt2323++;
 		byte[] bs = null;
 		synchronized (Class23_Sub13_Sub15.aClass89_4018) {

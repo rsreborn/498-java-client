@@ -31,12 +31,12 @@ public class Class23_Sub12 extends Class23
 			Class6.anIntArray144 = null;
 			Class67.aClass43Array1171 = null;
 			Class39.anIntArray618 = null;
-			Class13.aClass43_255 = null;
+			CacheIndex.aClass43_255 = null;
 			aClass43Array2296 = null;
 			Class23_Sub5_Sub1.anIntArray3543 = null;
 			Class49.aClass23_Sub13_Sub10_Sub1_754 = null;
 			Class69.aClass43_1220 = null;
-			Class13.aClass43Array258 = null;
+			CacheIndex.aClass43Array258 = null;
 			Class35.anIntArray557 = null;
 			Class72.aClass43_Sub1Array1303 = null;
 			Class66.aClass23_Sub13_Sub10Array1168 = null;

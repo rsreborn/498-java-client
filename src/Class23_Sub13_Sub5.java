@@ -14,7 +14,7 @@ public class Class23_Sub13_Sub5 extends Class23_Sub13
 	static final void method625(int i, int i_0_) {
 		anInt3721++;
 		if (i == -1066663896) {
-			synchronized (Class13.aClass11_264) {
+			synchronized (CacheIndex.aClass11_264) {
 				Class39.anInt605 = i_0_;
 			}
 		}

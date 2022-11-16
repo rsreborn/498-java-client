@@ -28,7 +28,7 @@ public class Class23_Sub4_Sub13 extends Class23_Sub4
 	static int anInt3113;
 	static int anInt3114;
 	static RSString aClass16_3115;
-	static Class105_Sub1 aClass105_Sub1_3116;
+	static CacheArchive aClass105_Sub1_3116;
 	private int anInt3117;
 	
 	static final void method315(byte b, Component component) {

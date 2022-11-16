@@ -22,7 +22,7 @@ public class Class23_Sub4_Sub37 extends Class23_Sub4
 	private byte[] aByteArray3487;
 	static int anInt3488;
 	static int anInt3489;
-	static Class105_Sub1 aClass105_Sub1_3490;
+	static CacheArchive aClass105_Sub1_3490;
 	private int anInt3491;
 	static int anInt3492;
 	static int anInt3493;

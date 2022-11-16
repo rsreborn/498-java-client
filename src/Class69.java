@@ -9,10 +9,10 @@ public class Class69
 	static int anInt1208;
 	protected long aLong1209;
 	protected int anInt1210;
-	static Class105_Sub1 aClass105_Sub1_1211;
+	static CacheArchive aClass105_Sub1_1211;
 	static long aLong1212;
 	protected int anInt1213;
-	static Class105_Sub1 aClass105_Sub1_1214;
+	static CacheArchive aClass105_Sub1_1214;
 	static RSString aClass16_1215;
 	static int anInt1216;
 	static RSString aClass16_1217 = Class38_Sub6.method1076((byte) 86, "document)3cookie=(R");

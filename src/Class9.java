@@ -14,22 +14,22 @@ import java.net.URL;
 public class Class9 implements Runnable
 {
 	private Class60 aClass60_181;
-	public Class62 aClass62_182;
+	public SizedAccessFile aClass62_182;
 	public static Method aMethod183;
 	public static String aString184;
 	private Class60 aClass60_185;
-	public Class62 aClass62_186;
+	public SizedAccessFile aClass62_186;
 	private boolean aBoolean187;
 	public Applet anApplet188 = null;
 	public EventQueue anEventQueue189;
 	public static int anInt190 = 3;
-	public Class62[] aClass62Array191;
+	public SizedAccessFile[] aClass62Array191;
 	private Thread aThread192;
 	private Interface3 anInterface3_193;
 	public File aFile194;
 	private File aFile195;
 	public static Method aMethod196;
-	public Class62 aClass62_197;
+	public SizedAccessFile aClass62_197;
 	public static String aString198;
 	private static String aString199;
 	
@@ -145,7 +145,7 @@ public class Class9 implements Runnable
 							try {
 								File file_10_ = new File(file, "random.dat");
 								if (i_6_ == 1 || file_10_.exists()) {
-									aClass62_182 = new Class62(file_10_, "rw", 25L);
+									aClass62_182 = new SizedAccessFile(file_10_, "rw", 25L);
 								}
 							} catch (Exception exception) {
 								aClass62_182 = null;
@@ -164,11 +164,11 @@ public class Class9 implements Runnable
 								if ((i_6_ ^ 0xffffffff) == -1 && !file_11_.exists()) {
 									continue;
 								}
-								aClass62_186 = new Class62(file_11_, "rw", 104857600L);
-								aClass62Array191 = new Class62[i_4_];
+								aClass62_186 = new SizedAccessFile(file_11_, "rw", 104857600L);
+								aClass62Array191 = new SizedAccessFile[i_4_];
 								for (int i_12_ = 0; i_12_ < i_4_; i_12_++)
-									aClass62Array191[i_12_] = new Class62(new File(file, "main_file_cache.idx" + i_12_), "rw", 1048576L);
-								aClass62_197 = new Class62(new File(file, "main_file_cache.idx255"), "rw", 1048576L);
+									aClass62Array191[i_12_] = new SizedAccessFile(new File(file, "main_file_cache.idx" + i_12_), "rw", 1048576L);
+								aClass62_197 = new SizedAccessFile(new File(file, "main_file_cache.idx255"), "rw", 1048576L);
 								aFile194 = aFile195 = file;
 							} catch (Exception exception) {
 								try {

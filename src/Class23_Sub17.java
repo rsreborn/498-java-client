@@ -8,7 +8,7 @@ public class Class23_Sub17 extends Class23
 	static RSString aClass16_2363 = Class38_Sub6.method1076((byte) 86, "RuneScape wurde aktualisiert(Q");
 	protected int[] anIntArray2364 = new int[1];
 	static RSString aClass16_2365;
-	static Class105_Sub1 aClass105_Sub1_2366;
+	static CacheArchive aClass105_Sub1_2366;
 	static RSString aClass16_2367 = Class38_Sub6.method1076((byte) 86, "Bitte versuchen Sie)1");
 	static int[] anIntArray2368 = new int[50];
 	static int anInt2369 = 0;

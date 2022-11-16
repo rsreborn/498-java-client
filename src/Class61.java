@@ -78,7 +78,7 @@ public class Class61
 		Class30.anInt473++;
 		Class23_Sub7.outBuffer.method486(68, 2976);
 		anInt965++;
-		Class23_Sub7.outBuffer.method460((byte) 103, i);
+		Class23_Sub7.outBuffer.writeByte(i);
 		Class23_Sub7.outBuffer.method454(class16.method184(114), 1650435232);
 		if (bool != false) {
 			method1200((byte) -59);

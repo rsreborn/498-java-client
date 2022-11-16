@@ -35,7 +35,7 @@ public class Class38_Sub7_Sub2 extends Class38_Sub7
 	static RSString aClass16_4406;
 	static int anInt4407;
 	static int anInt4408;
-	static Class105_Sub1 aClass105_Sub1_4409;
+	static CacheArchive aClass105_Sub1_4409;
 	static int anInt4410 = 0;
 	protected int anInt4411;
 	static int[] anIntArray4412;
@@ -332,7 +332,7 @@ public class Class38_Sub7_Sub2 extends Class38_Sub7
 		return anInt2685;
 	}
 	
-	static final void method1100(int i, int i_60_, Class13 class13, Class105_Sub1 class105_sub1) {
+	static final void method1100(int i, int i_60_, CacheIndex class13, CacheArchive class105_sub1) {
 		anInt4408++;
 		if (i < 58) {
 			aCRC32_4397 = null;

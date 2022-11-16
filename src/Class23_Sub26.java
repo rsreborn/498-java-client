@@ -27,7 +27,7 @@ public class Class23_Sub26 extends Class23
 			Class31.aClass64Array484 = null;
 			Class97.method1490(i_0_, i, Class23_Sub4_Sub28.aClass64ArrayArray3350[i_5_], i_6_, i_1_, -1, i_4_, i_2_, i_3_, -1);
 			if (Class31.aClass64Array484 != null) {
-				Class97.method1490(i_0_, i, Class31.aClass64Array484, Class58.anInt907, i_1_, -1412584499, i_4_, i_2_, Class13.anInt250, -1);
+				Class97.method1490(i_0_, i, Class31.aClass64Array484, Class58.anInt907, i_1_, -1412584499, i_4_, i_2_, CacheIndex.anInt250, -1);
 				Class31.aClass64Array484 = null;
 			}
 			if (b != 21) {

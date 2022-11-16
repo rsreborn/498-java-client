@@ -223,7 +223,7 @@ public class Class2
 				RSString class16_42_ = Class75.aClass16_1374.method172(i ^ ~0x3e73, Class23_Sub4_Sub3.aClass9_2939.anApplet188);
 				RSString class16_43_ = Class38_Sub7.aClass16_2705.method172(i ^ ~0x3e73, Class23_Sub4_Sub3.aClass9_2939.anApplet188);
 				RSString class16_44_ = Class23_Sub4_Sub14.method322(new RSString[] { class16_42_, Class17.aClass16_306, class16, Class87_Sub3.aClass16_2825, class16_43_ }, -108);
-				if (class16.method171(-61) == i) {
+				if (class16.method171() == i) {
 					class16_44_ = Class23_Sub4_Sub14.method322(new RSString[] { class16_44_, Class99.aClass16_1672 }, i + -48);
 				} else {
 					class16_44_ = Class23_Sub4_Sub14.method322(new RSString[] { class16_44_, Class34.aClass16_540, Class23_Sub13_Sub11.method729((byte) 86, 94608000000L + Class94.method1466(22624)), Class6.aClass16_141, Class79.method1361(-16309, 94608000L) }, -60);
@@ -262,7 +262,7 @@ public class Class2
 					Applet_Sub1.aClass16Array10[Class25.anInt383++] = Class83.method1376(i + -1, l);
 					Class75.anInt1372 = Class23_Sub10_Sub2.anInt3589;
 					Class23_Sub7.outBuffer.method486(137, i + 2976);
-					Class23_Sub7.outBuffer.method436(l, (byte) -123);
+					Class23_Sub7.outBuffer.writeLongBE(l);
 				}
 			}
 		}

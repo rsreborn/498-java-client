@@ -6,7 +6,7 @@ import java.util.Random;
 public class Class92
 {
 	static int anInt1560;
-	static Class105_Sub1 aClass105_Sub1_1561;
+	static CacheArchive aClass105_Sub1_1561;
 	protected int anInt1562;
 	static int anInt1563;
 	static RSString aClass16_1564 = Class38_Sub6.method1076((byte) 86, " (X");
@@ -77,7 +77,7 @@ public class Class92
 			Class20.method215(-151 + i_7_, 1 + i_8_, 302, 32, 0);
 			Class20.method222(-150 + i_7_, i_8_ - -2, 3 * Class73.anInt1319, 30, 9179409);
 			Class20.method222(3 * Class73.anInt1319 + -150 + i_7_, 2 + i_8_, -(3 * Class73.anInt1319) + 300, 30, 0);
-			Class13.aClass23_Sub13_Sub8_240.method666(Class23_Sub14.aClass16_2326, i_7_, i_8_ - -i_6_, 16777215, -1);
+			CacheIndex.aClass23_Sub13_Sub8_240.method666(Class23_Sub14.aClass16_2326, i_7_, i_8_ - -i_6_, 16777215, -1);
 		} else {
 			Class33.anInt521 = -(int) ((double) i_2_ / Class107.aDouble1838) + Canvas_Sub1.anInt55;
 			Class71_Sub2_Sub1.anInt4475 = (int) ((double) (2 * i_2_) / Class107.aDouble1838);

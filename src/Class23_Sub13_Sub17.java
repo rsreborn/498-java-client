@@ -23,7 +23,7 @@ public class Class23_Sub13_Sub17 extends Class23_Sub13
 	static Class89 aClass89_4066;
 	private int anInt4067;
 	private short[] aShortArray4068;
-	static Class105_Sub1 aClass105_Sub1_4069;
+	static CacheArchive aClass105_Sub1_4069;
 	private short[] aShortArray4070;
 	static int anInt4071;
 	static short[] aShortArray4072;

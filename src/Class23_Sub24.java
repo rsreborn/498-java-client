@@ -4,7 +4,7 @@
 
 public class Class23_Sub24 extends Class23
 {
-	static Class29 aClass29_2439;
+	static CacheFileChannel aClass29_2439;
 	static Class34 aClass34_2440;
 	static int[] anIntArray2441;
 	static Class23_Sub1[][][] aClass23_Sub1ArrayArrayArray2442;

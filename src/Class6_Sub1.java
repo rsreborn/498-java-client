@@ -41,6 +41,6 @@ public class Class6_Sub1 extends Class6
 	}
 	
 	final void method81(Component component) throws Exception {
-		anInterface3_1981.method10(Class13.aBoolean257, component, Class32.anInt498, (byte) -113);
+		anInterface3_1981.method10(CacheIndex.aBoolean257, component, Class32.anInt498, (byte) -113);
 	}
 }

@@ -367,7 +367,7 @@ abstract class Class23_Sub13_Sub8 extends Class23_Sub13
 	private final void method656(RSString class16, int i) {
 		int i_67_ = 0;
 		boolean bool = false;
-		for (int i_68_ = 0; i_68_ < class16.method171(-61); i_68_++) {
+		for (int i_68_ = 0; i_68_ < class16.method171(); i_68_++) {
 			int i_69_ = class16.method166((byte) 123, i_68_);
 			if (i_69_ == 60) {
 				bool = true;
@@ -568,7 +568,7 @@ abstract class Class23_Sub13_Sub8 extends Class23_Sub13
 		int i_133_ = -1;
 		int i_134_ = -1;
 		int i_135_ = 0;
-		int i_136_ = class16.method171(-61);
+		int i_136_ = class16.method171();
 		for (int i_137_ = 0; i_137_ < i_136_; i_137_++) {
 			int i_138_ = class16.method166((byte) 106, i_137_);
 			if (i_138_ == 60) {
@@ -581,8 +581,8 @@ abstract class Class23_Sub13_Sub8 extends Class23_Sub13
 					class16_129_.method157(class16_139_, (byte) 113);
 					class16_129_.method156(62, -100);
 					if (class16_139_.method183(aClass16_3843, (byte) -49)) {
-						class16s[i_135_++] = class16_129_.method148(class16_129_.method171(-61), i_128_, true);
-						i_128_ = class16_129_.method171(-61);
+						class16s[i_135_++] = class16_129_.method148(class16_129_.method171(), i_128_, true);
+						i_128_ = class16_129_.method171();
 						i = 0;
 						i_130_ = -1;
 						i_134_ = -1;
@@ -655,7 +655,7 @@ abstract class Class23_Sub13_Sub8 extends Class23_Sub13
 						i_134_ = i_138_;
 					}
 					if (i_138_ == 32) {
-						i_130_ = class16_129_.method171(-61);
+						i_130_ = class16_129_.method171();
 						i_131_ = i;
 						i_132_ = 1;
 					}
@@ -667,15 +667,15 @@ abstract class Class23_Sub13_Sub8 extends Class23_Sub13
 						i_134_ = -1;
 					}
 					if (i_138_ == 45) {
-						i_130_ = class16_129_.method171(-61);
+						i_130_ = class16_129_.method171();
 						i_131_ = i;
 						i_132_ = 0;
 					}
 				}
 			}
 		}
-		if (class16_129_.method171(-61) > i_128_) {
-			class16s[i_135_++] = class16_129_.method148(class16_129_.method171(-61), i_128_, true);
+		if (class16_129_.method171() > i_128_) {
+			class16s[i_135_++] = class16_129_.method148(class16_129_.method171(), i_128_, true);
 		}
 		return i_135_;
 	}
@@ -693,7 +693,7 @@ abstract class Class23_Sub13_Sub8 extends Class23_Sub13
 	abstract void method673(int i, int i_142_, int i_143_, int i_144_, int i_145_, int i_146_, int i_147_);
 	
 	static final RSString method674(RSString class16) {
-		int i = class16.method171(-61);
+		int i = class16.method171();
 		int i_148_ = 0;
 		for (int i_149_ = 0; i_149_ < i; i_149_++) {
 			byte b = class16.aByteArray1906[i_149_];

@@ -129,8 +129,8 @@ public class Class53
 		int i_8_ = 71 / ((93 - i) / 32);
 		Class61.anInt963++;
 		Class23_Sub7.outBuffer.method486(46, 2976);
-		Class23_Sub7.outBuffer.method460((byte) 111, class16.method171(-61) - 1);
-		Class23_Sub7.outBuffer.method446(class16.method138((byte) 106, 2), -124);
+		Class23_Sub7.outBuffer.writeByte(class16.method171() - 1);
+		Class23_Sub7.outBuffer.writeString(class16.method138((byte) 106, 2));
 	}
 	
 	Class53(Class9 class9, URL url) {

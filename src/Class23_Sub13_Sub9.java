@@ -43,7 +43,7 @@ public class Class23_Sub13_Sub9 extends Class23_Sub13
 		if (i_0_ != 1) {
 			aClass16_3853 = null;
 		}
-		if (class64.aClass16Array1021 == null || (i ^ 0xffffffff) <= (class64.aClass16Array1021.length ^ 0xffffffff) || class64.aClass16Array1021[i] == null || (class64.aClass16Array1021[i].method169(91).method171(i_0_ ^ ~0x3d) ^ 0xffffffff) == -1) {
+		if (class64.aClass16Array1021 == null || (i ^ 0xffffffff) <= (class64.aClass16Array1021.length ^ 0xffffffff) || class64.aClass16Array1021[i] == null || (class64.aClass16Array1021[i].method169(91).method171() ^ 0xffffffff) == -1) {
 			if (Class75.aBoolean1373) {
 				return Class23_Sub4_Sub14.method322(new RSString[] { Class44.aClass16_673, Class23_Sub4_Sub23.method360((byte) -9, i) }, -30);
 			}

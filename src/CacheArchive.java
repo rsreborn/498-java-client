@@ -2,7 +2,7 @@
  * Visit http://jode.sourceforge.net/
  */
 
-public class Class105_Sub1 extends Class105
+public class CacheArchive extends Class105
 {
 	private volatile boolean[] aBooleanArray2852;
 	static int anInt2853;
@@ -18,7 +18,7 @@ public class Class105_Sub1 extends Class105
 	static int anInt2863;
 	private boolean aBoolean2864 = false;
 	static int anInt2865;
-	private Class13 aClass13_2866;
+	private CacheIndex aClass13_2866;
 	static RSString aClass16_2867;
 	static int anInt2868;
 	static RSString aClass16_2869;
@@ -27,12 +27,12 @@ public class Class105_Sub1 extends Class105
 	static int anInt2872;
 	private static RSString aClass16_2873 = Class38_Sub6.method1076((byte) 86, "Started 3d library");
 	static int anInt2874;
-	private Class13 aClass13_2875;
+	private CacheIndex aClass13_2875;
 	private int anInt2876 = -1;
 	static RSString aClass16_2877;
 	static int anInt2878;
 	
-	Class105_Sub1(Class13 class13, Class13 class13_0_, int i, boolean bool, boolean bool_1_, boolean bool_2_) {
+	CacheArchive(CacheIndex class13, CacheIndex class13_0_, int i, boolean bool, boolean bool_1_, boolean bool_2_) {
 		super(bool, bool_1_);
 		anInt2859 = i;
 		aBoolean2864 = bool_2_;
@@ -181,7 +181,7 @@ public class Class105_Sub1 extends Class105
 		}
 	}
 	
-	final void method1569(boolean bool, int i, Class13 class13, byte[] bs, int i_25_) {
+	final void method1569(boolean bool, int i, CacheIndex class13, byte[] bs, int i_25_) {
 		anInt2863++;
 		int i_26_ = -41 / ((-21 - i_25_) / 59);
 		if (class13 != aClass13_2866) {

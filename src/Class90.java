@@ -119,7 +119,7 @@ public class Class90
 		Class23_Sub13_Sub13.aClass16_3989 = Class72.aClass16_1301;
 		Class38_Sub5.aClass16_2584 = Class95.aClass16_1620;
 		Class71_Sub1_Sub1.aClass16_4453 = Class23_Sub13_Sub16.aClass16_4048;
-		Class23_Sub13_Sub20.aClass16_4163 = Class13.aClass16_248;
+		Class23_Sub13_Sub20.aClass16_4163 = CacheIndex.aClass16_248;
 		Class87_Sub1.aClass16_2789 = Class1.aClass16_65;
 		Class97.aClass16_1642 = Class38_Sub7.aClass16_2628;
 		Class71_Sub1_Sub1.aClass16_4441 = Class23_Sub13_Sub16.aClass16_4048;
@@ -159,7 +159,7 @@ public class Class90
 		Class71_Sub1_Sub1.aClass16_4446 = Class23_Sub13_Sub16.aClass16_4048;
 		Class23_Sub13_Sub11.aClass16_3914 = Class23_Sub13_Sub25.aClass16_4296;
 		Class23_Sub4_Sub39.aClass16_3512 = Class45.aClass16_698;
-		Class105_Sub1.aClass16_2862 = Class23_Sub4_Sub13.aClass16_3115;
+		CacheArchive.aClass16_2862 = Class23_Sub4_Sub13.aClass16_3115;
 		Class23_Sub4_Sub26.aClass16_3320 = Class23_Sub10_Sub2.aClass16_3599;
 		Class23_Sub4_Sub34.aClass16_3440 = Class98.aClass16_1649;
 		Class23_Sub4_Sub10.aClass16_3057 = Class23_Sub15.aClass16_2349;
@@ -176,14 +176,14 @@ public class Class90
 		Class51.aClass16_804 = Class23_Sub13_Sub3.aClass16_3697;
 		Class88.aClass16_1505 = Class23_Sub4_Sub19.aClass16_3220;
 		Class42.aClass16_652 = Class23_Sub9.aClass16_2267;
-		Class13.aClass16_259 = Class74.aClass16_1343;
+		CacheIndex.aClass16_259 = Class74.aClass16_1343;
 		Class73.aClass16_1327 = Class23_Sub4_Sub3.aClass16_2941;
 		Class71_Sub1_Sub1.aClass16_4445 = Class23_Sub13_Sub16.aClass16_4048;
 		Class71_Sub1_Sub1.aClass16_4433 = Class23_Sub13_Sub16.aClass16_4048;
 		Class45.aClass16_699 = Class23_Sub13_Sub19.aClass16_4113;
 		Class58.aClass16_908 = Class23_Sub17.aClass16_2363;
 		Class23_Sub4_Sub32.aClass16_3424 = Class23_Sub4_Sub9.aClass16_3037;
-		Class29.aClass16_465 = Class87_Sub3.aClass16_2826;
+		CacheFileChannel.aClass16_465 = Class87_Sub3.aClass16_2826;
 		Class63.aClass16_995 = Class65.aClass16_1153;
 		Class23_Sub13_Sub21.aClass16_4200 = Class49.aClass16_760;
 		Class36.aClass16_570 = Class66.aClass16_1167;
@@ -196,13 +196,13 @@ public class Class90
 		client.aClass16_1979 = Class6.aClass16_128;
 		Class87_Sub1.aClass16_2778 = Class23_Sub17.aClass16_2367;
 		Class89.aClass16_1522 = Class38_Sub7_Sub2.aClass16_4404;
-		Class13.aClass16_263 = Class23_Sub4_Sub13.aClass16_3102;
+		CacheIndex.aClass16_263 = Class23_Sub4_Sub13.aClass16_3102;
 		Class23_Sub4_Sub30.aClass16_3377 = Class23_Sub1.aClass16_2010;
 		Class23_Sub4_Sub27.aClass16_3338 = Class4.aClass16_91;
 		Class2.aClass16_76 = Class23_Sub20.aClass16_2404;
 		Class71_Sub1_Sub1.aClass16_4430 = Class23_Sub13_Sub16.aClass16_4048;
 		Class23_Sub13_Sub3.aClass16_3696 = Class23_Sub4_Sub29.aClass16_3363;
-		Class13.aClass16_251 = Class1.aClass16_66;
+		CacheIndex.aClass16_251 = Class1.aClass16_66;
 		Class23_Sub12.aClass16_2299 = Class23_Sub4_Sub18.aClass16_3199;
 		Class23_Sub5_Sub1.aClass16_3536 = Class23_Sub26.aClass16_2465;
 		Class50.aClass16_771 = Class26.aClass16_399;
@@ -213,7 +213,7 @@ public class Class90
 		Class97.aClass16_1640 = Class23_Sub4_Sub4.aClass16_2960;
 		Class23_Sub4_Sub6.aClass16_2981 = Class23_Sub4_Sub13.aClass16_3108;
 		Class23_Sub14.aClass16_2326 = Class49.aClass16_762;
-		Class13.aClass16_247 = Class23_Sub4_Sub17.aClass16_3177;
+		CacheIndex.aClass16_247 = Class23_Sub4_Sub17.aClass16_3177;
 		Class107.aClass16_1835 = Class23_Sub13_Sub9.aClass16_3853;
 		Class23_Sub26.aClass16_2468 = Class23_Sub11.aClass16_2288;
 		Class71_Sub1_Sub1.aClass16_4425 = Class73.aClass16_1326;
@@ -299,13 +299,13 @@ public class Class90
 		if (i_3_ != -13524) {
 			return null;
 		}
-		for (int i_4_ = -3 + class16.method171(i_3_ ^ 0x34ef); (i_4_ ^ 0xffffffff) < -1; i_4_ -= 3)
+		for (int i_4_ = -3 + class16.method171(); (i_4_ ^ 0xffffffff) < -1; i_4_ -= 3)
 			class16 = Class23_Sub4_Sub14.method322(new RSString[] { class16.method148(i_4_, 0, true), Class97.aClass16_1636, class16.method138((byte) 122, i_4_) }, -27);
-		if (class16.method171(-61) > 9) {
-			return Class23_Sub4_Sub14.method322(new RSString[] { Class103.aClass16_1726, class16.method148(-8 + class16.method171(-61), 0, true), Class2.aClass16_83, Class92.aClass16_1564, class16, Class105.aClass16_1810 }, -95);
+		if (class16.method171() > 9) {
+			return Class23_Sub4_Sub14.method322(new RSString[] { Class103.aClass16_1726, class16.method148(-8 + class16.method171(), 0, true), Class2.aClass16_83, Class92.aClass16_1564, class16, Class105.aClass16_1810 }, -95);
 		}
-		if (class16.method171(-61) > 6) {
-			return Class23_Sub4_Sub14.method322(new RSString[] { Class23_Sub4_Sub28.aClass16_3353, class16.method148(class16.method171(-61) - 4, 0, true), Class42.aClass16_657, Class92.aClass16_1564, class16, Class105.aClass16_1810 }, -68);
+		if (class16.method171() > 6) {
+			return Class23_Sub4_Sub14.method322(new RSString[] { Class23_Sub4_Sub28.aClass16_3353, class16.method148(class16.method171() - 4, 0, true), Class42.aClass16_657, Class92.aClass16_1564, class16, Class105.aClass16_1810 }, -68);
 		}
 		return Class23_Sub4_Sub14.method322(new RSString[] { Class23_Sub4_Sub20.aClass16_3230, class16, Class23_Sub7.aClass16_2226 }, -92);
 	}

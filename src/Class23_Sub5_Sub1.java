@@ -105,7 +105,7 @@ public class Class23_Sub5_Sub1 extends Buffer
 		return payload[position++] + -aClass70_3533.method1261(256) & 0xff;
 	}
 	
-	final void method492(byte b, int[] is) {
+	final void isaacCipher(byte b, int[] is) {
 		anInt3535++;
 		if (b < -96) {
 			aClass70_3533 = new Class70(is);

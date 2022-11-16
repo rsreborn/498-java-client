@@ -171,7 +171,7 @@ class Class6
 	
 	static final void method84(boolean bool) {
 		anInt134++;
-		synchronized (Class13.aClass11_264) {
+		synchronized (CacheIndex.aClass11_264) {
 			Class39.anInt605++;
 			Class8.anInt175 = Class19.anInt325;
 			Class23_Sub4_Sub14.anInt3126 = Class23_Sub4_Sub34.anInt3449;
@@ -267,7 +267,7 @@ class Class6
 	
 	private final void method87(int[] is, int i) {
 		int i_6_ = i;
-		if (Class13.aBoolean257) {
+		if (CacheIndex.aBoolean257) {
 			i_6_ <<= 1;
 		}
 		Class3.method54(is, 0, i_6_);

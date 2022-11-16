@@ -20,7 +20,7 @@ public class Class6_Sub2 extends Class6
 	static Class aClass1987;
 	
 	final int method80() {
-		return anInt1985 - (aSourceDataLine1986.available() >> (!Class13.aBoolean257 ? 1 : 2));
+		return anInt1985 - (aSourceDataLine1986.available() >> (!CacheIndex.aBoolean257 ? 1 : 2));
 	}
 	
 	final void method83() {
@@ -44,13 +44,13 @@ public class Class6_Sub2 extends Class6
 				}
 			}
 		}
-		anAudioFormat1982 = new AudioFormat((float) Class32.anInt498, 16, Class13.aBoolean257 ? 2 : 1, true, false);
-		aByteArray1983 = new byte[256 << (Class13.aBoolean257 ? 2 : 1)];
+		anAudioFormat1982 = new AudioFormat((float) Class32.anInt498, 16, CacheIndex.aBoolean257 ? 2 : 1, true, false);
+		aByteArray1983 = new byte[256 << (CacheIndex.aBoolean257 ? 2 : 1)];
 	}
 	
 	final void method86(int i) throws LineUnavailableException {
 		try {
-			DataLine.Info info = new DataLine.Info(aClass1987 == null ? aClass1987 = method89("javax.sound.sampled.SourceDataLine") : aClass1987, anAudioFormat1982, i << (Class13.aBoolean257 ? 2 : 1));
+			DataLine.Info info = new DataLine.Info(aClass1987 == null ? aClass1987 = method89("javax.sound.sampled.SourceDataLine") : aClass1987, anAudioFormat1982, i << (CacheIndex.aBoolean257 ? 2 : 1));
 			aSourceDataLine1986 = (SourceDataLine) AudioSystem.getLine(info);
 			aSourceDataLine1986.open();
 			aSourceDataLine1986.start();
@@ -70,7 +70,7 @@ public class Class6_Sub2 extends Class6
 		if (aBoolean1984) {
 			aSourceDataLine1986.close();
 			aSourceDataLine1986 = null;
-			DataLine.Info info = new DataLine.Info(aClass1987 == null ? aClass1987 = method89("javax.sound.sampled.SourceDataLine") : aClass1987, anAudioFormat1982, anInt1985 << (!Class13.aBoolean257 ? 1 : 2));
+			DataLine.Info info = new DataLine.Info(aClass1987 == null ? aClass1987 = method89("javax.sound.sampled.SourceDataLine") : aClass1987, anAudioFormat1982, anInt1985 << (!CacheIndex.aBoolean257 ? 1 : 2));
 			aSourceDataLine1986 = (SourceDataLine) AudioSystem.getLine(info);
 			aSourceDataLine1986.open();
 			aSourceDataLine1986.start();
@@ -83,7 +83,7 @@ public class Class6_Sub2 extends Class6
 	
 	final void method79() {
 		int i = 256;
-		if (Class13.aBoolean257) {
+		if (CacheIndex.aBoolean257) {
 			i <<= 1;
 		}
 		for (int i_1_ = 0; i_1_ < i; i_1_++) {

@@ -48,7 +48,7 @@ public class Class38_Sub5 extends Class38
 		Class23_Sub21 class23_sub21 = Class71_Sub1.method1269(class16, (byte) 79);
 		anInt2588++;
 		if (class23_sub21 != null) {
-			Class75.anInt1381 = Class29.anInt445 - -Class38_Sub7.anInt2697 + -class23_sub21.anInt2415;
+			Class75.anInt1381 = CacheFileChannel.anInt445 - -Class38_Sub7.anInt2697 + -class23_sub21.anInt2415;
 			Class68.anInt1203 = -Class102.anInt1702 + class23_sub21.anInt2412;
 			int i = -111 % ((b - -20) / 54);
 			int i_0_ = Class68.anInt1203 + -(int) ((double) Class23_Sub13_Sub12.aClass64_3967.anInt1128 / Class107.aDouble1838);

@@ -18,7 +18,7 @@ public class Class23_Sub13_Sub19 extends Class23_Sub13
 	static int anInt4115;
 	static int anInt4116;
 	static RSString aClass16_4117;
-	static Class105_Sub1 aClass105_Sub1_4118;
+	static CacheArchive aClass105_Sub1_4118;
 	private int anInt4119;
 	static int anInt4120;
 	protected int anInt4121;

@@ -51,7 +51,7 @@ public class Class17_Sub1 extends Class17
 					return i_1_;
 				}
 				if (i_4_ == 1) {
-					i_5_ = Class105_Sub1.anIntArray2871[is[i_3_++]];
+					i_5_ = CacheArchive.anIntArray2871[is[i_3_++]];
 				}
 				if (i_4_ == 2) {
 					i_5_ = Class23_Sub27.anIntArray2482[is[i_3_++]];

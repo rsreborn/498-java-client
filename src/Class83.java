@@ -77,7 +77,7 @@ public class Class83
 					if (i == 5) {
 						Class28.method937(Class71_Sub1_Sub1.aClass16_4425, Class23_Sub4_Sub6.aClass16_2981, aClass16_1464, (byte) 98);
 					} else if (i == 6) {
-						Class28.method937(Class71_Sub1_Sub1.aClass16_4460, Class13.aClass16_259, Class58.aClass16_908, (byte) 98);
+						Class28.method937(Class71_Sub1_Sub1.aClass16_4460, CacheIndex.aClass16_259, Class58.aClass16_908, (byte) 98);
 					} else if (i == 7) {
 						Class28.method937(Class71_Sub1_Sub1.aClass16_4427, Class23_Sub4_Sub7.aClass16_3021, Class89.aClass16_1522, (byte) 98);
 					} else if (i == 8) {
@@ -105,7 +105,7 @@ public class Class83
 											} else if (i == 24) {
 												Class28.method937(Class71_Sub1_Sub1.aClass16_4445, Class38_Sub5.aClass16_2584, Class50.aClass16_773, (byte) 98);
 											} else if (i == 25) {
-												Class28.method937(Class71_Sub1_Sub1.aClass16_4459, Class87_Sub1.aClass16_2790, Class13.aClass16_263, (byte) 98);
+												Class28.method937(Class71_Sub1_Sub1.aClass16_4459, Class87_Sub1.aClass16_2790, CacheIndex.aClass16_263, (byte) 98);
 											} else if (i == 26) {
 												Class28.method937(Class71_Sub1_Sub1.aClass16_4422, Class23_Sub4_Sub14.aClass16_3133, Class45.aClass16_700, (byte) 98);
 											} else if (i == 27) {
@@ -114,10 +114,10 @@ public class Class83
 												Class28.method937(Class71_Sub1_Sub1.aClass16_4452, Class87_Sub1.aClass16_2781, Class23_Sub13_Sub16.aClass16_4039, (byte) 98);
 											}
 										} else {
-											Class28.method937(Class71_Sub1_Sub1.aClass16_4435, Class23_Sub13_Sub2.aClass16_3686, Class29.aClass16_465, (byte) 98);
+											Class28.method937(Class71_Sub1_Sub1.aClass16_4435, Class23_Sub13_Sub2.aClass16_3686, CacheFileChannel.aClass16_465, (byte) 98);
 										}
 									} else {
-										Class28.method937(Class71_Sub1_Sub1.aClass16_4430, Class87_Sub1.aClass16_2772, Class13.aClass16_247, (byte) 98);
+										Class28.method937(Class71_Sub1_Sub1.aClass16_4430, Class87_Sub1.aClass16_2772, CacheIndex.aClass16_247, (byte) 98);
 									}
 								} else {
 									Class28.method937(Class71_Sub1_Sub1.aClass16_4429, Class23_Sub13_Sub18.aClass16_4095, Class23_Sub13_Sub13.aClass16_3989, (byte) 98);

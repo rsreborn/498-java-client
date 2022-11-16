@@ -390,7 +390,7 @@ public abstract class Applet_Sub1 extends Applet implements Runnable, FocusListe
 			Graphics graphics = Class71_Sub3.aCanvas2740.getGraphics();
 			if (Class23_Sub4_Sub6.aFont2988 == null) {
 				Class23_Sub4_Sub6.aFont2988 = new Font("Helvetica", 1, 13);
-				Class13.aFontMetrics267 = Class71_Sub3.aCanvas2740.getFontMetrics(Class23_Sub4_Sub6.aFont2988);
+				CacheIndex.aFontMetrics267 = Class71_Sub3.aCanvas2740.getFontMetrics(Class23_Sub4_Sub6.aFont2988);
 			}
 			if (bool) {
 				graphics.setColor(Color.black);
@@ -415,7 +415,7 @@ public abstract class Applet_Sub1 extends Applet implements Runnable, FocusListe
 				graphics_13_.fillRect(3 * i_12_ + 2, 2, -(3 * i_12_) + 300, 30);
 				graphics_13_.setFont(Class23_Sub4_Sub6.aFont2988);
 				graphics_13_.setColor(Color.white);
-				class16.method164(22, 22218, graphics_13_, (-class16.method141(Class13.aFontMetrics267, -32) + 304) / 2);
+				class16.method164(22, 22218, graphics_13_, (-class16.method141(CacheIndex.aFontMetrics267, -32) + 304) / 2);
 				graphics.drawImage(Class23_Sub27.anImage2481, Class51.anInt801 / 2 - 152, Class23_Sub4_Sub19.anInt3205 / 2 + -18, null);
 			} catch (Exception exception) {
 				int i_14_ = -152 + Class51.anInt801 / 2;
@@ -428,12 +428,12 @@ public abstract class Applet_Sub1 extends Applet implements Runnable, FocusListe
 				graphics.fillRect(i_12_ * 3 + (2 + i_14_), i_15_ - -2, -(3 * i_12_) + 300, 30);
 				graphics.setFont(Class23_Sub4_Sub6.aFont2988);
 				graphics.setColor(Color.white);
-				class16.method164(i_15_ + 22, 22218, graphics, i_14_ - -((304 + -class16.method141(Class13.aFontMetrics267, -32)) / 2));
+				class16.method164(i_15_ + 22, 22218, graphics, i_14_ - -((304 + -class16.method141(CacheIndex.aFontMetrics267, -32)) / 2));
 			}
 			if (Class23_Sub19.aClass16_2393 != null) {
 				graphics.setFont(Class23_Sub4_Sub6.aFont2988);
 				graphics.setColor(Color.white);
-				Class23_Sub19.aClass16_2393.method164(Class23_Sub4_Sub19.anInt3205 / 2 + -26, i ^ 0x4542, graphics, Class51.anInt801 / 2 - Class23_Sub19.aClass16_2393.method141(Class13.aFontMetrics267, i ^ ~0x1397) / 2);
+				Class23_Sub19.aClass16_2393.method164(Class23_Sub4_Sub19.anInt3205 / 2 + -26, i ^ 0x4542, graphics, Class51.anInt801 / 2 - Class23_Sub19.aClass16_2393.method141(CacheIndex.aFontMetrics267, i ^ ~0x1397) / 2);
 			}
 		} catch (Exception exception) {
 			Class71_Sub3.aCanvas2740.repaint();
@@ -575,7 +575,7 @@ public abstract class Applet_Sub1 extends Applet implements Runnable, FocusListe
 			method25(0);
 			Class23_Sub13_Sub25.aClass78_4290 = Class23_Sub4_Sub24.method371(Class71_Sub3.aCanvas2740, false, Class51.anInt801, Class23_Sub4_Sub19.anInt3205);
 			method21((byte) 121);
-			Class23_Sub4_Sub9.aClass17_3041 = Class29.method951((byte) -88);
+			Class23_Sub4_Sub9.aClass17_3041 = CacheFileChannel.method951((byte) -88);
 			while ((Class27.aLong417 ^ 0xffffffffffffffffL) == -1L || Class27.aLong417 > Class94.method1466(22624)) {
 				Class23_Sub4_Sub22.anInt3267 = Class23_Sub4_Sub9.aClass17_3041.method186(Class91.anInt1556, (byte) 66, Class23_Sub4_Sub17.anInt3167);
 				for (int i = 0; Class23_Sub4_Sub22.anInt3267 > i; i++)

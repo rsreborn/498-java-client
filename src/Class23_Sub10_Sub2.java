@@ -544,7 +544,7 @@ public class Class23_Sub10_Sub2 extends Class23_Sub10
 		Class89.aClass105_Sub1_1509.method1548(-25035);
 		Class30.aClass105_Sub1_475.method1548(-25035);
 		Class38_Sub6.aClass105_Sub1_2613.method1548(-25035);
-		Class29.aClass105_Sub1_457.method1548(-25035);
+		CacheFileChannel.aClass105_Sub1_457.method1548(-25035);
 		Class69.aClass105_Sub1_1211.method1548(-25035);
 		Class92.aClass105_Sub1_1561.method1548(-25035);
 		Class23_Sub4_Sub27.aClass105_Sub1_3339.method1548(-25035);
@@ -710,19 +710,19 @@ public class Class23_Sub10_Sub2 extends Class23_Sub10
 				Class23_Sub4_Sub35.aByteArrayArrayArray3457 = new byte[i_65_][i_66_][];
 				Class102.anIntArrayArrayArray1713 = new int[i_65_][i_66_][];
 				Class23_Sub13_Sub10.anIntArrayArrayArray3881 = new int[i_65_][i_66_][];
-				Class29.anInt445 = i_59_ * 64;
+				CacheFileChannel.anInt445 = i_59_ * 64;
 				Class55.aByteArrayArrayArray879 = new byte[i_65_][i_66_][];
 				Class23_Sub13_Sub7.aByteArrayArrayArray3750 = new byte[i_65_][i_66_][];
 				Class83.aByteArrayArrayArray1458 = new byte[i_65_][i_66_][];
 				int i_67_ = Class23_Sub4_Sub12.anInt3089 >> 2 << 10;
-				int i_68_ = Class58.anInt903 + ((Class105.aClass38_Sub7_Sub2_1812.anInt2659 >> 7) + -Class29.anInt445);
+				int i_68_ = Class58.anInt903 + ((Class105.aClass38_Sub7_Sub2_1812.anInt2659 >> 7) + -CacheFileChannel.anInt445);
 				i_68_ += -5 + (int) (Math.random() * 10.0);
 				if (i_64_ >= 0 && (Class70.anInt1238 ^ 0xffffffff) < (i_64_ ^ 0xffffffff) && i_68_ >= 0 && Class38_Sub7.anInt2697 > i_68_) {
 					Canvas_Sub1.anInt55 = i_64_;
 					Class8.anInt179 = Class38_Sub7.anInt2697 - i_68_;
 				} else {
 					Canvas_Sub1.anInt55 = -Class102.anInt1702 + 64 * i_62_;
-					Class8.anInt179 = -(64 * i_63_) + Class38_Sub7.anInt2697 + Class29.anInt445;
+					Class8.anInt179 = -(64 * i_63_) + Class38_Sub7.anInt2697 + CacheFileChannel.anInt445;
 				}
 				int i_69_ = Class23_Sub20.anInt2400 >> 1;
 				for (int i_70_ = 0; (Class23_Sub13_Sub25.anInt4289 ^ 0xffffffff) < (i_70_ ^ 0xffffffff); i_70_++) {

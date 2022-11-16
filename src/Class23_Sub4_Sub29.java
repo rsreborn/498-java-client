@@ -175,7 +175,7 @@ public class Class23_Sub4_Sub29 extends Class23_Sub4
 		int i_18_ = 0;
 		for (int i_19_ = 0; i_19_ < i_17_; i_19_++) {
 			if (class16s[i_19_ + i_16_] == null) {
-				class16s[i_19_ + i_16_] = Class105_Sub1.aClass16_2869;
+				class16s[i_19_ + i_16_] = CacheArchive.aClass16_2869;
 			}
 			i_18_ += class16s[i_19_ + i_16_].anInt1896;
 		}

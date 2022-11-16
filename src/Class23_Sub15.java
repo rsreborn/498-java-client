@@ -34,12 +34,12 @@ public class Class23_Sub15 extends Class23
 	}
 	
 	static final void method869(int i) {
-		Class29.anInt446++;
+		CacheFileChannel.anInt446++;
 		if (i != -2415) {
 			method867(null, -17);
 		}
 		Class23_Sub7.outBuffer.method486(244, 2976);
-		Class23_Sub7.outBuffer.method436(0L, (byte) -114);
+		Class23_Sub7.outBuffer.writeLongBE(0L);
 		anInt2346++;
 	}
 	

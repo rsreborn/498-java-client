@@ -5,7 +5,7 @@
 public class Class89
 {
 	static int anInt1508;
-	static Class105_Sub1 aClass105_Sub1_1509;
+	static CacheArchive aClass105_Sub1_1509;
 	static int anInt1510;
 	static int anInt1511;
 	static int anInt1512;

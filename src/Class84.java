@@ -121,10 +121,10 @@ public class Class84
 	
 	private final int method1381(RSString class16) {
 		int i = 0;
-		for (int i_24_ = 0; i_24_ < class16.method171(-61); i_24_++) {
-			if (class16.method166((byte) 99, i_24_) == 64 && i_24_ + 4 < class16.method171(-61) && class16.method166((byte) 91, i_24_ + 4) == 64) {
+		for (int i_24_ = 0; i_24_ < class16.method171(); i_24_++) {
+			if (class16.method166((byte) 99, i_24_) == 64 && i_24_ + 4 < class16.method171() && class16.method166((byte) 91, i_24_ + 4) == 64) {
 				i_24_ += 4;
-			} else if (class16.method166((byte) 92, i_24_) == 126 && i_24_ + 4 < class16.method171(-61) && class16.method166((byte) 95, i_24_ + 4) == 126) {
+			} else if (class16.method166((byte) 92, i_24_) == 126 && i_24_ + 4 < class16.method171() && class16.method166((byte) 95, i_24_ + 4) == 126) {
 				i_24_ += 4;
 			} else {
 				i += aByteArray1477[anIntArray1479[class16.method166((byte) 116, i_24_)] + 7];
@@ -259,7 +259,7 @@ public class Class84
 		if (aBoolean1475 || i_64_ == 0) {
 			bool = false;
 		}
-		for (int i_65_ = 0; i_65_ < class16.method171(-61); i_65_++) {
+		for (int i_65_ = 0; i_65_ < class16.method171(); i_65_++) {
 			int i_66_ = anIntArray1479[class16.method166((byte) 124, i_65_)];
 			if (bool) {
 				method1382(i_66_, i + 1, i_63_, 0, aByteArray1477);

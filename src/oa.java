@@ -9,7 +9,7 @@ public class oa
 	static int anInt1244;
 	static RSString aClass16_1245 = Class38_Sub6.method1076((byte) 86, "leuchten2:");
 	static int anInt1246;
-	static Class105_Sub1 aClass105_Sub1_1247;
+	static CacheArchive aClass105_Sub1_1247;
 	private Class23 aClass23_1248;
 	private static RSString aClass16_1249 = Class38_Sub6.method1076((byte) 86, "Welcome to RuneScape");
 	static RSString aClass16_1250;
@@ -69,7 +69,7 @@ public class oa
 			if (Class23_Sub13_Sub9.anInt3860 == 1 && Class90.anInt1538 >= 715 && Class23_Sub13_Sub19.anInt4136 >= 453) {
 				Class23_Sub13_Sub16.aBoolean4043 = !Class23_Sub13_Sub16.aBoolean4043;
 				if (!Class23_Sub13_Sub16.aBoolean4043) {
-					Class23_Sub13_Sub16.method778(Class23_Sub4_Sub3.anInt2940, Class29.aClass105_Sub1_457, b + -100, 0, 255, false);
+					Class23_Sub13_Sub16.method778(Class23_Sub4_Sub3.anInt2940, CacheFileChannel.aClass105_Sub1_457, b + -100, 0, 255, false);
 				} else {
 					Class23_Sub13_Sub9.method689(false);
 				}
@@ -110,10 +110,10 @@ public class oa
 							}
 							i_5_ += 15;
 							if (i == 1 && -75 + i_6_ <= i_3_ && (i_6_ + 75 ^ 0xffffffff) <= (i_3_ ^ 0xffffffff) && i_4_ >= -20 + i_7_ && i_4_ <= i_7_ - -20) {
-								Class23_Sub2.aClass16_2064 = Class23_Sub2.aClass16_2064.method145((byte) -107).method154((byte) 59);
-								if ((Class23_Sub2.aClass16_2064.method171(-61) ^ 0xffffffff) == -1) {
+								Class23_Sub2.username = Class23_Sub2.username.method145((byte) -107).method154((byte) 59);
+								if ((Class23_Sub2.username.method171() ^ 0xffffffff) == -1) {
 									Class28.method937(Class71_Sub1_Sub1.aClass16_4454, Class23_Sub13_Sub17.aClass16_4056, Class71_Sub1_Sub1.aClass16_4441, (byte) 98);
-								} else if (Class23_Sub2.aClass16_2065.method171(b + -162) == 0) {
+								} else if (Class23_Sub2.password.method171() == 0) {
 									Class28.method937(Class71_Sub1_Sub1.aClass16_4444, Class59.aClass16_926, Class71_Sub1_Sub1.aClass16_4433, (byte) 98);
 								} else {
 									Class28.method937(Class71_Sub1_Sub1.aClass16_4420, Class74.aClass16_1353, Class71_Sub1_Sub1.aClass16_4423, (byte) 98);
@@ -122,13 +122,13 @@ public class oa
 							} else {
 								i_6_ = 462;
 								if (i == 1 && (-75 + i_6_ ^ 0xffffffff) >= (i_3_ ^ 0xffffffff) && i_6_ + 75 >= i_3_ && (i_4_ ^ 0xffffffff) <= (i_7_ - 20 ^ 0xffffffff) && i_7_ - -20 >= i_4_) {
-									Class23_Sub2.aClass16_2065 = Class23_Sub2.aClass16_2062;
+									Class23_Sub2.password = Class23_Sub2.aClass16_2062;
 									Class23_Sub4_Sub37.anInt3489 = 0;
-									Class23_Sub2.aClass16_2064 = Class23_Sub2.aClass16_2062;
+									Class23_Sub2.username = Class23_Sub2.aClass16_2062;
 								}
-								while (Class105_Sub1.method1572(b ^ 0x61d3)) {
+								while (CacheArchive.method1572(b ^ 0x61d3)) {
 									boolean bool = false;
-									for (int i_8_ = 0; (Class23_Sub13_Sub21.aClass16_4197.method171(b ^ ~0x59) ^ 0xffffffff) < (i_8_ ^ 0xffffffff); i_8_++) {
+									for (int i_8_ = 0; (Class23_Sub13_Sub21.aClass16_4197.method171() ^ 0xffffffff) < (i_8_ ^ 0xffffffff); i_8_++) {
 										if ((Class53.anInt833 ^ 0xffffffff) == (Class23_Sub13_Sub21.aClass16_4197.method166((byte) 107, i_8_) ^ 0xffffffff)) {
 											bool = true;
 											break;
@@ -136,18 +136,18 @@ public class oa
 									}
 									if (Class38_Sub7_Sub2.anInt4413 != 0) {
 										if (Class38_Sub7_Sub2.anInt4413 == 1) {
-											if (Class88.anInt1506 == 85 && Class23_Sub2.aClass16_2065.method171(b ^ ~0x59) > 0) {
-												Class23_Sub2.aClass16_2065 = Class23_Sub2.aClass16_2065.method148(-1 + Class23_Sub2.aClass16_2065.method171(b + -162), 0, true);
+											if (Class88.anInt1506 == 85 && Class23_Sub2.password.method171() > 0) {
+												Class23_Sub2.password = Class23_Sub2.password.method148(-1 + Class23_Sub2.password.method171(), 0, true);
 											}
 											if (Class88.anInt1506 == 84 || Class88.anInt1506 == 80) {
 												Class38_Sub7_Sub2.anInt4413 = 0;
 											}
 											if (Class23_Sub8.anInt2250 != 0 && Class88.anInt1506 == 84) {
-												Class23_Sub2.aClass16_2064 = Class23_Sub2.aClass16_2064.method145((byte) -107).method154((byte) 59);
-												if ((Class23_Sub2.aClass16_2064.method171(b ^ ~0x59) ^ 0xffffffff) == -1) {
+												Class23_Sub2.username = Class23_Sub2.username.method145((byte) -107).method154((byte) 59);
+												if ((Class23_Sub2.username.method171() ^ 0xffffffff) == -1) {
 													Class28.method937(Class71_Sub1_Sub1.aClass16_4454, Class23_Sub13_Sub17.aClass16_4056, Class71_Sub1_Sub1.aClass16_4441, (byte) 98);
 												} else {
-													if (Class23_Sub2.aClass16_2065.method171(-61) == 0) {
+													if (Class23_Sub2.password.method171() == 0) {
 														Class28.method937(Class71_Sub1_Sub1.aClass16_4444, Class59.aClass16_926, Class71_Sub1_Sub1.aClass16_4433, (byte) 98);
 													} else {
 														Class28.method937(Class71_Sub1_Sub1.aClass16_4420, Class74.aClass16_1353, Class71_Sub1_Sub1.aClass16_4423, (byte) 98);
@@ -158,19 +158,19 @@ public class oa
 												}
 												break;
 											}
-											if (bool && Class23_Sub2.aClass16_2065.method171(-61) < 20) {
-												Class23_Sub2.aClass16_2065 = Class23_Sub2.aClass16_2065.method165(-122, Class53.anInt833);
+											if (bool && Class23_Sub2.password.method171() < 20) {
+												Class23_Sub2.password = Class23_Sub2.password.method165(-122, Class53.anInt833);
 											}
 										}
 									} else {
-										if (Class88.anInt1506 == 85 && Class23_Sub2.aClass16_2064.method171(-61) > 0) {
-											Class23_Sub2.aClass16_2064 = Class23_Sub2.aClass16_2064.method148(Class23_Sub2.aClass16_2064.method171(-61) - 1, 0, true);
+										if (Class88.anInt1506 == 85 && Class23_Sub2.username.method171() > 0) {
+											Class23_Sub2.username = Class23_Sub2.username.method148(Class23_Sub2.username.method171() - 1, 0, true);
 										}
 										if (Class88.anInt1506 == 84 || Class88.anInt1506 == 80) {
 											Class38_Sub7_Sub2.anInt4413 = 1;
 										}
-										if (bool && Class23_Sub2.aClass16_2064.method171(-61) < 12) {
-											Class23_Sub2.aClass16_2064 = Class23_Sub2.aClass16_2064.method165(-18, Class53.anInt833);
+										if (bool && Class23_Sub2.username.method171() < 12) {
+											Class23_Sub2.username = Class23_Sub2.username.method165(-18, Class53.anInt833);
 										}
 									}
 								}
@@ -191,7 +191,7 @@ public class oa
 						}
 						boolean bool = false;
 						if (Class23_Sub8.anInt2250 != 0) {
-							while (Class105_Sub1.method1572(b ^ 0x61d3)) {
+							while (CacheArchive.method1572(b ^ 0x61d3)) {
 								if (Class88.anInt1506 == 84) {
 									bool = true;
 									break;

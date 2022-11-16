@@ -58,11 +58,11 @@ class Class71
 			if (Class23_Sub13_Sub9.anInt3863 > 2) {
 				class16 = Class23_Sub4_Sub14.method322(new RSString[] { class16, Class28.aClass16_423, Class23_Sub4_Sub23.method360((byte) -9, -2 + Class23_Sub13_Sub9.anInt3863), client.aClass16_1979 }, b + 39);
 			}
-			int i_2_ = Class13.aClass23_Sub13_Sub8_240.method648(class16, i_1_ + 4, 15 + i, 16777215, 0, Class23_Sub13_Sub19.aRandom4110, Class98.anInt1650);
+			int i_2_ = CacheIndex.aClass23_Sub13_Sub8_240.method648(class16, i_1_ + 4, 15 + i, 16777215, 0, Class23_Sub13_Sub19.aRandom4110, Class98.anInt1650);
 			if (b != -64) {
 				anInt1279 = -112;
 			}
-			RuntimeException_Sub1.method1589(15, i_2_ + Class13.aClass23_Sub13_Sub8_240.method649(class16), 4 + i_1_, i, true);
+			RuntimeException_Sub1.method1589(15, i_2_ + CacheIndex.aClass23_Sub13_Sub8_240.method649(class16), 4 + i_1_, i, true);
 		}
 	}
 	

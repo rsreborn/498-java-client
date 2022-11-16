@@ -26,8 +26,8 @@ public class Class23_Sub2 extends Class23
 	static RSString aClass16_2061;
 	static RSString aClass16_2062;
 	static RSString aClass16_2063;
-	static RSString aClass16_2064;
-	static RSString aClass16_2065;
+	static RSString username;
+	static RSString password;
 	protected byte[] aByteArray2066;
 	protected byte[] aByteArray2067;
 	static int anInt2068;
@@ -43,9 +43,9 @@ public class Class23_Sub2 extends Class23
 		aClass16_2062 = null;
 		aClass16_2049 = null;
 		aClass16_2060 = null;
-		aClass16_2064 = null;
+		username = null;
 		aClass16_2063 = null;
-		aClass16_2065 = null;
+		password = null;
 		aClass16_2043 = null;
 		aClass16_2061 = null;
 	}
@@ -55,7 +55,7 @@ public class Class23_Sub2 extends Class23
 		if (Class23_Sub23.aClass34_2427 != null) {
 			try {
 				Buffer class23_sub5 = new Buffer(4);
-				class23_sub5.method460((byte) 107, bool ? 2 : 3);
+				class23_sub5.writeByte(bool ? 2 : 3);
 				class23_sub5.method457(-483923896, i);
 				Class23_Sub23.aClass34_2427.method977(30000, 4, 0, class23_sub5.payload);
 			} catch (java.io.IOException ioexception) {
@@ -461,11 +461,11 @@ public class Class23_Sub2 extends Class23
 		aClass16_2062 = Class38_Sub6.method1076((byte) 86, "");
 		aClass16_2063 = aClass16_2062;
 		aLong2058 = 0L;
-		aClass16_2065 = aClass16_2062;
+		password = aClass16_2062;
 		aClass16_2061 = aClass16_2062;
 		aClass16_2050 = aClass16_2062;
 		aClass16_2060 = aClass16_2062;
-		aClass16_2064 = aClass16_2062;
+		username = aClass16_2062;
 		aClass5_2053 = new Class5(100);
 	}
 }

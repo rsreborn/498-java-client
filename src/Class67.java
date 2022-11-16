@@ -15,7 +15,7 @@ public class Class67
 	private static RSString aClass16_1178;
 	private static RSString aClass16_1179;
 	private static RSString aClass16_1180;
-	static Class105_Sub1 aClass105_Sub1_1181;
+	static CacheArchive aClass105_Sub1_1181;
 	private static RSString aClass16_1182;
 	private static RSString aClass16_1183;
 	private static RSString aClass16_1184;

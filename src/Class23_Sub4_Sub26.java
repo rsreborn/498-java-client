@@ -6,7 +6,7 @@ public class Class23_Sub4_Sub26 extends Class23_Sub4
 {
 	static int anInt3315;
 	private static RSString aClass16_3316 = Class38_Sub6.method1076((byte) 86, "Free world");
-	static Class105_Sub1 aClass105_Sub1_3317;
+	static CacheArchive aClass105_Sub1_3317;
 	static int anInt3318;
 	static int anInt3319;
 	static RSString aClass16_3320 = aClass16_3316;

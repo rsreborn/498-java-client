@@ -27,7 +27,7 @@ public class Class82
 		if (b <= 17) {
 			return 40;
 		}
-		return class16.method171(-61) - -1;
+		return class16.method171() - -1;
 	}
 	
 	static final void method1373(int i, int i_0_, int i_1_, int i_2_, int i_3_, int i_4_, int i_5_, int i_6_, int i_7_, int i_8_) {

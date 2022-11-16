@@ -36,7 +36,7 @@ public class Class23_Sub1 extends Class23
 	protected Class69 aClass69_2034;
 	static int anInt2035;
 	protected boolean aBoolean2036;
-	static Class105_Sub1 aClass105_Sub1_2037;
+	static CacheArchive aClass105_Sub1_2037;
 	protected Class24 aClass24_2038;
 	static int[] anIntArray2039;
 	protected int anInt2040 = 0;

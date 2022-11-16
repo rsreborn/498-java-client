@@ -787,7 +787,7 @@ public class RSString implements Interface4
 			return this;
 		}
 		if (i <= 37) {
-			method171(-27);
+			method171();
 		}
 		RSString class16_82_ = new RSString();
 		class16_82_.anInt1896 = i_81_ + -i_80_;
@@ -805,11 +805,8 @@ public class RSString implements Interface4
 		return method163(10, -59);
 	}
 	
-	final int method171(int i) {
+	final int method171() {
 		anInt1926++;
-		if (i != -61) {
-			method171(7);
-		}
 		return anInt1896;
 	}
 	

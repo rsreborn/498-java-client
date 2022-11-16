@@ -227,8 +227,8 @@ public class Class23_Sub18 extends Class23
 		class23_sub5.position += i_18_ * 3;
 		aByteArray2374 = new byte[i_17_];
 		Buffer class23_sub5_69_ = new Buffer(aByteArray2374);
-		class23_sub5_69_.writeIntBE(1297377380, -1137894376);
-		class23_sub5_69_.writeIntBE(6, -1137894376);
+		class23_sub5_69_.writeIntBE(1297377380);
+		class23_sub5_69_.writeIntBE(6);
 		class23_sub5_69_.method443(i > 1 ? 1 : 0, (byte) 51);
 		class23_sub5_69_.method443(i, (byte) 51);
 		class23_sub5_69_.method443(i_16_, (byte) 51);
@@ -243,7 +243,7 @@ public class Class23_Sub18 extends Class23
 		int[] is = new int[128];
 		i_45_ = 0;
 		for (int i_77_ = 0; i_77_ < i; i_77_++) {
-			class23_sub5_69_.writeIntBE(1297379947, -1137894376);
+			class23_sub5_69_.writeIntBE(1297379947);
 			class23_sub5_69_.position += 4;
 			int i_78_ = class23_sub5_69_.position;
 			int i_79_ = -1;
@@ -257,45 +257,45 @@ public class Class23_Sub18 extends Class23
 					i_79_ = i_81_ & 0xf;
 					if (i_81_ == 7) {
 						if (bool) {
-							class23_sub5_69_.method460((byte) 112, 255);
+							class23_sub5_69_.writeByte(255);
 						}
-						class23_sub5_69_.method460((byte) 127, 47);
-						class23_sub5_69_.method460((byte) 111, 0);
+						class23_sub5_69_.writeByte(47);
+						class23_sub5_69_.writeByte(0);
 						break while_61_;
 					}
 					if (i_81_ == 23) {
 						if (bool) {
-							class23_sub5_69_.method460((byte) 117, 255);
+							class23_sub5_69_.writeByte(255);
 						}
-						class23_sub5_69_.method460((byte) 123, 81);
-						class23_sub5_69_.method460((byte) 123, 3);
-						class23_sub5_69_.method460((byte) 111, class23_sub5.payload[i_68_++]);
-						class23_sub5_69_.method460((byte) 119, class23_sub5.payload[i_68_++]);
-						class23_sub5_69_.method460((byte) 125, class23_sub5.payload[i_68_++]);
+						class23_sub5_69_.writeByte(81);
+						class23_sub5_69_.writeByte(3);
+						class23_sub5_69_.writeByte(class23_sub5.payload[i_68_++]);
+						class23_sub5_69_.writeByte(class23_sub5.payload[i_68_++]);
+						class23_sub5_69_.writeByte(class23_sub5.payload[i_68_++]);
 					} else {
 						i_70_ ^= i_81_ >> 4;
 						if (i_79_ == 0) {
 							if (bool) {
-								class23_sub5_69_.method460((byte) 110, 144 + i_70_);
+								class23_sub5_69_.writeByte(144 + i_70_);
 							}
 							i_71_ += class23_sub5.payload[i_55_++];
 							i_72_ += class23_sub5.payload[i_56_++];
-							class23_sub5_69_.method460((byte) 104, i_71_ & 0x7f);
-							class23_sub5_69_.method460((byte) 110, i_72_ & 0x7f);
+							class23_sub5_69_.writeByte(i_71_ & 0x7f);
+							class23_sub5_69_.writeByte(i_72_ & 0x7f);
 						} else if (i_79_ == 1) {
 							if (bool) {
-								class23_sub5_69_.method460((byte) 114, 128 + i_70_);
+								class23_sub5_69_.writeByte(128 + i_70_);
 							}
 							i_71_ += class23_sub5.payload[i_55_++];
 							i_73_ += class23_sub5.payload[i_58_++];
-							class23_sub5_69_.method460((byte) 126, i_71_ & 0x7f);
-							class23_sub5_69_.method460((byte) 105, i_73_ & 0x7f);
+							class23_sub5_69_.writeByte(i_71_ & 0x7f);
+							class23_sub5_69_.writeByte(i_73_ & 0x7f);
 						} else if (i_79_ == 2) {
 							if (bool) {
-								class23_sub5_69_.method460((byte) 118, 176 + i_70_);
+								class23_sub5_69_.writeByte(176 + i_70_);
 							}
 							i_45_ = i_45_ + class23_sub5.payload[i_32_++] & 0x7f;
-							class23_sub5_69_.method460((byte) 105, i_45_);
+							class23_sub5_69_.writeByte(i_45_);
 							int i_82_;
 							if (i_45_ == 0 || i_45_ == 32) {
 								i_82_ = class23_sub5.payload[i_62_++];
@@ -326,37 +326,37 @@ public class Class23_Sub18 extends Class23
 							}
 							i_82_ += is[i_45_];
 							is[i_45_] = i_82_;
-							class23_sub5_69_.method460((byte) 117, i_82_ & 0x7f);
+							class23_sub5_69_.writeByte(i_82_ & 0x7f);
 						} else if (i_79_ == 3) {
 							if (bool) {
-								class23_sub5_69_.method460((byte) 123, 224 + i_70_);
+								class23_sub5_69_.writeByte(224 + i_70_);
 							}
 							i_74_ += class23_sub5.payload[i_63_++];
 							i_74_ += class23_sub5.payload[i_51_++] << 7;
-							class23_sub5_69_.method460((byte) 110, i_74_ & 0x7f);
-							class23_sub5_69_.method460((byte) 122, i_74_ >> 7 & 0x7f);
+							class23_sub5_69_.writeByte(i_74_ & 0x7f);
+							class23_sub5_69_.writeByte(i_74_ >> 7 & 0x7f);
 						} else if (i_79_ == 4) {
 							if (bool) {
-								class23_sub5_69_.method460((byte) 104, 208 + i_70_);
+								class23_sub5_69_.writeByte(208 + i_70_);
 							}
 							i_75_ += class23_sub5.payload[i_50_++];
-							class23_sub5_69_.method460((byte) 108, i_75_ & 0x7f);
+							class23_sub5_69_.writeByte(i_75_ & 0x7f);
 						} else if (i_79_ == 5) {
 							if (bool) {
-								class23_sub5_69_.method460((byte) 122, 160 + i_70_);
+								class23_sub5_69_.writeByte(160 + i_70_);
 							}
 							i_71_ += class23_sub5.payload[i_55_++];
 							i_76_ += class23_sub5.payload[i_49_++];
-							class23_sub5_69_.method460((byte) 113, i_71_ & 0x7f);
-							class23_sub5_69_.method460((byte) 123, i_76_ & 0x7f);
+							class23_sub5_69_.writeByte(i_71_ & 0x7f);
+							class23_sub5_69_.writeByte(i_76_ & 0x7f);
 						} else {
 							if (i_79_ != 6) {
 								break;
 							}
 							if (bool) {
-								class23_sub5_69_.method460((byte) 123, 192 + i_70_);
+								class23_sub5_69_.writeByte(192 + i_70_);
 							}
-							class23_sub5_69_.method460((byte) 103, class23_sub5.payload[i_62_++]);
+							class23_sub5_69_.writeByte(class23_sub5.payload[i_62_++]);
 						}
 					}
 				}

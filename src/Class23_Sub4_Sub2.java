@@ -429,7 +429,7 @@ public class Class23_Sub4_Sub2 extends Class23_Sub4
 					}
 					Class75.anInt1372 = Class23_Sub10_Sub2.anInt3589;
 					Class23_Sub7.outBuffer.method486(47, 2976);
-					Class23_Sub7.outBuffer.method436(l, (byte) -108);
+					Class23_Sub7.outBuffer.writeLongBE(l);
 					break;
 				}
 			}

@@ -6,7 +6,7 @@ public class Class23_Sub7 extends Class23
 {
 	protected int anInt2194;
 	static int anInt2195;
-	static Class29 aClass29_2196;
+	static CacheFileChannel aClass29_2196;
 	protected int anInt2197;
 	protected Class23_Sub10_Sub1 aClass23_Sub10_Sub1_2198;
 	protected int anInt2199;

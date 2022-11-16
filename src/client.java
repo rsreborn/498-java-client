@@ -98,7 +98,7 @@ public class client extends Applet_Sub1
 				Class23_Sub13_Sub6.method628(true);
 			}
 			Class23_Sub13_Sub9.anInt3857 = 0;
-			Class105_Sub1.aClass16_2877 = Class23_Sub4_Sub38.aClass16_3509;
+			CacheArchive.aClass16_2877 = Class23_Sub4_Sub38.aClass16_3509;
 			Class23_Sub4_Sub34.aString3444 = "127.0.0.1";
 			client var_client = new client();
 			var_client.method15(32 - -Class23_Sub4_Sub23.anInt3280, 498, 26, 765, "runescape", true, 503);
@@ -193,15 +193,15 @@ public class client extends Applet_Sub1
 			Class23_Sub24.aClass34_2440 = null;
 		}
 		Class23_Sub4_Sub32.method402(Class71_Sub3.aCanvas2740, (byte) 34);
-		Class13.method123(-74, Class71_Sub3.aCanvas2740);
+		CacheIndex.method123(-74, Class71_Sub3.aCanvas2740);
 		if (Class23_Sub4_Sub17.aClass66_3176 != null) {
 			Class23_Sub4_Sub17.aClass66_3176.method1238(Class71_Sub3.aCanvas2740, (byte) 124);
 		}
 		Class23_Sub13_Sub11.method726(b + -20931);
 		Class38_Sub7_Sub1.method1093(100);
 		Class23_Sub4_Sub17.aClass66_3176 = null;
-		if (Class29.aClass6_471 != null) {
-			Class29.aClass6_471.method72(0);
+		if (CacheFileChannel.aClass6_471 != null) {
+			CacheFileChannel.aClass6_471.method72(0);
 		}
 		if (Class97.aClass6_1646 != null) {
 			Class97.aClass6_1646.method72(0);
@@ -265,8 +265,8 @@ public class client extends Applet_Sub1
 		anInt1957++;
 		boolean bool_6_ = false;
 		boolean bool_7_ = Class38_Sub7.method1087(false);
-		if (bool_7_ && Class105.aBoolean1806 && Class29.aClass6_471 != null) {
-			Class29.aClass6_471.method71(false);
+		if (bool_7_ && Class105.aBoolean1806 && CacheFileChannel.aClass6_471 != null) {
+			CacheFileChannel.aClass6_471.method71(false);
 		}
 		if (Class23_Sub13_Sub18.aBoolean4085) {
 			bool_6_ = true;
@@ -296,7 +296,7 @@ public class client extends Applet_Sub1
 					Class23_Sub4_Sub29.method386(Class23_Sub4_Sub14.method322(new RSString[] { Class23_Sub4_Sub19.aClass16_3201, Class14.aClass16_276, Class23_Sub4_Sub1.aClass16_2898 }, -32), false, false);
 				}
 			} else {
-				Class23_Sub4_Sub6.method287(Class13.aClass23_Sub13_Sub8_240, aClass23_Sub13_Sub8_1978, 112);
+				Class23_Sub4_Sub6.method287(CacheIndex.aClass23_Sub13_Sub8_240, aClass23_Sub13_Sub8_1978, 112);
 			}
 		} else {
 			Applet_Sub1.method29(null, 5000, Class71_Sub1_Sub1.anInt4415, bool_6_, Class23_Sub2.aClass16_2050);
@@ -404,9 +404,9 @@ public class client extends Applet_Sub1
 			} catch (Exception exception) {
 				/* empty */
 			}
-			Class105_Sub1.aClass16_2877 = Class71_Sub1.aClass16_2730.method172(-15988, this);
-			if (Class105_Sub1.aClass16_2877 == null) {
-				Class105_Sub1.aClass16_2877 = Class23_Sub4_Sub38.aClass16_3509;
+			CacheArchive.aClass16_2877 = Class71_Sub1.aClass16_2730.method172(-15988, this);
+			if (CacheArchive.aClass16_2877 == null) {
+				CacheArchive.aClass16_2877 = Class23_Sub4_Sub38.aClass16_3509;
 			}
 			Class23_Sub4_Sub34.aString3444 = this.getCodeBase().getHost();
 			this.method30(-16273, 498, Class23_Sub4_Sub23.anInt3280 + 32, 503, 765);
@@ -442,32 +442,32 @@ public class client extends Applet_Sub1
 			Class23_Sub2.aClass16_2050 = Class73.aClass16_1327;
 			Class71_Sub1_Sub1.anInt4415 = 10;
 		} else if (Class70.anInt1227 == 30) {
-			Class23_Sub4_Sub7.aClass105_Sub1_3024 = Class71_Sub2_Sub1.method1285((byte) 127, 0, true, true, false);
-			Class23_Sub4_Sub8.aClass105_Sub1_3031 = Class71_Sub2_Sub1.method1285((byte) 127, 1, true, true, false);
-			Class23_Sub4_Sub26.aClass105_Sub1_3317 = Class71_Sub2_Sub1.method1285((byte) 127, 2, true, false, true);
-			Class89.aClass105_Sub1_1509 = Class71_Sub2_Sub1.method1285((byte) 127, 3, true, true, false);
-			Class30.aClass105_Sub1_475 = Class71_Sub2_Sub1.method1285((byte) 127, 4, true, true, false);
-			Class38_Sub6.aClass105_Sub1_2613 = Class71_Sub2_Sub1.method1285((byte) 127, 5, true, true, true);
-			Class29.aClass105_Sub1_457 = Class71_Sub2_Sub1.method1285((byte) 127, 6, false, true, true);
-			Class69.aClass105_Sub1_1211 = Class71_Sub2_Sub1.method1285((byte) 127, 7, true, true, false);
-			Class92.aClass105_Sub1_1561 = Class71_Sub2_Sub1.method1285((byte) 127, 8, true, true, false);
-			Class67.aClass105_Sub1_1181 = Class71_Sub2_Sub1.method1285((byte) 127, 9, true, false, true);
-			Class23_Sub4_Sub27.aClass105_Sub1_3339 = Class71_Sub2_Sub1.method1285((byte) 127, 10, true, true, false);
-			Class23_Sub1.aClass105_Sub1_2037 = Class71_Sub2_Sub1.method1285((byte) 127, 11, true, true, false);
-			Class69.aClass105_Sub1_1214 = Class71_Sub2_Sub1.method1285((byte) 127, 12, true, true, false);
-			Class23_Sub4_Sub23_Sub1.aClass105_Sub1_4477 = Class71_Sub2_Sub1.method1285((byte) 127, 13, true, false, true);
-			oa.aClass105_Sub1_1247 = Class71_Sub2_Sub1.method1285((byte) 127, 14, false, true, false);
-			Class23_Sub4_Sub37.aClass105_Sub1_3490 = Class71_Sub2_Sub1.method1285((byte) 127, 15, true, true, false);
-			Class23_Sub13_Sub19.aClass105_Sub1_4118 = Class71_Sub2_Sub1.method1285((byte) 127, 16, true, true, false);
-			Class29.aClass105_Sub1_470 = Class71_Sub2_Sub1.method1285((byte) 127, 17, true, true, false);
-			Class23_Sub13_Sub3.aClass105_Sub1_3699 = Class71_Sub2_Sub1.method1285((byte) 127, 18, true, true, false);
-			Class23_Sub13_Sub17.aClass105_Sub1_4069 = Class71_Sub2_Sub1.method1285((byte) 127, 19, true, true, false);
-			Class23_Sub4_Sub13.aClass105_Sub1_3116 = Class71_Sub2_Sub1.method1285((byte) 127, 20, true, true, false);
-			Class38_Sub7_Sub2.aClass105_Sub1_4409 = Class71_Sub2_Sub1.method1285((byte) 127, 21, true, true, false);
-			Class23_Sub17.aClass105_Sub1_2366 = Class71_Sub2_Sub1.method1285((byte) 127, 22, true, true, false);
-			Class23_Sub4_Sub8.aClass105_Sub1_3030 = Class71_Sub2_Sub1.method1285((byte) 127, 23, true, true, true);
-			Class23_Sub4_Sub25.aClass105_Sub1_3302 = Class71_Sub2_Sub1.method1285((byte) 127, 24, true, true, false);
-			Class5.aClass105_Sub1_118 = Class71_Sub2_Sub1.method1285((byte) 127, 25, true, true, false);
+			Class23_Sub4_Sub7.aClass105_Sub1_3024 = Class71_Sub2_Sub1.loadArchive((byte) 127, 0, true, true, false);
+			Class23_Sub4_Sub8.aClass105_Sub1_3031 = Class71_Sub2_Sub1.loadArchive((byte) 127, 1, true, true, false);
+			Class23_Sub4_Sub26.aClass105_Sub1_3317 = Class71_Sub2_Sub1.loadArchive((byte) 127, 2, true, false, true);
+			Class89.aClass105_Sub1_1509 = Class71_Sub2_Sub1.loadArchive((byte) 127, 3, true, true, false);
+			Class30.aClass105_Sub1_475 = Class71_Sub2_Sub1.loadArchive((byte) 127, 4, true, true, false);
+			Class38_Sub6.aClass105_Sub1_2613 = Class71_Sub2_Sub1.loadArchive((byte) 127, 5, true, true, true);
+			CacheFileChannel.aClass105_Sub1_457 = Class71_Sub2_Sub1.loadArchive((byte) 127, 6, false, true, true);
+			Class69.aClass105_Sub1_1211 = Class71_Sub2_Sub1.loadArchive((byte) 127, 7, true, true, false);
+			Class92.aClass105_Sub1_1561 = Class71_Sub2_Sub1.loadArchive((byte) 127, 8, true, true, false);
+			Class67.aClass105_Sub1_1181 = Class71_Sub2_Sub1.loadArchive((byte) 127, 9, true, false, true);
+			Class23_Sub4_Sub27.aClass105_Sub1_3339 = Class71_Sub2_Sub1.loadArchive((byte) 127, 10, true, true, false);
+			Class23_Sub1.aClass105_Sub1_2037 = Class71_Sub2_Sub1.loadArchive((byte) 127, 11, true, true, false);
+			Class69.aClass105_Sub1_1214 = Class71_Sub2_Sub1.loadArchive((byte) 127, 12, true, true, false);
+			Class23_Sub4_Sub23_Sub1.aClass105_Sub1_4477 = Class71_Sub2_Sub1.loadArchive((byte) 127, 13, true, false, true);
+			oa.aClass105_Sub1_1247 = Class71_Sub2_Sub1.loadArchive((byte) 127, 14, false, true, false);
+			Class23_Sub4_Sub37.aClass105_Sub1_3490 = Class71_Sub2_Sub1.loadArchive((byte) 127, 15, true, true, false);
+			Class23_Sub13_Sub19.aClass105_Sub1_4118 = Class71_Sub2_Sub1.loadArchive((byte) 127, 16, true, true, false);
+			CacheFileChannel.aClass105_Sub1_470 = Class71_Sub2_Sub1.loadArchive((byte) 127, 17, true, true, false);
+			Class23_Sub13_Sub3.aClass105_Sub1_3699 = Class71_Sub2_Sub1.loadArchive((byte) 127, 18, true, true, false);
+			Class23_Sub13_Sub17.aClass105_Sub1_4069 = Class71_Sub2_Sub1.loadArchive((byte) 127, 19, true, true, false);
+			Class23_Sub4_Sub13.aClass105_Sub1_3116 = Class71_Sub2_Sub1.loadArchive((byte) 127, 20, true, true, false);
+			Class38_Sub7_Sub2.aClass105_Sub1_4409 = Class71_Sub2_Sub1.loadArchive((byte) 127, 21, true, true, false);
+			Class23_Sub17.aClass105_Sub1_2366 = Class71_Sub2_Sub1.loadArchive((byte) 127, 22, true, true, false);
+			Class23_Sub4_Sub8.aClass105_Sub1_3030 = Class71_Sub2_Sub1.loadArchive((byte) 127, 23, true, true, true);
+			Class23_Sub4_Sub25.aClass105_Sub1_3302 = Class71_Sub2_Sub1.loadArchive((byte) 127, 24, true, true, false);
+			Class5.aClass105_Sub1_118 = Class71_Sub2_Sub1.loadArchive((byte) 127, 25, true, true, false);
 			Class70.anInt1227 = 40;
 			Class71_Sub1_Sub1.anInt4415 = 15;
 			Class23_Sub2.aClass16_2050 = Class61.aClass16_960;
@@ -479,7 +479,7 @@ public class client extends Applet_Sub1
 			i_13_ += Class89.aClass105_Sub1_1509.method1571(31890) * 2 / 100;
 			i_13_ += 6 * Class30.aClass105_Sub1_475.method1571(31890) / 100;
 			i_13_ += 4 * Class38_Sub6.aClass105_Sub1_2613.method1571(i ^ 0x7c94) / 100;
-			i_13_ += Class29.aClass105_Sub1_457.method1571(31890) * 2 / 100;
+			i_13_ += CacheFileChannel.aClass105_Sub1_457.method1571(31890) * 2 / 100;
 			i_13_ += 51 * Class69.aClass105_Sub1_1211.method1571(i + 31884) / 100;
 			i_13_ += 2 * Class92.aClass105_Sub1_1561.method1571(31890) / 100;
 			i_13_ += 2 * Class67.aClass105_Sub1_1181.method1571(31890) / 100;
@@ -490,7 +490,7 @@ public class client extends Applet_Sub1
 			i_13_ += oa.aClass105_Sub1_1247.method1571(31890) * 2 / 100;
 			i_13_ += Class23_Sub4_Sub37.aClass105_Sub1_3490.method1571(31890) * 2 / 100;
 			i_13_ += Class23_Sub13_Sub19.aClass105_Sub1_4118.method1571(31890) / 100;
-			i_13_ += Class29.aClass105_Sub1_470.method1571(31890) / 100;
+			i_13_ += CacheFileChannel.aClass105_Sub1_470.method1571(31890) / 100;
 			i_13_ += Class23_Sub13_Sub3.aClass105_Sub1_3699.method1571(i + 31884) / 100;
 			i_13_ += Class23_Sub13_Sub17.aClass105_Sub1_4069.method1571(31890) / 100;
 			i_13_ += Class23_Sub4_Sub13.aClass105_Sub1_3116.method1571(31890) / 100;
@@ -501,21 +501,21 @@ public class client extends Applet_Sub1
 			i_13_ += Class5.aClass105_Sub1_118.method1571(31890) / 100;
 			if (i_13_ != 100) {
 				if ((i_13_ ^ 0xffffffff) != -1) {
-					Class23_Sub2.aClass16_2050 = Class23_Sub4_Sub14.method322(new RSString[] { Class39.aClass16_617, Class23_Sub4_Sub23.method360((byte) -9, i_13_), Class105_Sub1.aClass16_2867 }, -124);
+					Class23_Sub2.aClass16_2050 = Class23_Sub4_Sub14.method322(new RSString[] { Class39.aClass16_617, Class23_Sub4_Sub23.method360((byte) -9, i_13_), CacheArchive.aClass16_2867 }, -124);
 				}
 				Class71_Sub1_Sub1.anInt4415 = 20;
 			} else {
 				Class71_Sub1_Sub1.anInt4415 = 20;
 				Class23_Sub2.aClass16_2050 = Class53.aClass16_836;
-				Class23_Sub4_Sub31.method398(Class29.aClass105_Sub1_457, Class23_Sub4_Sub27.aClass105_Sub1_3339, i + 110, Class92.aClass105_Sub1_1561);
+				Class23_Sub4_Sub31.method398(CacheFileChannel.aClass105_Sub1_457, Class23_Sub4_Sub27.aClass105_Sub1_3339, i + 110, Class92.aClass105_Sub1_1561);
 				Class70.anInt1227 = 45;
 			}
 		} else if (Class70.anInt1227 == 45) {
 			Class23_Sub4_Sub38.method422(!Class7.aBoolean170, 22050, (byte) 53, 2);
 			Class23_Sub10_Sub2 class23_sub10_sub2 = new Class23_Sub10_Sub2();
 			class23_sub10_sub2.method549((byte) -82, 9, 128);
-			Class29.aClass6_471 = Class87_Sub1.method1410(22050, 0, (byte) 43, Class23_Sub4_Sub3.aClass9_2939, Class71_Sub3.aCanvas2740);
-			Class29.aClass6_471.method78(class23_sub10_sub2, -15878);
+			CacheFileChannel.aClass6_471 = Class87_Sub1.method1410(22050, 0, (byte) 43, Class23_Sub4_Sub3.aClass9_2939, Class71_Sub3.aCanvas2740);
+			CacheFileChannel.aClass6_471.method78(class23_sub10_sub2, -15878);
 			Class102.method1515(Class30.aClass105_Sub1_475, class23_sub10_sub2, oa.aClass105_Sub1_1247, -114, Class23_Sub4_Sub37.aClass105_Sub1_3490);
 			Class97.aClass6_1646 = Class87_Sub1.method1410(2048, 1, (byte) 117, Class23_Sub4_Sub3.aClass9_2939, Class71_Sub3.aCanvas2740);
 			Class23_Sub7.aClass23_Sub10_Sub4_2201 = new Class23_Sub10_Sub4();
@@ -545,7 +545,7 @@ public class client extends Applet_Sub1
 				i_14_++;
 			}
 			if (i_14_ < 6) {
-				Class23_Sub2.aClass16_2050 = Class23_Sub4_Sub14.method322(new RSString[] { Class38_Sub7.aClass16_2703, Class23_Sub4_Sub23.method360((byte) -9, 100 * i_14_ / 6), Class105_Sub1.aClass16_2867 }, -100);
+				Class23_Sub2.aClass16_2050 = Class23_Sub4_Sub14.method322(new RSString[] { Class38_Sub7.aClass16_2703, Class23_Sub4_Sub23.method360((byte) -9, 100 * i_14_ / 6), CacheArchive.aClass16_2867 }, -100);
 				Class71_Sub1_Sub1.anInt4415 = 35;
 			} else {
 				Class71_Sub1_Sub1.anInt4415 = 35;
@@ -556,7 +556,7 @@ public class client extends Applet_Sub1
 			int i_15_ = Class23_Sub14.method866(27118, Class92.aClass105_Sub1_1561, Class23_Sub4_Sub27.aClass105_Sub1_3339);
 			int i_16_ = Class23_Sub8.method498((byte) -105);
 			if ((i_15_ ^ 0xffffffff) > (i_16_ ^ 0xffffffff)) {
-				Class23_Sub2.aClass16_2050 = Class23_Sub4_Sub14.method322(new RSString[] { Class51.aClass16_804, Class23_Sub4_Sub23.method360((byte) -9, i_15_ * 100 / i_16_), Class105_Sub1.aClass16_2867 }, i ^ ~0x27);
+				Class23_Sub2.aClass16_2050 = Class23_Sub4_Sub14.method322(new RSString[] { Class51.aClass16_804, Class23_Sub4_Sub23.method360((byte) -9, i_15_ * 100 / i_16_), CacheArchive.aClass16_2867 }, i ^ ~0x27);
 				Class71_Sub1_Sub1.anInt4415 = 40;
 			} else {
 				Class70.anInt1227 = 65;
@@ -567,9 +567,9 @@ public class client extends Applet_Sub1
 			aClass23_Sub13_Sub8_1978 = Class68.method1251(Class23_Sub4_Sub23_Sub1.aClass105_Sub1_4477, Class23_Sub4_Sub38.aClass16_3509, Class92.aClass105_Sub1_1561, (byte) 92, Class54.aClass16_850);
 			Class71_Sub1_Sub1.aClass23_Sub13_Sub8_Sub1_Sub1_4431 = (Class23_Sub13_Sub8_Sub1_Sub1) aClass23_Sub13_Sub8_1978;
 			Class38_Sub7.aClass23_Sub13_Sub8_2637 = Class68.method1251(Class23_Sub4_Sub23_Sub1.aClass105_Sub1_4477, Class23_Sub4_Sub38.aClass16_3509, Class92.aClass105_Sub1_1561, (byte) 87, Class33.aClass16_522);
-			Class13.aClass23_Sub13_Sub8_240 = Class68.method1251(Class23_Sub4_Sub23_Sub1.aClass105_Sub1_4477, Class23_Sub4_Sub38.aClass16_3509, Class92.aClass105_Sub1_1561, (byte) 95, Class48.aClass16_747);
+			CacheIndex.aClass23_Sub13_Sub8_240 = Class68.method1251(Class23_Sub4_Sub23_Sub1.aClass105_Sub1_4477, Class23_Sub4_Sub38.aClass16_3509, Class92.aClass105_Sub1_1561, (byte) 95, Class48.aClass16_747);
 			Class71_Sub1_Sub1.anInt4415 = 45;
-			Class23_Sub2.aClass16_2050 = Class105_Sub1.aClass16_2862;
+			Class23_Sub2.aClass16_2050 = CacheArchive.aClass16_2862;
 			Class103.method1521(5, 27172);
 			Class70.anInt1227 = 70;
 		} else if (Class70.anInt1227 == 70) {
@@ -578,8 +578,8 @@ public class client extends Applet_Sub1
 			i_17_ += Class23_Sub4_Sub26.aClass105_Sub1_3317.method1550((byte) 123);
 			Class23_Sub13_Sub19.aClass105_Sub1_4118.method1534((byte) -13);
 			i_17_ += Class23_Sub13_Sub19.aClass105_Sub1_4118.method1550((byte) 125);
-			Class29.aClass105_Sub1_470.method1534((byte) -13);
-			i_17_ += Class29.aClass105_Sub1_470.method1550((byte) 124);
+			CacheFileChannel.aClass105_Sub1_470.method1534((byte) -13);
+			i_17_ += CacheFileChannel.aClass105_Sub1_470.method1550((byte) 124);
 			Class23_Sub13_Sub3.aClass105_Sub1_3699.method1534((byte) -13);
 			i_17_ += Class23_Sub13_Sub3.aClass105_Sub1_3699.method1550((byte) 126);
 			Class23_Sub13_Sub17.aClass105_Sub1_4069.method1534((byte) -13);
@@ -595,7 +595,7 @@ public class client extends Applet_Sub1
 			Class5.aClass105_Sub1_118.method1534((byte) -13);
 			i_17_ += Class5.aClass105_Sub1_118.method1550((byte) 125);
 			if (i_17_ < 1000) {
-				Class23_Sub2.aClass16_2050 = Class23_Sub4_Sub14.method322(new RSString[] { Class72.aClass16_1311, Class23_Sub4_Sub23.method360((byte) -9, i_17_ / 10), Class105_Sub1.aClass16_2867 }, -114);
+				Class23_Sub2.aClass16_2050 = Class23_Sub4_Sub14.method322(new RSString[] { Class72.aClass16_1311, Class23_Sub4_Sub23.method360((byte) -9, i_17_ / 10), CacheArchive.aClass16_2867 }, -114);
 				Class71_Sub1_Sub1.anInt4415 = 50;
 			} else {
 				Class23_Sub13_Sub15.method771(Class23_Sub4_Sub26.aClass105_Sub1_3317, (byte) 110);
@@ -610,9 +610,9 @@ public class client extends Applet_Sub1
 				Class23_Sub4_Sub25.method373(Class23_Sub4_Sub26.aClass105_Sub1_3317, -128);
 				Class23_Sub13_Sub8_Sub1.method677(Class23_Sub4_Sub23_Sub1.aClass105_Sub1_4477, Class69.aClass105_Sub1_1211, false, Class92.aClass105_Sub1_1561, Class89.aClass105_Sub1_1509);
 				Class23_Sub13_Sub16.method784(Class23_Sub4_Sub26.aClass105_Sub1_3317, 125);
-				Class23_Sub15.method867(Class29.aClass105_Sub1_470, 0);
+				Class23_Sub15.method867(CacheFileChannel.aClass105_Sub1_470, 0);
 				Class30.method957((byte) 83, Class23_Sub4_Sub25.aClass105_Sub1_3302, new Class79(), Class5.aClass105_Sub1_118);
-				Class29.method952(Class5.aClass105_Sub1_118, Class23_Sub4_Sub25.aClass105_Sub1_3302, 75);
+				CacheFileChannel.method952(Class5.aClass105_Sub1_118, Class23_Sub4_Sub25.aClass105_Sub1_3302, 75);
 				Class71_Sub1_Sub1.anInt4415 = 50;
 				Class23_Sub2.aClass16_2050 = Class23_Sub4_Sub2.aClass16_2929;
 				Class23_Sub4_Sub3.method283((byte) -118);
@@ -700,7 +700,7 @@ public class client extends Applet_Sub1
 				Class23_Sub4_Sub1.aClass43Array2881 = Class23_Sub4_Sub7.method291(Class54.aClass16_860, Class92.aClass105_Sub1_1561, Class23_Sub4_Sub38.aClass16_3509, true);
 			}
 			if (++i_18_ < 15) {
-				Class23_Sub2.aClass16_2050 = Class23_Sub4_Sub14.method322(new RSString[] { Class23_Sub13_Sub11.aClass16_3914, Class23_Sub4_Sub23.method360((byte) -9, i_18_ * 100 / 15), Class105_Sub1.aClass16_2867 }, -37);
+				Class23_Sub2.aClass16_2050 = Class23_Sub4_Sub14.method322(new RSString[] { Class23_Sub13_Sub11.aClass16_3914, Class23_Sub4_Sub23.method360((byte) -9, i_18_ * 100 / 15), CacheArchive.aClass16_2867 }, -37);
 				Class71_Sub1_Sub1.anInt4415 = 60;
 			} else {
 				aClass23_Sub13_Sub8_1978.method661(Class23_Sub4_Sub1.aClass43Array2881, null);
@@ -709,7 +709,7 @@ public class client extends Applet_Sub1
 				int i_22_ = (int) (Math.random() * 21.0) - 10;
 				Class38_Sub7.aClass23_Sub13_Sub8_2637.method661(Class23_Sub4_Sub1.aClass43Array2881, null);
 				int i_23_ = -20 + (int) (Math.random() * 41.0);
-				Class13.aClass23_Sub13_Sub8_240.method661(Class23_Sub4_Sub1.aClass43Array2881, null);
+				CacheIndex.aClass23_Sub13_Sub8_240.method661(Class23_Sub4_Sub1.aClass43Array2881, null);
 				for (int i_24_ = 0; (i_24_ ^ 0xffffffff) > (Class23.aClass23_Sub13_Sub10_Sub1Array350.length ^ 0xffffffff); i_24_++)
 					Class23.aClass23_Sub13_Sub10_Sub1Array350[i_24_].method719(i_21_ - -i_23_, i_23_ + i_20_, i_22_ + i_23_);
 				Class23_Sub13_Sub23.aClass43_Sub1Array4245[0].method1124(i_23_ + i_21_, i_23_ + i_20_, i_23_ + i_22_);
@@ -721,7 +721,7 @@ public class client extends Applet_Sub1
 		} else if (i == 6) {
 			if (Class70.anInt1227 == 90) {
 				if (!Class67.aClass105_Sub1_1181.method1534((byte) -13)) {
-					Class23_Sub2.aClass16_2050 = Class23_Sub4_Sub14.method322(new RSString[] { Class50.aClass16_771, Class23_Sub4_Sub23.method360((byte) -9, Class67.aClass105_Sub1_1181.method1550((byte) 123)), Class105_Sub1.aClass16_2867 }, i + -117);
+					Class23_Sub2.aClass16_2050 = Class23_Sub4_Sub14.method322(new RSString[] { Class50.aClass16_771, Class23_Sub4_Sub23.method360((byte) -9, Class67.aClass105_Sub1_1181.method1550((byte) 123)), CacheArchive.aClass16_2867 }, i + -117);
 					Class71_Sub1_Sub1.anInt4415 = 70;
 				} else {
 					Class86 class86 = new Class86(Class67.aClass105_Sub1_1181, Class92.aClass105_Sub1_1561, 20, Class7.aBoolean170 ? 64 : 128);
@@ -750,13 +750,13 @@ public class client extends Applet_Sub1
 				}
 			} else if (Class70.anInt1227 == 130) {
 				if (!Class89.aClass105_Sub1_1509.method1534((byte) -13)) {
-					Class23_Sub2.aClass16_2050 = Class23_Sub4_Sub14.method322(new RSString[] { Class23_Sub4_Sub32.aClass16_3424, Class23_Sub4_Sub23.method360((byte) -9, 4 * Class89.aClass105_Sub1_1509.method1550((byte) 125) / 5), Class105_Sub1.aClass16_2867 }, -116);
+					Class23_Sub2.aClass16_2050 = Class23_Sub4_Sub14.method322(new RSString[] { Class23_Sub4_Sub32.aClass16_3424, Class23_Sub4_Sub23.method360((byte) -9, 4 * Class89.aClass105_Sub1_1509.method1550((byte) 125) / 5), CacheArchive.aClass16_2867 }, -116);
 					Class71_Sub1_Sub1.anInt4415 = 85;
 				} else if (!Class69.aClass105_Sub1_1214.method1534((byte) -13)) {
-					Class23_Sub2.aClass16_2050 = Class23_Sub4_Sub14.method322(new RSString[] { Class23_Sub4_Sub32.aClass16_3424, Class23_Sub4_Sub23.method360((byte) -9, Class69.aClass105_Sub1_1214.method1550((byte) 126) / 6 + 80), Class105_Sub1.aClass16_2867 }, -103);
+					Class23_Sub2.aClass16_2050 = Class23_Sub4_Sub14.method322(new RSString[] { Class23_Sub4_Sub32.aClass16_3424, Class23_Sub4_Sub23.method360((byte) -9, Class69.aClass105_Sub1_1214.method1550((byte) 126) / 6 + 80), CacheArchive.aClass16_2867 }, -103);
 					Class71_Sub1_Sub1.anInt4415 = 85;
 				} else if (!Class23_Sub4_Sub23_Sub1.aClass105_Sub1_4477.method1534((byte) -13)) {
-					Class23_Sub2.aClass16_2050 = Class23_Sub4_Sub14.method322(new RSString[] { Class23_Sub4_Sub32.aClass16_3424, Class23_Sub4_Sub23.method360((byte) -9, 96 - -(Class23_Sub4_Sub23_Sub1.aClass105_Sub1_4477.method1550((byte) 127) / 20)), Class105_Sub1.aClass16_2867 }, -118);
+					Class23_Sub2.aClass16_2050 = Class23_Sub4_Sub14.method322(new RSString[] { Class23_Sub4_Sub32.aClass16_3424, Class23_Sub4_Sub23.method360((byte) -9, 96 - -(Class23_Sub4_Sub23_Sub1.aClass105_Sub1_4477.method1550((byte) 127) / 20)), CacheArchive.aClass16_2867 }, -118);
 					Class71_Sub1_Sub1.anInt4415 = 85;
 				} else {
 					Class70.anInt1227 = 140;
@@ -765,7 +765,7 @@ public class client extends Applet_Sub1
 				}
 			} else if (Class70.anInt1227 == 140) {
 				Class38_Sub6.aClass105_Sub1_2613.method1559(false, true, (byte) 54);
-				Class29.aClass105_Sub1_457.method1559(true, true, (byte) 37);
+				CacheFileChannel.aClass105_Sub1_457.method1559(true, true, (byte) 37);
 				Class92.aClass105_Sub1_1561.method1559(true, true, (byte) 28);
 				Class23_Sub4_Sub23_Sub1.aClass105_Sub1_4477.method1559(true, true, (byte) 22);
 				Class23_Sub4_Sub27.aClass105_Sub1_3339.method1559(true, true, (byte) 88);
@@ -802,12 +802,12 @@ public class client extends Applet_Sub1
 		Class87_Sub2.anInt2794 = Class9.anInt190;
 		try {
 			if (Class23_Sub4_Sub3.aClass9_2939.aClass62_186 != null) {
-				Class23_Sub4_Sub6.aClass29_2990 = new Class29(Class23_Sub4_Sub3.aClass9_2939.aClass62_186, 5200, 0);
+				Class23_Sub4_Sub6.aClass29_2990 = new CacheFileChannel(Class23_Sub4_Sub3.aClass9_2939.aClass62_186, 5200, 0);
 				for (int i_25_ = 0; i_25_ < 26; i_25_++)
-					Class78.aClass29Array1410[i_25_] = new Class29(Class23_Sub4_Sub3.aClass9_2939.aClass62Array191[i_25_], 6000, 0);
-				Class23_Sub24.aClass29_2439 = new Class29(Class23_Sub4_Sub3.aClass9_2939.aClass62_197, 6000, 0);
-				Class73.aClass13_1318 = new Class13(255, Class23_Sub4_Sub6.aClass29_2990, Class23_Sub24.aClass29_2439, 500000);
-				Class23_Sub7.aClass29_2196 = new Class29(Class23_Sub4_Sub3.aClass9_2939.aClass62_182, 24, 0);
+					Class78.aClass29Array1410[i_25_] = new CacheFileChannel(Class23_Sub4_Sub3.aClass9_2939.aClass62Array191[i_25_], 6000, 0);
+				Class23_Sub24.aClass29_2439 = new CacheFileChannel(Class23_Sub4_Sub3.aClass9_2939.aClass62_197, 6000, 0);
+				Class73.aClass13_1318 = new CacheIndex(255, Class23_Sub4_Sub6.aClass29_2990, Class23_Sub24.aClass29_2439, 500000);
+				Class23_Sub7.aClass29_2196 = new CacheFileChannel(Class23_Sub4_Sub3.aClass9_2939.aClass62_182, 24, 0);
 				Class23_Sub4_Sub3.aClass9_2939.aClass62_186 = null;
 				Class23_Sub4_Sub3.aClass9_2939.aClass62Array191 = null;
 				Class23_Sub4_Sub3.aClass9_2939.aClass62_182 = null;
@@ -859,8 +859,8 @@ public class client extends Applet_Sub1
 						if (Class23_Sub4_Sub27.anInt3343 == 2) {
 							Buffer.aClass34_2132 = new Class34((Socket) Class68.aClass60_1201.anObject955, Class23_Sub4_Sub3.aClass9_2939);
 							Buffer class23_sub5 = new Buffer(5);
-							class23_sub5.method460((byte) 106, 15);
-							class23_sub5.writeIntBE(498, -1137894376);
+							class23_sub5.writeByte(15);
+							class23_sub5.writeIntBE(498);
 							Buffer.aClass34_2132.method977(30000, 5, 0, class23_sub5.payload);
 							Class23_Sub4_Sub27.anInt3343++;
 							Class23_Sub13_Sub21.aLong4191 = Class94.method1466(22624);
@@ -940,9 +940,9 @@ public class client extends Applet_Sub1
 		Class10.method110((byte) 125);
 		Buffer.method455(-81);
 		Class34.method972((byte) 25);
-		Class105_Sub1.method1567(false);
-		Class29.method943((byte) -86);
-		Class13.method118(b + -152);
+		CacheArchive.method1567(false);
+		CacheFileChannel.method943((byte) -86);
+		CacheIndex.method118(b + -152);
 		Class38_Sub7_Sub1.method1091(2047);
 		Class23_Sub5_Sub1.method484(false);
 		Class23_Sub13_Sub8.method652();

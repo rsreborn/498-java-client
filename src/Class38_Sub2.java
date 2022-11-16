@@ -80,7 +80,7 @@ public class Class38_Sub2 extends Class38
 		if (b == 120) {
 			while (bs.length > i) {
 				int i_13_ = -Class102.anInt1702 + (bs[i++] & 0xff) * 64;
-				int i_14_ = (0xff & bs[i++]) * 64 + -Class29.anInt445;
+				int i_14_ = (0xff & bs[i++]) * 64 + -CacheFileChannel.anInt445;
 				if ((i_13_ ^ 0xffffffff) < -1 && i_14_ > 0 && Class70.anInt1238 > i_13_ - -64 && (Class38_Sub7.anInt2697 ^ 0xffffffff) < (i_14_ + 64 ^ 0xffffffff)) {
 					int i_15_ = i_13_ >> 6;
 					int i_16_ = -1 + (Class38_Sub7.anInt2697 + -i_14_) >> 6;

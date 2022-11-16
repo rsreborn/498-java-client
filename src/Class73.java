@@ -7,7 +7,7 @@ public class Class73
 	static int anInt1315;
 	static Class89 aClass89_1316;
 	static int anInt1317;
-	static Class13 aClass13_1318;
+	static CacheIndex aClass13_1318;
 	static int anInt1319 = 0;
 	private static RSString aClass16_1320;
 	static int anInt1321;

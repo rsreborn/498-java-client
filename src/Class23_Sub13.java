@@ -222,7 +222,7 @@ class Class23_Sub13 extends Class23
 		while_25_:
 			do {
 				for (int i_31_ = 0; i_31_ < 100; i_31_++) {
-					if (l_28_ == Class29.aLongArray467[i_31_]) {
+					if (l_28_ == CacheFileChannel.aLongArray467[i_31_]) {
 						bool = true;
 						break while_25_;
 					}
@@ -237,7 +237,7 @@ class Class23_Sub13 extends Class23
 				}
 			} while (false);
 			if (!bool && Class23_Sub4_Sub39.anInt3519 == 0) {
-				Class29.aLongArray467[Class47.anInt740] = l_28_;
+				CacheFileChannel.aLongArray467[Class47.anInt740] = l_28_;
 				Class47.anInt740 = (Class47.anInt740 + 1) % 100;
 				RSString class16 = Class38_Sub7_Sub1.method1094(i_30_, i + -20043).method752(Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711, i + -20044);
 				if (i_29_ != 2 && i_29_ != 3) {
@@ -380,7 +380,7 @@ class Class23_Sub13 extends Class23
 		while_26_:
 			do {
 				for (int i_64_ = 0; i_64_ < 100; i_64_++) {
-					if (l_62_ == Class29.aLongArray467[i_64_]) {
+					if (l_62_ == CacheFileChannel.aLongArray467[i_64_]) {
 						bool = true;
 						break while_26_;
 					}
@@ -399,7 +399,7 @@ class Class23_Sub13 extends Class23
 				}
 			} while (false);
 			if (!bool && Class23_Sub4_Sub39.anInt3519 == 0) {
-				Class29.aLongArray467[Class47.anInt740] = l_62_;
+				CacheFileChannel.aLongArray467[Class47.anInt740] = l_62_;
 				Class47.anInt740 = (1 + Class47.anInt740) % 100;
 				RSString class16 = Class23_Sub13_Sub8.method674(Class23_Sub24.method900((byte) -80, Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711).method149(i ^ 0x4e4d));
 				if (i_63_ != 2 && i_63_ != 3) {
@@ -421,7 +421,7 @@ class Class23_Sub13 extends Class23
 			int i_67_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method458(i ^ 0x4e33);
 			int i_68_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method435((byte) 79);
 			Class51.anIntArray800[i_67_] = i_66_;
-			Class105_Sub1.anIntArray2871[i_67_] = i_68_;
+			CacheArchive.anIntArray2871[i_67_] = i_68_;
 			Class23_Sub27.anIntArray2482[i_67_] = 1;
 			for (int i_69_ = 0; i_69_ < 98; i_69_++) {
 				if (i_66_ >= Class36.anIntArray567[i_69_]) {
@@ -460,8 +460,8 @@ class Class23_Sub13 extends Class23
 		}
 		if (Class23_Sub13_Sub24.anInt4275 == 58) {
 			RSString class16 = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method426(2);
-			Object[] objects = new Object[class16.method171(i + -20105) - -1];
-			for (int i_74_ = class16.method171(-61) + -1; (i_74_ ^ 0xffffffff) <= -1; i_74_--) {
+			Object[] objects = new Object[class16.method171() - -1];
+			for (int i_74_ = class16.method171() + -1; (i_74_ ^ 0xffffffff) <= -1; i_74_--) {
 				if (class16.method166((byte) 126, i_74_) == 115) {
 					objects[1 + i_74_] = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method426(i + -20042);
 				} else {
@@ -574,8 +574,8 @@ class Class23_Sub13 extends Class23
 			return true;
 		}
 		if (Class23_Sub13_Sub24.anInt4275 == 90) {
-			Class105_Sub1.aClass16_2877 = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method426(2);
-			Class2.method51(Class105_Sub1.aClass16_2877, 0);
+			CacheArchive.aClass16_2877 = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method426(2);
+			Class2.method51(CacheArchive.aClass16_2877, 0);
 			Class23_Sub13_Sub24.anInt4275 = -1;
 			return true;
 		}
@@ -1279,7 +1279,7 @@ class Class23_Sub13 extends Class23
 						}
 					}
 					if (!bool && (Class23_Sub4_Sub39.anInt3519 ^ 0xffffffff) == -1) {
-						RSString class16_165_ = class16.method148(-9 + class16.method171(-61), class16.method173(71, Class23_Sub13_Sub24.aClass16_4276) - -1, true);
+						RSString class16_165_ = class16.method148(-9 + class16.method171(), class16.method173(71, Class23_Sub13_Sub24.aClass16_4276) - -1, true);
 						Class95.method1468(8, i ^ ~0x4e4c, class16_165_, class16_163_);
 					}
 				}
@@ -1310,7 +1310,7 @@ class Class23_Sub13 extends Class23
 		while_27_:
 			do {
 				for (int i_172_ = 0; i_172_ < 100; i_172_++) {
-					if (Class29.aLongArray467[i_172_] == l_171_) {
+					if (CacheFileChannel.aLongArray467[i_172_] == l_171_) {
 						bool = true;
 						break while_27_;
 					}
@@ -1329,7 +1329,7 @@ class Class23_Sub13 extends Class23
 				}
 			} while (false);
 			if (!bool && (Class23_Sub4_Sub39.anInt3519 ^ 0xffffffff) == -1) {
-				Class29.aLongArray467[Class47.anInt740] = l_171_;
+				CacheFileChannel.aLongArray467[Class47.anInt740] = l_171_;
 				Class47.anInt740 = (Class47.anInt740 + 1) % 100;
 				RSString class16 = Class23_Sub13_Sub8.method674(Class23_Sub24.method900((byte) -80, Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711).method149(1));
 				if (i_170_ != 2 && i_170_ != 3) {
@@ -1356,7 +1356,7 @@ class Class23_Sub13 extends Class23
 		while_28_:
 			do {
 				for (int i_179_ = 0; i_179_ < 100; i_179_++) {
-					if (l_178_ == Class29.aLongArray467[i_179_]) {
+					if (l_178_ == CacheFileChannel.aLongArray467[i_179_]) {
 						bool = true;
 						break while_28_;
 					}
@@ -1371,7 +1371,7 @@ class Class23_Sub13 extends Class23
 				}
 			} while (false);
 			if (!bool && Class23_Sub4_Sub39.anInt3519 == 0) {
-				Class29.aLongArray467[Class47.anInt740] = l_178_;
+				CacheFileChannel.aLongArray467[Class47.anInt740] = l_178_;
 				Class47.anInt740 = (Class47.anInt740 + 1) % 100;
 				RSString class16 = Class38_Sub7_Sub1.method1094(i_177_, 1).method752(Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711, 0);
 				if (i_176_ != 2) {

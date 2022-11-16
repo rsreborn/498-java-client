@@ -71,7 +71,7 @@ public class Class23_Sub4_Sub20 extends Class23_Sub4
 		}
 		while (i_4_ < bs.length) {
 			int i_5_ = 64 * (0xff & bs[i_4_++]) + -Class102.anInt1702;
-			int i_6_ = -Class29.anInt445 + (0xff & bs[i_4_++]) * 64;
+			int i_6_ = -CacheFileChannel.anInt445 + (0xff & bs[i_4_++]) * 64;
 			if ((i_5_ ^ 0xffffffff) >= -1 || (i_6_ ^ 0xffffffff) >= -1 || Class70.anInt1238 <= i_5_ - -64 || Class38_Sub7.anInt2697 <= 64 + i_6_) {
 				for (int i_7_ = -4096; i_7_ < 0; i_7_++) {
 					int i_8_ = bs[i_4_++];

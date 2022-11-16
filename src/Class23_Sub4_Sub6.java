@@ -17,7 +17,7 @@ public class Class23_Sub4_Sub6 extends Class23_Sub4
 	static int anInt2987;
 	static Font aFont2988;
 	static int anInt2989;
-	static Class29 aClass29_2990;
+	static CacheFileChannel aClass29_2990;
 	static RSString aClass16_2991;
 	private static RSString aClass16_2992 = Class38_Sub6.method1076((byte) 86, "Try again in 60 secs)3)3)3");
 	static RSString aClass16_2993;
@@ -56,7 +56,7 @@ public class Class23_Sub4_Sub6 extends Class23_Sub4
 			}
 			if (Class49.anInt756 == 20) {
 				int i_4_ = 211;
-				Class13.aClass43_255.method1119(382 - Class13.aClass43_255.anInt669 / 2, -(Class13.aClass43_255.anInt671 / 2) + 271);
+				CacheIndex.aClass43_255.method1119(382 - CacheIndex.aClass43_255.anInt669 / 2, -(CacheIndex.aClass43_255.anInt671 / 2) + 271);
 				class23_sub13_sub8.method666(Class23_Sub2.aClass16_2060, 382, i_4_, 16776960, 0);
 				i_4_ += 15;
 				class23_sub13_sub8.method666(Class23_Sub2.aClass16_2061, 382, i_4_, 16776960, 0);
@@ -64,13 +64,13 @@ public class Class23_Sub4_Sub6 extends Class23_Sub4
 				class23_sub13_sub8.method666(Class23_Sub2.aClass16_2063, 382, i_4_, 16776960, 0);
 				i_4_ += 15;
 				i_4_ += 10;
-				class23_sub13_sub8.method650(Class23_Sub4_Sub14.method322(new RSString[] { Class23_Sub26.aClass16_2468, Class23_Sub13_Sub8.method674(Class23_Sub2.aClass16_2064) }, -107), 272, i_4_, 16777215, 0);
+				class23_sub13_sub8.method650(Class23_Sub4_Sub14.method322(new RSString[] { Class23_Sub26.aClass16_2468, Class23_Sub13_Sub8.method674(Class23_Sub2.username) }, -107), 272, i_4_, 16777215, 0);
 				i_4_ += 15;
-				class23_sub13_sub8.method650(Class23_Sub4_Sub14.method322(new RSString[] { Class97.aClass16_1642, Class23_Sub2.aClass16_2065.method155((byte) 59) }, -75), 274, i_4_, 16777215, 0);
+				class23_sub13_sub8.method650(Class23_Sub4_Sub14.method322(new RSString[] { Class97.aClass16_1642, Class23_Sub2.password.method155((byte) 59) }, -75), 274, i_4_, 16777215, 0);
 				i_4_ += 15;
 			}
 			if (Class49.anInt756 == 10) {
-				Class13.aClass43_255.method1119(202, 171);
+				CacheIndex.aClass43_255.method1119(202, 171);
 				if ((Class23_Sub4_Sub37.anInt3489 ^ 0xffffffff) == -1) {
 					int i_5_ = 251;
 					int i_6_ = 302;
@@ -99,14 +99,14 @@ public class Class23_Sub4_Sub6 extends Class23_Sub4
 					}
 					i_8_ += 15;
 					i_8_ += 10;
-					class23_sub13_sub8.method650(Class23_Sub4_Sub14.method322(new RSString[] { Class23_Sub26.aClass16_2468, Class23_Sub13_Sub8.method674(Class23_Sub2.aClass16_2064), !bool ? Class23_Sub2.aClass16_2062 : Class95.aClass16_1621 }, -56), 272, i_8_, 16777215, 0);
+					class23_sub13_sub8.method650(Class23_Sub4_Sub14.method322(new RSString[] { Class23_Sub26.aClass16_2468, Class23_Sub13_Sub8.method674(Class23_Sub2.username), !bool ? Class23_Sub2.aClass16_2062 : Class95.aClass16_1621 }, -56), 272, i_8_, 16777215, 0);
 					if (Class38_Sub7_Sub2.anInt4413 != 1 || Class89.anInt1511 % 40 >= 20 || !Class23_Sub13_Sub25.aBoolean4294) {
 						bool = false;
 					} else {
 						bool = true;
 					}
 					i_8_ += 15;
-					class23_sub13_sub8.method650(Class23_Sub4_Sub14.method322(new RSString[] { Class97.aClass16_1642, Class23_Sub2.aClass16_2065.method155((byte) 59), bool ? Class95.aClass16_1621 : Class23_Sub2.aClass16_2062 }, -98), 274, i_8_, 16777215, 0);
+					class23_sub13_sub8.method650(Class23_Sub4_Sub14.method322(new RSString[] { Class97.aClass16_1642, Class23_Sub2.password.method155((byte) 59), bool ? Class95.aClass16_1621 : Class23_Sub2.aClass16_2062 }, -98), 274, i_8_, 16777215, 0);
 					i_8_ += 15;
 					Class42.aClass43_650.method1119(-73 + i_9_, -20 + i_10_);
 					class23_sub13_sub8.method666(RSString.aClass16_1949, i_9_, i_10_ + 5, 16777215, 0);

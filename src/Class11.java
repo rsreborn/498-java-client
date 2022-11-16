@@ -29,7 +29,7 @@ public class Class11 implements MouseListener, MouseMotionListener, FocusListene
 	static byte[][] aByteArrayArray231;
 	
 	public final synchronized void mousePressed(MouseEvent mouseevent) {
-		if (Class13.aClass11_264 != null) {
+		if (CacheIndex.aClass11_264 != null) {
 			Class39.anInt605 = 0;
 			Class79.anInt1888 = mouseevent.getX();
 			Class23_Sub4_Sub23.anInt3289 = mouseevent.getY();
@@ -50,7 +50,7 @@ public class Class11 implements MouseListener, MouseMotionListener, FocusListene
 	}
 	
 	public final synchronized void focusLost(FocusEvent focusevent) {
-		if (Class13.aClass11_264 != null) {
+		if (CacheIndex.aClass11_264 != null) {
 			Class19.anInt325 = 0;
 		}
 		anInt226++;
@@ -68,7 +68,7 @@ public class Class11 implements MouseListener, MouseMotionListener, FocusListene
 	}
 	
 	public final synchronized void mouseEntered(MouseEvent mouseevent) {
-		if (Class13.aClass11_264 != null) {
+		if (CacheIndex.aClass11_264 != null) {
 			Class39.anInt605 = 0;
 			Class23_Sub4_Sub34.anInt3449 = mouseevent.getX();
 			Class23_Sub26.anInt2469 = mouseevent.getY();
@@ -92,7 +92,7 @@ public class Class11 implements MouseListener, MouseMotionListener, FocusListene
 	
 	public final synchronized void mouseMoved(MouseEvent mouseevent) {
 		anInt214++;
-		if (Class13.aClass11_264 != null) {
+		if (CacheIndex.aClass11_264 != null) {
 			Class39.anInt605 = 0;
 			Class23_Sub4_Sub34.anInt3449 = mouseevent.getX();
 			Class23_Sub26.anInt2469 = mouseevent.getY();
@@ -101,7 +101,7 @@ public class Class11 implements MouseListener, MouseMotionListener, FocusListene
 	
 	public final synchronized void mouseReleased(MouseEvent mouseevent) {
 		anInt222++;
-		if (Class13.aClass11_264 != null) {
+		if (CacheIndex.aClass11_264 != null) {
 			Class39.anInt605 = 0;
 			Class19.anInt325 = 0;
 			int i = mouseevent.getModifiers();
@@ -112,7 +112,7 @@ public class Class11 implements MouseListener, MouseMotionListener, FocusListene
 	}
 	
 	public final synchronized void mouseDragged(MouseEvent mouseevent) {
-		if (Class13.aClass11_264 != null) {
+		if (CacheIndex.aClass11_264 != null) {
 			Class39.anInt605 = 0;
 			Class23_Sub4_Sub34.anInt3449 = mouseevent.getX();
 			Class23_Sub26.anInt2469 = mouseevent.getY();
@@ -121,7 +121,7 @@ public class Class11 implements MouseListener, MouseMotionListener, FocusListene
 	}
 	
 	public final synchronized void mouseExited(MouseEvent mouseevent) {
-		if (Class13.aClass11_264 != null) {
+		if (CacheIndex.aClass11_264 != null) {
 			Class39.anInt605 = 0;
 			Class23_Sub4_Sub34.anInt3449 = -1;
 			Class23_Sub26.anInt2469 = -1;

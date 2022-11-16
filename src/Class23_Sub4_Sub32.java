@@ -33,7 +33,7 @@ public class Class23_Sub4_Sub32 extends Class23_Sub4
 			Class23_Sub20.aClass23_Sub13_Sub10_Sub1_2402 = new Class23_Sub13_Sub10_Sub1(bs, component);
 			Class23_Sub7.aClass23_Sub13_Sub10_Sub1_2216 = Class23_Sub20.aClass23_Sub13_Sub10_Sub1_2402.method707();
 			Class69.aClass43_1220 = Class23_Sub25.method907(class105_0_, Class23_Sub14.anInt2338, true);
-			Class13.aClass43_255 = Class23_Sub25.method907(class105_0_, Class23_Sub13_Sub1.anInt3672, true);
+			CacheIndex.aClass43_255 = Class23_Sub25.method907(class105_0_, Class23_Sub13_Sub1.anInt3672, true);
 			Class42.aClass43_650 = Class23_Sub25.method907(class105_0_, Class23_Sub11.anInt2282, true);
 			Class72.aClass43_Sub1Array1303 = Class23_Sub4_Sub24.method370(class105_0_, false, Class23_Sub10_Sub2.anInt3617);
 			Class67.aClass43Array1171 = RuntimeException_Sub1.method1585(class105_0_, (byte) -102, Class23_Sub20.anInt2398);
@@ -74,16 +74,16 @@ public class Class23_Sub4_Sub32 extends Class23_Sub4
 			Class23_Sub4_Sub19.anIntArray3224 = new int[32768];
 			Class23_Sub4_Sub37.anInt3489 = 0;
 			Class71_Sub2.aBoolean2736 = false;
-			Class23_Sub2.aClass16_2064 = Class23_Sub2.aClass16_2062;
+			Class23_Sub2.username = Class23_Sub2.aClass16_2062;
 			Class71_Sub2_Sub1.anIntArray4473 = new int[32768];
-			Class23_Sub2.aClass16_2065 = Class23_Sub2.aClass16_2062;
+			Class23_Sub2.password = Class23_Sub2.aClass16_2062;
 			if (Class21.anInt342 == 0) {
 				Class23_Sub13_Sub16.aBoolean4043 = true;
 			} else {
 				Class23_Sub13_Sub16.aBoolean4043 = false;
 			}
 			if (!Class23_Sub13_Sub16.aBoolean4043) {
-				Class23_Sub4_Sub19.method341(Class23_Sub4_Sub3.anInt2940, 13910, 0, false, 2, Class29.aClass105_Sub1_457, 255);
+				Class23_Sub4_Sub19.method341(Class23_Sub4_Sub3.anInt2940, 13910, 0, false, 2, CacheFileChannel.aClass105_Sub1_457, 255);
 			} else {
 				Class23_Sub4_Sub16.method333(-257, 2);
 			}
@@ -172,7 +172,7 @@ public class Class23_Sub4_Sub32 extends Class23_Sub4
 					Class23_Sub7.outBuffer.method486(87, 2976);
 					Class53.anInt835++;
 					if (bool == false) {
-						Class23_Sub7.outBuffer.method436(Class68.aClass23_Sub19Array1186[i].aLong358, (byte) -115);
+						Class23_Sub7.outBuffer.writeLongBE(Class68.aClass23_Sub19Array1186[i].aLong358);
 					}
 				}
 			}

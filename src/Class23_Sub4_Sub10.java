@@ -297,7 +297,7 @@ public class Class23_Sub4_Sub10 extends Class23_Sub4
 		}
 	}
 	
-	static final void method302(int i, int i_8_, Class105_Sub1 class105_sub1) {
+	static final void method302(int i, int i_8_, CacheArchive class105_sub1) {
 		anInt3053++;
 		if (i_8_ != 5) {
 			anInt3046 = 93;

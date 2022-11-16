@@ -50,8 +50,8 @@ public class Class48
 			Class97.aClass6_1646.method85((byte) -39);
 		}
 		int i = -77 % ((-8 - b) / 42);
-		if (Class29.aClass6_471 != null) {
-			Class29.aClass6_471.method85((byte) -39);
+		if (CacheFileChannel.aClass6_471 != null) {
+			CacheFileChannel.aClass6_471.method85((byte) -39);
 		}
 	}
 	

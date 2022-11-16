@@ -20,9 +20,9 @@ public class Class36
 	private static RSString aClass16_573;
 	
 	static final void method986(boolean bool) {
-		int i = Class13.aClass23_Sub13_Sub8_240.method649(Class63.aClass16_995);
+		int i = CacheIndex.aClass23_Sub13_Sub8_240.method649(Class63.aClass16_995);
 		for (int i_0_ = 0; (Class23_Sub13_Sub9.anInt3863 ^ 0xffffffff) < (i_0_ ^ 0xffffffff); i_0_++) {
-			int i_1_ = Class13.aClass23_Sub13_Sub8_240.method649(Class23_Sub13_Sub18.method800(i_0_, bool));
+			int i_1_ = CacheIndex.aClass23_Sub13_Sub8_240.method649(Class23_Sub13_Sub18.method800(i_0_, bool));
 			if ((i ^ 0xffffffff) > (i_1_ ^ 0xffffffff)) {
 				i = i_1_;
 			}

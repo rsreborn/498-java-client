@@ -6,8 +6,8 @@ public class Class23_Sub4_Sub8 extends Class23_Sub4
 {
 	static Class64 aClass64_3028 = null;
 	static int anInt3029;
-	static Class105_Sub1 aClass105_Sub1_3030;
-	static Class105_Sub1 aClass105_Sub1_3031;
+	static CacheArchive aClass105_Sub1_3030;
+	static CacheArchive aClass105_Sub1_3031;
 	static int anInt3032;
 	
 	public Class23_Sub4_Sub8() {

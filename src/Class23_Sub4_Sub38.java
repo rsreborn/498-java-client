@@ -148,7 +148,7 @@ public class Class23_Sub4_Sub38 extends Class23_Sub4
 		if (i < 8000 || i > 48000) {
 			throw new IllegalArgumentException();
 		}
-		Class13.aBoolean257 = bool;
+		CacheIndex.aBoolean257 = bool;
 		Class32.anInt498 = i;
 		Class64.anInt1030 = i_21_;
 	}

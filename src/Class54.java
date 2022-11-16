@@ -7,7 +7,7 @@ public class Class54
 	static RSString aClass16_850 = Class38_Sub6.method1076((byte) 86, "p11_full");
 	static int anInt851;
 	static Class23_Sub13_Sub8_Sub1_Sub1 aClass23_Sub13_Sub8_Sub1_Sub1_852;
-	static Class105_Sub1[] aClass105_Sub1Array853;
+	static CacheArchive[] aClass105_Sub1Array853;
 	static int anInt854;
 	static int anInt855;
 	static RSString aClass16_856;
@@ -58,7 +58,7 @@ public class Class54
 			return null;
 		}
 		anInt851++;
-		if ((class16.method173(41, Class105_Sub1.aClass16_2867) ^ 0xffffffff) != 0) {
+		if ((class16.method173(41, CacheArchive.aClass16_2867) ^ 0xffffffff) != 0) {
 			for (;;) {
 				int i_7_ = class16.method173(i ^ 0x30b8, Class27.aClass16_413);
 				if ((i_7_ ^ 0xffffffff) == 0) {
@@ -118,7 +118,7 @@ public class Class54
 	}
 	
 	static {
-		aClass105_Sub1Array853 = new Class105_Sub1[256];
+		aClass105_Sub1Array853 = new CacheArchive[256];
 		anIntArray858 = new int[] { 0, 0, 2, 0, 0, 2, 1, 1, 0 };
 		aClass16_856 = Class38_Sub6.method1076((byte) 86, "::tele 0)1");
 		aClass16_860 = Class38_Sub6.method1076((byte) 86, "mod_icons");

@@ -10,7 +10,7 @@ public class Class38_Sub6 extends Class38
 	private Class23_Sub13_Sub22 aClass23_Sub13_Sub22_2610;
 	static int anInt2611;
 	protected int anInt2612;
-	static Class105_Sub1 aClass105_Sub1_2613;
+	static CacheArchive aClass105_Sub1_2613;
 	static int anInt2614;
 	private int anInt2615 = -32768;
 	static RSString aClass16_2616;

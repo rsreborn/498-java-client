@@ -34,7 +34,7 @@ public class Class23_Sub4_Sub7 extends Class23_Sub4
 	static RSString aClass16_3021;
 	static RSString aClass16_3022;
 	static int anInt3023;
-	static Class105_Sub1 aClass105_Sub1_3024;
+	static CacheArchive aClass105_Sub1_3024;
 	static int anInt3025;
 	static int anInt3026;
 	static int anInt3027;

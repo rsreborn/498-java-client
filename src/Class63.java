@@ -61,7 +61,7 @@ abstract class Class63
 		Class38.aClass81_581.method1369((byte) -52);
 	}
 	
-	static final void method1212(int i, int i_3_, Class13 class13, byte[] bs) {
+	static final void method1212(int i, int i_3_, CacheIndex class13, byte[] bs) {
 		Class23_Sub14 class23_sub14 = new Class23_Sub14();
 		class23_sub14.aByteArray2333 = bs;
 		class23_sub14.aLong358 = (long) i_3_;

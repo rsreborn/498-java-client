@@ -5,7 +5,7 @@ import java.io.EOFException;
 import java.io.File;
 import java.io.IOException;
 
-public class Class29
+public class CacheFileChannel
 {
 	private long aLong433 = -1L;
 	static int anInt434;
@@ -31,20 +31,20 @@ public class Class29
 	static int anInt454;
 	static int anInt455;
 	static int anInt456;
-	static Class105_Sub1 aClass105_Sub1_457;
+	static CacheArchive aClass105_Sub1_457;
 	static int anInt458;
 	static int anInt459;
 	private static RSString aClass16_460 = Class38_Sub6.method1076((byte) 86, "Malformed login packet)3");
 	static int anInt461;
 	private long aLong462;
 	static int anInt463 = 0;
-	private Class62 aClass62_464;
+	private SizedAccessFile aClass62_464;
 	static RSString aClass16_465;
 	private long aLong466;
 	static long[] aLongArray467 = new long[100];
 	private long aLong468;
 	static int anInt469;
-	static Class105_Sub1 aClass105_Sub1_470;
+	static CacheArchive aClass105_Sub1_470;
 	static Class6 aClass6_471;
 	
 	private final void method941(int i) throws IOException {
@@ -430,7 +430,7 @@ public class Class29
 		}
 	}
 	
-	Class29(Class62 class62, int i, int i_37_) throws IOException {
+	CacheFileChannel(SizedAccessFile class62, int i, int i_37_) throws IOException {
 		aClass62_464 = class62;
 		aLong452 = aLong466 = class62.method1203((byte) -85);
 		aLong462 = 0L;

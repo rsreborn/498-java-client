@@ -5,7 +5,7 @@
 public class Class23_Sub4_Sub23_Sub1 extends Class23_Sub4_Sub23
 {
 	static int anInt4476;
-	static Class105_Sub1 aClass105_Sub1_4477;
+	static CacheArchive aClass105_Sub1_4477;
 	static boolean[] aBooleanArray4478;
 	static int anInt4479;
 	static int anInt4480;
@@ -95,17 +95,17 @@ public class Class23_Sub4_Sub23_Sub1 extends Class23_Sub4_Sub23
 			int i_19_ = Class105.aClass38_Sub7_Sub2_1812.anInt2659 + -i_16_ >> 7;
 			boolean bool = Class5.method66(0, i_19_, 1, i_18_, true, false, 0, 0, Class105.aClass38_Sub7_Sub2_1812.anIntArray2663[0], 0, Class105.aClass38_Sub7_Sub2_1812.anIntArray2694[0], 0);
 			if (bool) {
-				Class23_Sub7.outBuffer.method460((byte) 125, i_10_);
-				Class23_Sub7.outBuffer.method460((byte) 125, i);
+				Class23_Sub7.outBuffer.writeByte(i_10_);
+				Class23_Sub7.outBuffer.writeByte(i);
 				Class23_Sub7.outBuffer.method443(Class35.anInt550, (byte) 51);
-				Class23_Sub7.outBuffer.method460((byte) 107, 57);
-				Class23_Sub7.outBuffer.method460((byte) 127, Class23_Sub4_Sub16.anInt3162);
-				Class23_Sub7.outBuffer.method460((byte) 103, Class38_Sub7_Sub2.anInt4410);
-				Class23_Sub7.outBuffer.method460((byte) 112, 89);
+				Class23_Sub7.outBuffer.writeByte(57);
+				Class23_Sub7.outBuffer.writeByte(Class23_Sub4_Sub16.anInt3162);
+				Class23_Sub7.outBuffer.writeByte(Class38_Sub7_Sub2.anInt4410);
+				Class23_Sub7.outBuffer.writeByte(89);
 				Class23_Sub7.outBuffer.method443(Class105.aClass38_Sub7_Sub2_1812.anInt2674, (byte) 51);
 				Class23_Sub7.outBuffer.method443(Class105.aClass38_Sub7_Sub2_1812.anInt2659, (byte) 51);
-				Class23_Sub7.outBuffer.method460((byte) 117, Class78.anInt1417);
-				Class23_Sub7.outBuffer.method460((byte) 120, 63);
+				Class23_Sub7.outBuffer.writeByte(Class78.anInt1417);
+				Class23_Sub7.outBuffer.writeByte(63);
 			}
 		}
 	}

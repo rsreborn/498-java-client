@@ -193,7 +193,7 @@ public class Class87_Sub4 extends Class87
 				if (Class23_Sub19.aFrame2385 != null) {
 					Class23_Sub7.outBuffer.method486(7, i + -4590);
 					Class23_Sub4_Sub39.anInt3524++;
-					Class23_Sub7.outBuffer.writeIntBE(1057001181, i ^ ~0x43d2fe69);
+					Class23_Sub7.outBuffer.writeIntBE(1057001181);
 				}
 				if (!Class23_Sub13_Sub26.aBoolean4298) {
 					int i_25_ = (-6 + Class23_Sub4_Sub23.anInt3279) / 8;

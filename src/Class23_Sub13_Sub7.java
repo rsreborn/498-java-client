@@ -300,17 +300,17 @@ public class Class23_Sub13_Sub7 extends Class23_Sub13
 		if (i_16_ == 0) {
 			Class23_Sub1.anInt2035++;
 			Class23_Sub7.outBuffer.method486(149, 2976);
-			Class23_Sub7.outBuffer.method460((byte) 106, 3 + i_17_ - -i_17_);
+			Class23_Sub7.outBuffer.writeByte(3 + i_17_ - -i_17_);
 		}
 		if (i_16_ == 1) {
 			Class74.anInt1331++;
 			Class23_Sub7.outBuffer.method486(74, 2976);
-			Class23_Sub7.outBuffer.method460((byte) 108, i_17_ + (i_17_ + 3 - -14));
+			Class23_Sub7.outBuffer.writeByte(i_17_ + (i_17_ + 3 - -14));
 		}
 		if (i_16_ == 2) {
-			Class29.anInt435++;
+			CacheFileChannel.anInt435++;
 			Class23_Sub7.outBuffer.method486(177, 2976);
-			Class23_Sub7.outBuffer.method460((byte) 120, 3 + i_17_ + i_17_);
+			Class23_Sub7.outBuffer.writeByte(3 + i_17_ + i_17_);
 		}
 		Class23_Sub7.outBuffer.method427(Class58.anInt903 + i_18_, -1371695448);
 		Class23_Sub7.outBuffer.method430(i_19_ + Class42.anInt662, 14982);

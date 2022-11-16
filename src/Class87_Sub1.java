@@ -40,7 +40,7 @@ public class Class87_Sub1 extends Class87
 		}
 		try {
 			Class6 class6 = (Class6) Class.forName("Class6_Sub2").newInstance();
-			class6.anIntArray132 = new int[(!Class13.aBoolean257 ? 1 : 2) * 256];
+			class6.anIntArray132 = new int[(!CacheIndex.aBoolean257 ? 1 : 2) * 256];
 			class6.anInt158 = i;
 			class6.method81(component);
 			class6.anInt150 = (i & ~0x3ff) - -1024;
@@ -67,7 +67,7 @@ public class Class87_Sub1 extends Class87
 			try {
 				Class6_Sub1 class6_sub1 = new Class6_Sub1(class9, i_0_);
 				class6_sub1.anInt158 = i;
-				class6_sub1.anIntArray132 = new int[256 * (Class13.aBoolean257 ? 2 : 1)];
+				class6_sub1.anIntArray132 = new int[256 * (CacheIndex.aBoolean257 ? 2 : 1)];
 				class6_sub1.method81(component);
 				class6_sub1.anInt150 = 16384;
 				class6_sub1.method86(class6_sub1.anInt150);

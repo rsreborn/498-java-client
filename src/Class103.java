@@ -115,7 +115,7 @@ public class Class103
 			if (i == 20 || i == 40) {
 				Buffer.anInt2127 = 0;
 				Class23_Sub13_Sub7.anInt3781 = 0;
-				Class105_Sub1.anInt2854 = 0;
+				CacheArchive.anInt2854 = 0;
 			}
 			if (i != 20 && i != 40 && Class23_Sub13_Sub20.aClass34_4150 != null) {
 				Class23_Sub13_Sub20.aClass34_4150.method976(false);

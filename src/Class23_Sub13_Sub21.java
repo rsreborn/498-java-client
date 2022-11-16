@@ -52,8 +52,8 @@ public class Class23_Sub13_Sub21 extends Class23_Sub13
 		if ((l ^ 0xffffffffffffffffL) != -1L) {
 			Class23_Sub7.outBuffer.method486(244, 2976);
 			if (b >= 51) {
-				Class29.anInt446++;
-				Class23_Sub7.outBuffer.method436(l, (byte) -124);
+				CacheFileChannel.anInt446++;
+				Class23_Sub7.outBuffer.writeLongBE(l);
 			}
 		}
 	}

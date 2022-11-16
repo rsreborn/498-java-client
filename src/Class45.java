@@ -87,7 +87,7 @@ public class Class45
 					anInt696++;
 					Class75.anInt1372 = Class23_Sub10_Sub2.anInt3589;
 					Class23_Sub7.outBuffer.method486(92, 2976);
-					Class23_Sub7.outBuffer.method436(l, (byte) -120);
+					Class23_Sub7.outBuffer.writeLongBE(l);
 				}
 			}
 		}
@@ -182,13 +182,13 @@ public class Class45
 	}
 	
 	static final void method1136(int i, Component component) {
-		component.addMouseListener(Class13.aClass11_264);
+		component.addMouseListener(CacheIndex.aClass11_264);
 		anInt695++;
 		if (i != 95) {
 			method1132(-55L, -55);
 		}
-		component.addMouseMotionListener(Class13.aClass11_264);
-		component.addFocusListener(Class13.aClass11_264);
+		component.addMouseMotionListener(CacheIndex.aClass11_264);
+		component.addFocusListener(CacheIndex.aClass11_264);
 	}
 	
 	static final boolean method1137(int i, boolean bool) {

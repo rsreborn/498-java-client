@@ -270,7 +270,7 @@ public class Class64
 				aClass16Array1029 = new RSString[5];
 				for (int i_15_ = 0; i_15_ < 5; i_15_++) {
 					RSString class16 = class23_sub5.method426(2);
-					if (class16.method171(-61) > 0) {
+					if (class16.method171() > 0) {
 						aClass16Array1029[i_15_] = class16;
 						anInt1055 |= 1 << 23 - -i_15_;
 					}
@@ -349,7 +349,7 @@ public class Class64
 				}
 				for (int i_17_ = 0; i_17_ < 5; i_17_++) {
 					RSString class16 = class23_sub5.method426(i ^ 0x16);
-					if ((class16.method171(-61) ^ 0xffffffff) < -1) {
+					if ((class16.method171() ^ 0xffffffff) < -1) {
 						aClass16Array1029[i_17_] = class16;
 						anInt1055 |= 1 << 23 + i_17_;
 					}
@@ -366,7 +366,7 @@ public class Class64
 			}
 			if (anInt1038 == 1 || anInt1038 == 4 || anInt1038 == 5 || anInt1038 == 6) {
 				aClass16_1059 = class23_sub5.method426(2);
-				if ((aClass16_1059.method171(-61) ^ 0xffffffff) == -1) {
+				if ((aClass16_1059.method171() ^ 0xffffffff) == -1) {
 					if (anInt1038 == 1) {
 						aClass16_1059 = Class23_Sub4_Sub30.aClass16_3377;
 					}

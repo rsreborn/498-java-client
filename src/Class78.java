@@ -10,7 +10,7 @@ abstract class Class78
 	static int anInt1407;
 	private static RSString aClass16_1408;
 	static int anInt1409;
-	static Class29[] aClass29Array1410;
+	static CacheFileChannel[] aClass29Array1410;
 	static short aShort1411 = 320;
 	static RSString aClass16_1412;
 	protected int anInt1413;
@@ -133,7 +133,7 @@ abstract class Class78
 	
 	static {
 		aClass16_1408 = Class38_Sub6.method1076((byte) 86, "flash3:");
-		aClass29Array1410 = new Class29[26];
+		aClass29Array1410 = new CacheFileChannel[26];
 		aClass16_1412 = Class38_Sub6.method1076((byte) 86, "Musik)2Engine vorbereitet)3");
 		anInt1417 = 0;
 		aClass16_1421 = aClass16_1408;

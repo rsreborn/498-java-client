@@ -18,7 +18,7 @@ public class Class23_Sub4_Sub27 extends Class23_Sub4
 	static RSString aClass16_3336 = Class38_Sub6.method1076((byte) 86, "Bitte warten Sie)3)3)3");
 	static CRC32 aCRC32_3337 = new CRC32();
 	static RSString aClass16_3338;
-	static Class105_Sub1 aClass105_Sub1_3339;
+	static CacheArchive aClass105_Sub1_3339;
 	static Class105 aClass105_3340;
 	static boolean aBoolean3341;
 	static long aLong3342;
@@ -82,61 +82,61 @@ public class Class23_Sub4_Sub27 extends Class23_Sub4
 				if (i_3_ == 1) {
 					Class23_Sub7.outBuffer.method486(230, 2976);
 					Class23_Sub13_Sub25.anInt4286++;
-					Class23_Sub7.outBuffer.writeIntBE(i_2_, -1137894376);
+					Class23_Sub7.outBuffer.writeIntBE(i_2_);
 					Class23_Sub7.outBuffer.method443(i, (byte) 51);
 				}
 				if (i_3_ == 2) {
 					Class71_Sub1_Sub1.anInt4449++;
 					Class23_Sub7.outBuffer.method486(205, 2976);
-					Class23_Sub7.outBuffer.writeIntBE(i_2_, -1137894376);
+					Class23_Sub7.outBuffer.writeIntBE(i_2_);
 					Class23_Sub7.outBuffer.method443(i, (byte) 51);
 				}
 				if (i_3_ == 3) {
 					Class63.anInt980++;
 					Class23_Sub7.outBuffer.method486(127, 2976);
-					Class23_Sub7.outBuffer.writeIntBE(i_2_, -1137894376);
+					Class23_Sub7.outBuffer.writeIntBE(i_2_);
 					Class23_Sub7.outBuffer.method443(i, (byte) 51);
 				}
 				if (i_3_ == 4) {
 					Class23_Sub7.outBuffer.method486(211, 2976);
 					Class75.anInt1379++;
-					Class23_Sub7.outBuffer.writeIntBE(i_2_, -1137894376);
+					Class23_Sub7.outBuffer.writeIntBE(i_2_);
 					Class23_Sub7.outBuffer.method443(i, (byte) 51);
 				}
 				if (i_3_ == 5) {
 					Class23_Sub7.outBuffer.method486(203, 2976);
 					Class8.anInt171++;
-					Class23_Sub7.outBuffer.writeIntBE(i_2_, -1137894376);
+					Class23_Sub7.outBuffer.writeIntBE(i_2_);
 					Class23_Sub7.outBuffer.method443(i, (byte) 51);
 				}
 				if (i_3_ == 6) {
 					Class23_Sub13_Sub6.anInt3731++;
 					Class23_Sub7.outBuffer.method486(39, 2976);
-					Class23_Sub7.outBuffer.writeIntBE(i_2_, -1137894376);
+					Class23_Sub7.outBuffer.writeIntBE(i_2_);
 					Class23_Sub7.outBuffer.method443(i, (byte) 51);
 				}
 				if (i_3_ == 7) {
 					Class23_Sub7.outBuffer.method486(187, 2976);
-					Class23_Sub7.outBuffer.writeIntBE(i_2_, -1137894376);
+					Class23_Sub7.outBuffer.writeIntBE(i_2_);
 					Class23_Sub7.outBuffer.method443(i, (byte) 51);
 					Class23_Sub1.anInt2005++;
 				}
 				if (i_3_ == 8) {
 					Class23_Sub7.outBuffer.method486(156, 2976);
-					Class23_Sub7.outBuffer.writeIntBE(i_2_, -1137894376);
+					Class23_Sub7.outBuffer.writeIntBE(i_2_);
 					Class23_Sub7.outBuffer.method443(i, (byte) 51);
 					Class63.anInt979++;
 				}
 				if (i_3_ == 9) {
 					Class71_Sub1.anInt2724++;
 					Class23_Sub7.outBuffer.method486(128, 2976);
-					Class23_Sub7.outBuffer.writeIntBE(i_2_, -1137894376);
+					Class23_Sub7.outBuffer.writeIntBE(i_2_);
 					Class23_Sub7.outBuffer.method443(i, (byte) 51);
 				}
 				if (i_3_ == 10) {
 					Class50.anInt781++;
 					Class23_Sub7.outBuffer.method486(235, 2976);
-					Class23_Sub7.outBuffer.writeIntBE(i_2_, -1137894376);
+					Class23_Sub7.outBuffer.writeIntBE(i_2_);
 					Class23_Sub7.outBuffer.method443(i, (byte) 51);
 				}
 			}

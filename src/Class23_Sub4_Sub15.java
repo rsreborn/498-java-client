@@ -28,7 +28,7 @@ public class Class23_Sub4_Sub15 extends Class23_Sub4
 			int[] is_2_ = is[2];
 			for (int i_3_ = 0; i_3_ < Class23_Sub4_Sub33.anInt3428; i_3_++) {
 				method328(b ^ ~0x2f, i_3_, i);
-				int[][] is_4_ = this.method256(0, (byte) -99, Class29.anInt463);
+				int[][] is_4_ = this.method256(0, (byte) -99, CacheFileChannel.anInt463);
 				is_0_[i_3_] = is_4_[0][Class63.anInt985];
 				is_1_[i_3_] = is_4_[1][Class63.anInt985];
 				is_2_[i_3_] = is_4_[2][Class63.anInt985];
@@ -144,37 +144,37 @@ public class Class23_Sub4_Sub15 extends Class23_Sub4
 			if (!((double) f <= -1.5707963267948966) || !((double) f >= -2.356194490192345)) {
 				if (!((double) f <= -0.7853981633974483) || !((double) f >= -1.5707963267948966)) {
 					if (f <= 0.0F && (double) f >= -0.7853981633974483) {
-						Class29.anInt463 = Class102.anInt1706 + -i_32_;
+						CacheFileChannel.anInt463 = Class102.anInt1706 + -i_32_;
 						Class63.anInt985 = i_31_;
 					} else if (f >= 0.0F && (double) f <= 0.7853981633974483) {
-						Class29.anInt463 = -i_32_ + Class102.anInt1706;
+						CacheFileChannel.anInt463 = -i_32_ + Class102.anInt1706;
 						Class63.anInt985 = Class23_Sub4_Sub33.anInt3428 + -i_31_;
 					} else if ((double) f >= 0.7853981633974483 && (double) f <= 1.5707963267948966) {
 						Class63.anInt985 = Class23_Sub4_Sub33.anInt3428 - i_32_;
-						Class29.anInt463 = -i_31_ + Class102.anInt1706;
+						CacheFileChannel.anInt463 = -i_31_ + Class102.anInt1706;
 					} else if (!((double) f >= 1.5707963267948966) || !((double) f <= 2.356194490192345)) {
 						if ((double) f >= 2.356194490192345 && (double) f <= 3.141592653589793) {
-							Class29.anInt463 = i_32_;
+							CacheFileChannel.anInt463 = i_32_;
 							Class63.anInt985 = Class23_Sub4_Sub33.anInt3428 + -i_31_;
 						}
 					} else {
-						Class29.anInt463 = -i_31_ + Class102.anInt1706;
+						CacheFileChannel.anInt463 = -i_31_ + Class102.anInt1706;
 						Class63.anInt985 = i_32_;
 					}
 				} else {
-					Class29.anInt463 = i_31_;
+					CacheFileChannel.anInt463 = i_31_;
 					Class63.anInt985 = -i_32_ + Class23_Sub4_Sub33.anInt3428;
 				}
 			} else {
-				Class29.anInt463 = i_31_;
+				CacheFileChannel.anInt463 = i_31_;
 				Class63.anInt985 = i_32_;
 			}
 		} else {
-			Class29.anInt463 = i_32_;
+			CacheFileChannel.anInt463 = i_32_;
 			Class63.anInt985 = i_31_;
 		}
 		Class63.anInt985 &= Class95.anInt1611;
-		Class29.anInt463 &= Class23_Sub4_Sub1.anInt2892;
+		CacheFileChannel.anInt463 &= Class23_Sub4_Sub1.anInt2892;
 		if (i > -19) {
 			method327(72, -62, -93, -37, -13, -119);
 		}
@@ -189,7 +189,7 @@ public class Class23_Sub4_Sub15 extends Class23_Sub4
 		if (aClass99_2115.aBoolean1681) {
 			for (int i_36_ = 0; (i_36_ ^ 0xffffffff) > (Class23_Sub4_Sub33.anInt3428 ^ 0xffffffff); i_36_++) {
 				method328(-127, i_36_, i_35_);
-				int[] is_37_ = this.method261(Class29.anInt463, 0, (byte) 18);
+				int[] is_37_ = this.method261(CacheFileChannel.anInt463, 0, (byte) 18);
 				is[i_36_] = is_37_[Class63.anInt985];
 			}
 		}

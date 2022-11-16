@@ -163,7 +163,7 @@ public class Class47
 									if (bool) {
 										if (Class23_Sub13_Sub8_Sub1.aBooleanArray4492[82] && Class23_Sub4_Sub17.anInt3173 > 0) {
 											int i_18_ = Canvas_Sub1.anInt55 + ((int) (2.0 * (double) (-(class64.anInt1128 / 2) + Class90.anInt1538 + -i_8_) / Class107.aDouble1838) + Class102.anInt1702);
-											int i_19_ = -Class8.anInt179 + -(int) (2.0 * (double) (Class23_Sub13_Sub19.anInt4136 - i_9_ + -(class64.anInt999 / 2)) / Class107.aDouble1838) + (Class29.anInt445 - -Class38_Sub7.anInt2697);
+											int i_19_ = -Class8.anInt179 + -(int) (2.0 * (double) (Class23_Sub13_Sub19.anInt4136 - i_9_ + -(class64.anInt999 / 2)) / Class107.aDouble1838) + (CacheFileChannel.anInt445 - -Class38_Sub7.anInt2697);
 											RSString class16 = Class23_Sub4_Sub14.method322(new RSString[] { Class54.aClass16_856, Class23_Sub4_Sub23.method360((byte) -9, i_18_ >> 6), Class97.aClass16_1636, Class23_Sub4_Sub23.method360((byte) -9, i_19_ >> 6), Class97.aClass16_1636, Class23_Sub4_Sub23.method360((byte) -9, 0x3f & i_18_), Class97.aClass16_1636, Class23_Sub4_Sub23.method360((byte) -9, 0x3f & i_19_) }, -32);
 											class16.method158(-118);
 											Class53.method1173(-91, class16);

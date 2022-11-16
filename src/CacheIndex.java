@@ -4,18 +4,18 @@
 import java.awt.Component;
 import java.awt.FontMetrics;
 
-public class Class13
+public class CacheIndex
 {
 	static Class23_Sub13_Sub8 aClass23_Sub13_Sub8_240;
 	private static RSString aClass16_241;
 	static int anInt242;
-	private Class29 aClass29_243 = null;
+	private CacheFileChannel aClass29_243 = null;
 	private static RSString aClass16_244;
 	private int anInt245;
 	private static RSString aClass16_246 = Class38_Sub6.method1076((byte) 86, "Unexpected loginserver response)3");
 	static RSString aClass16_247;
 	static RSString aClass16_248;
-	private Class29 aClass29_249 = null;
+	private CacheFileChannel aClass29_249 = null;
 	static int anInt250;
 	static RSString aClass16_251;
 	static int anInt252;
@@ -248,7 +248,7 @@ public class Class13
 		Class19.anInt325 = 0;
 	}
 	
-	Class13(int i, Class29 class29, Class29 class29_23_, int i_24_) {
+	CacheIndex(int i, CacheFileChannel class29, CacheFileChannel class29_23_, int i_24_) {
 		aClass29_243 = class29;
 		anInt245 = i;
 		anInt256 = i_24_;

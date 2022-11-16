@@ -34,7 +34,7 @@ public class Class99
 		Class20.method222(i_0_, i_1_, i_3_, i_2_, i_4_);
 		Class20.method222(1 + i_0_, 1 + i_1_, -2 + i_3_, 16, 0);
 		Class20.method215(i_0_ - -1, 18 + i_1_, i_3_ - 2, i + i_2_, 0);
-		Class13.aClass23_Sub13_Sub8_240.method650(Class63.aClass16_995, 3 + i_0_, 14 + i_1_, i_4_, -1);
+		CacheIndex.aClass23_Sub13_Sub8_240.method650(Class63.aClass16_995, 3 + i_0_, 14 + i_1_, i_4_, -1);
 		int i_5_ = Class23_Sub4_Sub14.anInt3126;
 		int i_6_ = Class102.anInt1701;
 		for (int i_7_ = 0; (i_7_ ^ 0xffffffff) > (Class23_Sub13_Sub9.anInt3863 ^ 0xffffffff); i_7_++) {
@@ -43,7 +43,7 @@ public class Class99
 			if ((i_0_ ^ 0xffffffff) > (i_5_ ^ 0xffffffff) && i_5_ < i_3_ + i_0_ && (-13 + i_8_ ^ 0xffffffff) > (i_6_ ^ 0xffffffff) && i_8_ + 3 > i_6_) {
 				i_9_ = 16776960;
 			}
-			Class13.aClass23_Sub13_Sub8_240.method650(Class23_Sub13_Sub18.method800(i_7_, false), i_0_ + 3, i_8_, i_9_, 0);
+			CacheIndex.aClass23_Sub13_Sub8_240.method650(Class23_Sub13_Sub18.method800(i_7_, false), i_0_ + 3, i_8_, i_9_, 0);
 		}
 		Class23_Sub13_Sub4.method618(Class23_Sub27.anInt2475, Class69.anInt1216, Class71_Sub3.anInt2746, i + -698, Class23_Sub4_Sub3.anInt2950);
 	}
@@ -79,7 +79,7 @@ public class Class99
 		if ((Class74.method1313(-96, Class47.method1142(class64, 65)) ^ 0xffffffff) == -1) {
 			return null;
 		}
-		if (class64.aClass16_996 == null || class64.aClass16_996.method169(50).method171(-61) == 0) {
+		if (class64.aClass16_996 == null || class64.aClass16_996.method169(50).method171() == 0) {
 			if (Class75.aBoolean1373) {
 				return Class102.aClass16_1711;
 			}
