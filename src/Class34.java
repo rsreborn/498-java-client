@@ -104,13 +104,10 @@ public class Class34 implements Runnable
 		anInt524++;
 	}
 	
-	final int method971(byte b) throws IOException {
+	final int read() throws IOException {
 		anInt547++;
 		if (aBoolean538) {
 			return 0;
-		}
-		if (b != 10) {
-			anInt531 = 97;
 		}
 		return anInputStream546.read();
 	}
@@ -190,10 +187,7 @@ public class Class34 implements Runnable
 		method976(false);
 	}
 	
-	final int method973(int i) throws IOException {
-		if (i >= -7) {
-			return 57;
-		}
+	final int available() throws IOException {
 		anInt527++;
 		if (aBoolean538) {
 			return 0;
@@ -208,9 +202,9 @@ public class Class34 implements Runnable
 		anInt537++;
 		if (!aBoolean538) {
 			int i_10_;
-			for (/**/; (i ^ 0xffffffff) < -1; i -= i_10_) {
+			for (/**/; i > 0; i -= i_10_) {
 				i_10_ = anInputStream546.read(bs, i_9_, i);
-				if ((i_10_ ^ 0xffffffff) >= -1) {
+				if (i_10_ <= 0) {
 					throw new EOFException();
 				}
 				i_9_ += i_10_;

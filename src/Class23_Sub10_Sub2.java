@@ -690,12 +690,12 @@ public class Class23_Sub10_Sub2 extends Class23_Sub10
 			}
 			if (Class73.anInt1319 == 10) {
 				Buffer class23_sub5 = new Buffer(Class23_Sub4_Sub8.aClass105_Sub1_3030.method1536(Class23_Sub8.aClass16_2248, Class23_Sub13_Sub18.aClass16_4100, i ^ 0x14));
-				int i_58_ = class23_sub5.method476((byte) -124);
-				int i_59_ = class23_sub5.method476((byte) -118);
-				int i_60_ = class23_sub5.method476((byte) -108);
-				int i_61_ = class23_sub5.method476((byte) -106);
-				int i_62_ = class23_sub5.method476((byte) -123);
-				int i_63_ = class23_sub5.method476((byte) -118);
+				int i_58_ = class23_sub5.readShortBE();
+				int i_59_ = class23_sub5.readShortBE();
+				int i_60_ = class23_sub5.readShortBE();
+				int i_61_ = class23_sub5.readShortBE();
+				int i_62_ = class23_sub5.readShortBE();
+				int i_63_ = class23_sub5.readShortBE();
 				Class23_Sub4_Sub4.aDouble2969 = Class107.aDouble1838 = 8.0;
 				Class102.anInt1702 = i_58_ * 64;
 				Class38_Sub7.anInt2697 = 64 * (i_61_ - i_59_ - -1);

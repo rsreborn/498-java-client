@@ -49,7 +49,7 @@ abstract class Class78
 				i_11_ += -1 + i_12_;
 				int i_13_ = 0x3f & i_11_;
 				int i_14_ = (0xff5 & i_11_) >> 6;
-				int i_15_ = class23_sub5.method461(-1797813752);
+				int i_15_ = class23_sub5.readByte();
 				int i_16_ = 0x3 & i_15_;
 				int i_17_ = i_15_ >> 2;
 				int i_18_ = i_11_ >> 12;

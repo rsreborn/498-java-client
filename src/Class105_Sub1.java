@@ -230,7 +230,7 @@ public class Class105_Sub1 extends Class105
 						Class28.method939(anInt2857, 6024, true, anInt2859, (byte) 0, this, 255);
 						return;
 					}
-					int i_30_ = class23_sub5.method461(-1797813752);
+					int i_30_ = class23_sub5.readByte();
 					if (i_30_ != 5 && i_30_ != 6) {
 						Class28.method939(anInt2857, 6024, true, anInt2859, (byte) 0, this, 255);
 					} else {

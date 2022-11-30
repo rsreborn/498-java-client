@@ -31,10 +31,10 @@ public class Class23_Sub4_Sub36 extends Class23_Sub4
 					break;
 				}
 			} else {
-				anInt3467 = class23_sub5.method461(-1797813752);
+				anInt3467 = class23_sub5.readByte();
 				break;
 			}
-			aBoolean2117 = class23_sub5.method461(-1797813752) == 1;
+			aBoolean2117 = class23_sub5.readByte() == 1;
 		} while (false);
 		if (i_0_ == 1000) {
 			anInt3468++;

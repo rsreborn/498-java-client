@@ -549,17 +549,17 @@ public class Class78_Sub2 extends Class78 implements ImageProducer, ImageObserve
 						break;
 					}
 					Buffer class23_sub5 = new Buffer(bs);
-					Class51.anInt793 = class23_sub5.method476((byte) -105);
+					Class51.anInt793 = class23_sub5.readShortBE();
 					Class23_Sub13_Sub1.aClass82Array3669 = new Class82[Class51.anInt793];
 					for (int i_151_ = 0; Class51.anInt793 > i_151_; i_151_++) {
 						Class82 class82 = Class23_Sub13_Sub1.aClass82Array3669[i_151_] = new Class82();
-						int i_152_ = class23_sub5.method476((byte) -126);
+						int i_152_ = class23_sub5.readShortBE();
 						class82.aBoolean1450 = (0x8000 & i_152_) != 0;
 						class82.anInt1451 = i_152_ & 0x7fff;
 						class82.aClass16_1449 = class23_sub5.method426(i + -2872);
 						class82.anInt1447 = class23_sub5.method474(true);
 						class82.anInt1448 = i_151_;
-						class82.anInt1443 = Class23_Sub13_Sub20.method814(class23_sub5.method476((byte) -120), true);
+						class82.anInt1443 = Class23_Sub13_Sub20.method814(class23_sub5.readShortBE(), true);
 					}
 					Class38_Sub6.method1080(0, i ^ 0xb3a, Class23_Sub13_Sub1.aClass82Array3669, Class23_Sub13_Sub1.aClass82Array3669.length - 1);
 					Class23.aClass53_347 = null;

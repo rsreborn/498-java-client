@@ -107,16 +107,16 @@ public class Class23_Sub4_Sub21 extends Class23_Sub4
 							break while_57_;
 						}
 					} else {
-						anInt3250 = class23_sub5.method476((byte) -101);
+						anInt3250 = class23_sub5.readShortBE();
 						break while_58_;
 					}
-					anInt3252 = class23_sub5.method476((byte) -113);
+					anInt3252 = class23_sub5.readShortBE();
 					break while_58_;
 				} while (false);
-				anInt3254 = class23_sub5.method476((byte) -116);
+				anInt3254 = class23_sub5.readShortBE();
 				break while_58_;
 			} while (false);
-			anInt3249 = class23_sub5.method476((byte) -107);
+			anInt3249 = class23_sub5.readShortBE();
 		} while (false);
 		anInt3246++;
 		if (i_13_ != 1000) {

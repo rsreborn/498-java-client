@@ -220,25 +220,25 @@ public class Class23_Sub4_Sub7 extends Class23_Sub4
 											break while_12_;
 										}
 									} else {
-										anInt3013 = class23_sub5.method476((byte) -119);
+										anInt3013 = class23_sub5.readShortBE();
 										return;
 									}
-									anInt3014 = class23_sub5.method476((byte) -122);
+									anInt3014 = class23_sub5.readShortBE();
 									return;
 								} while (false);
-								anInt3008 = class23_sub5.method476((byte) -120);
+								anInt3008 = class23_sub5.readShortBE();
 								return;
 							} while (false);
-							anInt3019 = class23_sub5.method476((byte) -123);
+							anInt3019 = class23_sub5.readShortBE();
 							return;
 						} while (false);
-						anInt2996 = class23_sub5.method476((byte) -114);
+						anInt2996 = class23_sub5.readShortBE();
 						return;
 					} while (false);
-					anInt3010 = class23_sub5.method476((byte) -127);
+					anInt3010 = class23_sub5.readShortBE();
 					return;
 				} while (false);
-				anInt2999 = class23_sub5.method476((byte) -114);
+				anInt2999 = class23_sub5.readShortBE();
 			} while (false);
 		}
 	}

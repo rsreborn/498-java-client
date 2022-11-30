@@ -444,11 +444,11 @@ public class Class23_Sub3 extends Class23
 			int i_111_ = 0;
 			int i_112_;
 			do {
-				i_112_ = class23_sub5.method461(-1797813752);
+				i_112_ = class23_sub5.readByte();
 				i_111_ += i_112_;
 			} while (i_112_ >= 255);
 			byte[] bs_113_ = new byte[i_111_];
-			class23_sub5.method450(i_111_, bs_113_, 115, 0);
+			class23_sub5.readBytes(bs_113_, 0, i_111_);
 			aByteArrayArray2073[i_110_] = bs_113_;
 		}
 	}

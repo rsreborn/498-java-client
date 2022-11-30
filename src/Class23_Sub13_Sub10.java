@@ -112,14 +112,14 @@ abstract class Class23_Sub13_Sub10 extends Class23_Sub13
 	
 	abstract void method699(int i, int i_21_, int i_22_, int i_23_);
 	
-	static final void method700(int i) {
+	static final void updatePlayers(int i) {
 		Class23_Sub2.anInt2048 = 0;
 		anInt3889++;
 		Class23_Sub4_Sub10.anInt3061 = 0;
-		Class23_Sub4_Sub13.method316(-3);
-		Class23_Sub13_Sub19.method803((byte) -11);
-		Class45.method1133(0);
-		Class67.method1243(118);
+		Class23_Sub4_Sub13.parsePlayerMovement(-3);
+		Class23_Sub13_Sub19.parseTrackedPlayerMovement((byte) -11);
+		Class45.registerNewPlayers(0);
+		Class67.parseTrackedPlayerUpdateMasks(118);
 		for (int i_24_ = i; (Class23_Sub4_Sub10.anInt3061 ^ 0xffffffff) < (i_24_ ^ 0xffffffff); i_24_++) {
 			int i_25_ = Class54.anIntArray857[i_24_];
 			if ((Class23_Sub4_Sub2.aClass38_Sub7_Sub2Array2932[i_25_].anInt2698 ^ 0xffffffff) != (Class89.anInt1511 ^ 0xffffffff)) {

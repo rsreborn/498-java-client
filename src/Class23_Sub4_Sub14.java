@@ -80,13 +80,13 @@ public class Class23_Sub4_Sub14 extends Class23_Sub4
 							break while_41_;
 						}
 					} else {
-						anInt3125 = class23_sub5.method476((byte) -127);
+						anInt3125 = class23_sub5.readShortBE();
 						return;
 					}
-					anInt3136 = class23_sub5.method476((byte) -114);
+					anInt3136 = class23_sub5.readShortBE();
 					return;
 				} while (false);
-				anInt3122 = class23_sub5.method476((byte) -123);
+				anInt3122 = class23_sub5.readShortBE();
 			} while (false);
 		}
 	}

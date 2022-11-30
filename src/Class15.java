@@ -33,7 +33,7 @@ public class Class15
 		Buffer class23_sub5 = new Buffer(bs);
 		Buffer class23_sub5_0_ = new Buffer(bs);
 		class23_sub5.position = 2;
-		int i = class23_sub5.method461(-1797813752);
+		int i = class23_sub5.readByte();
 		int i_1_ = 0;
 		int i_2_ = -1;
 		int i_3_ = -1;
@@ -42,7 +42,7 @@ public class Class15
 			if (aClass23_Sub12_293.anIntArray2295[i_4_] == 0) {
 				i_2_ = i_4_;
 			}
-			int i_5_ = class23_sub5.method461(-1797813752);
+			int i_5_ = class23_sub5.readByte();
 			if (i_5_ > 0) {
 				if (aClass23_Sub12_293.anIntArray2295[i_4_] == 0) {
 					i_3_ = i_4_;

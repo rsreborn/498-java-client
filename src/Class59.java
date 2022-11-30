@@ -107,19 +107,19 @@ public class Class59
 		}
 		Buffer class23_sub5 = new Buffer(bs);
 		class23_sub5.position = -2 + class23_sub5.payload.length;
-		int i_19_ = class23_sub5.method476((byte) -110);
+		int i_19_ = class23_sub5.readShortBE();
 		int i_20_ = -14 + class23_sub5.payload.length - i_19_;
 		class23_sub5.position = i_20_;
 		int i_21_ = class23_sub5.method472(-5);
-		class23_sub13_sub23.anInt4247 = class23_sub5.method476((byte) -101);
-		class23_sub13_sub23.anInt4234 = class23_sub5.method476((byte) -108);
-		class23_sub13_sub23.anInt4241 = class23_sub5.method476((byte) -120);
-		class23_sub13_sub23.anInt4246 = class23_sub5.method476((byte) -118);
-		int i_22_ = class23_sub5.method461(-1797813752);
+		class23_sub13_sub23.anInt4247 = class23_sub5.readShortBE();
+		class23_sub13_sub23.anInt4234 = class23_sub5.readShortBE();
+		class23_sub13_sub23.anInt4241 = class23_sub5.readShortBE();
+		class23_sub13_sub23.anInt4246 = class23_sub5.readShortBE();
+		int i_22_ = class23_sub5.readByte();
 		if (i_22_ > 0) {
 			class23_sub13_sub23.anOaArray4235 = new oa[i_22_];
 			for (int i_23_ = 0; (i_23_ ^ 0xffffffff) > (i_22_ ^ 0xffffffff); i_23_++) {
-				int i_24_ = class23_sub5.method476((byte) -117);
+				int i_24_ = class23_sub5.readShortBE();
 				oa var_oa = new oa(RuntimeException_Sub1.method1586((byte) -51, i_24_));
 				class23_sub13_sub23.anOaArray4235[i_23_] = var_oa;
 				while ((i_24_-- ^ 0xffffffff) < -1) {
@@ -136,12 +136,12 @@ public class Class59
 		class23_sub13_sub23.anIntArray4236 = new int[i_21_];
 		int i_27_ = 0;
 		while (i_20_ > class23_sub5.position) {
-			int i_28_ = class23_sub5.method476((byte) -120);
+			int i_28_ = class23_sub5.readShortBE();
 			if (i_28_ != 3) {
 				if (i_28_ < 100 && i_28_ != 21 && i_28_ != 38 && i_28_ != 39) {
 					class23_sub13_sub23.anIntArray4253[i_27_] = class23_sub5.method472(117);
 				} else {
-					class23_sub13_sub23.anIntArray4253[i_27_] = class23_sub5.method461(-1797813752);
+					class23_sub13_sub23.anIntArray4253[i_27_] = class23_sub5.readByte();
 				}
 			} else {
 				class23_sub13_sub23.aClass16Array4237[i_27_] = class23_sub5.method426(2);

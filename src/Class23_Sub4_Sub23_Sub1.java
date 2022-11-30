@@ -30,14 +30,14 @@ public class Class23_Sub4_Sub23_Sub1 extends Class23_Sub4_Sub23
 	
 	static final Class23_Sub4 method364(byte b, Buffer class23_sub5) {
 		anInt4476++;
-		class23_sub5.method461(-1797813752);
-		int i = class23_sub5.method461(-1797813752);
+		class23_sub5.readByte();
+		int i = class23_sub5.readByte();
 		Class23_Sub4 class23_sub4 = Class63.method1213((byte) 93, i);
-		class23_sub4.anInt2118 = class23_sub5.method461(-1797813752);
-		int i_0_ = class23_sub5.method461(-1797813752);
+		class23_sub4.anInt2118 = class23_sub5.readByte();
+		int i_0_ = class23_sub5.readByte();
 		int i_1_ = 87 % ((b - 20) / 36);
 		for (int i_2_ = 0; i_0_ > i_2_; i_2_++) {
-			int i_3_ = class23_sub5.method461(-1797813752);
+			int i_3_ = class23_sub5.readByte();
 			class23_sub4.method255(class23_sub5, i_3_, 1000);
 		}
 		class23_sub4.method265(-21746);

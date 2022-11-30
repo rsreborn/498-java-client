@@ -55,14 +55,14 @@ public class Class69
 	static final byte[] method1258(int i, byte[] bs) {
 		Buffer class23_sub5 = new Buffer(bs);
 		anInt1208++;
-		int i_1_ = class23_sub5.method461(-1797813752);
+		int i_1_ = class23_sub5.readByte();
 		int i_2_ = class23_sub5.method472(i + 111);
-		if (i_2_ < i || (Class23_Sub4_Sub36.anInt3466 ^ 0xffffffff) != -1 && (Class23_Sub4_Sub36.anInt3466 ^ 0xffffffff) > (i_2_ ^ 0xffffffff)) {
+		if (i_2_ < i || Class23_Sub4_Sub36.anInt3466 != 0 && i_2_ > Class23_Sub4_Sub36.anInt3466) {
 			throw new RuntimeException();
 		}
-		if ((i_1_ ^ 0xffffffff) != -1) {
+		if (i_1_ != 0) {
 			int i_3_ = class23_sub5.method472(i ^ 0x6c);
-			if (i_3_ < 0 || (Class23_Sub4_Sub36.anInt3466 ^ 0xffffffff) != -1 && i_3_ > Class23_Sub4_Sub36.anInt3466) {
+			if (i_3_ < 0 || Class23_Sub4_Sub36.anInt3466 != 0 && i_3_ > Class23_Sub4_Sub36.anInt3466) {
 				throw new RuntimeException();
 			}
 			byte[] bs_4_ = new byte[i_3_];
@@ -74,7 +74,7 @@ public class Class69
 			return bs_4_;
 		}
 		byte[] bs_5_ = new byte[i_2_];
-		class23_sub5.method450(i_2_, bs_5_, i ^ 0x70, 0);
+		class23_sub5.readBytes(bs_5_, 0, i_2_);
 		return bs_5_;
 	}
 	

@@ -150,10 +150,10 @@ public class Class23_Sub4_Sub3 extends Class23_Sub4
 					break;
 				}
 			} else {
-				anInt2945 = class23_sub5.method476((byte) -123) << 4;
+				anInt2945 = class23_sub5.readShortBE() << 4;
 				break;
 			}
-			aBoolean2117 = class23_sub5.method461(-1797813752) == 1;
+			aBoolean2117 = class23_sub5.readByte() == 1;
 		} while (false);
 		if (i_33_ != 1000) {
 			method260(98, 115);

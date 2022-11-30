@@ -1,6 +1,8 @@
 /* Class42 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
+import util.Constants;
+
 import java.io.IOException;
 import java.net.Socket;
 
@@ -149,7 +151,8 @@ public class Class42
 				Class23_Sub7.outBuffer.method460((byte) 107, 14);
 				int i = (int) (l >> 16 & 0x1fL);
 				Class23_Sub7.outBuffer.method460((byte) 105, i);
-				Class23_Sub24.aClass34_2440.method977(30000, 2, 0, Class23_Sub7.outBuffer.payload);
+				Class23_Sub7.outBuffer.writeIntBE(Constants.BUILD_NUMBER, -1137894376);
+				Class23_Sub24.aClass34_2440.method977(30000, 6, 0, Class23_Sub7.outBuffer.payload);
 				Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.position = 0;
 				Buffer.anInt2127 = 3;
 			}
@@ -160,7 +163,7 @@ public class Class42
 				if (Class97.aClass6_1646 != null) {
 					Class97.aClass6_1646.method77(256);
 				}
-				int i = Class23_Sub24.aClass34_2440.method971((byte) 10);
+				int i = Class23_Sub24.aClass34_2440.read();
 				if (Class29.aClass6_471 != null) {
 					Class29.aClass6_471.method77(256);
 				}
@@ -176,7 +179,7 @@ public class Class42
 			}
 			if (Buffer.anInt2127 == 4) {
 				if (Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.position < 8) {
-					int i = Class23_Sub24.aClass34_2440.method973(b ^ 0x41);
+					int i = Class23_Sub24.aClass34_2440.available();
 					if (-Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.position + 8 < i) {
 						i = -Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.position + 8;
 					}
@@ -205,7 +208,7 @@ public class Class42
 				Class23_Sub7.outBuffer.writeIntBE(is[3], b ^ 0x43d2e3e7);
 				Class23_Sub7.outBuffer.method436(Class23_Sub2.aClass16_2064.method184(b ^ 0x6c), (byte) -126);
 				Class23_Sub7.outBuffer.method446(Class23_Sub2.aClass16_2065, -113);
-				Class23_Sub7.outBuffer.encrypt(117, Class33.aBigInteger520, Class2.aBigInteger70);
+				Class23_Sub7.outBuffer.encrypt(117, Class33.rsaKey, Class2.rsaModulus);
 				Class23_Sub8.loginBuffer.position = 0;
 				if (Class49.anInt756 == 40) {
 					Class23_Sub8.loginBuffer.method460((byte) 120, 18);
@@ -213,7 +216,7 @@ public class Class42
 					Class23_Sub8.loginBuffer.method460((byte) 105, 16);
 				}
 				Class23_Sub8.loginBuffer.method460((byte) 107, 137 + Class23_Sub7.outBuffer.position - -Class82.method1372(Class105_Sub1.aClass16_2877, (byte) 38));
-				Class23_Sub8.loginBuffer.writeIntBE(498, -1137894376);
+				Class23_Sub8.loginBuffer.writeIntBE(Constants.BUILD_NUMBER, -1137894376);
 				Class23_Sub8.loginBuffer.method460((byte) 109, !Class7.aBoolean170 ? 0 : 1);
 				Buffer.method470((byte) -126, Class23_Sub8.loginBuffer);
 				Class23_Sub8.loginBuffer.method446(Class105_Sub1.aClass16_2877, -99);
@@ -252,8 +255,8 @@ public class Class42
 				Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method492((byte) -99, is);
 				Buffer.anInt2127 = 6;
 			}
-			if (Buffer.anInt2127 == 6 && Class23_Sub24.aClass34_2440.method973(-55) > 0) {
-				int i = Class23_Sub24.aClass34_2440.method971((byte) 10);
+			if (Buffer.anInt2127 == 6 && Class23_Sub24.aClass34_2440.available() > 0) {
+				int i = Class23_Sub24.aClass34_2440.read();
 				if (i != 21 || Class49.anInt756 != 20) {
 					if (i == 2) {
 						Buffer.anInt2127 = 9;
@@ -273,8 +276,8 @@ public class Class42
 					Buffer.anInt2127 = 7;
 				}
 			}
-			if (Buffer.anInt2127 == 7 && (Class23_Sub24.aClass34_2440.method973(-73) ^ 0xffffffff) < -1) {
-				Class48.anInt744 = 60 * (Class23_Sub24.aClass34_2440.method971((byte) 10) + 3);
+			if (Buffer.anInt2127 == 7 && Class23_Sub24.aClass34_2440.available() > 0) {
+				Class48.anInt744 = 60 * (Class23_Sub24.aClass34_2440.read() + 3);
 				Buffer.anInt2127 = 8;
 			}
 			if (Buffer.anInt2127 == 8) {
@@ -285,26 +288,26 @@ public class Class42
 				}
 				return;
 			}
-			if (Buffer.anInt2127 == 9 && Class23_Sub24.aClass34_2440.method973(-76) >= 9) {
-				Class23_Sub4_Sub17.anInt3173 = Class23_Sub24.aClass34_2440.method971((byte) 10);
-				Class23_Sub4_Sub36.anInt3470 = Class23_Sub24.aClass34_2440.method971((byte) 10);
-				Class67.anInt1176 = Class23_Sub24.aClass34_2440.method971((byte) 10);
-				Class23_Sub4_Sub12.anInt3075 = Class23_Sub24.aClass34_2440.method971((byte) 10);
-				Class23_Sub4_Sub30.aBoolean3380 = Class23_Sub24.aClass34_2440.method971((byte) 10) == 1;
-				Class23_Sub4_Sub10.anInt3049 = Class23_Sub24.aClass34_2440.method971((byte) 10);
+			if (Buffer.anInt2127 == 9 && Class23_Sub24.aClass34_2440.available() >= 9) {
+				Class23_Sub4_Sub17.anInt3173 = Class23_Sub24.aClass34_2440.read();
+				Class23_Sub4_Sub36.anInt3470 = Class23_Sub24.aClass34_2440.read();
+				Class67.anInt1176 = Class23_Sub24.aClass34_2440.read();
+				Class23_Sub4_Sub12.anInt3075 = Class23_Sub24.aClass34_2440.read();
+				Class23_Sub4_Sub30.aBoolean3380 = Class23_Sub24.aClass34_2440.read() == 1;
+				Class23_Sub4_Sub10.anInt3049 = Class23_Sub24.aClass34_2440.read();
 				Class23_Sub4_Sub10.anInt3049 <<= 8;
-				Class23_Sub4_Sub10.anInt3049 += Class23_Sub24.aClass34_2440.method971((byte) 10);
-				Class30.anInt478 = Class23_Sub24.aClass34_2440.method971((byte) 10);
+				Class23_Sub4_Sub10.anInt3049 += Class23_Sub24.aClass34_2440.read();
+				Class30.anInt478 = Class23_Sub24.aClass34_2440.read();
 				Class23_Sub24.aClass34_2440.method974(1, b ^ ~0x76, 0, Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.payload);
 				Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.position = 0;
 				Class23_Sub13_Sub24.anInt4275 = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method491((byte) 47);
 				Class23_Sub24.aClass34_2440.method974(2, 110, 0, Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.payload);
 				Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.position = 0;
-				Class23_Sub4_Sub2.anInt2925 = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method476((byte) -116);
+				Class23_Sub4_Sub2.anInt2925 = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.readShortBE();
 				Buffer.anInt2127 = 10;
 			}
 			if (Buffer.anInt2127 == 10) {
-				if (Class23_Sub24.aClass34_2440.method973(b ^ 0xc) >= Class23_Sub4_Sub2.anInt2925) {
+				if (Class23_Sub24.aClass34_2440.available() >= Class23_Sub4_Sub2.anInt2925) {
 					Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.position = 0;
 					Class23_Sub24.aClass34_2440.method974(Class23_Sub4_Sub2.anInt2925, 119, 0, Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.payload);
 					Class23_Sub19.method878(0);

@@ -310,14 +310,14 @@ public class Class23_Sub4_Sub2 extends Class23_Sub4
 					if ((i_37_ ^ 0xffffffff) == -1) {
 						break;
 					}
-					class23_sub5.method461(-1797813752);
+					class23_sub5.readByte();
 				} else {
 					int i_38_ = class23_sub5.method432((byte) 112);
 					if ((i_38_ ^ 0xffffffff) == -1) {
 						break;
 					}
 					i_35_ += i_38_ - 1;
-					int i_39_ = class23_sub5.method461(-1797813752) >> 2;
+					int i_39_ = class23_sub5.readByte() >> 2;
 					int i_40_ = (0xff7 & i_35_) >> 6;
 					int i_41_ = i_31_ + i_40_;
 					int i_42_ = i_35_ & 0x3f;
@@ -481,19 +481,19 @@ public class Class23_Sub4_Sub2 extends Class23_Sub4
 								break while_5_;
 							}
 						} else {
-							anInt2914 = class23_sub5.method461(-1797813752);
+							anInt2914 = class23_sub5.readByte();
 							break while_7_;
 						}
-						anInt2926 = class23_sub5.method476((byte) -115);
+						anInt2926 = class23_sub5.readShortBE();
 						break while_7_;
 					} while (false);
-					anInt2912 = class23_sub5.method461(-1797813752);
+					anInt2912 = class23_sub5.readByte();
 					break while_7_;
 				} while (false);
-				anInt2915 = class23_sub5.method476((byte) -108);
+				anInt2915 = class23_sub5.readShortBE();
 				break while_7_;
 			} while (false);
-			anInt2918 = class23_sub5.method476((byte) -104);
+			anInt2918 = class23_sub5.readShortBE();
 		} while (false);
 		anInt2924++;
 	}

@@ -54,8 +54,8 @@ public class Class96
 	final void method1476(byte[] bs) {
 		aClass23_Sub5_1623.payload = bs;
 		aClass23_Sub5_1623.position = 10;
-		int i = aClass23_Sub5_1623.method476((byte) -118);
-		anInt1627 = aClass23_Sub5_1623.method476((byte) -125);
+		int i = aClass23_Sub5_1623.readShortBE();
+		anInt1627 = aClass23_Sub5_1623.readShortBE();
 		anInt1628 = 500000;
 		anIntArray1629 = new int[i];
 		int i_4_ = 0;
@@ -141,7 +141,7 @@ public class Class96
 	
 	private final int method1484(int i, int i_13_) {
 		if (i_13_ == 255) {
-			int i_14_ = aClass23_Sub5_1623.method461(-1797813752);
+			int i_14_ = aClass23_Sub5_1623.readByte();
 			int i_15_ = aClass23_Sub5_1623.method437(false);
 			if (i_14_ == 47) {
 				aClass23_Sub5_1623.position += i_15_;
@@ -162,10 +162,10 @@ public class Class96
 		byte b = aByteArray1622[i_13_ - 128];
 		int i_18_ = i_13_;
 		if (b >= 1) {
-			i_18_ |= aClass23_Sub5_1623.method461(-1797813752) << 8;
+			i_18_ |= aClass23_Sub5_1623.readByte() << 8;
 		}
 		if (b >= 2) {
-			i_18_ |= aClass23_Sub5_1623.method461(-1797813752) << 16;
+			i_18_ |= aClass23_Sub5_1623.readByte() << 16;
 		}
 		return i_18_;
 	}

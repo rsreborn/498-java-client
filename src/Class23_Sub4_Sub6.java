@@ -28,7 +28,7 @@ public class Class23_Sub4_Sub6 extends Class23_Sub4
 		}
 		anInt2984++;
 		if (i == 0) {
-			anInt2983 = class23_sub5.method476((byte) -128);
+			anInt2983 = class23_sub5.readShortBE();
 		}
 	}
 	

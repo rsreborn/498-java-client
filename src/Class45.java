@@ -93,7 +93,7 @@ public class Class45
 		}
 	}
 	
-	static final void method1133(int i) {
+	static final void registerNewPlayers(int i) {
 		if (i == 0) {
 			anInt681++;
 			while (Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method488(1693770787, Class23_Sub4_Sub2.anInt2925) >= 11) {

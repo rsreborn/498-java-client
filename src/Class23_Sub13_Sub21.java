@@ -23,7 +23,7 @@ public class Class23_Sub13_Sub21 extends Class23_Sub13
 	
 	private final void method826(int i, int i_0_, Buffer class23_sub5) {
 		if (i_0_ == i) {
-			anInt4189 = class23_sub5.method476((byte) -115);
+			anInt4189 = class23_sub5.readShortBE();
 		}
 		anInt4188++;
 	}
@@ -60,7 +60,7 @@ public class Class23_Sub13_Sub21 extends Class23_Sub13
 	
 	final void method829(Buffer class23_sub5, int i) {
 		for (;;) {
-			int i_1_ = class23_sub5.method461(-1797813752);
+			int i_1_ = class23_sub5.readByte();
 			if ((i_1_ ^ 0xffffffff) == -1) {
 				break;
 			}

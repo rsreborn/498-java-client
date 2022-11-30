@@ -95,24 +95,24 @@ public class Class14
 		anInt278++;
 		Buffer class23_sub5 = new Buffer(bs);
 		class23_sub5.position = bs.length - 2;
-		Class23_Sub4_Sub20.anInt3229 = class23_sub5.method476((byte) -122);
+		Class23_Sub4_Sub20.anInt3229 = class23_sub5.readShortBE();
 		Class23_Sub23.anIntArray2417 = new int[Class23_Sub4_Sub20.anInt3229];
 		Class23_Sub13_Sub2.anIntArray3679 = new int[Class23_Sub4_Sub20.anInt3229];
 		Class105.anIntArray1766 = new int[Class23_Sub4_Sub20.anInt3229];
 		Class23_Sub13_Sub23.aByteArrayArray4243 = new byte[Class23_Sub4_Sub20.anInt3229][];
 		Class79.anIntArray1875 = new int[Class23_Sub4_Sub20.anInt3229];
 		class23_sub5.position = -(8 * Class23_Sub4_Sub20.anInt3229) + -7 + bs.length;
-		Class23_Sub12.anInt2301 = class23_sub5.method476((byte) -114);
-		Class23_Sub13_Sub15.anInt4033 = class23_sub5.method476((byte) -103);
-		int i_3_ = (class23_sub5.method461(i ^ ~0x6b2875f6) & 0xff) + 1;
+		Class23_Sub12.anInt2301 = class23_sub5.readShortBE();
+		Class23_Sub13_Sub15.anInt4033 = class23_sub5.readShortBE();
+		int i_3_ = (class23_sub5.readByte() & 0xff) + 1;
 		for (int i_4_ = 0; (i_4_ ^ 0xffffffff) > (Class23_Sub4_Sub20.anInt3229 ^ 0xffffffff); i_4_++)
-			Class23_Sub23.anIntArray2417[i_4_] = class23_sub5.method476((byte) -112);
+			Class23_Sub23.anIntArray2417[i_4_] = class23_sub5.readShortBE();
 		for (int i_5_ = 0; (i_5_ ^ 0xffffffff) > (Class23_Sub4_Sub20.anInt3229 ^ 0xffffffff); i_5_++)
-			Class23_Sub13_Sub2.anIntArray3679[i_5_] = class23_sub5.method476((byte) -101);
+			Class23_Sub13_Sub2.anIntArray3679[i_5_] = class23_sub5.readShortBE();
 		for (int i_6_ = 0; (i_6_ ^ 0xffffffff) > (Class23_Sub4_Sub20.anInt3229 ^ 0xffffffff); i_6_++)
-			Class79.anIntArray1875[i_6_] = class23_sub5.method476((byte) -127);
+			Class79.anIntArray1875[i_6_] = class23_sub5.readShortBE();
 		for (int i_7_ = 0; Class23_Sub4_Sub20.anInt3229 > i_7_; i_7_++)
-			Class105.anIntArray1766[i_7_] = class23_sub5.method476((byte) -113);
+			Class105.anIntArray1766[i_7_] = class23_sub5.readShortBE();
 		class23_sub5.position = -(Class23_Sub4_Sub20.anInt3229 * 8) + (bs.length + (-7 - (i_3_ - 1) * 3));
 		Class23_Sub4_Sub1.anIntArray2890 = new int[i_3_];
 		for (int i_8_ = i; i_8_ < i_3_; i_8_++) {
@@ -128,7 +128,7 @@ public class Class14
 			int i_12_ = i_11_ * i_10_;
 			byte[] bs_13_ = new byte[i_12_];
 			Class23_Sub13_Sub23.aByteArrayArray4243[i_9_] = bs_13_;
-			int i_14_ = class23_sub5.method461(-1797813752);
+			int i_14_ = class23_sub5.readByte();
 			if ((i_14_ ^ 0xffffffff) != -1) {
 				if (i_14_ == 1) {
 					for (int i_15_ = 0; (i_15_ ^ 0xffffffff) > (i_10_ ^ 0xffffffff); i_15_++) {

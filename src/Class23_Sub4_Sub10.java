@@ -384,16 +384,16 @@ public class Class23_Sub4_Sub10 extends Class23_Sub4
 	final void method255(Buffer class23_sub5, int i, int i_21_) {
 		if (i_21_ == 1000) {
 			if (i == 0) {
-				int i_22_ = class23_sub5.method461(-1797813752);
+				int i_22_ = class23_sub5.readByte();
 				if ((i_22_ ^ 0xffffffff) != -1) {
 					method301(12399, i_22_);
 				} else {
-					anIntArrayArray3051 = new int[class23_sub5.method461(i_21_ + -1797814752)][4];
+					anIntArrayArray3051 = new int[class23_sub5.readByte()][4];
 					for (int i_23_ = 0; i_23_ < anIntArrayArray3051.length; i_23_++) {
-						anIntArrayArray3051[i_23_][0] = class23_sub5.method476((byte) -125);
-						anIntArrayArray3051[i_23_][1] = class23_sub5.method461(-1797813752) << 4;
-						anIntArrayArray3051[i_23_][2] = class23_sub5.method461(-1797813752) << 4;
-						anIntArrayArray3051[i_23_][3] = class23_sub5.method461(-1797813752) << 4;
+						anIntArrayArray3051[i_23_][0] = class23_sub5.readShortBE();
+						anIntArrayArray3051[i_23_][1] = class23_sub5.readByte() << 4;
+						anIntArrayArray3051[i_23_][2] = class23_sub5.readByte() << 4;
+						anIntArrayArray3051[i_23_][3] = class23_sub5.readByte() << 4;
 					}
 				}
 			}

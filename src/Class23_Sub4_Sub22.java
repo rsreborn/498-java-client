@@ -286,13 +286,13 @@ public class Class23_Sub4_Sub22 extends Class23_Sub4
 						break while_101_;
 					}
 				} else {
-					anInt3268 = class23_sub5.method461(-1797813752);
+					anInt3268 = class23_sub5.readByte();
 					break while_101_;
 				}
-				anInt3271 = class23_sub5.method461(-1797813752);
+				anInt3271 = class23_sub5.readByte();
 				break while_101_;
 			} while (false);
-			anInt3259 = class23_sub5.method476((byte) -123);
+			anInt3259 = class23_sub5.readShortBE();
 		} while (false);
 		anInt3265++;
 	}

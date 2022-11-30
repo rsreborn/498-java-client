@@ -48,7 +48,7 @@ public class Class23_Sub13_Sub19 extends Class23_Sub13
 		aClass105_Sub1_4118 = null;
 	}
 	
-	static final void method803(byte b) {
+	static final void parseTrackedPlayerMovement(byte b) {
 		int i = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method489((byte) 115, 8);
 		if ((Class23_Sub4_Sub11.anInt3067 ^ 0xffffffff) < (i ^ 0xffffffff)) {
 			for (int i_1_ = i; (i_1_ ^ 0xffffffff) > (Class23_Sub4_Sub11.anInt3067 ^ 0xffffffff); i_1_++)
@@ -812,24 +812,24 @@ public class Class23_Sub13_Sub19 extends Class23_Sub13
 	
 	Class23_Sub13_Sub19(Buffer class23_sub5) {
 		aClass1_4122 = new Class1(class23_sub5);
-		int i = class23_sub5.method461(-1797813752);
+		int i = class23_sub5.readByte();
 		aBoolean4106 = (i & 0x2) != 0;
 		int i_143_ = (i & 0x1f) >> 3;
 		aBoolean4129 = (i & 0x1) != 0;
-		int i_144_ = class23_sub5.method461(-1797813752);
+		int i_144_ = class23_sub5.readByte();
 		anInt4121 = 1 << 1 + (0x7 & i_144_);
 		aBoolean4108 = (i_144_ & 0x80) != 0;
 		aBoolean4134 = (i_144_ & 0x8) != 0;
-		anInt4105 = class23_sub5.method476((byte) -103);
-		anInt4119 = class23_sub5.method461(-1797813752);
+		anInt4105 = class23_sub5.readShortBE();
+		anInt4119 = class23_sub5.readByte();
 		if (anInt4119 == 255) {
 			anInt4119 = 256;
 		}
 		anInt4133 = class23_sub5.method452(-16933672);
 		anInt4107 = class23_sub5.method452(-16933672);
-		class23_sub5.method461(-1797813752);
-		class23_sub5.method461(-1797813752);
-		class23_sub5.method461(-1797813752);
+		class23_sub5.readByte();
+		class23_sub5.readByte();
+		class23_sub5.readByte();
 	}
 	
 	Class23_Sub13_Sub19() {

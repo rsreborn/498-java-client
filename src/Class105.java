@@ -411,7 +411,7 @@ abstract class Class105
 		anInt1762++;
 		anInt1799 = Class23_Sub27.method912(bs.length, bs, 25);
 		Buffer class23_sub5 = new Buffer(Class69.method1258(b ^ ~0x61, bs));
-		int i = class23_sub5.method461(-1797813752);
+		int i = class23_sub5.readByte();
 		if (i != 5 && i != 6) {
 			throw new RuntimeException("Incorrect JS5 protocol number: " + i);
 		}
@@ -419,12 +419,12 @@ abstract class Class105
 			class23_sub5.method472(b ^ ~0x64);
 		}
 		int i_25_ = 0;
-		int i_26_ = class23_sub5.method461(-1797813752);
+		int i_26_ = class23_sub5.readByte();
 		int i_27_ = -1;
-		anInt1759 = class23_sub5.method476((byte) -122);
+		anInt1759 = class23_sub5.readShortBE();
 		anIntArray1758 = new int[anInt1759];
 		for (int i_28_ = 0; anInt1759 > i_28_; i_28_++) {
-			anIntArray1758[i_28_] = i_25_ += class23_sub5.method476((byte) -113);
+			anIntArray1758[i_28_] = i_25_ += class23_sub5.readShortBE();
 			if (i_27_ < anIntArray1758[i_28_]) {
 				i_27_ = anIntArray1758[i_28_];
 			}
@@ -452,7 +452,7 @@ abstract class Class105
 			method1551((byte) 74, null);
 		}
 		for (int i_33_ = 0; anInt1759 > i_33_; i_33_++)
-			anIntArray1754[anIntArray1758[i_33_]] = class23_sub5.method476((byte) -98);
+			anIntArray1754[anIntArray1758[i_33_]] = class23_sub5.readShortBE();
 		for (int i_34_ = 0; (i_34_ ^ 0xffffffff) > (anInt1759 ^ 0xffffffff); i_34_++) {
 			i_25_ = 0;
 			int i_35_ = anIntArray1758[i_34_];
@@ -460,7 +460,7 @@ abstract class Class105
 			int i_37_ = -1;
 			anIntArrayArray1780[i_35_] = new int[i_36_];
 			for (int i_38_ = 0; i_36_ > i_38_; i_38_++) {
-				int i_39_ = anIntArrayArray1780[i_35_][i_38_] = i_25_ += class23_sub5.method476((byte) -123);
+				int i_39_ = anIntArrayArray1780[i_35_][i_38_] = i_25_ += class23_sub5.readShortBE();
 				if ((i_39_ ^ 0xffffffff) < (i_37_ ^ 0xffffffff)) {
 					i_37_ = i_39_;
 				}

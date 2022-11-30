@@ -316,7 +316,7 @@ public class Class90
 	
 	Class90(Buffer class23_sub5) {
 		aByte1544 = class23_sub5.method452(-16933672);
-		anInt1528 = class23_sub5.method476((byte) -103);
+		anInt1528 = class23_sub5.readShortBE();
 		anInt1537 = class23_sub5.method472(-6);
 		anInt1547 = class23_sub5.method472(-15);
 		anInt1531 = class23_sub5.method472(-85);

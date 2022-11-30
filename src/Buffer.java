@@ -17,7 +17,6 @@ class Buffer extends Class23
 	static int anInt2134;
 	static int anInt2135;
 	static int anInt2136;
-	static int anInt2137;
 	static int anInt2138;
 	static int anInt2139;
 	static int anInt2140;
@@ -33,7 +32,6 @@ class Buffer extends Class23
 	static int anInt2150;
 	static int anInt2151;
 	static int anInt2152;
-	static int anInt2153;
 	static int anInt2154;
 	static int anInt2155;
 	static int anInt2156;
@@ -58,14 +56,10 @@ class Buffer extends Class23
 	static int anInt2175;
 	static int anInt2176;
 	static int anInt2177;
-	static int anInt2178;
 	static int anInt2179;
 	static int anInt2180;
 	static int anInt2181;
-	static int anInt2182;
 	static int anInt2183;
-	static int anInt2184;
-	static int anInt2185;
 	protected int position;
 	static int anInt2187;
 	static int anInt2188;
@@ -140,9 +134,9 @@ class Buffer extends Class23
 		}
 		int i = 0xff & payload[position];
 		if (i >= 128) {
-			return -32768 + method476((byte) -127);
+			return -32768 + readShortBE();
 		}
-		return method461(-1797813752);
+		return readByte();
 	}
 	
 	final byte method433(int i) {
@@ -195,9 +189,9 @@ class Buffer extends Class23
 		return i_7_ | i;
 	}
 	
-	final void method438(int i, int i_8_, byte[] bs, int i_9_) {
+	final void method438(int i, int i_8_, byte[] bs, int i_9_) { //writeBytes
 		if (i_8_ >= 10) {
-			for (int i_10_ = i; (i_10_ ^ 0xffffffff) > (i + i_9_ ^ 0xffffffff); i_10_++)
+			for (int i_10_ = i; i + i_9_ > i_10_; i_10_++)
 				payload[position++] = bs[i_10_];
 			anInt2176++;
 		}
@@ -222,11 +216,12 @@ class Buffer extends Class23
 		return (byte) (-payload[position++] + 128);
 	}
 	
-	final int method441(int i) {
-		anInt2185++;
-		int i_11_ = -90 % ((54 - i) / 46);
+	final int readIntLE() {
 		position += 4;
-		return (payload[-4 + position] & 0xff) + ((payload[-2 + position] & 0xff) << 16) + (((0xff & payload[position + -1]) << 24) - -(0xff00 & payload[position + -3] << 8));
+		return (payload[-4 + position] & 0xff) +
+				((payload[-2 + position] & 0xff) << 16) +
+				(((0xff & payload[position + -1]) << 24) +
+						(0xff00 & payload[position + -3] << 8));
 	}
 	
 	final int method442(int i) {
@@ -324,16 +319,6 @@ class Buffer extends Class23
 		return l;
 	}
 	
-	final void method450(int i, byte[] bs, int i_17_, int i_18_) {
-		int i_19_ = i_18_;
-		if (i_17_ < 71) {
-			method430(-89, 58);
-		}
-		for (/**/; (i_19_ ^ 0xffffffff) > (i + i_18_ ^ 0xffffffff); i_19_++)
-			bs[i_19_] = payload[position++];
-		anInt2137++;
-	}
-	
 	final RSString method451(byte b) {
 		anInt2152++;
 		int i = 10 % ((-52 - b) / 61);
@@ -400,7 +385,7 @@ class Buffer extends Class23
 	final int method458(int i) {
 		anInt2155++;
 		if (i <= 123) {
-			method461(-82);
+			readByte();
 		}
 		return 0xff & -payload[position++] + 128;
 	}
@@ -412,9 +397,9 @@ class Buffer extends Class23
 			return 56;
 		}
 		if (i < 128) {
-			return method461(-1797813752) - 64;
+			return readByte() - 64;
 		}
-		return method476((byte) -119) - 49152;
+		return readShortBE() - 49152;
 	}
 	
 	final void method460(byte b, int i) {
@@ -425,11 +410,7 @@ class Buffer extends Class23
 		}
 	}
 	
-	final int method461(int i) {
-		anInt2153++;
-		if (i != -1797813752) {
-			return -42;
-		}
+	final int readByte() {
 		return payload[position++] & 0xff;
 	}
 	
@@ -438,7 +419,7 @@ class Buffer extends Class23
 		int i_24_ = position;
 		position = 0;
 		byte[] bs = new byte[i_24_];
-		method450(i_24_, bs, 87, 0);
+		readBytes(bs, 0, i_24_);
 		BigInteger biginteger_25_ = new BigInteger(bs);
 		BigInteger biginteger_26_ = biginteger_25_.modPow(biginteger, biginteger_23_);
 		byte[] bs_27_ = biginteger_26_.toByteArray();
@@ -457,13 +438,15 @@ class Buffer extends Class23
 		int i_29_ = -63 % ((14 - i) / 45);
 	}
 	
-	final void method464(int i, byte[] bs, int i_30_, int i_31_) {
-		anInt2184++;
-		if (i_30_ != -32083) {
-			method482((byte) 42, 35);
-		}
-		for (int i_32_ = i; i_32_ < i_31_ + i; i_32_++)
-			bs[i_32_] = (byte) (payload[position++] - 128);
+	final void readBytesA(byte[] data, int offset, int length) {
+		for (int i = offset; i < length + offset; i++)
+			data[i] = (byte) (payload[position++] - 128);
+	}
+
+	final void readBytes(byte[] data, int offset, int length) {
+		int i = offset;
+		for (/**/; length + offset > i; i++)
+			data[i] = payload[position++];
 	}
 	
 	final int method465(byte b) {
@@ -606,12 +589,8 @@ class Buffer extends Class23
 		return (payload[position - 2] & 0xff) + (((0xff & payload[position - 3]) << 16) + (0xff00 & payload[-1 + position] << 8));
 	}
 	
-	final int method476(byte b) {
-		if (b > -97) {
-			method466(-123, 83);
-		}
+	final int readShortBE() {
 		position += 2;
-		anInt2178++;
 		return (0xff & payload[position - 1]) + (payload[-2 + position] << 8 & 0xff00);
 	}
 	
@@ -644,7 +623,7 @@ class Buffer extends Class23
 		}
 		anInt2148++;
 		if (i_49_ != 128) {
-			method483(78);
+			readIntME2();
 		}
 		method460((byte) 124, i & 0x7f);
 	}
@@ -684,13 +663,12 @@ class Buffer extends Class23
 		payload = bs;
 	}
 	
-	final int method483(int i) {
-		anInt2182++;
-		if (i < 23) {
-			payload = null;
-		}
+	final int readIntME2() {
 		position += 4;
-		return (payload[-3 + position] & 0xff) + ((payload[position + -4] & 0xff) << 8) + (((payload[position + -2] & 0xff) << 24) + (payload[position - 1] << 16 & 0xff0000));
+		return (payload[position - 3] & 0xff) +
+				((payload[position - 4] & 0xff) << 8) +
+				(((payload[position - 2] & 0xff) << 24) +
+						(payload[position - 1] << 16 & 0xff0000));
 	}
 	
 	static {

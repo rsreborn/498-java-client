@@ -309,7 +309,7 @@ public class Class23_Sub4_Sub24 extends Class23_Sub4
 	
 	final void method255(Buffer class23_sub5, int i, int i_77_) {
 		if (i == 0) {
-			aBoolean2117 = class23_sub5.method461(-1797813752) == 1;
+			aBoolean2117 = class23_sub5.readByte() == 1;
 		}
 		anInt3292++;
 		if (i_77_ != 1000) {

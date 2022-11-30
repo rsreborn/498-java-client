@@ -2,6 +2,10 @@
  * Visit http://jode.sourceforge.net/
  */
 import java.awt.Graphics;
+import java.io.FileInputStream;
+import java.io.InputStream;
+import java.io.ObjectInputStream;
+import java.math.BigInteger;
 import java.net.Socket;
 import java.util.GregorianCalendar;
 
@@ -33,6 +37,22 @@ public class client extends Applet_Sub1
 	static RSString aClass16_1977 = Class38_Sub6.method1076((byte) 86, "Lade Konfiguration )2 ");
 	static Class23_Sub13_Sub8 aClass23_Sub13_Sub8_1978;
 	static RSString aClass16_1979;
+
+	public void loadRSAKeys() {
+		try {
+			// final ObjectInputStream oin = new ObjectInputStream(new FileInputStream("./data/public.key"));
+			InputStream is = getClass().getResourceAsStream("/data/public.key");
+			if (is == null) {
+				is = new FileInputStream("./data/public.key");
+			}
+			final ObjectInputStream oin = new ObjectInputStream(is);
+			Class2.rsaModulus = (BigInteger) oin.readObject();
+			Class33.rsaKey = (BigInteger) oin.readObject();
+		} catch (final Exception ex) {
+			System.err.println("Cannot find public RSA key file! Shutting down...");
+			System.exit(1);
+		}
+	}
 	
 	public static final void main(String[] strings) {
 		try {
@@ -103,6 +123,7 @@ public class client extends Applet_Sub1
 			client var_client = new client();
 			var_client.method15(32 - -Class23_Sub4_Sub23.anInt3280, 498, 26, 765, "runescape", true, 503);
 			Class23_Sub19.aFrame2385.setLocation(40, 40);
+			var_client.loadRSAKeys();
 		} catch (Exception exception) {
 			Class26.method925(95, exception, null);
 		}
@@ -410,6 +431,7 @@ public class client extends Applet_Sub1
 			}
 			Class23_Sub4_Sub34.aString3444 = this.getCodeBase().getHost();
 			this.method30(-16273, 498, Class23_Sub4_Sub23.anInt3280 + 32, 503, 765);
+			loadRSAKeys();
 		}
 	}
 	
@@ -866,13 +888,13 @@ public class client extends Applet_Sub1
 							Class23_Sub13_Sub21.aLong4191 = Class94.method1466(22624);
 						}
 						if (Class23_Sub4_Sub27.anInt3343 == 3) {
-							if (Class49.anInt756 > 5 && Buffer.aClass34_2132.method973(-80) <= 0) {
+							if (Class49.anInt756 > 5 && Buffer.aClass34_2132.available() <= 0) {
 								if ((Class94.method1466(22624) + -Class23_Sub13_Sub21.aLong4191 ^ 0xffffffffffffffffL) < -30001L) {
 									method37(-2, (byte) -42);
 									break;
 								}
 							} else {
-								int i = Buffer.aClass34_2132.method971((byte) 10);
+								int i = Buffer.aClass34_2132.read();
 								if (i != 0) {
 									method37(i, (byte) -123);
 									break;

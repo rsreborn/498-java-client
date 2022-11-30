@@ -83,8 +83,8 @@ public class Class23_Sub18 extends Class23
 	
 	private Class23_Sub18(Buffer class23_sub5) {
 		class23_sub5.position = class23_sub5.payload.length - 3;
-		int i = class23_sub5.method461(-1797813752);
-		int i_16_ = class23_sub5.method476((byte) -116);
+		int i = class23_sub5.readByte();
+		int i_16_ = class23_sub5.readShortBE();
 		int i_17_ = 14 + i * 10;
 		class23_sub5.position = 0;
 		int i_18_ = 0;
@@ -99,7 +99,7 @@ public class Class23_Sub18 extends Class23
 		for (int i_26_ = 0; i_26_ < i; i_26_++) {
 			int i_27_ = -1;
 			for (;;) {
-				int i_28_ = class23_sub5.method461(-1797813752);
+				int i_28_ = class23_sub5.readByte();
 				if (i_28_ != i_27_) {
 					i_17_++;
 				}
@@ -153,7 +153,7 @@ public class Class23_Sub18 extends Class23
 		int i_44_ = 0;
 		int i_45_ = 0;
 		for (int i_46_ = 0; i_46_ < i_19_; i_46_++) {
-			i_45_ = i_45_ + class23_sub5.method461(-1797813752) & 0x7f;
+			i_45_ = i_45_ + class23_sub5.readByte() & 0x7f;
 			if (i_45_ == 0 || i_45_ == 32) {
 				i_25_++;
 			} else if (i_45_ == 1) {

@@ -122,7 +122,7 @@ public class Class23_Sub4_Sub20 extends Class23_Sub4
 		}
 		int i_15_ = i;
 		if ((i_15_ ^ 0xffffffff) == -1) {
-			anInt3239 = (class23_sub5.method461(-1797813752) << 12) / 255;
+			anInt3239 = (class23_sub5.readByte() << 12) / 255;
 		}
 		anInt3233++;
 	}

@@ -36,7 +36,7 @@ public class Class93
 		aClass41_1589.method1111(class23_sub5);
 		aClass41_1580 = new Class41();
 		aClass41_1580.method1111(class23_sub5);
-		int i = class23_sub5.method461(-1797813752);
+		int i = class23_sub5.readByte();
 		if (i != 0) {
 			class23_sub5.position--;
 			aClass41_1586 = new Class41();
@@ -44,7 +44,7 @@ public class Class93
 			aClass41_1577 = new Class41();
 			aClass41_1577.method1111(class23_sub5);
 		}
-		i = class23_sub5.method461(-1797813752);
+		i = class23_sub5.readByte();
 		if (i != 0) {
 			class23_sub5.position--;
 			aClass41_1592 = new Class41();
@@ -52,7 +52,7 @@ public class Class93
 			aClass41_1575 = new Class41();
 			aClass41_1575.method1111(class23_sub5);
 		}
-		i = class23_sub5.method461(-1797813752);
+		i = class23_sub5.readByte();
 		if (i != 0) {
 			class23_sub5.position--;
 			aClass41_1574 = new Class41();
@@ -71,8 +71,8 @@ public class Class93
 		}
 		anInt1588 = class23_sub5.method432((byte) 40);
 		anInt1590 = class23_sub5.method432((byte) 113);
-		anInt1591 = class23_sub5.method476((byte) -127);
-		anInt1583 = class23_sub5.method476((byte) -98);
+		anInt1591 = class23_sub5.readShortBE();
+		anInt1583 = class23_sub5.readShortBE();
 		aClass12_1581 = new Class12();
 		aClass41_1584 = new Class41();
 		aClass12_1581.method117(class23_sub5, aClass41_1584);

@@ -174,7 +174,7 @@ public class Class23_Sub4_Sub26 extends Class23_Sub4
 		if (i_26_ == 1000) {
 			anInt3322++;
 			if (i == 0) {
-				aBoolean2117 = class23_sub5.method461(-1797813752) == 1;
+				aBoolean2117 = class23_sub5.readByte() == 1;
 			}
 		}
 	}

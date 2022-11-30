@@ -26,7 +26,7 @@ class Class23_Sub4_Sub23 extends Class23_Sub4
 	
 	final void method255(Buffer class23_sub5, int i, int i_0_) {
 		if (i == 0) {
-			anInt3274 = class23_sub5.method476((byte) -101);
+			anInt3274 = class23_sub5.readShortBE();
 		}
 		if (i_0_ == 1000) {
 			anInt3290++;

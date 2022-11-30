@@ -7,7 +7,7 @@ public class Class2
 {
 	static int anInt68;
 	static int anInt69;
-	static BigInteger aBigInteger70 = new BigInteger("7162900525229798032761816791230527296329313291232324290237849263501208207972894053929065636522363163621000728841182238772712427862772219676577293600221789");
+	static BigInteger rsaModulus = new BigInteger("7162900525229798032761816791230527296329313291232324290237849263501208207972894053929065636522363163621000728841182238772712427862772219676577293600221789");
 	static int anInt71;
 	static int anInt72;
 	static RSString aClass16_73;
@@ -36,7 +36,7 @@ public class Class2
 		aClass16_84 = null;
 		aClass16_78 = null;
 		aClass16_80 = null;
-		aBigInteger70 = null;
+		rsaModulus = null;
 	}
 	
 	static final void method49(int i, int i_0_, boolean bool, Class64 class64, int i_1_) {
@@ -156,7 +156,7 @@ public class Class2
 		anInt71++;
 		int i_31_ = -115 / ((10 - i_30_) / 40);
 		Class23_Sub27 class23_sub27 = new Class23_Sub27();
-		class23_sub27.anInt2486 = class23_sub5.method461(-1797813752);
+		class23_sub27.anInt2486 = class23_sub5.readByte();
 		class23_sub27.anInt2478 = class23_sub5.method472(-48);
 		class23_sub27.aClass60Array2477 = new Class60[class23_sub27.anInt2486];
 		class23_sub27.aByteArrayArrayArray2476 = new byte[class23_sub27.anInt2486][][];
@@ -166,12 +166,12 @@ public class Class2
 		class23_sub27.anIntArray2480 = new int[class23_sub27.anInt2486];
 		for (int i_32_ = 0; (class23_sub27.anInt2486 ^ 0xffffffff) < (i_32_ ^ 0xffffffff); i_32_++) {
 			try {
-				int i_33_ = class23_sub5.method461(-1797813752);
+				int i_33_ = class23_sub5.readByte();
 				if ((i_33_ ^ 0xffffffff) != -1 && i_33_ != 1 && i_33_ != 2) {
 					if (i_33_ == 3 || i_33_ == 4) {
 						String string = new String(class23_sub5.method426(2).method147(true));
 						String string_34_ = new String(class23_sub5.method426(2).method147(true));
-						int i_35_ = class23_sub5.method461(-1797813752);
+						int i_35_ = class23_sub5.readByte();
 						String[] strings = new String[i_35_];
 						for (int i_36_ = 0; i_35_ > i_36_; i_36_++)
 							strings[i_36_] = new String(class23_sub5.method426(2).method147(true));
@@ -180,7 +180,7 @@ public class Class2
 							for (int i_37_ = 0; i_35_ > i_37_; i_37_++) {
 								int i_38_ = class23_sub5.method472(-25);
 								bs[i_37_] = new byte[i_38_];
-								class23_sub5.method450(i_38_, bs[i_37_], 96, 0);
+								class23_sub5.readBytes(bs[i_37_], 0, i_38_);
 							}
 						}
 						class23_sub27.anIntArray2485[i_32_] = i_33_;

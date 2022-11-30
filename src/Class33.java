@@ -15,7 +15,7 @@ public class Class33 implements Runnable
 	volatile boolean aBoolean517;
 	static RSString aClass16_518 = Class38_Sub6.method1076((byte) 86, "Bitte warten Sie )2 es wird versucht)1 die Verbindung wiederherzustellen)3");
 	static RSString aClass16_519 = Class38_Sub6.method1076((byte) 86, "<img=0>");
-	static BigInteger aBigInteger520;
+	static BigInteger rsaKey;
 	static int anInt521;
 	static RSString aClass16_522 = Class38_Sub6.method1076((byte) 86, "p12_full");
 	
@@ -64,7 +64,7 @@ public class Class33 implements Runnable
 			aClass5_516 = null;
 		}
 		aClass16_519 = null;
-		aBigInteger520 = null;
+		rsaKey = null;
 		aClass5_516 = null;
 		aClass16_518 = null;
 		aClass16_522 = null;
@@ -97,6 +97,6 @@ public class Class33 implements Runnable
 	}
 	
 	static {
-		aBigInteger520 = new BigInteger("58778699976184461502525193738213253649000149147835990136706041084440742975821");
+		rsaKey = new BigInteger("58778699976184461502525193738213253649000149147835990136706041084440742975821");
 	}
 }

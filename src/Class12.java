@@ -75,24 +75,24 @@ public class Class12
 	}
 	
 	final void method117(Buffer class23_sub5, Class41 class41) {
-		int i = class23_sub5.method461(-1797813752);
+		int i = class23_sub5.readByte();
 		anIntArray236[0] = i >> 4;
 		anIntArray236[1] = i & 0xf;
 		if (i != 0) {
-			anIntArray238[0] = class23_sub5.method476((byte) -118);
-			anIntArray238[1] = class23_sub5.method476((byte) -99);
-			int i_13_ = class23_sub5.method461(-1797813752);
+			anIntArray238[0] = class23_sub5.readShortBE();
+			anIntArray238[1] = class23_sub5.readShortBE();
+			int i_13_ = class23_sub5.readByte();
 			for (int i_14_ = 0; i_14_ < 2; i_14_++) {
 				for (int i_15_ = 0; i_15_ < anIntArray236[i_14_]; i_15_++) {
-					anIntArrayArrayArray235[i_14_][0][i_15_] = class23_sub5.method476((byte) -114);
-					anIntArrayArrayArray232[i_14_][0][i_15_] = class23_sub5.method476((byte) -105);
+					anIntArrayArrayArray235[i_14_][0][i_15_] = class23_sub5.readShortBE();
+					anIntArrayArrayArray232[i_14_][0][i_15_] = class23_sub5.readShortBE();
 				}
 			}
 			for (int i_16_ = 0; i_16_ < 2; i_16_++) {
 				for (int i_17_ = 0; i_17_ < anIntArray236[i_16_]; i_17_++) {
 					if ((i_13_ & 1 << i_16_ * 4 << i_17_) != 0) {
-						anIntArrayArrayArray235[i_16_][1][i_17_] = class23_sub5.method476((byte) -118);
-						anIntArrayArrayArray232[i_16_][1][i_17_] = class23_sub5.method476((byte) -102);
+						anIntArrayArrayArray235[i_16_][1][i_17_] = class23_sub5.readShortBE();
+						anIntArrayArrayArray232[i_16_][1][i_17_] = class23_sub5.readShortBE();
 					} else {
 						anIntArrayArrayArray235[i_16_][1][i_17_] = anIntArrayArrayArray235[i_16_][0][i_17_];
 						anIntArrayArrayArray232[i_16_][1][i_17_] = anIntArrayArrayArray232[i_16_][0][i_17_];

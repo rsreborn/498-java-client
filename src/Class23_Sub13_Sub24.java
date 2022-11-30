@@ -109,10 +109,10 @@ public class Class23_Sub13_Sub24 extends Class23_Sub13
 			method849(anInt4274, (byte) 29);
 		} else if (i != 2) {
 			if (i == 3) {
-				class23_sub5.method476((byte) -103);
+				class23_sub5.readShortBE();
 			}
 		} else {
-			anInt4272 = class23_sub5.method476((byte) -115);
+			anInt4272 = class23_sub5.readShortBE();
 			if (anInt4272 == 65535) {
 				anInt4272 = -1;
 			}
@@ -127,7 +127,7 @@ public class Class23_Sub13_Sub24 extends Class23_Sub13
 			method848((byte) 99);
 		}
 		for (;;) {
-			int i_10_ = class23_sub5.method461(i_9_ ^ 0x6b2801fa);
+			int i_10_ = class23_sub5.readByte();
 			if (i_10_ == 0) {
 				break;
 			}

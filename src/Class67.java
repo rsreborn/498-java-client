@@ -29,7 +29,7 @@ public class Class67
 		return class23_sub1.aClass69_2034;
 	}
 	
-	static final void method1243(int i) {
+	static final void parseTrackedPlayerUpdateMasks(int i) {
 		int i_2_ = 0;
 		if (i < 116) {
 			aClass16_1184 = null;
@@ -37,11 +37,11 @@ public class Class67
 		for (/**/; (Class23_Sub2.anInt2048 ^ 0xffffffff) < (i_2_ ^ 0xffffffff); i_2_++) {
 			int i_3_ = Class94.anIntArray1603[i_2_];
 			Class38_Sub7_Sub2 class38_sub7_sub2 = Class23_Sub4_Sub2.aClass38_Sub7_Sub2Array2932[i_3_];
-			int i_4_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method461(-1797813752);
+			int i_4_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.readByte();
 			if ((i_4_ & 0x8) != 0) {
-				i_4_ += Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method461(-1797813752) << 8;
+				i_4_ += Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.readByte() << 8;
 			}
-			Class58.method1192(true, i_3_, class38_sub7_sub2, i_4_);
+			Class58.parsePlayerSyncMasks(true, i_3_, class38_sub7_sub2, i_4_);
 		}
 		anInt1175++;
 	}

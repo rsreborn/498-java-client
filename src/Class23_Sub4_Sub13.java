@@ -94,31 +94,31 @@ public class Class23_Sub4_Sub13 extends Class23_Sub4
 												break while_34_;
 											}
 										} else {
-											anInt3117 = class23_sub5.method461(-1797813752);
+											anInt3117 = class23_sub5.readByte();
 											break while_40_;
 										}
-										anInt3109 = class23_sub5.method476((byte) -102);
+										anInt3109 = class23_sub5.readShortBE();
 										break while_40_;
 									} while (false);
-									anInt3101 = class23_sub5.method476((byte) -98);
+									anInt3101 = class23_sub5.readShortBE();
 									break while_40_;
 								} while (false);
-								anInt3111 = class23_sub5.method476((byte) -128);
+								anInt3111 = class23_sub5.readShortBE();
 								break while_40_;
 							} while (false);
-							anInt3100 = class23_sub5.method476((byte) -98);
+							anInt3100 = class23_sub5.readShortBE();
 							break while_40_;
 						} while (false);
-						anInt3110 = class23_sub5.method476((byte) -119);
+						anInt3110 = class23_sub5.readShortBE();
 						break while_40_;
 					} while (false);
-					anInt3096 = class23_sub5.method461(i_0_ + -1797814752);
+					anInt3096 = class23_sub5.readByte();
 					break while_40_;
 				} while (false);
-				anInt3103 = class23_sub5.method476((byte) -114);
+				anInt3103 = class23_sub5.readShortBE();
 				break while_40_;
 			} while (false);
-			anInt3104 = class23_sub5.method476((byte) -125);
+			anInt3104 = class23_sub5.readShortBE();
 		} while (false);
 		if (i_0_ != 1000) {
 			anInt3117 = -28;
@@ -126,7 +126,7 @@ public class Class23_Sub4_Sub13 extends Class23_Sub4
 		anInt3095++;
 	}
 	
-	static final void method316(int i) {
+	static final void parsePlayerMovement(int i) {
 		Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method487(i ^ i);
 		int i_2_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method489((byte) 113, 1);
 		anInt3105++;

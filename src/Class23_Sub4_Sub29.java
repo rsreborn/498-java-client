@@ -158,11 +158,11 @@ public class Class23_Sub4_Sub29 extends Class23_Sub4
 	final void method255(Buffer class23_sub5, int i, int i_14_) {
 		anInt3371++;
 		if ((i ^ 0xffffffff) == -1) {
-			anInt3370 = class23_sub5.method461(-1797813752);
-			anIntArrayArray3356 = new int[class23_sub5.method461(i_14_ ^ ~0x6b28761f)][2];
+			anInt3370 = class23_sub5.readByte();
+			anIntArrayArray3356 = new int[class23_sub5.readByte()][2];
 			for (int i_15_ = 0; i_15_ < anIntArrayArray3356.length; i_15_++) {
-				anIntArrayArray3356[i_15_][0] = class23_sub5.method476((byte) -109);
-				anIntArrayArray3356[i_15_][1] = class23_sub5.method476((byte) -98);
+				anIntArrayArray3356[i_15_][0] = class23_sub5.readShortBE();
+				anIntArrayArray3356[i_15_][1] = class23_sub5.readShortBE();
 			}
 		}
 		if (i_14_ != 1000) {

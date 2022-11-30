@@ -45,7 +45,7 @@ public class Class79 implements Interface2
 	static final Class42 method1359(Buffer class23_sub5, byte b) {
 		anInt1879++;
 		Class42 class42 = new Class42();
-		class42.anInt645 = class23_sub5.method476((byte) -115);
+		class42.anInt645 = class23_sub5.readShortBE();
 		if (b <= 8) {
 			method1359(null, (byte) -29);
 		}
