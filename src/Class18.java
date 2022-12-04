@@ -78,15 +78,15 @@ public class Class18
 	private Class18(Buffer class23_sub5) {
 		aClass93Array319 = new Class93[10];
 		for (int i = 0; i < 10; i++) {
-			int i_10_ = class23_sub5.readByte();
+			int i_10_ = class23_sub5.readUByte();
 			if (i_10_ != 0) {
-				class23_sub5.position--;
+				class23_sub5.pos--;
 				aClass93Array319[i] = new Class93();
 				aClass93Array319[i].method1461(class23_sub5);
 			}
 		}
-		anInt320 = class23_sub5.readShortBE();
-		anInt318 = class23_sub5.readShortBE();
+		anInt320 = class23_sub5.getUShortBE();
+		anInt318 = class23_sub5.getUShortBE();
 	}
 	
 	private Class18() {

@@ -75,8 +75,8 @@ public class Class23_Sub4_Sub26 extends Class23_Sub4
 				if (i_5_ >= 0 && i_5_ < 104 && (i_6_ ^ 0xffffffff) <= -1 && i_6_ < 104) {
 					if (class38_sub7_sub2.aClass38_Sub1_4402 != null && Class89.anInt1511 >= class38_sub7_sub2.anInt4380 && (class38_sub7_sub2.anInt4411 ^ 0xffffffff) < (Class89.anInt1511 ^ 0xffffffff)) {
 						class38_sub7_sub2.aBoolean4384 = false;
-						class38_sub7_sub2.anInt2656 = Class23_Sub4_Sub22.method359(Class23_Sub13_Sub11.anInt3916, class38_sub7_sub2.anInt2674, class38_sub7_sub2.anInt2659, (byte) -54);
-						Class23_Sub13_Sub6.method631(Class23_Sub13_Sub11.anInt3916, class38_sub7_sub2.anInt2674, class38_sub7_sub2.anInt2659, class38_sub7_sub2.anInt2656, class38_sub7_sub2, class38_sub7_sub2.anInt2680, l, class38_sub7_sub2.anInt4387, class38_sub7_sub2.anInt4391, class38_sub7_sub2.anInt4390, class38_sub7_sub2.anInt4396);
+						class38_sub7_sub2.anInt2656 = Class23_Sub4_Sub22.method359(ItemDefinition.anInt3916, class38_sub7_sub2.anInt2674, class38_sub7_sub2.anInt2659, (byte) -54);
+						Class23_Sub13_Sub6.method631(ItemDefinition.anInt3916, class38_sub7_sub2.anInt2674, class38_sub7_sub2.anInt2659, class38_sub7_sub2.anInt2656, class38_sub7_sub2, class38_sub7_sub2.anInt2680, l, class38_sub7_sub2.anInt4387, class38_sub7_sub2.anInt4391, class38_sub7_sub2.anInt4390, class38_sub7_sub2.anInt4396);
 					} else {
 						if ((class38_sub7_sub2.anInt2674 & 0x7f) == 64 && (class38_sub7_sub2.anInt2659 & 0x7f) == 64) {
 							if (Class23_Sub13_Sub26.anInt4297 == Class38_Sub7_Sub1.anIntArrayArray4367[i_5_][i_6_]) {
@@ -84,8 +84,8 @@ public class Class23_Sub4_Sub26 extends Class23_Sub4
 							}
 							Class38_Sub7_Sub1.anIntArrayArray4367[i_5_][i_6_] = Class23_Sub13_Sub26.anInt4297;
 						}
-						class38_sub7_sub2.anInt2656 = Class23_Sub4_Sub22.method359(Class23_Sub13_Sub11.anInt3916, class38_sub7_sub2.anInt2674, class38_sub7_sub2.anInt2659, (byte) 85);
-						Class38.method993(Class23_Sub13_Sub11.anInt3916, class38_sub7_sub2.anInt2674, class38_sub7_sub2.anInt2659, class38_sub7_sub2.anInt2656, 60, class38_sub7_sub2, class38_sub7_sub2.anInt2680, l, class38_sub7_sub2.aBoolean2645);
+						class38_sub7_sub2.anInt2656 = Class23_Sub4_Sub22.method359(ItemDefinition.anInt3916, class38_sub7_sub2.anInt2674, class38_sub7_sub2.anInt2659, (byte) 85);
+						Class38.method993(ItemDefinition.anInt3916, class38_sub7_sub2.anInt2674, class38_sub7_sub2.anInt2659, class38_sub7_sub2.anInt2656, 60, class38_sub7_sub2, class38_sub7_sub2.anInt2680, l, class38_sub7_sub2.aBoolean2645);
 					}
 				}
 			}
@@ -174,7 +174,7 @@ public class Class23_Sub4_Sub26 extends Class23_Sub4
 		if (i_26_ == 1000) {
 			anInt3322++;
 			if (i == 0) {
-				aBoolean2117 = class23_sub5.readByte() == 1;
+				aBoolean2117 = class23_sub5.readUByte() == 1;
 			}
 		}
 	}

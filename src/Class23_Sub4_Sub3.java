@@ -150,10 +150,10 @@ public class Class23_Sub4_Sub3 extends Class23_Sub4
 					break;
 				}
 			} else {
-				anInt2945 = class23_sub5.readShortBE() << 4;
+				anInt2945 = class23_sub5.getUShortBE() << 4;
 				break;
 			}
-			aBoolean2117 = class23_sub5.readByte() == 1;
+			aBoolean2117 = class23_sub5.readUByte() == 1;
 		} while (false);
 		if (i_33_ != 1000) {
 			method260(98, 115);
@@ -166,7 +166,7 @@ public class Class23_Sub4_Sub3 extends Class23_Sub4
 		anInt2935++;
 		int i = 0;
 		for (int i_35_ = 0; (Class30.anInt477 ^ 0xffffffff) < (i_35_ ^ 0xffffffff); i_35_++) {
-			Class23_Sub13_Sub11 class23_sub13_sub11 = Class23_Sub13_Sub24.method853(-25, i_35_);
+			ItemDefinition class23_sub13_sub11 = Class23_Sub13_Sub24.method853(-25, i_35_);
 			if ((class23_sub13_sub11.anInt3931 ^ 0xffffffff) <= -1 || class23_sub13_sub11.anInt3939 >= 0) {
 				is[i++] = i_35_;
 			}

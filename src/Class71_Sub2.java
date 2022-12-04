@@ -7,7 +7,7 @@ class Class71_Sub2 extends Class71
 	static int anInt2733;
 	static int anInt2734;
 	static RSString aClass16_2735 = Class38_Sub6.method1076((byte) 86, "<br>(X");
-	static boolean aBoolean2736 = false;
+	static boolean isWorldListReady = false;
 	static int anInt2737;
 	static RSString aClass16_2738 = Class38_Sub6.method1076((byte) 86, "blinken1:");
 	static Class43[] aClass43Array2739;
@@ -45,7 +45,7 @@ class Class71_Sub2 extends Class71
 			int[] is = Class20.anIntArray328;
 			int i_8_ = 0x7fffffff & (int) (l >>> 32);
 			int i_9_ = 4 * (-i_2_ + 103) * 512 + (24624 - -(4 * i));
-			Class23_Sub13_Sub7 class23_sub13_sub7 = Class38_Sub2.method1037(i_8_, -21035);
+			ObjectDefinition class23_sub13_sub7 = Class38_Sub2.loadObjectDefinition(i_8_, -21035);
 			if (class23_sub13_sub7.anInt3744 != -1) {
 				Class43_Sub1 class43_sub1 = Class23_Sub13_Sub23.aClass43_Sub1Array4245[class23_sub13_sub7.anInt3744];
 				if (class43_sub1 != null) {
@@ -129,7 +129,7 @@ class Class71_Sub2 extends Class71
 		if (l != 0L) {
 			int i_12_ = (int) l >> 20 & 0x3;
 			int i_13_ = (int) (l >>> 32) & 0x7fffffff;
-			Class23_Sub13_Sub7 class23_sub13_sub7 = Class38_Sub2.method1037(i_13_, -21035);
+			ObjectDefinition class23_sub13_sub7 = Class38_Sub2.loadObjectDefinition(i_13_, -21035);
 			int i_14_ = (int) l >> 14 & 0x1f;
 			if ((class23_sub13_sub7.anInt3744 ^ 0xffffffff) != 0) {
 				Class43_Sub1 class43_sub1 = Class23_Sub13_Sub23.aClass43_Sub1Array4245[class23_sub13_sub7.anInt3744];
@@ -161,7 +161,7 @@ class Class71_Sub2 extends Class71
 		l = Class107.method1584(i_3_, i, i_2_);
 		if (l != 0L) {
 			int i_19_ = 0x7fffffff & (int) (l >>> 32);
-			Class23_Sub13_Sub7 class23_sub13_sub7 = Class38_Sub2.method1037(i_19_, i_4_ + -21038);
+			ObjectDefinition class23_sub13_sub7 = Class38_Sub2.loadObjectDefinition(i_19_, i_4_ + -21038);
 			if ((class23_sub13_sub7.anInt3744 ^ 0xffffffff) != 0) {
 				Class43_Sub1 class43_sub1 = Class23_Sub13_Sub23.aClass43_Sub1Array4245[class23_sub13_sub7.anInt3744];
 				if (class43_sub1 != null) {
@@ -217,12 +217,12 @@ class Class71_Sub2 extends Class71
 					break;
 				}
 				if (Class90.anInt1538 >= 700 && Class23_Sub13_Sub19.anInt4136 >= 4 && Class90.anInt1538 <= 758 && Class23_Sub13_Sub19.anInt4136 <= 20) {
-					aBoolean2736 = false;
+					isWorldListReady = false;
 					Class104.method1529(b + -83);
 					break;
 				}
 				if (Class23_Sub13_Sub2.anInt3680 != -1) {
-					Class82 class82 = Class23_Sub13_Sub1.aClass82Array3669[Class23_Sub13_Sub2.anInt3680];
+					Class82 class82 = Class23_Sub13_Sub1.worldList[Class23_Sub13_Sub2.anInt3680];
 					if (Class75.aBoolean1378 == class82.aBoolean1450) {
 						byte[] bs = Class23_Sub4_Sub14.method322(new RSString[] { class82.aClass16_1449, Class39.aClass16_600 }, -95).method147(true);
 						Class23_Sub4_Sub34.aString3444 = new String(bs, 0, bs.length);
@@ -232,7 +232,7 @@ class Class71_Sub2 extends Class71
 							Class23_Sub8.anInt2250 = 0;
 						}
 						Class19.anInt321 = class82.anInt1451;
-						aBoolean2736 = false;
+						isWorldListReady = false;
 						Class104.method1529(b ^ 0x77);
 					} else {
 						RSString class16 = Class23_Sub4_Sub14.method322(new RSString[] { Class23_Sub4_Sub37.aClass16_3481, class82.aClass16_1449, Class23_Sub11.aClass16_2283, Class23_Sub4_Sub23.method360((byte) -9, Class23_Sub13_Sub15.anInt4036), Class23_Sub4_Sub23.aClass16_3288, Class23_Sub4_Sub23.method360((byte) -9, Class7.aBoolean170 ? 1 : 0), Class23_Sub13_Sub10.aClass16_3875, Class23_Sub4_Sub23.method360((byte) -9, Class47.anInt741), Class105_Sub1.aClass16_2856, Class23_Sub4_Sub23.method360((byte) -9, Class38_Sub7_Sub1.anInt4376) }, -58);

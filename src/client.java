@@ -178,12 +178,13 @@ public class client extends Applet_Sub1
 				}
 			} else {
 				oa.a(this, (byte) 101);
+                // you there?
 				method38(6);
-				Class23_Sub13_Sub7.method640((byte) -86);
+				ObjectDefinition.method640((byte) -86);
 			}
 		} else {
 			method38(6);
-			Class23_Sub13_Sub7.method640((byte) -86);
+			ObjectDefinition.method640((byte) -86);
 		}
 		if (Class49.anInt756 == 30) {
 			Class56.method1188(-1990505050);
@@ -218,7 +219,7 @@ public class client extends Applet_Sub1
 		if (Class23_Sub4_Sub17.aClass66_3176 != null) {
 			Class23_Sub4_Sub17.aClass66_3176.method1238(Class71_Sub3.aCanvas2740, (byte) 124);
 		}
-		Class23_Sub13_Sub11.method726(b + -20931);
+		ItemDefinition.method726(b + -20931);
 		Class38_Sub7_Sub1.method1093(100);
 		Class23_Sub4_Sub17.aClass66_3176 = null;
 		if (Class29.aClass6_471 != null) {
@@ -356,7 +357,7 @@ public class client extends Applet_Sub1
 		}
 	}
 	
-	private final void method37(int i, byte b) {
+	private final void socketConnection(int i, byte b) {
 		Class23_Sub4_Sub27.anInt3343 = 0;
 		Class2.anInt74++;
 		Buffer.aClass34_2132 = null;
@@ -437,7 +438,7 @@ public class client extends Applet_Sub1
 	
 	private final void method38(int i) {
 		anInt1956++;
-		if ((Class70.anInt1227 ^ 0xffffffff) == -1) {
+		if ((ISAACCipher.anInt1227 ^ 0xffffffff) == -1) {
 			Runtime runtime = Runtime.getRuntime();
 			int i_11_ = (int) ((runtime.totalMemory() + -runtime.freeMemory()) / 1024L);
 			long l = Class94.method1466(22624);
@@ -453,17 +454,17 @@ public class client extends Applet_Sub1
 				Class23_Sub2.aClass16_2050 = Class104.aClass16_1748;
 			} else {
 				Class71_Sub1_Sub1.anInt4415 = 5;
-				Class70.anInt1227 = 10;
+				ISAACCipher.anInt1227 = 10;
 				Class23_Sub2.aClass16_2050 = Class23_Sub4_Sub29.aClass16_3362;
 			}
-		} else if (Class70.anInt1227 == 10) {
+		} else if (ISAACCipher.anInt1227 == 10) {
 			Class23_Sub13_Sub16.method780(4, 104, 104, 25);
 			for (int i_12_ = 0; i_12_ < 4; i_12_++)
 				Class4.aClass72Array85[i_12_] = new Class72(104, 104);
-			Class70.anInt1227 = 30;
+			ISAACCipher.anInt1227 = 30;
 			Class23_Sub2.aClass16_2050 = Class73.aClass16_1327;
 			Class71_Sub1_Sub1.anInt4415 = 10;
-		} else if (Class70.anInt1227 == 30) {
+		} else if (ISAACCipher.anInt1227 == 30) {
 			Class23_Sub4_Sub7.aClass105_Sub1_3024 = Class71_Sub2_Sub1.method1285((byte) 127, 0, true, true, false);
 			Class23_Sub4_Sub8.aClass105_Sub1_3031 = Class71_Sub2_Sub1.method1285((byte) 127, 1, true, true, false);
 			Class23_Sub4_Sub26.aClass105_Sub1_3317 = Class71_Sub2_Sub1.method1285((byte) 127, 2, true, false, true);
@@ -490,10 +491,10 @@ public class client extends Applet_Sub1
 			Class23_Sub4_Sub8.aClass105_Sub1_3030 = Class71_Sub2_Sub1.method1285((byte) 127, 23, true, true, true);
 			Class23_Sub4_Sub25.aClass105_Sub1_3302 = Class71_Sub2_Sub1.method1285((byte) 127, 24, true, true, false);
 			Class5.aClass105_Sub1_118 = Class71_Sub2_Sub1.method1285((byte) 127, 25, true, true, false);
-			Class70.anInt1227 = 40;
+			ISAACCipher.anInt1227 = 40;
 			Class71_Sub1_Sub1.anInt4415 = 15;
 			Class23_Sub2.aClass16_2050 = Class61.aClass16_960;
-		} else if (Class70.anInt1227 == 40) {
+		} else if (ISAACCipher.anInt1227 == 40) {
 			int i_13_ = 0;
 			i_13_ += Class23_Sub4_Sub7.aClass105_Sub1_3024.method1571(31890) * 4 / 100;
 			i_13_ += Class23_Sub4_Sub8.aClass105_Sub1_3031.method1571(31890) * 4 / 100;
@@ -530,9 +531,9 @@ public class client extends Applet_Sub1
 				Class71_Sub1_Sub1.anInt4415 = 20;
 				Class23_Sub2.aClass16_2050 = Class53.aClass16_836;
 				Class23_Sub4_Sub31.method398(Class29.aClass105_Sub1_457, Class23_Sub4_Sub27.aClass105_Sub1_3339, i + 110, Class92.aClass105_Sub1_1561);
-				Class70.anInt1227 = 45;
+				ISAACCipher.anInt1227 = 45;
 			}
-		} else if (Class70.anInt1227 == 45) {
+		} else if (ISAACCipher.anInt1227 == 45) {
 			Class23_Sub4_Sub38.method422(!Class7.aBoolean170, 22050, (byte) 53, 2);
 			Class23_Sub10_Sub2 class23_sub10_sub2 = new Class23_Sub10_Sub2();
 			class23_sub10_sub2.method549((byte) -82, 9, 128);
@@ -544,9 +545,9 @@ public class client extends Applet_Sub1
 			Class97.aClass6_1646.method78(Class23_Sub7.aClass23_Sub10_Sub4_2201, -15878);
 			Class83.aClass45_1462 = new Class45(22050, Class32.anInt498);
 			Class23_Sub2.aClass16_2050 = Class8.aClass16_176;
-			Class70.anInt1227 = 50;
+			ISAACCipher.anInt1227 = 50;
 			Class71_Sub1_Sub1.anInt4415 = 30;
-		} else if (Class70.anInt1227 == 50) {
+		} else if (ISAACCipher.anInt1227 == 50) {
 			int i_14_ = 0;
 			if (Class92.aClass105_Sub1_1561.method1560(Class54.aClass16_850, -1)) {
 				i_14_++;
@@ -572,20 +573,20 @@ public class client extends Applet_Sub1
 			} else {
 				Class71_Sub1_Sub1.anInt4415 = 35;
 				Class23_Sub2.aClass16_2050 = Class25.aClass16_392;
-				Class70.anInt1227 = 60;
+				ISAACCipher.anInt1227 = 60;
 			}
-		} else if (Class70.anInt1227 == 60) {
+		} else if (ISAACCipher.anInt1227 == 60) {
 			int i_15_ = Class23_Sub14.method866(27118, Class92.aClass105_Sub1_1561, Class23_Sub4_Sub27.aClass105_Sub1_3339);
 			int i_16_ = Class23_Sub8.method498((byte) -105);
 			if ((i_15_ ^ 0xffffffff) > (i_16_ ^ 0xffffffff)) {
 				Class23_Sub2.aClass16_2050 = Class23_Sub4_Sub14.method322(new RSString[] { Class51.aClass16_804, Class23_Sub4_Sub23.method360((byte) -9, i_15_ * 100 / i_16_), Class105_Sub1.aClass16_2867 }, i ^ ~0x27);
 				Class71_Sub1_Sub1.anInt4415 = 40;
 			} else {
-				Class70.anInt1227 = 65;
+				ISAACCipher.anInt1227 = 65;
 				Class71_Sub1_Sub1.anInt4415 = 40;
 				Class23_Sub2.aClass16_2050 = Class23_Sub15.aClass16_2345;
 			}
-		} else if (Class70.anInt1227 == 65) {
+		} else if (ISAACCipher.anInt1227 == 65) {
 			aClass23_Sub13_Sub8_1978 = Class68.method1251(Class23_Sub4_Sub23_Sub1.aClass105_Sub1_4477, Class23_Sub4_Sub38.aClass16_3509, Class92.aClass105_Sub1_1561, (byte) 92, Class54.aClass16_850);
 			Class71_Sub1_Sub1.aClass23_Sub13_Sub8_Sub1_Sub1_4431 = (Class23_Sub13_Sub8_Sub1_Sub1) aClass23_Sub13_Sub8_1978;
 			Class38_Sub7.aClass23_Sub13_Sub8_2637 = Class68.method1251(Class23_Sub4_Sub23_Sub1.aClass105_Sub1_4477, Class23_Sub4_Sub38.aClass16_3509, Class92.aClass105_Sub1_1561, (byte) 87, Class33.aClass16_522);
@@ -593,8 +594,8 @@ public class client extends Applet_Sub1
 			Class71_Sub1_Sub1.anInt4415 = 45;
 			Class23_Sub2.aClass16_2050 = Class105_Sub1.aClass16_2862;
 			Class103.method1521(5, 27172);
-			Class70.anInt1227 = 70;
-		} else if (Class70.anInt1227 == 70) {
+			ISAACCipher.anInt1227 = 70;
+		} else if (ISAACCipher.anInt1227 == 70) {
 			Class23_Sub4_Sub26.aClass105_Sub1_3317.method1534((byte) -13);
 			int i_17_ = 0;
 			i_17_ += Class23_Sub4_Sub26.aClass105_Sub1_3317.method1550((byte) 123);
@@ -638,9 +639,9 @@ public class client extends Applet_Sub1
 				Class71_Sub1_Sub1.anInt4415 = 50;
 				Class23_Sub2.aClass16_2050 = Class23_Sub4_Sub2.aClass16_2929;
 				Class23_Sub4_Sub3.method283((byte) -118);
-				Class70.anInt1227 = 80;
+				ISAACCipher.anInt1227 = 80;
 			}
-		} else if (Class70.anInt1227 == 80) {
+		} else if (ISAACCipher.anInt1227 == 80) {
 			int i_18_ = 0;
 			if (Class23_Sub1.aClass23_Sub13_Sub10_2016 == null) {
 				Class23_Sub13_Sub10_Sub1 class23_sub13_sub10_sub1 = Class23_Sub13_Sub10.method692(Class92.aClass105_Sub1_1561, 126, Class23_Sub4_Sub38.aClass16_3509, Class23_Sub4_Sub5.aClass16_2976);
@@ -659,7 +660,7 @@ public class client extends Applet_Sub1
 			if (Class23.aClass23_Sub13_Sub10_Sub1Array350 != null) {
 				i_18_++;
 			} else {
-				Class23.aClass23_Sub13_Sub10_Sub1Array350 = Class23_Sub13_Sub20.method817(Class23_Sub4_Sub2.aClass16_2917, Class23_Sub4_Sub38.aClass16_3509, Class92.aClass105_Sub1_1561, i + 24294);
+				Class23.aClass23_Sub13_Sub10_Sub1Array350 = NPCDefinition.method817(Class23_Sub4_Sub2.aClass16_2917, Class23_Sub4_Sub38.aClass16_3509, Class92.aClass105_Sub1_1561, i + 24294);
 			}
 			if (Class78_Sub2.aClass23_Sub13_Sub10Array2765 != null) {
 				i_18_++;
@@ -689,7 +690,7 @@ public class client extends Applet_Sub1
 			if (Class23_Sub14.aClass23_Sub13_Sub10Array2332 != null) {
 				i_18_++;
 			} else {
-				Class23_Sub13_Sub10_Sub1[] class23_sub13_sub10_sub1s = Class23_Sub13_Sub20.method817(Class23_Sub25.aClass16_2464, Class23_Sub4_Sub38.aClass16_3509, Class92.aClass105_Sub1_1561, 24300);
+				Class23_Sub13_Sub10_Sub1[] class23_sub13_sub10_sub1s = NPCDefinition.method817(Class23_Sub25.aClass16_2464, Class23_Sub4_Sub38.aClass16_3509, Class92.aClass105_Sub1_1561, 24300);
 				if (class23_sub13_sub10_sub1s != null) {
 					for (int i_19_ = 0; (class23_sub13_sub10_sub1s.length ^ 0xffffffff) < (i_19_ ^ 0xffffffff); i_19_++)
 						class23_sub13_sub10_sub1s[i_19_].method717();
@@ -722,7 +723,7 @@ public class client extends Applet_Sub1
 				Class23_Sub4_Sub1.aClass43Array2881 = Class23_Sub4_Sub7.method291(Class54.aClass16_860, Class92.aClass105_Sub1_1561, Class23_Sub4_Sub38.aClass16_3509, true);
 			}
 			if (++i_18_ < 15) {
-				Class23_Sub2.aClass16_2050 = Class23_Sub4_Sub14.method322(new RSString[] { Class23_Sub13_Sub11.aClass16_3914, Class23_Sub4_Sub23.method360((byte) -9, i_18_ * 100 / 15), Class105_Sub1.aClass16_2867 }, -37);
+				Class23_Sub2.aClass16_2050 = Class23_Sub4_Sub14.method322(new RSString[] { ItemDefinition.aClass16_3914, Class23_Sub4_Sub23.method360((byte) -9, i_18_ * 100 / 15), Class105_Sub1.aClass16_2867 }, -37);
 				Class71_Sub1_Sub1.anInt4415 = 60;
 			} else {
 				aClass23_Sub13_Sub8_1978.method661(Class23_Sub4_Sub1.aClass43Array2881, null);
@@ -736,12 +737,12 @@ public class client extends Applet_Sub1
 					Class23.aClass23_Sub13_Sub10_Sub1Array350[i_24_].method719(i_21_ - -i_23_, i_23_ + i_20_, i_22_ + i_23_);
 				Class23_Sub13_Sub23.aClass43_Sub1Array4245[0].method1124(i_23_ + i_21_, i_23_ + i_20_, i_23_ + i_22_);
 				Class71_Sub1_Sub1.anInt4415 = 60;
-				Class70.anInt1227 = 90;
+				ISAACCipher.anInt1227 = 90;
 				Class23_Sub2.aClass16_2050 = Class87.aClass16_1482;
 				Class23_Sub10_Sub2.aClass23_Sub13_Sub10Array3609 = Class23.aClass23_Sub13_Sub10_Sub1Array350;
 			}
 		} else if (i == 6) {
-			if (Class70.anInt1227 == 90) {
+			if (ISAACCipher.anInt1227 == 90) {
 				if (!Class67.aClass105_Sub1_1181.method1534((byte) -13)) {
 					Class23_Sub2.aClass16_2050 = Class23_Sub4_Sub14.method322(new RSString[] { Class50.aClass16_771, Class23_Sub4_Sub23.method360((byte) -9, Class67.aClass105_Sub1_1181.method1550((byte) 123)), Class105_Sub1.aClass16_2867 }, i + -117);
 					Class71_Sub1_Sub1.anInt4415 = 70;
@@ -749,17 +750,17 @@ public class client extends Applet_Sub1
 					Class86 class86 = new Class86(Class67.aClass105_Sub1_1181, Class92.aClass105_Sub1_1561, 20, Class7.aBoolean170 ? 64 : 128);
 					Class76.method1328(class86);
 					Class76.method1326(0.7F);
-					Class70.anInt1227 = 110;
+					ISAACCipher.anInt1227 = 110;
 					Class71_Sub1_Sub1.anInt4415 = 70;
 					Class23_Sub2.aClass16_2050 = Class23_Sub13_Sub21.aClass16_4200;
 				}
-			} else if (Class70.anInt1227 == 110) {
+			} else if (ISAACCipher.anInt1227 == 110) {
 				Class23_Sub4_Sub39.aClass98_3513 = new Class98();
 				Class23_Sub4_Sub3.aClass9_2939.method104(10, Class23_Sub4_Sub39.aClass98_3513, (byte) 72);
-				Class70.anInt1227 = 120;
+				ISAACCipher.anInt1227 = 120;
 				Class23_Sub2.aClass16_2050 = Class47.aClass16_723;
 				Class71_Sub1_Sub1.anInt4415 = 75;
-			} else if (Class70.anInt1227 == 120) {
+			} else if (ISAACCipher.anInt1227 == 120) {
 				if (!Class23_Sub4_Sub27.aClass105_Sub1_3339.method1565(-76, Canvas_Sub1.aClass16_45, Class23_Sub4_Sub38.aClass16_3509)) {
 					Class23_Sub2.aClass16_2050 = Class23_Sub4_Sub14.method322(new RSString[] { Class23_Sub4_Sub38.aClass16_3506, Class23_Sub13_Sub23.aClass16_4231 }, i + -117);
 					Class71_Sub1_Sub1.anInt4415 = 80;
@@ -767,10 +768,10 @@ public class client extends Applet_Sub1
 					Class106 class106 = new Class106(Class23_Sub4_Sub27.aClass105_Sub1_3339.method1536(Canvas_Sub1.aClass16_45, Class23_Sub4_Sub38.aClass16_3509, 86));
 					Class23_Sub25.method906(i + 53, class106);
 					Class23_Sub2.aClass16_2050 = Class61.aClass16_961;
-					Class70.anInt1227 = 130;
+					ISAACCipher.anInt1227 = 130;
 					Class71_Sub1_Sub1.anInt4415 = 80;
 				}
-			} else if (Class70.anInt1227 == 130) {
+			} else if (ISAACCipher.anInt1227 == 130) {
 				if (!Class89.aClass105_Sub1_1509.method1534((byte) -13)) {
 					Class23_Sub2.aClass16_2050 = Class23_Sub4_Sub14.method322(new RSString[] { Class23_Sub4_Sub32.aClass16_3424, Class23_Sub4_Sub23.method360((byte) -9, 4 * Class89.aClass105_Sub1_1509.method1550((byte) 125) / 5), Class105_Sub1.aClass16_2867 }, -116);
 					Class71_Sub1_Sub1.anInt4415 = 85;
@@ -781,11 +782,11 @@ public class client extends Applet_Sub1
 					Class23_Sub2.aClass16_2050 = Class23_Sub4_Sub14.method322(new RSString[] { Class23_Sub4_Sub32.aClass16_3424, Class23_Sub4_Sub23.method360((byte) -9, 96 - -(Class23_Sub4_Sub23_Sub1.aClass105_Sub1_4477.method1550((byte) 127) / 20)), Class105_Sub1.aClass16_2867 }, -118);
 					Class71_Sub1_Sub1.anInt4415 = 85;
 				} else {
-					Class70.anInt1227 = 140;
+					ISAACCipher.anInt1227 = 140;
 					Class71_Sub1_Sub1.anInt4415 = 100;
 					Class23_Sub2.aClass16_2050 = Class45.aClass16_699;
 				}
-			} else if (Class70.anInt1227 == 140) {
+			} else if (ISAACCipher.anInt1227 == 140) {
 				Class38_Sub6.aClass105_Sub1_2613.method1559(false, true, (byte) 54);
 				Class29.aClass105_Sub1_457.method1559(true, true, (byte) 37);
 				Class92.aClass105_Sub1_1561.method1559(true, true, (byte) 28);
@@ -871,7 +872,7 @@ public class client extends Applet_Sub1
 						}
 						if (Class23_Sub4_Sub27.anInt3343 == 1) {
 							if (Class68.aClass60_1201.anInt951 == 2) {
-								method37(-1, (byte) -64);
+								socketConnection(-1, (byte) -64);
 								break;
 							}
 							if (Class68.aClass60_1201.anInt951 == 1) {
@@ -881,22 +882,30 @@ public class client extends Applet_Sub1
 						if (Class23_Sub4_Sub27.anInt3343 == 2) {
 							Buffer.aClass34_2132 = new Class34((Socket) Class68.aClass60_1201.anObject955, Class23_Sub4_Sub3.aClass9_2939);
 							Buffer class23_sub5 = new Buffer(5);
-							class23_sub5.method460((byte) 106, 15);
-							class23_sub5.writeIntBE(498, -1137894376);
+							class23_sub5.writeByte(15);
+							class23_sub5.putInt(498, -1137894376);
 							Buffer.aClass34_2132.method977(30000, 5, 0, class23_sub5.payload);
 							Class23_Sub4_Sub27.anInt3343++;
 							Class23_Sub13_Sub21.aLong4191 = Class94.method1466(22624);
 						}
+                        //Initial request eh?
+                        // What you mean??
+                        //Handshake
+                        // Not sure :S
+                        // because for handshake its opcode 15, and 14 (ondemand/login)
+                        //handshake is done sperately for both in teh code this is the switch for login stage
+                        // So your close to getting where the actual login is?
+                        //yes.
 						if (Class23_Sub4_Sub27.anInt3343 == 3) {
-							if (Class49.anInt756 > 5 && Buffer.aClass34_2132.available() <= 0) {
+							if (Class49.anInt756 > 5 && Buffer.aClass34_2132.read(-80) <= 0) {
 								if ((Class94.method1466(22624) + -Class23_Sub13_Sub21.aLong4191 ^ 0xffffffffffffffffL) < -30001L) {
-									method37(-2, (byte) -42);
+									socketConnection(-2, (byte) -42);
 									break;
 								}
 							} else {
-								int i = Buffer.aClass34_2132.read();
+								int i = Buffer.aClass34_2132.method971((byte) 10);
 								if (i != 0) {
-									method37(i, (byte) -123);
+									socketConnection(i, (byte) -123);
 									break;
 								}
 								Class23_Sub4_Sub27.anInt3343++;
@@ -914,7 +923,7 @@ public class client extends Applet_Sub1
 						}
 						aClass23_Sub15_1965 = null;
 					} catch (java.io.IOException ioexception) {
-						method37(-3, (byte) -37);
+						socketConnection(-3, (byte) -37);
 						break;
 					}
 					break;
@@ -984,10 +993,10 @@ public class client extends Applet_Sub1
 		Class23_Sub13_Sub22.method841(b ^ ~0x5085);
 		Class38_Sub7.method1089(-3);
 		Class23_Sub23.method895(109);
-		Class23_Sub13_Sub20.method822(b ^ ~0x6);
+		NPCDefinition.method822(b ^ ~0x6);
 		Class23_Sub25.method908(117);
 		Class23.method229((byte) -11);
-		Class70.method1260(-31834);
+		ISAACCipher.method1260(-31834);
 		Class95.method1469(b + 586448393);
 		Class81.method1371(-1);
 		Class44.method1126(21150);
@@ -1005,13 +1014,13 @@ public class client extends Applet_Sub1
 		Class52.method1170();
 		Class2.method48(32);
 		Class75.method1316(0);
-		Class23_Sub13_Sub7.method637(-125);
+		ObjectDefinition.method637(-125);
 		Class23_Sub13.method600(-1399);
 		Class105.method1553(-1);
 		Class5.method64(b + -152);
 		Class38_Sub4.method1044();
 		Class23_Sub13_Sub5.method626(-66);
-		Class23_Sub13_Sub11.method738(true);
+		ItemDefinition.method738(true);
 		Class38_Sub1_Sub1.method1028();
 		Class32.method965(-7897);
 		Class11.method111((byte) 51);

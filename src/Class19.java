@@ -29,11 +29,11 @@ public class Class19
 		}
 		int i_1_ = 0;
 		int i_2_ = Class23_Sub20.anInt2400 >> 1;
-		byte[][] bs_3_ = new byte[Class70.anInt1238][Class38_Sub7.anInt2697];
+		byte[][] bs_3_ = new byte[ISAACCipher.anInt1238][Class38_Sub7.anInt2697];
 		while (i_1_ < bs.length) {
 			int i_4_ = -Class102.anInt1702 + (0xff & bs[i_1_++]) * 64;
 			int i_5_ = -Class29.anInt445 + 64 * (bs[i_1_++] & 0xff);
-			if (i_4_ > 0 && i_5_ > 0 && i_4_ - -64 < Class70.anInt1238 && Class38_Sub7.anInt2697 > i_5_ - -64) {
+			if (i_4_ > 0 && i_5_ > 0 && i_4_ - -64 < ISAACCipher.anInt1238 && Class38_Sub7.anInt2697 > i_5_ - -64) {
 				for (int i_6_ = 0; i_6_ < 64; i_6_++) {
 					int i_7_ = -i_5_ + Class38_Sub7.anInt2697 + -1;
 					byte[] bs_8_ = bs_3_[i_4_ + i_6_];
@@ -44,7 +44,7 @@ public class Class19
 				i_1_ += 4096;
 			}
 		}
-		int i_10_ = Class70.anInt1238;
+		int i_10_ = ISAACCipher.anInt1238;
 		int i_11_ = Class38_Sub7.anInt2697;
 		int[] is = new int[i_11_];
 		int[] is_12_ = new int[i_11_];

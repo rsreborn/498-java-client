@@ -62,7 +62,7 @@ public class Class104
 			}
 			if (class38_sub7 != null && class38_sub7.method1082((byte) -108)) {
 				if (class38_sub7 instanceof Class38_Sub7_Sub1) {
-					Class23_Sub13_Sub20 class23_sub13_sub20 = ((Class38_Sub7_Sub1) class38_sub7).aClass23_Sub13_Sub20_4373;
+					NPCDefinition class23_sub13_sub20 = ((Class38_Sub7_Sub1) class38_sub7).aClass23_Sub13_Sub20_4373;
 					if (class23_sub13_sub20.anIntArray4153 != null) {
 						class23_sub13_sub20 = class23_sub13_sub20.method813(674);
 					}
@@ -71,7 +71,7 @@ public class Class104
 					}
 				}
 				if (i_7_ >= Class23_Sub4_Sub11.anInt3067) {
-					Class23_Sub13_Sub20 class23_sub13_sub20 = ((Class38_Sub7_Sub1) class38_sub7).aClass23_Sub13_Sub20_4373;
+					NPCDefinition class23_sub13_sub20 = ((Class38_Sub7_Sub1) class38_sub7).aClass23_Sub13_Sub20_4373;
 					if (class23_sub13_sub20.anIntArray4153 != null) {
 						class23_sub13_sub20 = class23_sub13_sub20.method813(b ^ ~0x2e1);
 					}

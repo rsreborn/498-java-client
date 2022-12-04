@@ -17,12 +17,12 @@ public class Class41
 	private int anInt643;
 	
 	final void method1109(Buffer class23_sub5) {
-		anInt634 = class23_sub5.readByte();
+		anInt634 = class23_sub5.readUByte();
 		anIntArray635 = new int[anInt634];
 		anIntArray637 = new int[anInt634];
 		for (int i = 0; i < anInt634; i++) {
-			anIntArray635[i] = class23_sub5.readShortBE();
-			anIntArray637[i] = class23_sub5.readShortBE();
+			anIntArray635[i] = class23_sub5.getUShortBE();
+			anIntArray637[i] = class23_sub5.getUShortBE();
 		}
 	}
 	
@@ -35,9 +35,9 @@ public class Class41
 	}
 	
 	final void method1111(Buffer class23_sub5) {
-		anInt638 = class23_sub5.readByte();
-		anInt636 = class23_sub5.method472(115);
-		anInt633 = class23_sub5.method472(-117);
+		anInt638 = class23_sub5.readUByte();
+		anInt636 = class23_sub5.readUIntBE();
+		anInt633 = class23_sub5.readUIntBE();
 		method1109(class23_sub5);
 	}
 	

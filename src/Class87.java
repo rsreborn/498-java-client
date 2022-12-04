@@ -70,7 +70,7 @@ abstract class Class87
 		if (i != 0) {
 			return null;
 		}
-		return new Class87_Sub3(class23_sub5.method474(true), class23_sub5.method474(true), class23_sub5.method474(true), class23_sub5.method474(true), class23_sub5.method471(103), class23_sub5.readByte());
+		return new Class87_Sub3(class23_sub5.method474(true), class23_sub5.method474(true), class23_sub5.method474(true), class23_sub5.method474(true), class23_sub5.getTriByte(103), class23_sub5.readUByte());
 	}
 	
 	abstract void method1408(int i, int i_15_, int i_16_);

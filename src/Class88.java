@@ -46,7 +46,7 @@ abstract class Class88
 			method1430(12, 31, 78, 70, -97, 24, 32, -16, 108, -4, 39, false, -31);
 		}
 		Class23_Sub4_Sub22.anIntArray3260[i_16_++] = i_2_;
-		int[][] is = Class4.aClass72Array85[Class23_Sub13_Sub11.anInt3916].anIntArrayArray1290;
+		int[][] is = Class4.aClass72Array85[ItemDefinition.anInt3916].anIntArrayArray1290;
 		boolean bool_17_ = false;
 	while_127_:
 		while ((i_16_ ^ 0xffffffff) != (i_15_ ^ 0xffffffff)) {
@@ -58,8 +58,8 @@ abstract class Class88
 				break;
 			}
 			if (i_5_ != 0) {
-				if (i_5_ >= 5 && i_5_ != 10 || !Class4.aClass72Array85[Class23_Sub13_Sub11.anInt3916].method1305((byte) 89, -1 + i_5_, i_0_, i_7_, i_14_, i_4_, i_13_, i_6_)) {
-					if (i_5_ < 10 && Class4.aClass72Array85[Class23_Sub13_Sub11.anInt3916].method1303(i_7_, (byte) 69, i_14_, i_13_, i_6_, i_0_, i_5_ + -1, i_4_)) {
+				if (i_5_ >= 5 && i_5_ != 10 || !Class4.aClass72Array85[ItemDefinition.anInt3916].method1305((byte) 89, -1 + i_5_, i_0_, i_7_, i_14_, i_4_, i_13_, i_6_)) {
+					if (i_5_ < 10 && Class4.aClass72Array85[ItemDefinition.anInt3916].method1303(i_7_, (byte) 69, i_14_, i_13_, i_6_, i_0_, i_5_ + -1, i_4_)) {
 						bool_17_ = true;
 						break;
 					}
@@ -68,7 +68,7 @@ abstract class Class88
 					break;
 				}
 			}
-			if ((i_9_ ^ 0xffffffff) != -1 && (i_8_ ^ 0xffffffff) != -1 && Class4.aClass72Array85[Class23_Sub13_Sub11.anInt3916].method1290(i_6_, i_7_, i_13_, i_9_, i_4_, i_14_, i_10_, i_8_, (byte) -124)) {
+			if ((i_9_ ^ 0xffffffff) != -1 && (i_8_ ^ 0xffffffff) != -1 && Class4.aClass72Array85[ItemDefinition.anInt3916].method1290(i_6_, i_7_, i_13_, i_9_, i_4_, i_14_, i_10_, i_8_, (byte) -124)) {
 				bool_17_ = true;
 				break;
 			}
@@ -261,7 +261,7 @@ abstract class Class88
 			i_35_ = Class23_Sub4_Sub28.anIntArrayArray3346[i_13_][i_14_];
 		}
 		if (i_15_ > 0) {
-			Class23_Sub13_Sub7.method635(true, i_15_, Class23_Sub4_Sub22.anIntArray3260, Class23_Sub13_Sub9.anIntArray3859, i);
+			ObjectDefinition.method635(true, i_15_, Class23_Sub4_Sub22.anIntArray3260, Class23_Sub13_Sub9.anIntArray3859, i);
 			return true;
 		}
 		if (i == 1) {

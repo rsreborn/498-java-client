@@ -143,7 +143,7 @@ public class Class97
 					if (!class64.aBoolean1017 || i_21_ < i_23_ && (i_20_ ^ 0xffffffff) > (i_22_ ^ 0xffffffff)) {
 						if ((class64.anInt1149 ^ 0xffffffff) != -1) {
 							if (class64.anInt1149 == 1337) {
-								Class70.anInt1222 = i_17_;
+								ISAACCipher.anInt1222 = i_17_;
 								anInt1632 = i_15_;
 								Class105_Sub1.method1568(class64.anInt1128, i_15_, class64.anInt999, i_17_, 1920);
 								Class20.method210(i, i_5_, i_9_, i_7_);
@@ -360,8 +360,8 @@ public class Class97
 											}
 										}
 										if (class64.aBoolean1017 && class64.anInt1122 != -1) {
-											Class23_Sub13_Sub11 class23_sub13_sub11 = Class23_Sub13_Sub24.method853(127, class64.anInt1122);
-											class16 = class23_sub13_sub11.aClass16_3902;
+											ItemDefinition class23_sub13_sub11 = Class23_Sub13_Sub24.method853(127, class64.anInt1122);
+											class16 = class23_sub13_sub11.name;
 											if (class16 == null) {
 												class16 = Class23_Sub4_Sub30.aClass16_3378;
 											}
@@ -470,7 +470,7 @@ public class Class97
 											}
 										}
 									} else {
-										Class23_Sub13_Sub11 class23_sub13_sub11 = Class23_Sub13_Sub24.method853(-68, class64.anInt1122);
+										ItemDefinition class23_sub13_sub11 = Class23_Sub13_Sub24.method853(-68, class64.anInt1122);
 										if (class23_sub13_sub11 != null) {
 											class23_sub13_sub11 = class23_sub13_sub11.method735(123, class64.anInt1134);
 											class38_sub1 = class23_sub13_sub11.method741(-17838, 0, 1, null);
@@ -521,12 +521,12 @@ public class Class97
 										for (int i_61_ = 0; (class64.anInt1105 ^ 0xffffffff) < (i_61_ ^ 0xffffffff); i_61_++) {
 											for (int i_62_ = 0; (i_62_ ^ 0xffffffff) > (class64.anInt1112 ^ 0xffffffff); i_62_++) {
 												if ((class64.anIntArray1028[i_60_] ^ 0xffffffff) < -1) {
-													Class23_Sub13_Sub11 class23_sub13_sub11 = Class23_Sub13_Sub24.method853(127, class64.anIntArray1028[i_60_] - 1);
+													ItemDefinition class23_sub13_sub11 = Class23_Sub13_Sub24.method853(127, class64.anIntArray1028[i_60_] - 1);
 													RSString class16;
 													if (class23_sub13_sub11.anInt3895 != 1 && class64.anIntArray1147[i_60_] == 1) {
-														class16 = Class23_Sub4_Sub14.method322(new RSString[] { Class23_Sub4_Sub32.aClass16_3418, class23_sub13_sub11.aClass16_3902, Class23_Sub7.aClass16_2226 }, i_12_ + -69);
+														class16 = Class23_Sub4_Sub14.method322(new RSString[] { Class23_Sub4_Sub32.aClass16_3418, class23_sub13_sub11.name, Class23_Sub7.aClass16_2226 }, i_12_ + -69);
 													} else {
-														class16 = Class23_Sub4_Sub14.method322(new RSString[] { Class23_Sub4_Sub32.aClass16_3418, class23_sub13_sub11.aClass16_3902, Class23_Sub13_Sub16.aClass16_4041, Class90.method1448(class64.anIntArray1147[i_60_], i_12_ + -13523) }, -97);
+														class16 = Class23_Sub4_Sub14.method322(new RSString[] { Class23_Sub4_Sub32.aClass16_3418, class23_sub13_sub11.name, Class23_Sub13_Sub16.aClass16_4041, Class90.method1448(class64.anIntArray1147[i_60_], i_12_ + -13523) }, -97);
 													}
 													int i_63_ = (class64.anInt1046 + 115) * i_62_ + i_15_;
 													int i_64_ = i_17_ - -(i_61_ * (12 - -class64.anInt998));

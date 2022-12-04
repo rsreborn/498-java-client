@@ -46,9 +46,9 @@ public class Class7 implements Runnable
 		if (bool != false) {
 			method91(72);
 		}
-		int i = Class23_Sub4_Sub22.method359(Class23_Sub13_Sub11.anInt3916, Class23_Sub13_Sub1.anInt3673, Class53.anInt838, (byte) 117);
-		if (-Class23_Sub23.anInt2424 + i < 800 && (Class23_Sub4_Sub30.aByteArrayArrayArray3379[Class23_Sub13_Sub11.anInt3916][Class23_Sub13_Sub1.anInt3673 >> 7][Class53.anInt838 >> 7] & 0x4) != 0) {
-			return Class23_Sub13_Sub11.anInt3916;
+		int i = Class23_Sub4_Sub22.method359(ItemDefinition.anInt3916, Class23_Sub13_Sub1.anInt3673, Class53.anInt838, (byte) 117);
+		if (-Class23_Sub23.anInt2424 + i < 800 && (Class23_Sub4_Sub30.aByteArrayArrayArray3379[ItemDefinition.anInt3916][Class23_Sub13_Sub1.anInt3673 >> 7][Class53.anInt838 >> 7] & 0x4) != 0) {
+			return ItemDefinition.anInt3916;
 		}
 		return 3;
 	}
@@ -78,9 +78,9 @@ public class Class7 implements Runnable
 			aClass81_161 = null;
 		}
 		Class23_Sub13_Sub4.anInt3707++;
-		Class23_Sub7.outBuffer.method486(76, 2976);
-		Class23_Sub7.outBuffer.method445(i_0_, (byte) 66);
-		Class23_Sub7.outBuffer.method443(i, (byte) 51);
+		Class23_Sub7.aClass23_Sub5_Sub1_2202.writeOpcode(76, 2976);
+		Class23_Sub7.aClass23_Sub5_Sub1_2202.putInt1(i_0_, (byte) 66);
+		Class23_Sub7.aClass23_Sub5_Sub1_2202.putShort(i, (byte) 51);
 	}
 	
 	public final void run() {

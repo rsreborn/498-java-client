@@ -35,26 +35,26 @@ abstract class Class78
 		int i_9_ = -1;
 		Buffer class23_sub5 = new Buffer(bs);
 		for (;;) {
-			int i_10_ = class23_sub5.method432((byte) 113);
+			int i_10_ = class23_sub5.getSmart((byte) 113);
 			if ((i_10_ ^ 0xffffffff) == -1) {
 				break;
 			}
 			i_9_ += i_10_;
 			int i_11_ = 0;
 			for (;;) {
-				int i_12_ = class23_sub5.method432((byte) 16);
+				int i_12_ = class23_sub5.getSmart((byte) 16);
 				if ((i_12_ ^ 0xffffffff) == -1) {
 					break;
 				}
 				i_11_ += -1 + i_12_;
 				int i_13_ = 0x3f & i_11_;
 				int i_14_ = (0xff5 & i_11_) >> 6;
-				int i_15_ = class23_sub5.readByte();
+				int i_15_ = class23_sub5.readUByte();
 				int i_16_ = 0x3 & i_15_;
 				int i_17_ = i_15_ >> 2;
 				int i_18_ = i_11_ >> 12;
 				if ((i_6_ ^ 0xffffffff) == (i_18_ ^ 0xffffffff) && i_4_ <= i_14_ && i_14_ < i_4_ - -8 && i_13_ >= i_3_ && (8 + i_3_ ^ 0xffffffff) < (i_13_ ^ 0xffffffff)) {
-					Class23_Sub13_Sub7 class23_sub13_sub7 = Class38_Sub2.method1037(i_9_, -21035);
+					ObjectDefinition class23_sub13_sub7 = Class38_Sub2.loadObjectDefinition(i_9_, -21035);
 					int i_19_ = Class23_Sub13_Sub3.method614(class23_sub13_sub7.anInt3754, true, i_13_ & 0x7, i_14_ & 0x7, i_2_, class23_sub13_sub7.anInt3752, i_16_) + i_5_;
 					int i_20_ = i_7_ - -Class23_Sub20.method887(i_14_ & 0x7, i_16_, 0x7 & i_13_, class23_sub13_sub7.anInt3752, class23_sub13_sub7.anInt3754, i_2_, (byte) -111);
 					if ((i_19_ ^ 0xffffffff) < -1 && i_20_ > 0 && i_19_ < 103 && i_20_ < 103) {

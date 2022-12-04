@@ -88,13 +88,13 @@ abstract class Class17
 	static final void method190(byte[] bs, int i) {
 		anInt312++;
 		Buffer class23_sub5 = new Buffer(bs);
-		int i_4_ = class23_sub5.readShortBE();
+		int i_4_ = class23_sub5.getUShortBE();
 		for (int i_5_ = 0; i_4_ > i_5_; i_5_++) {
 			Class23_Sub21 class23_sub21 = new Class23_Sub21();
-			RSString class16 = class23_sub5.method426(2);
-			class23_sub21.anInt2412 = class23_sub5.readShortBE();
-			class23_sub21.anInt2415 = class23_sub5.readShortBE();
-			class23_sub21.anInt2405 = class23_sub5.readByte();
+			RSString class16 = class23_sub5.readString(2);
+			class23_sub21.anInt2412 = class23_sub5.getUShortBE();
+			class23_sub21.anInt2415 = class23_sub5.getUShortBE();
+			class23_sub21.anInt2405 = class23_sub5.readUByte();
 			class23_sub21.aClass16_2411 = class16.method177(32, 47, 0);
 			class23_sub21.aClass16Array2408 = class16.method168(false, 47);
 			RSString.aClass89_1951.method1439(-100, class23_sub21);

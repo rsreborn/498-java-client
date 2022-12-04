@@ -244,7 +244,7 @@ public class Class51
 				}
 				int i_23_ = is[0];
 				if ((0x40000000 & i_23_) != 0) {
-					Class23_Sub13_Sub11 class23_sub13_sub11 = Class23_Sub13_Sub24.method853(-25, 0x3fffffff & i_23_);
+					ItemDefinition class23_sub13_sub11 = Class23_Sub13_Sub24.method853(-25, 0x3fffffff & i_23_);
 					if (class23_sub13_sub11.anIntArrayArray3906 != null) {
 						for (int i_24_ = 0; i_24_ < class23_sub13_sub11.anIntArrayArray3906.length; i_24_++) {
 							int i_25_ = class23_sub13_sub11.anIntArrayArray3906[i_24_][0];

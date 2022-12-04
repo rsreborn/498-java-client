@@ -37,17 +37,17 @@ public class Class25
 		return true;
 	}
 	
-	static final Class23_Sub13_Sub20 method922(boolean bool, int i) {
+	static final NPCDefinition method922(boolean bool, int i) {
 		anInt384++;
-		Class23_Sub13_Sub20 class23_sub13_sub20 = (Class23_Sub13_Sub20) Class1.aClass5_64.method62(-99, (long) i);
+		NPCDefinition class23_sub13_sub20 = (NPCDefinition) Class1.aClass5_64.method62(-99, (long) i);
 		if (class23_sub13_sub20 != null) {
 			return class23_sub13_sub20;
 		}
 		if (bool != false) {
 			method923(-70, 102);
 		}
-		byte[] bs = Class23_Sub13_Sub21.aClass105_4193.method1544(Class23_Sub13_Sub20.method823(i, -1), 0, Class23_Sub13_Sub19.method807(i, (byte) -125));
-		class23_sub13_sub20 = new Class23_Sub13_Sub20();
+		byte[] bs = Class23_Sub13_Sub21.aClass105_4193.method1544(NPCDefinition.method823(i, -1), 0, Class23_Sub13_Sub19.method807(i, (byte) -125));
+		class23_sub13_sub20 = new NPCDefinition();
 		class23_sub13_sub20.anInt4159 = i;
 		if (bs != null) {
 			class23_sub13_sub20.method816(13404, new Buffer(bs));

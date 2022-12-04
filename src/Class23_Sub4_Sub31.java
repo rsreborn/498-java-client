@@ -24,7 +24,7 @@ public class Class23_Sub4_Sub31 extends Class23_Sub4
 	static int anInt3404;
 	private int anInt3405;
 	
-	static final void method394(boolean bool, int i) {
+	static final void constructMapRegion(boolean bool, int i) {
 		if (i >= -29) {
 			anInt3396 = 96;
 		}
@@ -45,17 +45,17 @@ public class Class23_Sub4_Sub31 extends Class23_Sub4
 				}
 			}
 			Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method485(-113);
-			int i_16_ = (-Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.position + Class23_Sub4_Sub2.anInt2925) / 16;
+			int i_16_ = (-Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.pos + Class23_Sub4_Sub2.anInt2925) / 16;
 			Class23_Sub2.anIntArrayArray2054 = new int[i_16_][4];
 			for (int i_17_ = 0; (i_16_ ^ 0xffffffff) < (i_17_ ^ 0xffffffff); i_17_++) {
 				for (int i_18_ = 0; i_18_ < 4; i_18_++)
-					Class23_Sub2.anIntArrayArray2054[i_17_][i_18_] = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method472(119);
+					Class23_Sub2.anIntArrayArray2054[i_17_][i_18_] = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.readUIntBE();
 			}
 			int i_19_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method453(65280);
 			int i_20_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method480((byte) 82);
-			int i_21_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.readShortBE();
+			int i_21_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.getUShortBE();
 			int i_22_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method453(65280);
-			int i_23_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.readByte();
+			int i_23_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.readUByte();
 			Class53.aByteArrayArray843 = new byte[i_16_][];
 			Class23_Sub4_Sub23.anIntArray3282 = new int[i_16_];
 			Class23_Sub8.aByteArrayArray2235 = new byte[i_16_][];
@@ -90,21 +90,21 @@ public class Class23_Sub4_Sub31 extends Class23_Sub4
 			}
 			Class23_Sub4_Sub19.method342(i_23_, i_20_, 31362, i_19_, i_21_, i_22_);
 		} else {
-			int i_0_ = (Class23_Sub4_Sub2.anInt2925 + -Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.position) / 16;
+			int i_0_ = (Class23_Sub4_Sub2.anInt2925 + -Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.pos) / 16;
 			Class23_Sub2.anIntArrayArray2054 = new int[i_0_][4];
 			for (int i_1_ = 0; i_1_ < i_0_; i_1_++) {
 				for (int i_2_ = 0; i_2_ < 4; i_2_++)
-					Class23_Sub2.anIntArrayArray2054[i_1_][i_2_] = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.readIntLE();
+					Class23_Sub2.anIntArrayArray2054[i_1_][i_2_] = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.readUIntBE();
 			}
-			int i_3_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.readShortBE();
-			int i_4_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.readShortBE();
+			int i_3_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.getUShortBE();
+			int i_4_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.getUShortBE();
 			boolean bool_5_ = false;
-			int i_6_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.readShortBE();
+			int i_6_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.getUShortBE();
 			if ((i_4_ / 8 == 48 || i_4_ / 8 == 49) && i_3_ / 8 == 48) {
 				bool_5_ = true;
 			}
-			int i_7_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.readByte();
-			int i_8_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.readShortBE();
+			int i_7_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.readUByte();
+			int i_8_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.getUShortBE();
 			Class53.aByteArrayArray843 = new byte[i_0_][];
 			if (i_4_ / 8 == 48 && i_3_ / 8 == 148) {
 				bool_5_ = true;
@@ -159,7 +159,7 @@ public class Class23_Sub4_Sub31 extends Class23_Sub4
 	
 	final void method255(Buffer class23_sub5, int i, int i_37_) {
 		if ((i ^ 0xffffffff) == -1) {
-			anInt3398 = class23_sub5.readShortBE();
+			anInt3398 = class23_sub5.getUShortBE();
 		}
 		anInt3392++;
 		if (i_37_ != 1000) {

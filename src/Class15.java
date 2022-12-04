@@ -32,17 +32,17 @@ public class Class15
 		aClass23_Sub12_293 = class23_sub12;
 		Buffer class23_sub5 = new Buffer(bs);
 		Buffer class23_sub5_0_ = new Buffer(bs);
-		class23_sub5.position = 2;
-		int i = class23_sub5.readByte();
+		class23_sub5.pos = 2;
+		int i = class23_sub5.readUByte();
 		int i_1_ = 0;
 		int i_2_ = -1;
 		int i_3_ = -1;
-		class23_sub5_0_.position = class23_sub5.position + i;
+		class23_sub5_0_.pos = class23_sub5.pos + i;
 		for (int i_4_ = 0; i_4_ < i; i_4_++) {
 			if (aClass23_Sub12_293.anIntArray2295[i_4_] == 0) {
 				i_2_ = i_4_;
 			}
-			int i_5_ = class23_sub5.readByte();
+			int i_5_ = class23_sub5.readUByte();
 			if (i_5_ > 0) {
 				if (aClass23_Sub12_293.anIntArray2295[i_4_] == 0) {
 					i_3_ = i_4_;
@@ -83,7 +83,7 @@ public class Class15
 				}
 			}
 		}
-		if (class23_sub5_0_.position != bs.length) {
+		if (class23_sub5_0_.pos != bs.length) {
 			throw new RuntimeException();
 		}
 		anInt295 = i_1_;

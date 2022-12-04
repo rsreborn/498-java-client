@@ -61,7 +61,7 @@ public class Class74
 			Class23_Sub4_Sub6.anInt2989 = -1;
 			Class97.anInt1645 = -1;
 		} else {
-			int i_9_ = -i_2_ + Class23_Sub4_Sub22.method359(Class23_Sub13_Sub11.anInt3916, i_4_, i_8_, (byte) -123);
+			int i_9_ = -i_2_ + Class23_Sub4_Sub22.method359(ItemDefinition.anInt3916, i_4_, i_8_, (byte) -123);
 			i_4_ -= Class23_Sub13_Sub1.anInt3673;
 			i_8_ -= Class53.anInt838;
 			i_9_ -= Class23_Sub23.anInt2424;

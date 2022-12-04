@@ -59,8 +59,8 @@ public class Class81
 			Class53.aBoolean840 = false;
 			Class23_Sub13_Sub17.anInt4077 = 0;
 			Class25.anInt379 = -1;
-			Class23_Sub7.outBuffer.position = 0;
-			Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.position = 0;
+			Class23_Sub7.aClass23_Sub5_Sub1_2202.pos = 0;
+			Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.pos = 0;
 			Class63.anInt992 = 0;
 			Class23_Sub4_Sub2.anInt2925 = 0;
 			Class23_Sub13.anInt2316 = 0;

@@ -200,7 +200,7 @@ abstract class Class23_Sub13_Sub8_Sub1 extends Class23_Sub13_Sub8
 			if ((Class23_Sub13_Sub6.anInt3728 ^ 0xffffffff) >= (i_46_ ^ 0xffffffff) && i_46_ <= Class35.anInt554) {
 				i = Class23_Sub4_Sub32.method405(105, Class88.anInt1503, i, Class23_Sub4_Sub33.anInt3435);
 				i_44_ = Class23_Sub4_Sub32.method405(100, Class88.anInt1503, i_44_, Class23_Sub4_Sub33.anInt3435);
-				Class70.method1264(i_43_, i_44_, i, i_46_, (byte) -31);
+				ISAACCipher.method1264(i_43_, i_44_, i, i_46_, (byte) -31);
 			}
 			anInt4488++;
 		}

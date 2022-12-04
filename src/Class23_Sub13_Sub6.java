@@ -30,7 +30,7 @@ public class Class23_Sub13_Sub6 extends Class23_Sub13
 	
 	final void method629(byte b, Buffer class23_sub5) {
 		for (;;) {
-			int i = class23_sub5.readByte();
+			int i = class23_sub5.readUByte();
 			if (i == 0) {
 				break;
 			}
@@ -82,7 +82,7 @@ public class Class23_Sub13_Sub6 extends Class23_Sub13
 	private final void method633(int i, Buffer class23_sub5, int i_11_) {
 		anInt3726++;
 		if (i == 5) {
-			anInt3725 = class23_sub5.readShortBE();
+			anInt3725 = class23_sub5.getUShortBE();
 		}
 		if (i_11_ > -41) {
 			method628(true);

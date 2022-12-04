@@ -125,13 +125,13 @@ public class Class23_Sub13_Sub2 extends Class23_Sub13
 				if (bool) {
 					break;
 				}
-				class23_sub5_sub1.method486(i, b ^ 0xb83);
-				class23_sub5_sub1.method460((byte) 106, 0);
-				int i_19_ = class23_sub5_sub1.position;
-				class23_sub5_sub1.writeIntBE(class23_sub27.anInt2478, b ^ ~0x43d2e3c4);
+				class23_sub5_sub1.writeOpcode(i, b ^ 0xb83);
+				class23_sub5_sub1.writeByte(0);
+				int i_19_ = class23_sub5_sub1.pos;
+				class23_sub5_sub1.putInt(class23_sub27.anInt2478, b ^ ~0x43d2e3c4);
 				for (int i_20_ = 0; (class23_sub27.anInt2486 ^ 0xffffffff) < (i_20_ ^ 0xffffffff); i_20_++) {
 					if ((class23_sub27.anIntArray2480[i_20_] ^ 0xffffffff) != -1) {
-						class23_sub5_sub1.method460((byte) 104, class23_sub27.anIntArray2480[i_20_]);
+						class23_sub5_sub1.writeByte(class23_sub27.anIntArray2480[i_20_]);
 					} else {
 						try {
 							int i_21_ = class23_sub27.anIntArray2485[i_20_];
@@ -140,26 +140,26 @@ public class Class23_Sub13_Sub2 extends Class23_Sub13
 									if (i_21_ == 2) {
 										Field field = (Field) class23_sub27.aClass60Array2484[i_20_].anObject955;
 										int i_22_ = field.getModifiers();
-										class23_sub5_sub1.method460((byte) 127, 0);
-										class23_sub5_sub1.writeIntBE(i_22_, b + -1137894411);
+										class23_sub5_sub1.writeByte(0);
+										class23_sub5_sub1.putInt(i_22_, b + -1137894411);
 									}
 								} else {
 									Field field = (Field) class23_sub27.aClass60Array2484[i_20_].anObject955;
 									field.setInt(null, class23_sub27.anIntArray2474[i_20_]);
-									class23_sub5_sub1.method460((byte) 118, 0);
+									class23_sub5_sub1.writeByte(0);
 								}
 							} else {
 								Field field = (Field) class23_sub27.aClass60Array2484[i_20_].anObject955;
 								int i_23_ = field.getInt(null);
-								class23_sub5_sub1.method460((byte) 104, 0);
-								class23_sub5_sub1.writeIntBE(i_23_, b + -1137894411);
+								class23_sub5_sub1.writeByte(0);
+								class23_sub5_sub1.putInt(i_23_, b + -1137894411);
 							}
 							if (i_21_ != 3) {
 								if (i_21_ == 4) {
 									Method method = (Method) class23_sub27.aClass60Array2477[i_20_].anObject955;
 									int i_24_ = method.getModifiers();
-									class23_sub5_sub1.method460((byte) 127, 0);
-									class23_sub5_sub1.writeIntBE(i_24_, -1137894376);
+									class23_sub5_sub1.writeByte(0);
+									class23_sub5_sub1.putInt(i_24_, -1137894376);
 								}
 							} else {
 								Method method = (Method) class23_sub27.aClass60Array2477[i_20_].anObject955;
@@ -171,48 +171,48 @@ public class Class23_Sub13_Sub2 extends Class23_Sub13
 								}
 								Object object = method.invoke(null, objects);
 								if (object == null) {
-									class23_sub5_sub1.method460((byte) 111, 0);
+									class23_sub5_sub1.writeByte(0);
 								} else if (!(object instanceof Number)) {
 									if (object instanceof RSString) {
-										class23_sub5_sub1.method460((byte) 118, 2);
+										class23_sub5_sub1.writeByte(2);
 										class23_sub5_sub1.method446((RSString) object, -106);
 									} else {
-										class23_sub5_sub1.method460((byte) 113, 4);
+										class23_sub5_sub1.writeByte(4);
 									}
 								} else {
-									class23_sub5_sub1.method460((byte) 127, 1);
-									class23_sub5_sub1.method436(((Number) object).longValue(), (byte) -111);
+									class23_sub5_sub1.writeByte(1);
+									class23_sub5_sub1.putLong(((Number) object).longValue(), (byte) -111);
 								}
 							}
 						} catch (ClassNotFoundException classnotfoundexception) {
-							class23_sub5_sub1.method460((byte) 125, -10);
+							class23_sub5_sub1.writeByte(-10);
 						} catch (java.io.InvalidClassException invalidclassexception) {
-							class23_sub5_sub1.method460((byte) 114, -11);
+							class23_sub5_sub1.writeByte(-11);
 						} catch (java.io.StreamCorruptedException streamcorruptedexception) {
-							class23_sub5_sub1.method460((byte) 126, -12);
+							class23_sub5_sub1.writeByte(-12);
 						} catch (java.io.OptionalDataException optionaldataexception) {
-							class23_sub5_sub1.method460((byte) 125, -13);
+							class23_sub5_sub1.writeByte(-13);
 						} catch (IllegalAccessException illegalaccessexception) {
-							class23_sub5_sub1.method460((byte) 109, -14);
+							class23_sub5_sub1.writeByte(-14);
 						} catch (IllegalArgumentException illegalargumentexception) {
-							class23_sub5_sub1.method460((byte) 112, -15);
+							class23_sub5_sub1.writeByte(-15);
 						} catch (java.lang.reflect.InvocationTargetException invocationtargetexception) {
-							class23_sub5_sub1.method460((byte) 125, -16);
+							class23_sub5_sub1.writeByte(-16);
 						} catch (SecurityException securityexception) {
-							class23_sub5_sub1.method460((byte) 109, -17);
+							class23_sub5_sub1.writeByte(-17);
 						} catch (java.io.IOException ioexception) {
-							class23_sub5_sub1.method460((byte) 119, -18);
+							class23_sub5_sub1.writeByte(-18);
 						} catch (NullPointerException nullpointerexception) {
-							class23_sub5_sub1.method460((byte) 109, -19);
+							class23_sub5_sub1.writeByte(-19);
 						} catch (Exception exception) {
-							class23_sub5_sub1.method460((byte) 103, -20);
+							class23_sub5_sub1.writeByte(-20);
 						} catch (Throwable throwable) {
-							class23_sub5_sub1.method460((byte) 111, -21);
+							class23_sub5_sub1.writeByte(-21);
 						}
 					}
 				}
 				class23_sub5_sub1.method431(32258, i_19_);
-				class23_sub5_sub1.method477((byte) 21, -i_19_ + class23_sub5_sub1.position);
+				class23_sub5_sub1.method477((byte) 21, -i_19_ + class23_sub5_sub1.pos);
 				class23_sub27.method228(0);
 			}
 		}

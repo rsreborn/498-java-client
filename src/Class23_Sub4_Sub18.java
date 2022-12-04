@@ -81,7 +81,7 @@ public class Class23_Sub4_Sub18 extends Class23_Sub4
 			Class91.method1452(class23_sub9, (byte) -127);
 		}
 		Class71_Sub1.anInt2725 = i_4_;
-		Class23_Sub13_Sub7.aBoolean3792 = true;
+		ObjectDefinition.aBoolean3792 = true;
 		if (i == 5087) {
 			Class7.anInt169 = i_5_;
 			Class23_Sub13_Sub14.anInt4013 = i_6_;
@@ -193,13 +193,13 @@ public class Class23_Sub4_Sub18 extends Class23_Sub4
 							break while_47_;
 						}
 					} else {
-						anInt3187 = class23_sub5.readByte();
+						anInt3187 = class23_sub5.readUByte();
 						break while_47_;
 					}
-					anInt3182 = class23_sub5.readShortBE();
+					anInt3182 = class23_sub5.getUShortBE();
 					break while_47_;
 				} while (false);
-				anInt3192 = class23_sub5.readByte();
+				anInt3192 = class23_sub5.readUByte();
 			} while (false);
 			anInt3181++;
 		}

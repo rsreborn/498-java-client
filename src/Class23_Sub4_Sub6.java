@@ -28,7 +28,7 @@ public class Class23_Sub4_Sub6 extends Class23_Sub4
 		}
 		anInt2984++;
 		if (i == 0) {
-			anInt2983 = class23_sub5.readShortBE();
+			anInt2983 = class23_sub5.getUShortBE();
 		}
 	}
 	
@@ -36,9 +36,13 @@ public class Class23_Sub4_Sub6 extends Class23_Sub4
 		super(1, true);
 	}
 	
+
+	//Something to do with world list, but also obviously about client states...
 	static final void method287(Class23_Sub13_Sub8 class23_sub13_sub8, Class23_Sub13_Sub8 class23_sub13_sub8_1_, int i) {
 		anInt2978++;
-		if (Class71_Sub2.aBoolean2736) {
+		//I think this boolean is true if we have successfully gotten world list data from the server
+		if (Class71_Sub2.isWorldListReady) {
+			//This tells the client to load the world list vvv
 			Class23_Sub13_Sub3.method613(class23_sub13_sub8_1_, (byte) 121, class23_sub13_sub8);
 		} else {
 			if (i <= 111) {

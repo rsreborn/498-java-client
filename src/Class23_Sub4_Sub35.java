@@ -70,7 +70,7 @@ public class Class23_Sub4_Sub35 extends Class23_Sub4
 		anInt3460++;
 		int i_5_ = i;
 		if (i_5_ == 0) {
-			method411((byte) -62, class23_sub5.method471(79));
+			method411((byte) -62, class23_sub5.getTriByte(79));
 		}
 	}
 	

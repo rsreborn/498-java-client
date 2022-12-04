@@ -49,7 +49,7 @@ public class Class53
 				}
 				anInt848 += aDataInputStream844.read(aByteArray846, anInt848, i_0_);
 				if (anInt848 == 4) {
-					int i_1_ = new Buffer(aByteArray846).method472(108);
+					int i_1_ = new Buffer(aByteArray846).readUIntBE();
 					aByteArray845 = new byte[i_1_];
 					anInt837 = 2;
 				}
@@ -128,15 +128,54 @@ public class Class53
 		}
 		int i_8_ = 71 / ((93 - i) / 32);
 		Class61.anInt963++;
-		Class23_Sub7.outBuffer.method486(46, 2976);
-		Class23_Sub7.outBuffer.method460((byte) 111, class16.method171(-61) - 1);
-		Class23_Sub7.outBuffer.method446(class16.method138((byte) 106, 2), -124);
+		Class23_Sub7.aClass23_Sub5_Sub1_2202.writeOpcode(46, 2976);
+		Class23_Sub7.aClass23_Sub5_Sub1_2202.writeByte(class16.method171(-61) - 1);
+		Class23_Sub7.aClass23_Sub5_Sub1_2202.method446(class16.method138((byte) 106, 2), -124);
 	}
 	
 	Class53(Class9 class9, URL url) {
-		aClass60_832 = class9.method102(url, 119);
-		anInt837 = 0;
-		aLong839 = 30000L + Class94.method1466(22624);
+	System.out.println("Nice! Found the world button list!");
+		/*
+		 * //Now do we have it communicate with the server or rig it? I think we should
+		 * rig it lmao
+		 * aClass60_832 = class9.method102(url, 119); anInt837 = 0;
+		 * //This is setting how long it should wait, this is 30 seconds)
+		 * aLong839 = 30000L +
+		 * Class94.method1466(22624);
+		 */
+	//TODO Later, just have it send a request to the server and have it send us a real-updated list... until then:
+	
+	Class51.anInt793 = 1;//Amount of Worlds
+	Class23_Sub13_Sub1.worldList = new Class82[Class51.anInt793];
+	for (int i_151_ = 0; Class51.anInt793 > i_151_; i_151_++) {
+		Class82 class82 = Class23_Sub13_Sub1.worldList[i_151_] = new Class82();
+		class82.aBoolean1450 = true;//members world
+		class82.anInt1451 = 69;//world number
+		class82.aClass16_1449 = Class38_Sub6.method1076((byte) 86, "127)30)30)31");//Server IP lol
+		class82.anInt1447 = 420;//number of players
+		class82.anInt1448 = i_151_;//world index
+		class82.anInt1443 = 1;//country flag!
+	}
+	Class38_Sub6.method1080(0, 0/*dummy*/, Class23_Sub13_Sub1.worldList, Class23_Sub13_Sub1.worldList.length - 1);
+	Class23.aClass53_347 = null;
+	Class71_Sub2.isWorldListReady = true;	
+//	PacketBuffer class23_sub5 = new PacketBuffer(bs);
+//	Class51.anInt793 = class23_sub5.getShort((byte) -105);
+	
+//	Class23_Sub13_Sub1.worldList = new Class82[Class51.anInt793];
+//	for (int i_151_ = 0; Class51.anInt793 > i_151_; i_151_++) {
+//		Class82 class82 = Class23_Sub13_Sub1.worldList[i_151_] = new Class82();
+//		int i_152_ = class23_sub5.getShort((byte) -126);
+//		class82.aBoolean1450 = (0x8000 & i_152_) != 0;
+//		class82.anInt1451 = i_152_ & 0x7fff;
+//		class82.aClass16_1449 = class23_sub5.readString(i + -2872);
+//		class82.anInt1447 = class23_sub5.method474(true);
+//		class82.anInt1448 = i_151_;
+//		class82.anInt1443 = NPCDefinition.method814(class23_sub5.getShort((byte) -120), true);
+//	}
+//	Class38_Sub6.method1080(0, i ^ 0xb3a, Class23_Sub13_Sub1.worldList, Class23_Sub13_Sub1.worldList.length - 1);
+//	Class23.aClass53_347 = null;
+//	Class71_Sub2.isWorldListReady = true;
 	}
 	
 	static {

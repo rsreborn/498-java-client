@@ -188,7 +188,7 @@ public class Class23_Sub10_Sub3 extends Class23_Sub10
 		Class23_Sub13_Sub9.anIntArray3859[i_30_] = i_17_;
 		Class23_Sub4_Sub22.anIntArray3260[i_30_++] = i_16_;
 		int i_31_ = 0;
-		int[][] is = Class4.aClass72Array85[Class23_Sub13_Sub11.anInt3916].anIntArrayArray1290;
+		int[][] is = Class4.aClass72Array85[ItemDefinition.anInt3916].anIntArrayArray1290;
 		boolean bool_32_ = false;
 		while (i_31_ != i_30_) {
 			i_29_ = Class23_Sub13_Sub9.anIntArray3859[i_31_];
@@ -199,8 +199,8 @@ public class Class23_Sub10_Sub3 extends Class23_Sub10
 				break;
 			}
 			if ((i_24_ ^ 0xffffffff) != -1) {
-				if (i_24_ >= 5 && i_24_ != 10 || !Class4.aClass72Array85[Class23_Sub13_Sub11.anInt3916].method1305((byte) 42, i_24_ - 1, i_18_, i_21_, i_28_, 2, i_29_, i_15_)) {
-					if (i_24_ < 10 && Class4.aClass72Array85[Class23_Sub13_Sub11.anInt3916].method1303(i_21_, (byte) 77, i_28_, i_29_, i_15_, i_18_, i_24_ + -1, 2)) {
+				if (i_24_ >= 5 && i_24_ != 10 || !Class4.aClass72Array85[ItemDefinition.anInt3916].method1305((byte) 42, i_24_ - 1, i_18_, i_21_, i_28_, 2, i_29_, i_15_)) {
+					if (i_24_ < 10 && Class4.aClass72Array85[ItemDefinition.anInt3916].method1303(i_21_, (byte) 77, i_28_, i_29_, i_15_, i_18_, i_24_ + -1, 2)) {
 						bool_32_ = true;
 						break;
 					}
@@ -209,7 +209,7 @@ public class Class23_Sub10_Sub3 extends Class23_Sub10
 					break;
 				}
 			}
-			if (i_22_ != 0 && i_20_ != 0 && Class4.aClass72Array85[Class23_Sub13_Sub11.anInt3916].method1290(i_15_, i_21_, i_29_, i_22_, 2, i_28_, i, i_20_, (byte) -124)) {
+			if (i_22_ != 0 && i_20_ != 0 && Class4.aClass72Array85[ItemDefinition.anInt3916].method1290(i_15_, i_21_, i_29_, i_22_, 2, i_28_, i, i_20_, (byte) -124)) {
 				bool_32_ = true;
 				break;
 			}
@@ -338,7 +338,7 @@ public class Class23_Sub10_Sub3 extends Class23_Sub10
 			i_42_ = Class23_Sub4_Sub28.anIntArrayArray3346[i_29_][i_28_];
 		}
 		if ((i_31_ ^ 0xffffffff) < -1) {
-			Class23_Sub13_Sub7.method635(true, i_31_, Class23_Sub4_Sub22.anIntArray3260, Class23_Sub13_Sub9.anIntArray3859, i_23_);
+			ObjectDefinition.method635(true, i_31_, Class23_Sub4_Sub22.anIntArray3260, Class23_Sub13_Sub9.anIntArray3859, i_23_);
 			return true;
 		}
 		if (i_23_ == 1) {

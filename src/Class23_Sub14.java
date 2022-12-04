@@ -43,7 +43,7 @@ public class Class23_Sub14 extends Class23
 		}
 		Class88.anIntArray1507 = is;
 		Class23_Sub20.anIntArray2401 = is_3_;
-		Class38_Sub6.method1080(0, 0, Class23_Sub13_Sub1.aClass82Array3669, Class23_Sub13_Sub1.aClass82Array3669.length - 1);
+		Class38_Sub6.method1080(0, 0, Class23_Sub13_Sub1.worldList, Class23_Sub13_Sub1.worldList.length - 1);
 	}
 	
 	public static void method862(byte b) {
@@ -68,7 +68,7 @@ public class Class23_Sub14 extends Class23
 		int i_10_ = i_5_ - i_7_;
 		if (i_9_ == 0) {
 			if (i_10_ != 0) {
-				Class70.method1264(i_6_, i_5_, i_7_, i, (byte) -119);
+				ISAACCipher.method1264(i_6_, i_5_, i_7_, i, (byte) -119);
 			}
 		} else if (i_10_ == 0) {
 			Class56.method1187(false, i_6_, i_8_, i, i_7_);

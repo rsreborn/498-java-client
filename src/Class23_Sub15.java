@@ -38,8 +38,8 @@ public class Class23_Sub15 extends Class23
 		if (i != -2415) {
 			method867(null, -17);
 		}
-		Class23_Sub7.outBuffer.method486(244, 2976);
-		Class23_Sub7.outBuffer.method436(0L, (byte) -114);
+		Class23_Sub7.aClass23_Sub5_Sub1_2202.writeOpcode(244, 2976);
+		Class23_Sub7.aClass23_Sub5_Sub1_2202.putLong(0L, (byte) -114);
 		anInt2346++;
 	}
 	

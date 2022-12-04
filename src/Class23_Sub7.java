@@ -12,7 +12,7 @@ public class Class23_Sub7 extends Class23
 	protected int anInt2199;
 	static RSString aClass16_2200;
 	static Class23_Sub10_Sub4 aClass23_Sub10_Sub4_2201;
-	static Class23_Sub5_Sub1 outBuffer;
+	static Class23_Sub5_Sub1 aClass23_Sub5_Sub1_2202;
 	static RSString aClass16_2203 = Class38_Sub6.method1076((byte) 86, "<img=1>");
 	protected int anInt2204;
 	protected int anInt2205;
@@ -43,12 +43,12 @@ public class Class23_Sub7 extends Class23
 		aClass16_2226 = null;
 		aClass29_2196 = null;
 		if (i != -1) {
-			outBuffer = null;
+			aClass23_Sub5_Sub1_2202 = null;
 		}
 		aClass16_2200 = null;
 		aClass16_2203 = null;
 		aClass23_Sub10_Sub4_2201 = null;
-		outBuffer = null;
+		aClass23_Sub5_Sub1_2202 = null;
 	}
 	
 	static final void method495(Class104 class104, int i, int i_0_, int i_1_, int i_2_, int i_3_, int i_4_, int i_5_, boolean bool) {
@@ -174,6 +174,6 @@ public class Class23_Sub7 extends Class23
 		aClass16_2200 = Class38_Sub6.method1076((byte) 86, "<col=ffff00>");
 		anInt2213 = 0;
 		aClass16_2226 = Class38_Sub6.method1076((byte) 86, "<)4col>");
-		outBuffer = new Class23_Sub5_Sub1(5000);
+		aClass23_Sub5_Sub1_2202 = new Class23_Sub5_Sub1(5000);
 	}
 }

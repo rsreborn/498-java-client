@@ -16,7 +16,7 @@ public class Class71_Sub3 extends Class71
 	static int anInt2748;
 	
 	static final void method1287(int i) {
-		Class23_Sub13_Sub20.anInt4172 = i;
+		NPCDefinition.anInt4172 = i;
 		for (int i_0_ = 0; i_0_ < Class105.anInt1802; i_0_++) {
 			for (int i_1_ = 0; i_1_ < client.anInt1974; i_1_++) {
 				if (Class23_Sub24.aClass23_Sub1ArrayArrayArray2442[i][i_0_][i_1_] == null) {

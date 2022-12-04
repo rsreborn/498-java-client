@@ -530,8 +530,8 @@ public class Class8
 				}
 				Class105.aBoolean1806 = false;
 			} else if ((Class21.anInt342 ^ 0xffffffff) != -1 && Class83.anInt1460 != -1 && !Class23_Sub4_Sub19.method343((byte) -37)) {
-				Class23_Sub7.outBuffer.method486(144, 2976);
-				Class23_Sub7.outBuffer.writeIntBE(Class83.anInt1460, -1137894376);
+				Class23_Sub7.aClass23_Sub5_Sub1_2202.writeOpcode(144, 2976);
+				Class23_Sub7.aClass23_Sub5_Sub1_2202.putInt(Class83.anInt1460, -1137894376);
 				Class27.anInt408++;
 				Class83.anInt1460 = -1;
 			}

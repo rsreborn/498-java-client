@@ -70,25 +70,25 @@ public class Class23_Sub4_Sub37 extends Class23_Sub4
 										break while_153_;
 									}
 								} else {
-									anInt3485 = anInt3491 = class23_sub5.readByte();
+									anInt3485 = anInt3491 = class23_sub5.readUByte();
 									break while_157_;
 								}
-								anInt3473 = class23_sub5.readByte();
+								anInt3473 = class23_sub5.readUByte();
 								break while_157_;
 							} while (false);
-							anInt3474 = class23_sub5.readShortBE();
+							anInt3474 = class23_sub5.getUShortBE();
 							break while_157_;
 						} while (false);
-						anInt3483 = class23_sub5.readByte();
+						anInt3483 = class23_sub5.readUByte();
 						break while_157_;
 					} while (false);
-					anInt3495 = class23_sub5.readByte();
+					anInt3495 = class23_sub5.readUByte();
 					break while_157_;
 				} while (false);
-				anInt3485 = class23_sub5.readByte();
+				anInt3485 = class23_sub5.readUByte();
 				break while_157_;
 			} while (false);
-			anInt3491 = class23_sub5.readByte();
+			anInt3491 = class23_sub5.readUByte();
 		} while (false);
 		anInt3477++;
 	}

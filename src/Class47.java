@@ -433,7 +433,7 @@ public class Class47
 	
 	static final Class23_Sub13_Sub10 method1147(boolean bool, int i, int i_33_, boolean bool_34_, int i_35_, boolean bool_36_, int i_37_, boolean bool_38_) {
 		anInt727++;
-		Class23_Sub13_Sub11 class23_sub13_sub11 = Class23_Sub13_Sub24.method853(121, i_33_);
+		ItemDefinition class23_sub13_sub11 = Class23_Sub13_Sub24.method853(121, i_33_);
 		if (i_37_ > 1 && class23_sub13_sub11.anIntArray3898 != null) {
 			int i_39_ = -1;
 			for (int i_40_ = 0; i_40_ < 10; i_40_++) {
@@ -452,7 +452,7 @@ public class Class47
 		Class23_Sub13_Sub10 class23_sub13_sub10 = null;
 		if ((class23_sub13_sub11.anInt3955 ^ 0xffffffff) == 0) {
 			if (class23_sub13_sub11.anInt3915 != -1) {
-				class23_sub13_sub10 = method1147(false, i, class23_sub13_sub11.anInt3894, false, i_35_, false, i_37_, true);
+				class23_sub13_sub10 = method1147(false, i, class23_sub13_sub11.lendId, false, i_35_, false, i_37_, true);
 				if (class23_sub13_sub10 == null) {
 					return null;
 				}
@@ -472,7 +472,7 @@ public class Class47
 		Class20.method202(class23_sub13_sub10_sub1.anIntArray4502, 36, 32);
 		Class76.method1318();
 		Class76.method1317(16, 16);
-		int i_44_ = class23_sub13_sub11.anInt3896;
+		int i_44_ = class23_sub13_sub11.modelZoom;
 		if (!bool_34_) {
 			if (i == 2) {
 				i_44_ = (int) (1.04 * (double) i_44_);
@@ -481,9 +481,9 @@ public class Class47
 			i_44_ = (int) (1.5 * (double) i_44_);
 		}
 		Class76.aBoolean1396 = bool_36_;
-		int i_45_ = Class76.anIntArray1386[class23_sub13_sub11.anInt3891] * i_44_ >> 16;
-		int i_46_ = i_44_ * Class76.anIntArray1395[class23_sub13_sub11.anInt3891] >> 16;
-		class38_sub1_sub1.method1018(0, class23_sub13_sub11.anInt3947, class23_sub13_sub11.anInt3897, class23_sub13_sub11.anInt3891, class23_sub13_sub11.anInt3922, -(class38_sub1_sub1.method999() / 2) + i_45_ + class23_sub13_sub11.anInt3899, i_46_ - -class23_sub13_sub11.anInt3899);
+		int i_45_ = Class76.anIntArray1386[class23_sub13_sub11.modelRotation1] * i_44_ >> 16;
+		int i_46_ = i_44_ * Class76.anIntArray1395[class23_sub13_sub11.modelRotation1] >> 16;
+		class38_sub1_sub1.method1018(0, class23_sub13_sub11.modelRotation2, class23_sub13_sub11.anInt3897, class23_sub13_sub11.modelRotation1, class23_sub13_sub11.anInt3922, -(class38_sub1_sub1.method999() / 2) + i_45_ + class23_sub13_sub11.anInt3899, i_46_ - -class23_sub13_sub11.anInt3899);
 		if (i >= 1) {
 			class23_sub13_sub10_sub1.method708(1);
 		}

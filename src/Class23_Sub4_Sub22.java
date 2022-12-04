@@ -37,7 +37,7 @@ public class Class23_Sub4_Sub22 extends Class23_Sub4
 	}
 	
 	static final void method355(byte b) {
-		Class23_Sub13_Sub7.aByteArrayArrayArray3750 = null;
+		ObjectDefinition.aByteArrayArrayArray3750 = null;
 		Class102.anIntArrayArrayArray1713 = null;
 		Class23_Sub4_Sub6.anIntArray2979 = null;
 		Class23_Sub13_Sub12.aClass64_3967 = null;
@@ -115,7 +115,7 @@ public class Class23_Sub4_Sub22 extends Class23_Sub4
 	static final void method358(int i) {
 		anInt3256++;
 		int i_7_ = 256;
-		if ((Class23_Sub13_Sub7.anInt3784 ^ 0xffffffff) >= -1) {
+		if ((ObjectDefinition.anInt3784 ^ 0xffffffff) >= -1) {
 			if (Class23_Sub11.anInt2281 > 0) {
 				for (int i_8_ = 0; i_8_ < 256; i_8_++) {
 					if (Class23_Sub11.anInt2281 <= 768) {
@@ -134,14 +134,14 @@ public class Class23_Sub4_Sub22 extends Class23_Sub4
 			}
 		} else {
 			for (int i_10_ = 0; i_10_ < 256; i_10_++) {
-				if (Class23_Sub13_Sub7.anInt3784 <= 768) {
-					if (Class23_Sub13_Sub7.anInt3784 <= 256) {
-						Class6.anIntArray144[i_10_] = Class23_Sub4_Sub31.method400(Class23_Sub5_Sub1.anIntArray3543[i_10_], 256 + -Class23_Sub13_Sub7.anInt3784, 1021638856, Class39.anIntArray618[i_10_]);
+				if (ObjectDefinition.anInt3784 <= 768) {
+					if (ObjectDefinition.anInt3784 <= 256) {
+						Class6.anIntArray144[i_10_] = Class23_Sub4_Sub31.method400(Class23_Sub5_Sub1.anIntArray3543[i_10_], 256 + -ObjectDefinition.anInt3784, 1021638856, Class39.anIntArray618[i_10_]);
 					} else {
 						Class6.anIntArray144[i_10_] = Class39.anIntArray618[i_10_];
 					}
 				} else {
-					Class6.anIntArray144[i_10_] = Class23_Sub4_Sub31.method400(Class39.anIntArray618[i_10_], 1024 + -Class23_Sub13_Sub7.anInt3784, 1021638856, Class23_Sub5_Sub1.anIntArray3543[i_10_]);
+					Class6.anIntArray144[i_10_] = Class23_Sub4_Sub31.method400(Class39.anIntArray618[i_10_], 1024 + -ObjectDefinition.anInt3784, 1021638856, Class23_Sub5_Sub1.anIntArray3543[i_10_]);
 				}
 			}
 		}
@@ -286,13 +286,13 @@ public class Class23_Sub4_Sub22 extends Class23_Sub4
 						break while_101_;
 					}
 				} else {
-					anInt3268 = class23_sub5.readByte();
+					anInt3268 = class23_sub5.readUByte();
 					break while_101_;
 				}
-				anInt3271 = class23_sub5.readByte();
+				anInt3271 = class23_sub5.readUByte();
 				break while_101_;
 			} while (false);
-			anInt3259 = class23_sub5.readShortBE();
+			anInt3259 = class23_sub5.getUShortBE();
 		} while (false);
 		anInt3265++;
 	}

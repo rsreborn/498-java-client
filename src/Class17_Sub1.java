@@ -64,7 +64,7 @@ public class Class17_Sub1 extends Class17
 					i_7_ += is[i_3_++];
 					Class64 class64_8_ = Class23_Sub24.method905(i_7_, (byte) 111);
 					int i_9_ = is[i_3_++];
-					if (i_9_ != -1 && (!Class23_Sub13_Sub24.method853(-36, i_9_).aBoolean3908 || Class75.aBoolean1378)) {
+					if (i_9_ != -1 && (!Class23_Sub13_Sub24.method853(-36, i_9_).isMembers || Class75.aBoolean1378)) {
 						for (int i_10_ = 0; (i_10_ ^ 0xffffffff) > (class64_8_.anIntArray1028.length ^ 0xffffffff); i_10_++) {
 							if (1 + i_9_ == class64_8_.anIntArray1028[i_10_]) {
 								i_5_ += class64_8_.anIntArray1147[i_10_];
@@ -105,7 +105,7 @@ public class Class17_Sub1 extends Class17
 					i_12_ += is[i_3_++];
 					Class64 class64_13_ = Class23_Sub24.method905(i_12_, (byte) 111);
 					int i_14_ = is[i_3_++];
-					if ((i_14_ ^ 0xffffffff) != 0 && (!Class23_Sub13_Sub24.method853(i + -12, i_14_).aBoolean3908 || Class75.aBoolean1378)) {
+					if ((i_14_ ^ 0xffffffff) != 0 && (!Class23_Sub13_Sub24.method853(i + -12, i_14_).isMembers || Class75.aBoolean1378)) {
 						for (int i_15_ = 0; i_15_ < class64_13_.anIntArray1028.length; i_15_++) {
 							if ((class64_13_.anIntArray1028[i_15_] ^ 0xffffffff) == (1 + i_14_ ^ 0xffffffff)) {
 								i_5_ = 999999999;

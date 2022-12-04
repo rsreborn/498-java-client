@@ -15,7 +15,7 @@ public class Class96
 	private int[] anIntArray1630;
 	
 	final void method1471(int i) {
-		aClass23_Sub5_1623.position = anIntArray1630[i];
+		aClass23_Sub5_1623.pos = anIntArray1630[i];
 	}
 	
 	public static void method1472() {
@@ -23,7 +23,7 @@ public class Class96
 	}
 	
 	final void method1473(int i) {
-		anIntArray1630[i] = aClass23_Sub5_1623.position;
+		anIntArray1630[i] = aClass23_Sub5_1623.pos;
 	}
 	
 	final void method1474(long l) {
@@ -32,9 +32,9 @@ public class Class96
 		for (int i_0_ = 0; i_0_ < i; i_0_++) {
 			anIntArray1625[i_0_] = 0;
 			anIntArray1626[i_0_] = 0;
-			aClass23_Sub5_1623.position = anIntArray1629[i_0_];
+			aClass23_Sub5_1623.pos = anIntArray1629[i_0_];
 			method1485(i_0_);
-			anIntArray1630[i_0_] = aClass23_Sub5_1623.position;
+			anIntArray1630[i_0_] = aClass23_Sub5_1623.pos;
 		}
 	}
 	
@@ -53,20 +53,20 @@ public class Class96
 	
 	final void method1476(byte[] bs) {
 		aClass23_Sub5_1623.payload = bs;
-		aClass23_Sub5_1623.position = 10;
-		int i = aClass23_Sub5_1623.readShortBE();
-		anInt1627 = aClass23_Sub5_1623.readShortBE();
+		aClass23_Sub5_1623.pos = 10;
+		int i = aClass23_Sub5_1623.getUShortBE();
+		anInt1627 = aClass23_Sub5_1623.getUShortBE();
 		anInt1628 = 500000;
 		anIntArray1629 = new int[i];
 		int i_4_ = 0;
 		while (i_4_ < i) {
-			int i_5_ = aClass23_Sub5_1623.method472(-124);
-			int i_6_ = aClass23_Sub5_1623.method472(-117);
+			int i_5_ = aClass23_Sub5_1623.readUIntBE();
+			int i_6_ = aClass23_Sub5_1623.readUIntBE();
 			if (i_5_ == 1297379947) {
-				anIntArray1629[i_4_] = aClass23_Sub5_1623.position;
+				anIntArray1629[i_4_] = aClass23_Sub5_1623.pos;
 				i_4_++;
 			}
-			aClass23_Sub5_1623.position += i_6_;
+			aClass23_Sub5_1623.pos += i_6_;
 		}
 		aLong1624 = 0L;
 		anIntArray1630 = new int[i];
@@ -87,7 +87,7 @@ public class Class96
 	}
 	
 	final void method1478() {
-		aClass23_Sub5_1623.position = -1;
+		aClass23_Sub5_1623.pos = -1;
 	}
 	
 	final int method1479() {
@@ -107,25 +107,25 @@ public class Class96
 	}
 	
 	private final int method1482(int i) {
-		int i_10_ = aClass23_Sub5_1623.payload[aClass23_Sub5_1623.position];
+		int i_10_ = aClass23_Sub5_1623.payload[aClass23_Sub5_1623.pos];
 		if (i_10_ < 0) {
 			i_10_ &= 0xff;
 			anIntArray1626[i] = i_10_;
-			aClass23_Sub5_1623.position++;
+			aClass23_Sub5_1623.pos++;
 		} else {
 			i_10_ = anIntArray1626[i];
 		}
 		if (i_10_ == 240 || i_10_ == 247) {
 			int i_11_ = aClass23_Sub5_1623.method437(false);
 			if (i_10_ == 247 && i_11_ > 0) {
-				int i_12_ = aClass23_Sub5_1623.payload[aClass23_Sub5_1623.position] & 0xff;
+				int i_12_ = aClass23_Sub5_1623.payload[aClass23_Sub5_1623.pos] & 0xff;
 				if (i_12_ >= 241 && i_12_ <= 243 || i_12_ == 246 || i_12_ == 248 || i_12_ >= 250 && i_12_ <= 252 || i_12_ == 254) {
-					aClass23_Sub5_1623.position++;
+					aClass23_Sub5_1623.pos++;
 					anIntArray1626[i] = i_12_;
 					return method1484(i, i_12_);
 				}
 			}
-			aClass23_Sub5_1623.position += i_11_;
+			aClass23_Sub5_1623.pos += i_11_;
 			return 0;
 		}
 		return method1484(i, i_10_);
@@ -141,31 +141,31 @@ public class Class96
 	
 	private final int method1484(int i, int i_13_) {
 		if (i_13_ == 255) {
-			int i_14_ = aClass23_Sub5_1623.readByte();
+			int i_14_ = aClass23_Sub5_1623.readUByte();
 			int i_15_ = aClass23_Sub5_1623.method437(false);
 			if (i_14_ == 47) {
-				aClass23_Sub5_1623.position += i_15_;
+				aClass23_Sub5_1623.pos += i_15_;
 				return 1;
 			}
 			if (i_14_ == 81) {
-				int i_16_ = aClass23_Sub5_1623.method471(82);
+				int i_16_ = aClass23_Sub5_1623.getTriByte(82);
 				i_15_ -= 3;
 				int i_17_ = anIntArray1625[i];
 				aLong1624 += (long) i_17_ * (long) (anInt1628 - i_16_);
 				anInt1628 = i_16_;
-				aClass23_Sub5_1623.position += i_15_;
+				aClass23_Sub5_1623.pos += i_15_;
 				return 2;
 			}
-			aClass23_Sub5_1623.position += i_15_;
+			aClass23_Sub5_1623.pos += i_15_;
 			return 3;
 		}
 		byte b = aByteArray1622[i_13_ - 128];
 		int i_18_ = i_13_;
 		if (b >= 1) {
-			i_18_ |= aClass23_Sub5_1623.readByte() << 8;
+			i_18_ |= aClass23_Sub5_1623.readUByte() << 8;
 		}
 		if (b >= 2) {
-			i_18_ |= aClass23_Sub5_1623.readByte() << 16;
+			i_18_ |= aClass23_Sub5_1623.readUByte() << 16;
 		}
 		return i_18_;
 	}

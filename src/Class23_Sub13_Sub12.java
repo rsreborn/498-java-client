@@ -79,25 +79,25 @@ public class Class23_Sub13_Sub12 extends Class23_Sub13
 		if (i != 1) {
 			if (i != 2) {
 				if (i == 3) {
-					int i_4_ = class23_sub5.readByte();
+					int i_4_ = class23_sub5.readUByte();
 					anIntArrayArray3974 = new int[i_4_][];
 					anIntArray3981 = new int[i_4_];
 					for (int i_5_ = 0; i_5_ < i_4_; i_5_++) {
-						int i_6_ = class23_sub5.readShortBE();
+						int i_6_ = class23_sub5.getUShortBE();
 						anIntArray3981[i_5_] = i_6_;
 						anIntArrayArray3974[i_5_] = new int[Class23_Sub13_Sub14.anIntArray4001[i_6_]];
 						for (int i_7_ = 0; (Class23_Sub13_Sub14.anIntArray4001[i_6_] ^ 0xffffffff) < (i_7_ ^ 0xffffffff); i_7_++)
-							anIntArrayArray3974[i_5_][i_7_] = class23_sub5.readShortBE();
+							anIntArrayArray3974[i_5_][i_7_] = class23_sub5.getUShortBE();
 					}
 				}
 			} else {
-				int i_8_ = class23_sub5.readByte();
+				int i_8_ = class23_sub5.readUByte();
 				anIntArray3966 = new int[i_8_];
 				for (int i_9_ = 0; i_8_ > i_9_; i_9_++)
-					anIntArray3966[i_9_] = class23_sub5.readShortBE();
+					anIntArray3966[i_9_] = class23_sub5.getUShortBE();
 			}
 		} else {
-			aClass16Array3969 = class23_sub5.method426(2).method168(false, 60);
+			aClass16Array3969 = class23_sub5.readString(2).method168(false, 60);
 		}
 	}
 	
@@ -106,21 +106,21 @@ public class Class23_Sub13_Sub12 extends Class23_Sub13
 		Buffer class23_sub5 = new Buffer(bs);
 		int i_11_ = -1;
 		for (;;) {
-			int i_12_ = class23_sub5.method447((byte) -121);
+			int i_12_ = class23_sub5.getSmarts((byte) -121);
 			if (i_12_ == 0) {
 				break;
 			}
 			int i_13_ = 0;
 			i_11_ += i_12_;
 			for (;;) {
-				int i_14_ = class23_sub5.method432((byte) 20);
+				int i_14_ = class23_sub5.getSmart((byte) 20);
 				if (i_14_ == 0) {
 					break;
 				}
 				i_13_ += -1 + i_14_;
 				int i_15_ = i_13_ >> 12;
 				int i_16_ = i_13_ & 0x3f;
-				int i_17_ = class23_sub5.readByte();
+				int i_17_ = class23_sub5.readUByte();
 				int i_18_ = i_16_ + i;
 				int i_19_ = i_17_ >> 2;
 				int i_20_ = (0xfd8 & i_13_) >> 6;
@@ -152,7 +152,7 @@ public class Class23_Sub13_Sub12 extends Class23_Sub13
 		RSString class16 = Class38_Sub6.method1075(80, 0);
 		class16.method157(aClass16Array3969[0], (byte) 122);
 		for (int i_24_ = 1; (aClass16Array3969.length ^ 0xffffffff) < (i_24_ ^ 0xffffffff); i_24_++) {
-			class16.method157(Class23_Sub13_Sub11.aClass16_3958, (byte) 109);
+			class16.method157(ItemDefinition.aClass16_3958, (byte) 109);
 			class16.method157(aClass16Array3969[i_24_], (byte) 102);
 		}
 		return class16.method178((byte) -11);
@@ -221,7 +221,7 @@ public class Class23_Sub13_Sub12 extends Class23_Sub13
 			aClass16Array3969 = null;
 		}
 		for (;;) {
-			int i_29_ = class23_sub5.readByte();
+			int i_29_ = class23_sub5.readUByte();
 			if ((i_29_ ^ 0xffffffff) == -1) {
 				break;
 			}

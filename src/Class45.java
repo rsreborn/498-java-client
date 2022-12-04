@@ -86,8 +86,8 @@ public class Class45
 					Class104.aBooleanArray1741[anInt696] = false;
 					anInt696++;
 					Class75.anInt1372 = Class23_Sub10_Sub2.anInt3589;
-					Class23_Sub7.outBuffer.method486(92, 2976);
-					Class23_Sub7.outBuffer.method436(l, (byte) -120);
+					Class23_Sub7.aClass23_Sub5_Sub1_2202.writeOpcode(92, 2976);
+					Class23_Sub7.aClass23_Sub5_Sub1_2202.putLong(l, (byte) -120);
 				}
 			}
 		}

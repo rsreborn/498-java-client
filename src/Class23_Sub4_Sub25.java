@@ -35,13 +35,13 @@ public class Class23_Sub4_Sub25 extends Class23_Sub4
 						break while_102_;
 					}
 				} else {
-					aBoolean3310 = class23_sub5.readByte() == 1;
+					aBoolean3310 = class23_sub5.readUByte() == 1;
 					return;
 				}
-				aBoolean3308 = class23_sub5.readByte() == 1;
+				aBoolean3308 = class23_sub5.readUByte() == 1;
 				return;
 			} while (false);
-			aBoolean2117 = class23_sub5.readByte() == 1;
+			aBoolean2117 = class23_sub5.readUByte() == 1;
 		} while (false);
 	}
 	

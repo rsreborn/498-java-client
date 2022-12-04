@@ -132,9 +132,9 @@ public class Class23_Sub19 extends Class23
 		Class6.anInt137 = 0;
 		Applet_Sub1.anInt36 = 0;
 		Class23_Sub4.anInt2113 = 0;
-		Class23_Sub13_Sub7.anInt3773 = 0;
+		ObjectDefinition.anInt3773 = 0;
 		anInt2383 = 0;
-		Class23_Sub13_Sub20.anInt4175 = 0;
+		NPCDefinition.anInt4175 = 0;
 		Class23_Sub4_Sub32.anInt3415 = 0;
 		Class23_Sub5_Sub1.anInt3528 = 0;
 		Class69.anInt1207 = 0;
@@ -172,7 +172,7 @@ public class Class23_Sub19 extends Class23
 		Class23_Sub10_Sub2.anInt3570 = 0;
 		Class64.anInt1079 = 0;
 		Class23_Sub13_Sub4.anInt3712 = 0;
-		Class23_Sub13_Sub11.anInt3927 = 0;
+		ItemDefinition.anInt3927 = 0;
 		Class23_Sub10_Sub2.anInt3633 = 0;
 		Class45.anInt681 = 0;
 		Class29.anInt461 = 0;
@@ -251,7 +251,7 @@ public class Class23_Sub19 extends Class23
 		Class23_Sub14.anInt2324 = 0;
 		Class23_Sub4_Sub7.anInt3003 = 0;
 		Class23_Sub4_Sub32.anInt3421 = 0;
-		Class70.anInt1239 = 0;
+		ISAACCipher.anInt1239 = 0;
 		Class23_Sub27.anInt2487 = 0;
 		Class23_Sub21.anInt2413 = 0;
 		Class17.anInt300 = 0;
@@ -304,14 +304,14 @@ public class Class23_Sub19 extends Class23
 		Class23_Sub15.anInt2341 = 0;
 		Class23_Sub13_Sub3.anInt3692 = 0;
 		Class23_Sub4_Sub15.anInt3141 = 0;
-		Class23_Sub13_Sub11.anInt3911 = 0;
+		ItemDefinition.anInt3911 = 0;
 		Class23_Sub10_Sub3.anInt3648 = 0;
 		Class87_Sub2.anInt2803 = 0;
 		Class83.anInt1467 = 0;
 		Class23_Sub4.anInt2107 = 0;
 		Class23_Sub13_Sub22.anInt4225 = 0;
 		Applet_Sub1.anInt13 = 0;
-		Class70.anInt1237 = 0;
+		ISAACCipher.anInt1237 = 0;
 		Class99.anInt1670 = 0;
 		Class23_Sub4_Sub14.anInt3131 = 0;
 		Buffer.anInt2180 = 0;
@@ -356,14 +356,14 @@ public class Class23_Sub19 extends Class23
 		Class23_Sub4_Sub2.anInt2934 = 0;
 		Class23_Sub4_Sub26.anInt3315 = 0;
 		Class23_Sub13_Sub3.anInt3693 = 0;
-		Class23_Sub13_Sub7.anInt3780 = 0;
+		ObjectDefinition.anInt3780 = 0;
 		Applet_Sub1.anInt20 = 0;
 		RSString.anInt1914 = 0;
 		Class40.anInt623 = 0;
 		Class21.anInt340 = 0;
 		Applet_Sub1.anInt26 = 0;
 		Class23_Sub13_Sub22.anInt4214 = 0;
-		Class23_Sub13_Sub11.anInt3904 = 0;
+		ItemDefinition.anInt3904 = 0;
 		Class54.anInt855 = 0;
 		Buffer.anInt2141 = 0;
 		RSString.anInt1924 = 0;
@@ -398,7 +398,7 @@ public class Class23_Sub19 extends Class23
 		Class23_Sub4_Sub1.anInt2904 = 0;
 		Class38_Sub3.anInt2508 = 0;
 		Class23_Sub4_Sub31.anInt3397 = 0;
-		Class23_Sub13_Sub20.anInt4137 = 0;
+		NPCDefinition.anInt4137 = 0;
 		Class38_Sub5.anInt2588 = 0;
 		Class50.anInt779 = 0;
 		Class11.anInt222 = 0;
@@ -441,10 +441,10 @@ public class Class23_Sub19 extends Class23
 		Class23_Sub4_Sub15.anInt3144 = 0;
 		Class105.anInt1796 = 0;
 		Class6.anInt142 = 0;
-		Class70.anInt1228 = 0;
+		ISAACCipher.anInt1228 = 0;
 		Class64.anInt1108 = 0;
 		Class29.anInt442 = 0;
-		Class70.anInt1233 = 0;
+		ISAACCipher.anInt1233 = 0;
 		Buffer.anInt2191 = 0;
 		Class23_Sub4_Sub2.anInt2922 = 0;
 		Class38_Sub7_Sub2.anInt4400 = 0;
@@ -480,6 +480,7 @@ public class Class23_Sub19 extends Class23
 		Class105_Sub1.anInt2872 = 0;
 		Class23_Sub13_Sub24.anInt4273 = 0;
 		Class23_Sub4_Sub10.anInt3054 = 0;
+		Buffer.anInt2182 = 0;
 		Class81.anInt1434 = 0;
 		Class14.anInt279 = 0;
 		Class23_Sub4_Sub28.anInt3349 = 0;
@@ -516,8 +517,8 @@ public class Class23_Sub19 extends Class23
 		Class23_Sub4_Sub12.anInt3076 = 0;
 		anInt2380 = 0;
 		Class23_Sub4_Sub23_Sub1.anInt4481 = 0;
-		Class23_Sub13_Sub11.anInt3935 = 0;
-		Class23_Sub13_Sub11.anInt3903 = 0;
+		ItemDefinition.anInt3935 = 0;
+		ItemDefinition.anInt3903 = 0;
 		Class23_Sub10_Sub2.anInt3616 = 0;
 		Class23_Sub10_Sub2.anInt3597 = 0;
 		Class38.anInt588 = 0;
@@ -539,7 +540,7 @@ public class Class23_Sub19 extends Class23
 		Class87_Sub2.anInt2799 = 0;
 		Class23_Sub13_Sub9.anInt3862 = 0;
 		Class27.anInt407 = 0;
-		Class23_Sub13_Sub11.anInt3913 = 0;
+		ItemDefinition.anInt3913 = 0;
 		Class23_Sub13_Sub19.anInt4126 = 0;
 		Class23_Sub10_Sub2.anInt3566 = 0;
 		Class38_Sub7_Sub1.anInt4378 = 0;
@@ -550,22 +551,22 @@ public class Class23_Sub19 extends Class23
 		anInt2392 = 0;
 		Class28.anInt427 = 0;
 		Class72.anInt1282 = 0;
-		Class23_Sub13_Sub7.anInt3770 = 0;
+		ObjectDefinition.anInt3770 = 0;
 		Class23_Sub4_Sub20.anInt3236 = 0;
 		Class71.anInt1276 = 0;
 		Class23_Sub4_Sub21.anInt3247 = 0;
 		Class23_Sub4_Sub20.anInt3234 = 0;
 		Class23_Sub4.anInt2125 = 0;
 		Class23_Sub10_Sub2.anInt3624 = 0;
-		Class23_Sub13_Sub11.anInt3907 = 0;
+		ItemDefinition.anInt3907 = 0;
 		Class23_Sub13_Sub12.anInt3970 = 0;
 		Class23_Sub4_Sub34.anInt3442 = 0;
 		Class61.anInt964 = 0;
-		Class23_Sub13_Sub11.anInt3929 = 0;
+		ItemDefinition.anInt3929 = 0;
 		Class105_Sub1.anInt2855 = 0;
 		Class82.anInt1441 = 0;
 		Class66.anInt1164 = 0;
-		Class23_Sub13_Sub20.anInt4177 = 0;
+		NPCDefinition.anInt4177 = 0;
 		Class71_Sub1_Sub1.anInt4451 = 0;
 		Class2.anInt69 = 0;
 		Class23_Sub10_Sub2.anInt3586 = 0;
@@ -695,7 +696,7 @@ public class Class23_Sub19 extends Class23
 		Class105_Sub1.anInt2863 = 0;
 		Class23_Sub4_Sub13.anInt3105 = 0;
 		Class23_Sub13_Sub25.anInt4291 = 0;
-		Class23_Sub13_Sub20.anInt4156 = 0;
+		NPCDefinition.anInt4156 = 0;
 		Class61.anInt963 = 0;
 		Class8.anInt171 = 0;
 		Class23_Sub4_Sub23.anInt3273 = 0;
@@ -707,6 +708,7 @@ public class Class23_Sub19 extends Class23
 		Class29.anInt444 = 0;
 		Class97.anInt1643 = 0;
 		Class38_Sub6.anInt2611 = 0;
+		Buffer.anInt2153 = 0;
 		Class23_Sub4_Sub39.anInt3524 = 0;
 		Class106.anInt1816 = 0;
 		Class105.anInt1757 = 0;
@@ -717,13 +719,12 @@ public class Class23_Sub19 extends Class23
 		Class24.anInt361 = 0;
 		Class23_Sub4_Sub23.anInt3276 = 0;
 		Class23_Sub13_Sub15.anInt4028 = 0;
-		Class23_Sub5_Sub1.anInt3530 = 0;
 		Class38_Sub3.anInt2511 = 0;
 		oa.anInt1242 = 0;
 		client.anInt1970 = 0;
 		Class38_Sub6.anInt2620 = 0;
 		Class23_Sub4_Sub9.anInt3039 = 0;
-		Class70.anInt1240 = 0;
+		ISAACCipher.anInt1240 = 0;
 		Class29.anInt455 = 0;
 		Class23_Sub13_Sub17.anInt4055 = 0;
 		Class105.anInt1760 = 0;
@@ -737,7 +738,7 @@ public class Class23_Sub19 extends Class23
 		Class23_Sub13_Sub6.anInt3727 = 0;
 		Class105.anInt1804 = 0;
 		Buffer.anInt2155 = 0;
-		Class23_Sub13_Sub20.anInt4174 = 0;
+		NPCDefinition.anInt4174 = 0;
 		Class107.anInt1833 = 0;
 		Class23_Sub4_Sub12.anInt3088 = 0;
 		Class23_Sub7.anInt2206 = 0;
@@ -772,7 +773,7 @@ public class Class23_Sub19 extends Class23
 		Class23_Sub4_Sub7.anInt2995 = 0;
 		Class23_Sub5_Sub1.anInt3535 = 0;
 		Applet_Sub1.anInt2 = 0;
-		Class23_Sub13_Sub11.anInt3893 = 0;
+		ItemDefinition.anInt3893 = 0;
 		Applet_Sub1.anInt39 = 0;
 		Class23_Sub13_Sub15.anInt4020 = 0;
 		Class27.anInt422 = 0;
@@ -789,9 +790,9 @@ public class Class23_Sub19 extends Class23
 		Class14.anInt269 = 0;
 		Class105.anInt1807 = 0;
 		Class23_Sub24.anInt2447 = 0;
-		Class23_Sub13_Sub11.anInt3960 = 0;
+		ItemDefinition.anInt3960 = 0;
 		Class14.anInt286 = 0;
-		Class23_Sub13_Sub20.anInt4167 = 0;
+		NPCDefinition.anInt4167 = 0;
 		Class23_Sub10_Sub2.anInt3628 = 0;
 		Class23_Sub4_Sub5.anInt2973 = 0;
 		Class23_Sub4_Sub9.anInt3040 = 0;
@@ -804,19 +805,19 @@ public class Class23_Sub19 extends Class23
 		Class23_Sub4_Sub10.anInt3053 = 0;
 		Class23_Sub13_Sub18.anInt4099 = 0;
 		Class23_Sub24.anInt2455 = 0;
-		Class23_Sub13_Sub11.anInt3912 = 0;
+		ItemDefinition.anInt3912 = 0;
 		Class23_Sub10_Sub2.anInt3611 = 0;
-		Class23_Sub13_Sub11.anInt3954 = 0;
+		ItemDefinition.anInt3954 = 0;
 		Buffer.anInt2179 = 0;
 		Applet_Sub1.anInt23 = 0;
-		Class23_Sub13_Sub7.anInt3745 = 0;
+		ObjectDefinition.anInt3745 = 0;
 		Buffer.anInt2189 = 0;
 		Class17.anInt312 = 0;
 		Class23_Sub4_Sub32.anInt3408 = 0;
 		Class54.anInt854 = 0;
 		Applet_Sub1.anInt22 = 0;
 		Class35.anInt558 = 0;
-		Class23_Sub13_Sub20.anInt4149 = 0;
+		NPCDefinition.anInt4149 = 0;
 		Buffer.anInt2152 = 0;
 		Class23_Sub4_Sub18.anInt3189 = 0;
 		Class86.anInt1874 = 0;
@@ -829,12 +830,12 @@ public class Class23_Sub19 extends Class23
 		Class23_Sub13_Sub25.anInt4292 = 0;
 		Class27.anInt406 = 0;
 		Buffer.anInt2157 = 0;
-		Class23_Sub13_Sub7.anInt3765 = 0;
+		ObjectDefinition.anInt3765 = 0;
 		Class23_Sub5_Sub1.anInt3538 = 0;
 		RSString.anInt1895 = 0;
 		RSString.anInt1910 = 0;
 		Class23_Sub10_Sub3.anInt3647 = 0;
-		Class70.anInt1230 = 0;
+		ISAACCipher.anInt1230 = 0;
 		Class13.anInt260 = 0;
 		Class23_Sub13_Sub6.anInt3732 = 0;
 		Class23_Sub4_Sub20.anInt3231 = 0;
@@ -867,7 +868,7 @@ public class Class23_Sub19 extends Class23
 		Class78_Sub2.anInt2756 = 0;
 		Class23_Sub4_Sub19.anInt3203 = 0;
 		anInt2390 = 0;
-		Class70.anInt1229 = 0;
+		ISAACCipher.anInt1229 = 0;
 		Class71_Sub2_Sub1.anInt4466 = 0;
 		Class105_Sub1.anInt2878 = 0;
 		Class23_Sub4_Sub32.anInt3423 = 0;
@@ -896,12 +897,12 @@ public class Class23_Sub19 extends Class23
 		Class23_Sub2.anInt2068 = 0;
 		Class23_Sub13_Sub13.anInt3986 = 0;
 		Class38_Sub7_Sub1.anInt4375 = 0;
-		Class23_Sub13_Sub7.anInt3777 = 0;
+		ObjectDefinition.anInt3777 = 0;
 		Class55.anInt873 = 0;
 		Class11.anInt225 = 0;
 		Class23_Sub4_Sub34.anInt3447 = 0;
 		Class72.anInt1309 = 0;
-		Class23_Sub13_Sub7.anInt3749 = 0;
+		ObjectDefinition.anInt3749 = 0;
 		Class27.anInt408 = 0;
 		Class56.anInt894 = 0;
 		Class23_Sub4.anInt2124 = 0;
@@ -920,6 +921,7 @@ public class Class23_Sub19 extends Class23
 		Class23_Sub13_Sub12.anInt3977 = 0;
 		Class86.anInt1868 = 0;
 		Class68.anInt1200 = 0;
+		Buffer.anInt2184 = 0;
 		Class23_Sub13_Sub4.anInt3704 = 0;
 		Class88.anInt1500 = 0;
 		Class51.anInt794 = 0;
@@ -942,7 +944,7 @@ public class Class23_Sub19 extends Class23
 		Class23_Sub1.anInt2030 = 0;
 		Class23_Sub13_Sub9.anInt3852 = 0;
 		Buffer.anInt2126 = 0;
-		Class23_Sub13_Sub7.anInt3753 = 0;
+		ObjectDefinition.anInt3753 = 0;
 		Class23_Sub14.anInt2327 = 0;
 		Class17_Sub1.anInt1990 = 0;
 		Class23_Sub4_Sub20.anInt3233 = 0;
@@ -960,7 +962,7 @@ public class Class23_Sub19 extends Class23
 		Class23_Sub4_Sub23.anInt3286 = 0;
 		Class23_Sub13_Sub13.anInt3991 = 0;
 		Class51.anInt791 = 0;
-		Class23_Sub13_Sub11.anInt3952 = 0;
+		ItemDefinition.anInt3952 = 0;
 		Class78_Sub2.anInt2757 = 0;
 		Class66.anInt1165 = 0;
 		Class97.anInt1634 = 0;
@@ -1005,7 +1007,7 @@ public class Class23_Sub19 extends Class23
 		Class13.anInt254 = 0;
 		Class104.anInt1746 = 0;
 		Class81.anInt1429 = 0;
-		Class23_Sub13_Sub11.anInt3921 = 0;
+		ItemDefinition.anInt3921 = 0;
 		Class23_Sub4_Sub1.anInt2899 = 0;
 		Class23_Sub4_Sub29.anInt3372 = 0;
 		Class23_Sub4_Sub37.anInt3476 = 0;
@@ -1018,11 +1020,12 @@ public class Class23_Sub19 extends Class23
 		Class28.anInt429 = 0;
 		Class7.anInt165 = 0;
 		Class29.anInt450 = 0;
+		Buffer.anInt2185 = 0;
 		Class23_Sub4_Sub13.anInt3114 = 0;
 		Class27.anInt410 = 0;
 		Class72.anInt1288 = 0;
 		Class38_Sub7.anInt2696 = 0;
-		Class23_Sub13_Sub7.anInt3794 = 0;
+		ObjectDefinition.anInt3794 = 0;
 		Class100.anInt1688 = 0;
 		Class102.anInt1707 = 0;
 		Class71_Sub1.anInt2724 = 0;
@@ -1041,7 +1044,7 @@ public class Class23_Sub19 extends Class23
 		Applet_Sub1.anInt29 = 0;
 		Class51.anInt802 = 0;
 		Class87_Sub4.anInt2849 = i;
-		Class23_Sub13_Sub11.anInt3950 = 0;
+		ItemDefinition.anInt3950 = 0;
 		Class71_Sub2_Sub1.anInt4465 = 0;
 		Applet_Sub1.anInt37 = 0;
 		Class23_Sub13_Sub21.anInt4192 = 0;
@@ -1049,7 +1052,7 @@ public class Class23_Sub19 extends Class23
 		Class25.anInt391 = 0;
 		Class23_Sub12.anInt2298 = 0;
 		Class5.anInt124 = 0;
-		Class23_Sub13_Sub20.anInt4180 = 0;
+		NPCDefinition.anInt4180 = 0;
 		Class23_Sub4_Sub24.anInt3292 = 0;
 		RSString.anInt1929 = 0;
 		Class72.anInt1298 = 0;
@@ -1064,13 +1067,14 @@ public class Class23_Sub19 extends Class23
 		Class105.anInt1800 = 0;
 		Class23_Sub4_Sub12.anInt3087 = 0;
 		Class38_Sub5.anInt2579 = 0;
+		Buffer.anInt2137 = 0;
 		Class23_Sub4_Sub19.anInt3206 = 0;
 		Class23_Sub13_Sub4.anInt3715 = 0;
 		Class23_Sub4_Sub38.anInt3508 = 0;
 		Class23_Sub13_Sub22.anInt4220 = 0;
 		Class51.anInt788 = 0;
 		Class23_Sub4_Sub15.anInt3140 = 0;
-		Class23_Sub13_Sub11.anInt3937 = 0;
+		ItemDefinition.anInt3937 = 0;
 		Class23_Sub10_Sub2.anInt3591 = 0;
 		Class32.anInt503 = 0;
 		Class38.anInt582 = 0;
@@ -1096,7 +1100,7 @@ public class Class23_Sub19 extends Class23
 		Class23_Sub4_Sub6.anInt2987 = 0;
 		Class45.anInt683 = 0;
 		Class68.anInt1195 = 0;
-		Class23_Sub13_Sub20.anInt4146 = 0;
+		NPCDefinition.anInt4146 = 0;
 		Class23_Sub20.anInt2396 = 0;
 		Class68.anInt1188 = 0;
 		client.anInt1968 = 0;
@@ -1137,12 +1141,13 @@ public class Class23_Sub19 extends Class23
 		Class23_Sub4_Sub16.anInt3157 = 0;
 		Class23_Sub4_Sub25.anInt3303 = 0;
 		Class23_Sub14.anInt2328 = 0;
-		Class23_Sub13_Sub20.anInt4151 = 0;
+		NPCDefinition.anInt4151 = 0;
 		Class23_Sub4_Sub1.anInt2900 = 0;
 		Class78_Sub2.anInt2764 = 0;
 		Class40.anInt626 = 0;
 		Canvas_Sub1.anInt50 = 0;
 		Class38_Sub7.anInt2676 = 0;
+		Buffer.anInt2178 = 0;
 		Class23_Sub4_Sub16.anInt3148 = 0;
 		Class42.anInt647 = 0;
 		Class13.anInt253 = 0;
@@ -1160,7 +1165,7 @@ public class Class23_Sub19 extends Class23
 		Class72.anInt1306 = 0;
 		Class27.anInt404 = 0;
 		Class19.anInt324 = 0;
-		Class23_Sub13_Sub7.anInt3798 = 0;
+		ObjectDefinition.anInt3798 = 0;
 		Class23_Sub1.anInt2035 = 0;
 		Class63.anInt978 = 0;
 		Class23_Sub13_Sub19.anInt4128 = 0;
@@ -1180,7 +1185,7 @@ public class Class23_Sub19 extends Class23
 		Class6.anInt135 = 0;
 		Class78.anInt1409 = 0;
 		Class23_Sub4_Sub18.anInt3188 = 0;
-		Class23_Sub13_Sub7.anInt3775 = 0;
+		ObjectDefinition.anInt3775 = 0;
 		Class45.anInt697 = 0;
 		Class23_Sub4_Sub2.anInt2924 = 0;
 		Class23_Sub13_Sub18.anInt4094 = 0;
@@ -1203,7 +1208,7 @@ public class Class23_Sub19 extends Class23
 		Class23_Sub4_Sub3.anInt2942 = 0;
 		Class71_Sub1.anInt2731 = 0;
 		Class23_Sub15.anInt2346 = 0;
-		Class23_Sub13_Sub7.anInt3757 = 0;
+		ObjectDefinition.anInt3757 = 0;
 		Class38_Sub7.anInt2636 = 0;
 		Applet_Sub1.anInt33 = 0;
 		Class23_Sub4_Sub15.anInt3147 = 0;
@@ -1281,7 +1286,7 @@ public class Class23_Sub19 extends Class23
 		Class23_Sub13_Sub18.anInt4081 = 0;
 		Class105.anInt1789 = 0;
 		Class99.anInt1671 = 0;
-		Class23_Sub13_Sub20.anInt4171 = 0;
+		NPCDefinition.anInt4171 = 0;
 		RSString.anInt1930 = 0;
 		Class23_Sub4_Sub1.anInt2882 = 0;
 		Class59.anInt920 = 0;
@@ -1307,7 +1312,7 @@ public class Class23_Sub19 extends Class23
 		Class23_Sub15.anInt2340 = 0;
 		Class23_Sub13_Sub9.anInt3867 = 0;
 		Class89.anInt1527 = 0;
-		Class23_Sub13_Sub11.anInt3949 = 0;
+		ItemDefinition.anInt3949 = 0;
 		Class78_Sub2.anInt2755 = 0;
 		Class23_Sub4_Sub13.anInt3107 = 0;
 		client.anInt1963 = 0;
@@ -1325,7 +1330,7 @@ public class Class23_Sub19 extends Class23
 		Class23_Sub4_Sub3.anInt2935 = 0;
 		Class23_Sub4_Sub12.anInt3090 = 0;
 		Class14.anInt280 = 0;
-		Class23_Sub13_Sub11.anInt3901 = 0;
+		ItemDefinition.anInt3901 = 0;
 		Class82.anInt1445 = 0;
 		Class99.anInt1675 = 0;
 		Class23_Sub4_Sub8.anInt3029 = 0;
@@ -1358,7 +1363,7 @@ public class Class23_Sub19 extends Class23
 		RSString.anInt1891 = 0;
 		Class17_Sub1.anInt1992 = 0;
 		Class105.anInt1813 = 0;
-		Class23_Sub13_Sub7.anInt3769 = 0;
+		ObjectDefinition.anInt3769 = 0;
 		Class29.anInt446 = 0;
 		Class78_Sub2.anInt2763 = 0;
 		Class59.anInt916 = 0;
@@ -1384,10 +1389,10 @@ public class Class23_Sub19 extends Class23
 		Class43.anInt666 = -1;
 		Class23_Sub13_Sub24.anInt4275 = -1;
 		Class25.anInt379 = -1;
-		Class23_Sub7.outBuffer.position = 0;
+		Class23_Sub7.aClass23_Sub5_Sub1_2202.pos = 0;
 		Class25.anInt388 = -1;
 		Class23_Sub4_Sub31.anInt3400 = 0;
-		Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.position = 0;
+		Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.pos = 0;
 		Class23_Sub13.anInt2316 = 0;
 		for (int i_12_ = 0; Class23_Sub27.aClass10Array2488.length > i_12_; i_12_++)
 			Class23_Sub27.aClass10Array2488[i_12_] = null;
@@ -1404,7 +1409,7 @@ public class Class23_Sub19 extends Class23
 		Class38_Sub7_Sub2.anInt4410 = -20 + (int) (Math.random() * 30.0);
 		Class106.anInt1815 = (int) (110.0 * Math.random()) - 55;
 		Class23_Sub4_Sub2.anInt2923 = (int) (80.0 * Math.random()) + -40;
-		Class23_Sub13_Sub7.aBoolean3792 = false;
+		ObjectDefinition.aBoolean3792 = false;
 		Class87_Sub4.anInt2841 = (int) (100.0 * Math.random()) + -50;
 		Class23_Sub4_Sub11.anInt3067 = 0;
 		Class23_Sub4_Sub18.anInt3191 = 0;
@@ -1542,7 +1547,7 @@ public class Class23_Sub19 extends Class23
 		}
 	}
 	
-	static final void method881(int i, boolean bool, int i_34_, Class23_Sub13_Sub7 class23_sub13_sub7, int i_35_, int i_36_) {
+	static final void method881(int i, boolean bool, int i_34_, ObjectDefinition class23_sub13_sub7, int i_35_, int i_36_) {
 		anInt2383++;
 		if (bool != false) {
 			method881(-20, false, 125, null, -41, 18);
@@ -1695,8 +1700,8 @@ public class Class23_Sub19 extends Class23
 						Applet_Sub1.aClass16Array10[i_74_] = Applet_Sub1.aClass16Array10[1 + i_74_];
 					}
 					Class75.anInt1372 = Class23_Sub10_Sub2.anInt3589;
-					Class23_Sub7.outBuffer.method486(13, 2976);
-					Class23_Sub7.outBuffer.method436(l, (byte) -110);
+					Class23_Sub7.aClass23_Sub5_Sub1_2202.writeOpcode(13, 2976);
+					Class23_Sub7.aClass23_Sub5_Sub1_2202.putLong(l, (byte) -110);
 					break;
 				}
 			}

@@ -8,7 +8,7 @@ public class Class23_Sub13_Sub1 extends Class23_Sub13
 	static Class5 aClass5_3666;
 	static int anInt3667 = 1;
 	protected Class38_Sub2 aClass38_Sub2_3668;
-	static Class82[] aClass82Array3669;
+	static Class82[] worldList;
 	static Class59[] aClass59Array3670;
 	static int anInt3671;
 	static int anInt3672;
@@ -35,7 +35,7 @@ public class Class23_Sub13_Sub1 extends Class23_Sub13
 	}
 	
 	public static void method604(int i) {
-		aClass82Array3669 = null;
+		worldList = null;
 		aClass5_3666 = null;
 		aClass16_3674 = null;
 		if (i != 128) {

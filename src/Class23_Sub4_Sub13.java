@@ -94,31 +94,31 @@ public class Class23_Sub4_Sub13 extends Class23_Sub4
 												break while_34_;
 											}
 										} else {
-											anInt3117 = class23_sub5.readByte();
+											anInt3117 = class23_sub5.readUByte();
 											break while_40_;
 										}
-										anInt3109 = class23_sub5.readShortBE();
+										anInt3109 = class23_sub5.getUShortBE();
 										break while_40_;
 									} while (false);
-									anInt3101 = class23_sub5.readShortBE();
+									anInt3101 = class23_sub5.getUShortBE();
 									break while_40_;
 								} while (false);
-								anInt3111 = class23_sub5.readShortBE();
+								anInt3111 = class23_sub5.getUShortBE();
 								break while_40_;
 							} while (false);
-							anInt3100 = class23_sub5.readShortBE();
+							anInt3100 = class23_sub5.getUShortBE();
 							break while_40_;
 						} while (false);
-						anInt3110 = class23_sub5.readShortBE();
+						anInt3110 = class23_sub5.getUShortBE();
 						break while_40_;
 					} while (false);
-					anInt3096 = class23_sub5.readByte();
+					anInt3096 = class23_sub5.readUByte();
 					break while_40_;
 				} while (false);
-				anInt3103 = class23_sub5.readShortBE();
+				anInt3103 = class23_sub5.getUShortBE();
 				break while_40_;
 			} while (false);
-			anInt3104 = class23_sub5.readShortBE();
+			anInt3104 = class23_sub5.getUShortBE();
 		} while (false);
 		if (i_0_ != 1000) {
 			anInt3117 = -28;
@@ -157,7 +157,7 @@ public class Class23_Sub4_Sub13 extends Class23_Sub4
 				if (i_11_ == 1) {
 					Class94.anIntArray1603[Class23_Sub2.anInt2048++] = 2047;
 				}
-				Class23_Sub13_Sub11.anInt3916 = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method489((byte) 122, 2);
+				ItemDefinition.anInt3916 = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method489((byte) 122, 2);
 				int i_12_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method489((byte) 125, 7);
 				Class105.aClass38_Sub7_Sub2_1812.method1085(i_10_, (byte) -126, i_9_ == 1, i_12_);
 			}

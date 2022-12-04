@@ -63,7 +63,7 @@ public class oa
 	
 	static final void a(Applet_Sub1 applet_sub1, byte b) {
 		anInt1261++;
-		if (Class71_Sub2.aBoolean2736) {
+		if (Class71_Sub2.isWorldListReady) {
 			Class71_Sub2.method1280(applet_sub1, (byte) -21);
 		} else {
 			if (Class23_Sub13_Sub9.anInt3860 == 1 && Class90.anInt1538 >= 715 && Class23_Sub13_Sub19.anInt4136 >= 453) {

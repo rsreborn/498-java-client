@@ -63,15 +63,15 @@ public class Class23_Sub13_Sub15 extends Class23_Sub13
 	private final void method772(int i, int i_1_, Buffer class23_sub5) {
 		if (i_1_ > 8) {
 			if (i == 1) {
-				aClass16_4030 = class23_sub5.method426(2);
+				aClass16_4030 = class23_sub5.readString(2);
 			} else if (i != 2) {
 				if (i == 3) {
-					int i_2_ = class23_sub5.readByte();
+					int i_2_ = class23_sub5.readUByte();
 					anIntArray4029 = new int[i_2_];
 					anIntArray4017 = new int[i_2_];
 					for (int i_3_ = 0; i_2_ > i_3_; i_3_++) {
-						anIntArray4029[i_3_] = class23_sub5.readShortBE();
-						int i_4_ = class23_sub5.readByte();
+						anIntArray4029[i_3_] = class23_sub5.getUShortBE();
+						int i_4_ = class23_sub5.readUByte();
 						if (i_4_ != 0) {
 							anIntArray4017[i_3_] = i_4_;
 						} else {
@@ -80,12 +80,12 @@ public class Class23_Sub13_Sub15 extends Class23_Sub13
 					}
 				}
 			} else {
-				int i_5_ = class23_sub5.readByte();
+				int i_5_ = class23_sub5.readUByte();
 				anIntArray4024 = new int[i_5_];
 				anIntArray4026 = new int[i_5_];
 				for (int i_6_ = 0; (i_5_ ^ 0xffffffff) < (i_6_ ^ 0xffffffff); i_6_++) {
-					anIntArray4024[i_6_] = class23_sub5.readShortBE();
-					int i_7_ = class23_sub5.readByte();
+					anIntArray4024[i_6_] = class23_sub5.getUShortBE();
+					int i_7_ = class23_sub5.readUByte();
 					if (i_7_ != 0) {
 						anIntArray4026[i_6_] = i_7_;
 					} else {
@@ -106,7 +106,7 @@ public class Class23_Sub13_Sub15 extends Class23_Sub13
 		if (Class23_Sub4_Sub1.aClass23_Sub13_Sub26_2894 == null || (l ^ 0xffffffffffffffffL) != (Class23_Sub4_Sub1.aClass23_Sub13_Sub26_2894.aLong358 ^ 0xffffffffffffffffL)) {
 			return 0;
 		}
-		return 1 + 99 * Class23_Sub4_Sub9.aClass23_Sub5_3035.position / (-Class23_Sub4_Sub1.aClass23_Sub13_Sub26_2894.aByte4302 + Class23_Sub4_Sub9.aClass23_Sub5_3035.payload.length);
+		return 1 + 99 * Class23_Sub4_Sub9.aClass23_Sub5_3035.pos / (-Class23_Sub4_Sub1.aClass23_Sub13_Sub26_2894.aByte4302 + Class23_Sub4_Sub9.aClass23_Sub5_3035.payload.length);
 	}
 	
 	final int method774(int i, byte b) {
@@ -125,7 +125,7 @@ public class Class23_Sub13_Sub15 extends Class23_Sub13
 	
 	final void method775(int i, Buffer class23_sub5) {
 		for (;;) {
-			int i_12_ = class23_sub5.readByte();
+			int i_12_ = class23_sub5.readUByte();
 			if (i_12_ == 0) {
 				break;
 			}

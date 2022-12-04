@@ -51,22 +51,22 @@ public class Class21
 			if (Class56.aClass23_Sub13_Sub10_893 == null) {
 				Class23_Sub13_Sub10_Sub1 class23_sub13_sub10_sub1 = new Class23_Sub13_Sub10_Sub1(i_10_, i_9_);
 				Class20.method202(class23_sub13_sub10_sub1.anIntArray4502, i_10_, i_9_);
-				Class23_Sub4_Sub24.method368(0, 0, i_10_, 1, 0, Class70.anInt1238, 0, Class38_Sub7.anInt2697, i_9_);
+				Class23_Sub4_Sub24.method368(0, 0, i_10_, 1, 0, ISAACCipher.anInt1238, 0, Class38_Sub7.anInt2697, i_9_);
 				Class56.aClass23_Sub13_Sub10_893 = class23_sub13_sub10_sub1;
 				Class23_Sub13_Sub25.aClass78_4290.method1347((byte) -91);
 			}
 			Class56.aClass23_Sub13_Sub10_893.method705(i_8_, i);
-			int i_11_ = i_8_ + Class33.anInt521 * i_10_ / Class70.anInt1238;
+			int i_11_ = i_8_ + Class33.anInt521 * i_10_ / ISAACCipher.anInt1238;
 			if (b > 46) {
 				int i_12_ = Class31.anInt488 * i_9_ / Class38_Sub7.anInt2697 + i;
 				int i_13_ = Class65.anInt1161 * i_9_ / Class38_Sub7.anInt2697;
-				int i_14_ = i_10_ * Class71_Sub2_Sub1.anInt4475 / Class70.anInt1238;
+				int i_14_ = i_10_ * Class71_Sub2_Sub1.anInt4475 / ISAACCipher.anInt1238;
 				Class20.method212(i_11_, i_12_, i_14_, i_13_, 16711680, 128);
 				Class20.method215(i_11_, i_12_, i_14_, i_13_, 16711680);
 				if ((Class17_Sub1.anInt2002 ^ 0xffffffff) < -1 && Class17_Sub1.anInt2002 % 10 < 5) {
 					for (Class23_Sub11 class23_sub11 = (Class23_Sub11) Class17_Sub1.aClass89_1996.method1437(-115); class23_sub11 != null; class23_sub11 = (Class23_Sub11) Class17_Sub1.aClass89_1996.method1431((byte) -89)) {
 						if (class23_sub11.anInt2280 == Class92.anInt1560) {
-							int i_15_ = i_10_ * class23_sub11.anInt2289 / Class70.anInt1238 + i_8_;
+							int i_15_ = i_10_ * class23_sub11.anInt2289 / ISAACCipher.anInt1238 + i_8_;
 							int i_16_ = i + class23_sub11.anInt2285 * i_9_ / Class38_Sub7.anInt2697;
 							Class20.method222(-2 + i_15_, i_16_ - 2, 4, 4, 16776960);
 						}
