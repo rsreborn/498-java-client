@@ -2,7 +2,7 @@
  * Visit http://jode.sourceforge.net/
  */
 
-public class Class70
+public class ISAACCipher
 {
 	static int anInt1222 = -1;
 	static RSString aClass16_1223;
@@ -227,11 +227,11 @@ public class Class70
 		}
 	}
 	
-	private Class70() {
+	private ISAACCipher() {
 		/* empty */
 	}
 	
-	Class70(int[] is) {
+	ISAACCipher(int[] is) {
 		anIntArray1224 = new int[256];
 		anIntArray1234 = new int[256];
 		for (int i = 0; (is.length ^ 0xffffffff) < (i ^ 0xffffffff); i++)

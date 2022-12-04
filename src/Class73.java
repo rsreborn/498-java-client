@@ -59,7 +59,7 @@ public class Class73
 		if (i != 23090) {
 			return null;
 		}
-		return new Class87_Sub2(class23_sub5.method474(true), class23_sub5.method474(true), class23_sub5.method474(true), class23_sub5.method474(true), class23_sub5.method471(62), class23_sub5.method471(56), class23_sub5.method461(-1797813752));
+		return new Class87_Sub2(class23_sub5.method474(true), class23_sub5.method474(true), class23_sub5.method474(true), class23_sub5.method474(true), class23_sub5.getTriByte(62), class23_sub5.getTriByte(56), class23_sub5.readUByte());
 	}
 	
 	static {

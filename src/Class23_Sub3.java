@@ -430,25 +430,25 @@ public class Class23_Sub3 extends Class23
 	
 	private final void method251(byte[] bs) {
 		Buffer class23_sub5 = new Buffer(bs);
-		anInt2072 = class23_sub5.method472(97);
-		anInt2086 = class23_sub5.method472(118);
-		anInt2098 = class23_sub5.method472(127);
-		anInt2087 = class23_sub5.method472(100);
+		anInt2072 = class23_sub5.readUIntBE();
+		anInt2086 = class23_sub5.readUIntBE();
+		anInt2098 = class23_sub5.readUIntBE();
+		anInt2087 = class23_sub5.readUIntBE();
 		if (anInt2087 < 0) {
 			anInt2087 = anInt2087 ^ 0xffffffff;
 			aBoolean2099 = true;
 		}
-		int i = class23_sub5.method472(-110);
+		int i = class23_sub5.readUIntBE();
 		aByteArrayArray2073 = new byte[i][];
 		for (int i_110_ = 0; i_110_ < i; i_110_++) {
 			int i_111_ = 0;
 			int i_112_;
 			do {
-				i_112_ = class23_sub5.method461(-1797813752);
+				i_112_ = class23_sub5.readUByte();
 				i_111_ += i_112_;
 			} while (i_112_ >= 255);
 			byte[] bs_113_ = new byte[i_111_];
-			class23_sub5.method450(i_111_, bs_113_, 115, 0);
+			class23_sub5.readBytes(bs_113_, 0, i_111_);
 			aByteArrayArray2073[i_110_] = bs_113_;
 		}
 	}

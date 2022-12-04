@@ -35,9 +35,9 @@ public class Class32 implements KeyListener, FocusListener
 				class16 = Class23_Sub4_Sub14.method322(new RSString[] { class38_sub7_sub2.aClass16_4389, Class23_Sub4_Sub1.method271(Class105.aClass38_Sub7_Sub2_1812.anInt4383, (byte) -15, class38_sub7_sub2.anInt4383), Class92.aClass16_1564, Class23_Sub19.aClass16_2378, Class23_Sub4_Sub23.method360((byte) -9, class38_sub7_sub2.anInt4383), Class23_Sub4_Sub10.aClass16_3048 }, -93);
 			}
 			if (Class38_Sub7_Sub1.anInt4374 == 1) {
-				Class23_Sub13_Sub19.method812((long) i_1_, (short) 40, i_0_, Class23_Sub4_Sub14.method322(new RSString[] { Class23_Sub13_Sub24.aClass16_4281, Buffer.aClass16_2169, class16 }, -46), 500, Class23_Sub13_Sub20.aClass16_4163, i);
+				Class23_Sub13_Sub19.method812((long) i_1_, (short) 40, i_0_, Class23_Sub4_Sub14.method322(new RSString[] { Class23_Sub13_Sub24.aClass16_4281, Buffer.aClass16_2169, class16 }, -46), 500, NPCDefinition.aClass16_4163, i);
 				Class23_Sub9.anInt2271++;
-			} else if (!Class23_Sub13_Sub7.aBoolean3792) {
+			} else if (!ObjectDefinition.aBoolean3792) {
 				for (int i_2_ = 7; (i_2_ ^ 0xffffffff) <= -1; i_2_--) {
 					if (Class23_Sub23.aClass16Array2432[i_2_] != null) {
 						short s = 0;

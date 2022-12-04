@@ -23,10 +23,10 @@ public class Class23_Sub4_Sub28 extends Class23_Sub4
 						break;
 					}
 				} else {
-					anInt3347 = class23_sub5.method461(-1797813752);
+					anInt3347 = class23_sub5.readUByte();
 					break;
 				}
-				anInt3351 = class23_sub5.method461(-1797813752);
+				anInt3351 = class23_sub5.readUByte();
 			} while (false);
 			anInt3354++;
 		}

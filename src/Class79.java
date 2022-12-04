@@ -30,8 +30,8 @@ public class Class79 implements Interface2
 			return class23_sub13_sub13.method764((int) l, -110);
 		}
 		if (i == 1) {
-			Class23_Sub13_Sub11 class23_sub13_sub11 = Class23_Sub13_Sub24.method853(-112, (int) l);
-			return class23_sub13_sub11.aClass16_3902;
+			ItemDefinition class23_sub13_sub11 = Class23_Sub13_Sub24.method853(-112, (int) l);
+			return class23_sub13_sub11.name;
 		}
 		if (b != 56) {
 			method1363(126);
@@ -45,7 +45,7 @@ public class Class79 implements Interface2
 	static final Class42 method1359(Buffer class23_sub5, byte b) {
 		anInt1879++;
 		Class42 class42 = new Class42();
-		class42.anInt645 = class23_sub5.method476((byte) -115);
+		class42.anInt645 = class23_sub5.getUShortBE();
 		if (b <= 8) {
 			method1359(null, (byte) -29);
 		}

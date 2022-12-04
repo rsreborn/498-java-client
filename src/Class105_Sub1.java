@@ -96,7 +96,7 @@ public class Class105_Sub1 extends Class105
 			if (Class23_Sub5_Sub1.aBooleanArray3531[4] && 128 + Class79.anIntArray1890[4] > i_9_) {
 				i_9_ = Class79.anIntArray1890[4] + 128;
 			}
-			Class59.method1195(Class2.anInt82, i_9_, -50 + Class23_Sub4_Sub22.method359(Class23_Sub13_Sub11.anInt3916, Class105.aClass38_Sub7_Sub2_1812.anInt2674, Class105.aClass38_Sub7_Sub2_1812.anInt2659, (byte) -33), i_10_, 3 * i_9_ + 600, -31127, Class23_Sub4_Sub26.anInt3318, i_6_);
+			Class59.method1195(Class2.anInt82, i_9_, -50 + Class23_Sub4_Sub22.method359(ItemDefinition.anInt3916, Class105.aClass38_Sub7_Sub2_1812.anInt2674, Class105.aClass38_Sub7_Sub2_1812.anInt2659, (byte) -33), i_10_, 3 * i_9_ + 600, -31127, Class23_Sub4_Sub26.anInt3318, i_6_);
 		}
 		int i_11_;
 		if (Buffer.aBoolean2159) {
@@ -230,13 +230,13 @@ public class Class105_Sub1 extends Class105
 						Class28.method939(anInt2857, 6024, true, anInt2859, (byte) 0, this, 255);
 						return;
 					}
-					int i_30_ = class23_sub5.method461(-1797813752);
+					int i_30_ = class23_sub5.readUByte();
 					if (i_30_ != 5 && i_30_ != 6) {
 						Class28.method939(anInt2857, 6024, true, anInt2859, (byte) 0, this, 255);
 					} else {
 						int i_31_ = 0;
 						if (i_30_ >= 6) {
-							i_31_ = class23_sub5.method472(-116);
+							i_31_ = class23_sub5.readUIntBE();
 						}
 						if ((anInt2858 ^ 0xffffffff) != (i_31_ ^ 0xffffffff)) {
 							Class28.method939(anInt2857, 6024, true, anInt2859, (byte) 0, this, 255);

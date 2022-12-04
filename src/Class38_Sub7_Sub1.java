@@ -13,7 +13,7 @@ public class Class38_Sub7_Sub1 extends Class38_Sub7
 	static int anInt4370;
 	static int anInt4371;
 	static boolean aBoolean4372;
-	protected Class23_Sub13_Sub20 aClass23_Sub13_Sub20_4373;
+	protected NPCDefinition aClass23_Sub13_Sub20_4373;
 	static int anInt4374;
 	static int anInt4375;
 	static int anInt4376;
@@ -112,19 +112,19 @@ public class Class38_Sub7_Sub1 extends Class38_Sub7
 					int i_23_ = i_16_ / 2;
 					int i_24_ = i_13_ * i_18_ - -(i_17_ * i_14_) >> 16;
 					int i_25_ = i_21_ * i_14_ - i_20_ * i_13_ >> 16;
-					int i_26_ = Class23_Sub4_Sub22.method359(Class23_Sub13_Sub11.anInt3916, i_24_ + anInt2674, anInt2659 - -i_19_, (byte) 123);
-					int i_27_ = Class23_Sub4_Sub22.method359(Class23_Sub13_Sub11.anInt3916, anInt2674 + i_22_, i_25_ + anInt2659, (byte) -38);
+					int i_26_ = Class23_Sub4_Sub22.method359(ItemDefinition.anInt3916, i_24_ + anInt2674, anInt2659 - -i_19_, (byte) 123);
+					int i_27_ = Class23_Sub4_Sub22.method359(ItemDefinition.anInt3916, anInt2674 + i_22_, i_25_ + anInt2659, (byte) -38);
 					int i_28_ = -i_15_ / 2;
 					int i_29_ = i_13_ * i_23_ + i_14_ * i_28_ >> 16;
 					int i_30_ = i_14_ * i_23_ - i_13_ * i_28_ >> 16;
-					int i_31_ = Class23_Sub4_Sub22.method359(Class23_Sub13_Sub11.anInt3916, i_29_ + anInt2674, anInt2659 + i_30_, (byte) -101);
+					int i_31_ = Class23_Sub4_Sub22.method359(ItemDefinition.anInt3916, i_29_ + anInt2674, anInt2659 + i_30_, (byte) -101);
 					int i_32_ = i_15_ / 2;
 					int i_33_ = i_16_ / 2;
 					int i_34_ = i_13_ * i_33_ + i_14_ * i_32_ >> 16;
 					int i_35_ = i_33_ * i_14_ - i_13_ * i_32_ >> 16;
 					int i_36_ = (i_26_ ^ 0xffffffff) <= (i_31_ ^ 0xffffffff) ? i_31_ : i_26_;
 					int i_37_ = i_27_ > i_26_ ? i_26_ : i_27_;
-					int i_38_ = Class23_Sub4_Sub22.method359(Class23_Sub13_Sub11.anInt3916, i_34_ + anInt2674, i_35_ + anInt2659, (byte) 100);
+					int i_38_ = Class23_Sub4_Sub22.method359(ItemDefinition.anInt3916, i_34_ + anInt2674, i_35_ + anInt2659, (byte) 100);
 					int i_39_ = i_38_ <= i_27_ ? i_38_ : i_27_;
 					int i_40_ = i_31_ < i_38_ ? i_31_ : i_38_;
 					i_11_ = 0x7ff & (int) (325.95 * Math.atan2((double) (-i_40_ + i_37_), (double) i_16_));
@@ -188,7 +188,7 @@ public class Class38_Sub7_Sub1 extends Class38_Sub7
 		Class23_Sub2.method238(i, bool);
 		Class51.anInt799 = 0;
 		Class23_Sub4_Sub1.aClass23_Sub13_Sub26_2894 = null;
-		Class73.aClass23_Sub5_1324.position = i;
+		Class73.aClass23_Sub5_1324.pos = i;
 		Class23_Sub4_Sub9.aClass23_Sub5_3035 = null;
 		for (;;) {
 			Class23_Sub13_Sub26 class23_sub13_sub26 = (Class23_Sub13_Sub26) Class42.anOa649.a((byte) -25);
@@ -212,9 +212,9 @@ public class Class38_Sub7_Sub1 extends Class38_Sub7
 		if ((Class95.aByte1613 ^ 0xffffffff) != -1) {
 			try {
 				Buffer class23_sub5 = new Buffer(4);
-				class23_sub5.method460((byte) 103, 4);
-				class23_sub5.method460((byte) 125, Class95.aByte1613);
-				class23_sub5.method443(0, (byte) 51);
+				class23_sub5.writeByte(4);
+				class23_sub5.writeByte(Class95.aByte1613);
+				class23_sub5.putShort(0, (byte) 51);
 				Class23_Sub23.aClass34_2427.method977(i + 30000, 4, 0, class23_sub5.payload);
 			} catch (java.io.IOException ioexception) {
 				try {

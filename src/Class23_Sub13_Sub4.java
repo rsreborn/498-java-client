@@ -23,25 +23,25 @@ public class Class23_Sub13_Sub4 extends Class23_Sub13
 	private final void method617(Buffer class23_sub5, int i, int i_0_, int i_1_) {
 		if (i_0_ != 1) {
 			if (i_0_ == 2) {
-				anInt3709 = class23_sub5.method461(-1797813752);
+				anInt3709 = class23_sub5.readUByte();
 			} else if (i_0_ == 3) {
-				anInt3709 = class23_sub5.method476((byte) -101);
+				anInt3709 = class23_sub5.getUShortBE();
 				if ((anInt3709 ^ 0xffffffff) == -65536) {
 					anInt3709 = -1;
 				}
 			} else if (i_0_ == 5) {
 				aBoolean3706 = false;
 			} else if (i_0_ == 7) {
-				anInt3710 = Class68.method1252(false, class23_sub5.method471(124));
+				anInt3710 = Class68.method1252(false, class23_sub5.getTriByte(124));
 			} else if (i_0_ != 8) {
 				if (i_0_ == 9) {
-					class23_sub5.method476((byte) -111);
+					class23_sub5.getUShortBE();
 				}
 			} else {
 				Class17.anInt305 = i_1_;
 			}
 		} else {
-			anInt3705 = Class68.method1252(false, class23_sub5.method471(118));
+			anInt3705 = Class68.method1252(false, class23_sub5.getTriByte(118));
 		}
 		anInt3704++;
 		if (i != -9) {
@@ -63,7 +63,7 @@ public class Class23_Sub13_Sub4 extends Class23_Sub13
 	
 	final void method619(int i, Buffer class23_sub5, int i_7_) {
 		for (;;) {
-			int i_8_ = class23_sub5.method461(-1797813752);
+			int i_8_ = class23_sub5.readUByte();
 			if (i_8_ == 0) {
 				break;
 			}
@@ -216,7 +216,7 @@ public class Class23_Sub13_Sub4 extends Class23_Sub13
 							int i_81_ = (i_72_ - -i_63_ & 0x3f) + ((i_65_ + i_76_ & 0x3f) << 6);
 							int i_82_ = is[i_80_][i_81_];
 							if (i_82_ != 0) {
-								Class23_Sub13_Sub7 class23_sub13_sub7 = Class38_Sub2.method1037(-1 + i_82_, -21035);
+								ObjectDefinition class23_sub13_sub7 = Class38_Sub2.loadObjectDefinition(-1 + i_82_, -21035);
 								if (bool && class23_sub13_sub7.anInt3751 == Class92.anInt1560) {
 									Class23_Sub11 class23_sub11 = new Class23_Sub11();
 									class23_sub11.anInt2280 = class23_sub13_sub7.anInt3751;

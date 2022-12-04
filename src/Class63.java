@@ -406,12 +406,12 @@ abstract class Class63
 			if (b != -26) {
 				anInt986 = 90;
 			}
-			class16.anInt1896 = class23_sub5.method432((byte) 63);
+			class16.anInt1896 = class23_sub5.getSmart((byte) 63);
 			if ((class16.anInt1896 ^ 0xffffffff) < (i ^ 0xffffffff)) {
 				class16.anInt1896 = i;
 			}
 			class16.aByteArray1906 = new byte[class16.anInt1896];
-			class23_sub5.position += Class69.aClass106_1206.method1575(class16.anInt1896, class16.aByteArray1906, 0, class23_sub5.position, 41, class23_sub5.payload);
+			class23_sub5.pos += Class69.aClass106_1206.method1575(class16.anInt1896, class16.aByteArray1906, 0, class23_sub5.pos, 41, class23_sub5.payload);
 			return class16;
 		} catch (Exception exception) {
 			return Canvas_Sub1.aClass16_49;

@@ -97,10 +97,10 @@ public class Class23_Sub4_Sub33 extends Class23_Sub4
 					break;
 				}
 			} else {
-				anInt3430 = class23_sub5.method476((byte) -119);
+				anInt3430 = class23_sub5.getUShortBE();
 				break;
 			}
-			aBoolean3429 = class23_sub5.method461(i_17_ ^ ~0x6b28761f) == 1;
+			aBoolean3429 = class23_sub5.readUByte() == 1;
 		} while (false);
 		if (i_17_ != 1000) {
 			method255(null, 93, -59);

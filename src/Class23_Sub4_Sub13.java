@@ -94,31 +94,31 @@ public class Class23_Sub4_Sub13 extends Class23_Sub4
 												break while_34_;
 											}
 										} else {
-											anInt3117 = class23_sub5.method461(-1797813752);
+											anInt3117 = class23_sub5.readUByte();
 											break while_40_;
 										}
-										anInt3109 = class23_sub5.method476((byte) -102);
+										anInt3109 = class23_sub5.getUShortBE();
 										break while_40_;
 									} while (false);
-									anInt3101 = class23_sub5.method476((byte) -98);
+									anInt3101 = class23_sub5.getUShortBE();
 									break while_40_;
 								} while (false);
-								anInt3111 = class23_sub5.method476((byte) -128);
+								anInt3111 = class23_sub5.getUShortBE();
 								break while_40_;
 							} while (false);
-							anInt3100 = class23_sub5.method476((byte) -98);
+							anInt3100 = class23_sub5.getUShortBE();
 							break while_40_;
 						} while (false);
-						anInt3110 = class23_sub5.method476((byte) -119);
+						anInt3110 = class23_sub5.getUShortBE();
 						break while_40_;
 					} while (false);
-					anInt3096 = class23_sub5.method461(i_0_ + -1797814752);
+					anInt3096 = class23_sub5.readUByte();
 					break while_40_;
 				} while (false);
-				anInt3103 = class23_sub5.method476((byte) -114);
+				anInt3103 = class23_sub5.getUShortBE();
 				break while_40_;
 			} while (false);
-			anInt3104 = class23_sub5.method476((byte) -125);
+			anInt3104 = class23_sub5.getUShortBE();
 		} while (false);
 		if (i_0_ != 1000) {
 			anInt3117 = -28;
@@ -126,7 +126,7 @@ public class Class23_Sub4_Sub13 extends Class23_Sub4
 		anInt3095++;
 	}
 	
-	static final void method316(int i) {
+	static final void parsePlayerMovement(int i) {
 		Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method487(i ^ i);
 		int i_2_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method489((byte) 113, 1);
 		anInt3105++;
@@ -157,7 +157,7 @@ public class Class23_Sub4_Sub13 extends Class23_Sub4
 				if (i_11_ == 1) {
 					Class94.anIntArray1603[Class23_Sub2.anInt2048++] = 2047;
 				}
-				Class23_Sub13_Sub11.anInt3916 = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method489((byte) 122, 2);
+				ItemDefinition.anInt3916 = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method489((byte) 122, 2);
 				int i_12_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method489((byte) 125, 7);
 				Class105.aClass38_Sub7_Sub2_1812.method1085(i_10_, (byte) -126, i_9_ == 1, i_12_);
 			}

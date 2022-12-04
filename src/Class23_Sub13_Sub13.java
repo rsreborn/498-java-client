@@ -2,7 +2,7 @@
  * Visit http://jode.sourceforge.net/
  */
 
-public class Class23_Sub13_Sub13 extends Class23_Sub13
+public class Class23_Sub13_Sub13 extends Class23_Sub13 //OBJECT DEF?
 {
 	private oa anOa3983;
 	static int anInt3984;
@@ -37,30 +37,30 @@ public class Class23_Sub13_Sub13 extends Class23_Sub13
 		if (i_1_ != 1) {
 			if (i_1_ != 2) {
 				if (i_1_ == 3) {
-					aClass16_3988 = class23_sub5.method426(2);
+					aClass16_3988 = class23_sub5.readString(2);
 				} else if (i_1_ != 4) {
 					if (i_1_ == 5 || i_1_ == 6) {
-						int i_2_ = class23_sub5.method476((byte) -125);
+						int i_2_ = class23_sub5.getUShortBE();
 						anOa3983 = new oa(RuntimeException_Sub1.method1586((byte) -26, i_2_));
 						for (int i_3_ = 0; i_3_ < i_2_; i_3_++) {
-							int i_4_ = class23_sub5.method472(i ^ 0x67);
+							int i_4_ = class23_sub5.readUIntBE();
 							Class23 class23;
 							if (i_1_ != 5) {
-								class23 = new Class23_Sub20(class23_sub5.method472(104));
+								class23 = new Class23_Sub20(class23_sub5.readUIntBE());
 							} else {
-								class23 = new Class23_Sub26(class23_sub5.method426(i ^ 0x7));
+								class23 = new Class23_Sub26(class23_sub5.readString(i ^ 0x7));
 							}
 							anOa3983.a(class23, (byte) -14, (long) i_4_);
 						}
 					}
 				} else {
-					anInt3994 = class23_sub5.method472(i + -30);
+					anInt3994 = class23_sub5.readUIntBE();
 				}
 			} else {
-				anInt3985 = class23_sub5.method461(i + -1797813757);
+				anInt3985 = class23_sub5.readUByte();
 			}
 		} else {
-			anInt3999 = class23_sub5.method461(-1797813752);
+			anInt3999 = class23_sub5.readUByte();
 		}
 		anInt4000++;
 		if (i != 5) {
@@ -152,7 +152,7 @@ public class Class23_Sub13_Sub13 extends Class23_Sub13
 			aClass16_3993 = null;
 		}
 		for (;;) {
-			int i = class23_sub5.method461(-1797813752);
+			int i = class23_sub5.readUByte();
 			if (i == 0) {
 				break;
 			}

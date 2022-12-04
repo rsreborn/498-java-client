@@ -168,7 +168,7 @@ public class Class1
 	}
 	
 	Class1(Buffer class23_sub5) {
-		int i = class23_sub5.method461(-1797813752);
+		int i = class23_sub5.readUByte();
 		int i_35_ = 0;
 		aClass23_Sub4Array57 = new Class23_Sub4[i];
 		int i_36_ = 0;
@@ -184,7 +184,7 @@ public class Class1
 			int i_38_ = class23_sub4.aClass23_Sub4Array2120.length;
 			is[i_37_] = new int[i_38_];
 			for (int i_39_ = 0; i_38_ > i_39_; i_39_++)
-				is[i_37_][i_39_] = class23_sub5.method461(-1797813752);
+				is[i_37_][i_39_] = class23_sub5.readUByte();
 			aClass23_Sub4Array57[i_37_] = class23_sub4;
 		}
 		anIntArray63 = new int[i_35_];
@@ -207,8 +207,8 @@ public class Class1
 			is[i_40_] = null;
 		}
 		Object object = null;
-		aClass23_Sub4_56 = aClass23_Sub4Array57[class23_sub5.method461(-1797813752)];
-		aClass23_Sub4_60 = aClass23_Sub4Array57[class23_sub5.method461(-1797813752)];
+		aClass23_Sub4_56 = aClass23_Sub4Array57[class23_sub5.readUByte()];
+		aClass23_Sub4_60 = aClass23_Sub4Array57[class23_sub5.readUByte()];
 	}
 	
 	static {

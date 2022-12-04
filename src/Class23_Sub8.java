@@ -7,11 +7,11 @@ public class Class23_Sub8 extends Class23
 	protected int anInt2227;
 	protected Class23_Sub10_Sub1 aClass23_Sub10_Sub1_2228;
 	protected int anInt2229;
-	static Class23_Sub5_Sub1 loginBuffer = new Class23_Sub5_Sub1(5000);
+	static Class23_Sub5_Sub1 aClass23_Sub5_Sub1_2230 = new Class23_Sub5_Sub1(5000);
 	static int anInt2231;
 	protected Class23_Sub10_Sub1 aClass23_Sub10_Sub1_2232;
 	protected int anInt2233;
-	protected Class23_Sub13_Sub7 aClass23_Sub13_Sub7_2234;
+	protected ObjectDefinition aClass23_Sub13_Sub7_2234;
 	static byte[][] aByteArrayArray2235;
 	protected int anInt2236;
 	static int anInt2237;
@@ -37,7 +37,7 @@ public class Class23_Sub8 extends Class23
 		anInt2252++;
 		if (b >= 12) {
 			int i = anInt2227;
-			Class23_Sub13_Sub7 class23_sub13_sub7 = aClass23_Sub13_Sub7_2234.method646(176743434);
+			ObjectDefinition class23_sub13_sub7 = aClass23_Sub13_Sub7_2234.method646(176743434);
 			if (class23_sub13_sub7 != null) {
 				anInt2241 = class23_sub13_sub7.anInt3782;
 				anInt2227 = class23_sub13_sub7.anInt3743;
@@ -68,7 +68,7 @@ public class Class23_Sub8 extends Class23
 		aClass84_2244 = null;
 		anIntArrayArray2249 = null;
 		aByteArrayArray2235 = null;
-		loginBuffer = null;
+		aClass23_Sub5_Sub1_2230 = null;
 		aClass16_2238 = null;
 		aClass16_2243 = null;
 		anIntArray2245 = null;

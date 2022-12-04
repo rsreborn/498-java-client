@@ -28,7 +28,7 @@ public class Class38_Sub3 extends Class38
 	private final Class38 method1038(int i) {
 		anInt2508++;
 		boolean bool = Class17.anIntArrayArrayArray301 != Class23_Sub4_Sub12.anIntArrayArrayArray3080;
-		Class23_Sub13_Sub7 class23_sub13_sub7 = Class38_Sub2.method1037(anInt2509, -21035);
+		ObjectDefinition class23_sub13_sub7 = Class38_Sub2.loadObjectDefinition(anInt2509, -21035);
 		if (class23_sub13_sub7.anIntArray3746 != null) {
 			class23_sub13_sub7 = class23_sub13_sub7.method646(i ^ ~0x39df4d37);
 		}

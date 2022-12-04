@@ -67,19 +67,19 @@ public class Class23_Sub12 extends Class23
 	Class23_Sub12(int i, byte[] bs) {
 		anInt2297 = i;
 		Buffer class23_sub5 = new Buffer(bs);
-		anInt2304 = class23_sub5.method461(-1797813752);
+		anInt2304 = class23_sub5.readUByte();
 		aBooleanArray2291 = new boolean[anInt2304];
 		anIntArray2295 = new int[anInt2304];
 		anIntArrayArray2305 = new int[anInt2304][];
 		for (int i_0_ = 0; i_0_ < anInt2304; i_0_++)
-			anIntArray2295[i_0_] = class23_sub5.method461(-1797813752);
+			anIntArray2295[i_0_] = class23_sub5.readUByte();
 		for (int i_1_ = 0; i_1_ < anInt2304; i_1_++)
-			aBooleanArray2291[i_1_] = class23_sub5.method461(-1797813752) == 1;
+			aBooleanArray2291[i_1_] = class23_sub5.readUByte() == 1;
 		for (int i_2_ = 0; anInt2304 > i_2_; i_2_++)
-			anIntArrayArray2305[i_2_] = new int[class23_sub5.method461(-1797813752)];
+			anIntArrayArray2305[i_2_] = new int[class23_sub5.readUByte()];
 		for (int i_3_ = 0; i_3_ < anInt2304; i_3_++) {
 			for (int i_4_ = 0; i_4_ < anIntArrayArray2305[i_3_].length; i_4_++)
-				anIntArrayArray2305[i_3_][i_4_] = class23_sub5.method461(-1797813752);
+				anIntArrayArray2305[i_3_][i_4_] = class23_sub5.readUByte();
 		}
 	}
 	

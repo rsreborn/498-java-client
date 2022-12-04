@@ -51,6 +51,8 @@ public class Class6_Sub2 extends Class6
 	final void method86(int i) throws LineUnavailableException {
 		try {
 			DataLine.Info info = new DataLine.Info(aClass1987 == null ? aClass1987 = method89("javax.sound.sampled.SourceDataLine") : aClass1987, anAudioFormat1982, i << (Class13.aBoolean257 ? 2 : 1));
+			System.out.println(i << (Class13.aBoolean257 ? 2 : 1));
+			System.out.println(i << (Class13.aBoolean257 ? 2 : 1));
 			aSourceDataLine1986 = (SourceDataLine) AudioSystem.getLine(info);
 			aSourceDataLine1986.open();
 			aSourceDataLine1986.start();
@@ -94,6 +96,11 @@ public class Class6_Sub2 extends Class6
 			aByteArray1983[i_1_ * 2] = (byte) (i_2_ >> 8);
 			aByteArray1983[i_1_ * 2 + 1] = (byte) (i_2_ >> 16);
 		}
+		//System.out.println("sound bytes written:");
+		//for(byte b : aByteArray1983)
+			//if (b != 0)
+				//System.out.println(b);
+		//System.out.println(aByteArray1983.length);
 		aSourceDataLine1986.write(aByteArray1983, 0, i << 1);
 	}
 	

@@ -47,7 +47,7 @@ public class Class102
 	
 	final void method1516(byte[] bs, boolean bool, Buffer class23_sub5) {
 		anInt1703++;
-		if (class23_sub5.payload[class23_sub5.position] != 31 || class23_sub5.payload[1 + class23_sub5.position] != -117) {
+		if (class23_sub5.payload[class23_sub5.pos] != 31 || class23_sub5.payload[1 + class23_sub5.pos] != -117) {
 			throw new RuntimeException("Invalid GZIP header!");
 		}
 		if (anInflater1705 == null) {
@@ -57,7 +57,7 @@ public class Class102
 			method1515(null, null, null, -9, null);
 		}
 		try {
-			anInflater1705.setInput(class23_sub5.payload, class23_sub5.position + 10, -10 + (-class23_sub5.position - 8 + class23_sub5.payload.length));
+			anInflater1705.setInput(class23_sub5.payload, class23_sub5.pos + 10, -10 + (-class23_sub5.pos - 8 + class23_sub5.payload.length));
 			anInflater1705.inflate(bs);
 		} catch (Exception exception) {
 			anInflater1705.reset();

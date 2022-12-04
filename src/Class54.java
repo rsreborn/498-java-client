@@ -100,11 +100,11 @@ public class Class54
 					break;
 				}
 				RSString class16_13_ = Class23_Sub4_Sub38.aClass16_3509;
-				if (Class23_Sub13_Sub11.aClass60_3944 != null) {
-					class16_13_ = Class78_Sub2.method1354(i ^ 0x3062, Class23_Sub13_Sub11.aClass60_3944.anInt952);
+				if (ItemDefinition.aClass60_3944 != null) {
+					class16_13_ = Class78_Sub2.method1354(i ^ 0x3062, ItemDefinition.aClass60_3944.anInt952);
 					try {
-						if (Class23_Sub13_Sub11.aClass60_3944.anObject955 != null) {
-							byte[] bs = ((String) Class23_Sub13_Sub11.aClass60_3944.anObject955).getBytes("ISO-8859-1");
+						if (ItemDefinition.aClass60_3944.anObject955 != null) {
+							byte[] bs = ((String) ItemDefinition.aClass60_3944.anObject955).getBytes("ISO-8859-1");
 							class16_13_ = Class46.method1139(bs, 0, bs.length, 0);
 						}
 					} catch (java.io.UnsupportedEncodingException unsupportedencodingexception) {

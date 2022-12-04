@@ -23,9 +23,9 @@ public class Class23_Sub13_Sub14 extends Class23_Sub13
 	
 	private final void method765(int i, int i_0_, Buffer class23_sub5) {
 		if (i_0_ == 1) {
-			anInt4011 = class23_sub5.method476((byte) -113);
-			anInt4015 = class23_sub5.method461(-1797813752);
-			anInt4010 = class23_sub5.method461(-1797813752);
+			anInt4011 = class23_sub5.getUShortBE();
+			anInt4015 = class23_sub5.readUByte();
+			anInt4010 = class23_sub5.readUByte();
 		}
 		if (i != -18449) {
 			anIntArray4016 = null;
@@ -38,7 +38,7 @@ public class Class23_Sub13_Sub14 extends Class23_Sub13
 			aClass16_4003 = null;
 		}
 		for (;;) {
-			int i_1_ = class23_sub5.method461(-1797813752);
+			int i_1_ = class23_sub5.readUByte();
 			if ((i_1_ ^ 0xffffffff) == -1) {
 				break;
 			}

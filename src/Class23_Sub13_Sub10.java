@@ -58,7 +58,7 @@ abstract class Class23_Sub13_Sub10 extends Class23_Sub13
 			}
 			Class97.anInt1632 = -1;
 			anInt3884++;
-			Class70.anInt1222 = -1;
+			ISAACCipher.anInt1222 = -1;
 			Class23_Sub4_Sub14.anInt3120 = Class89.anInt1511;
 			Class23_Sub13_Sub23.aClass64_4257 = null;
 			if ((Class69.anInt1218 ^ 0xffffffff) != 0) {
@@ -69,7 +69,7 @@ abstract class Class23_Sub13_Sub10 extends Class23_Sub13
 			Class35.method979(false);
 			if (!Class53.aBoolean840) {
 				if ((Class97.anInt1632 ^ 0xffffffff) != 0) {
-					Class71.method1267(Class70.anInt1222, (byte) -64, Class97.anInt1632);
+					Class71.method1267(ISAACCipher.anInt1222, (byte) -64, Class97.anInt1632);
 				}
 			} else {
 				Class99.method1494(-19);
@@ -85,7 +85,7 @@ abstract class Class23_Sub13_Sub10 extends Class23_Sub13
 					}
 				}
 			}
-			Class34.method970((byte) -106, Class23_Sub25.anInt2459, Class105.aClass38_Sub7_Sub2_1812.anInt2674, Class105.aClass38_Sub7_Sub2_1812.anInt2659, Class23_Sub13_Sub11.anInt3916);
+			Class34.method970((byte) -106, Class23_Sub25.anInt2459, Class105.aClass38_Sub7_Sub2_1812.anInt2674, Class105.aClass38_Sub7_Sub2_1812.anInt2659, ItemDefinition.anInt3916);
 			Class23_Sub25.anInt2459 = 0;
 		}
 	}
@@ -112,22 +112,22 @@ abstract class Class23_Sub13_Sub10 extends Class23_Sub13
 	
 	abstract void method699(int i, int i_21_, int i_22_, int i_23_);
 	
-	static final void method700(int i) {
+	static final void updatePlayers(int i) {
 		Class23_Sub2.anInt2048 = 0;
 		anInt3889++;
 		Class23_Sub4_Sub10.anInt3061 = 0;
-		Class23_Sub4_Sub13.method316(-3);
-		Class23_Sub13_Sub19.method803((byte) -11);
-		Class45.method1133(0);
-		Class67.method1243(118);
+		Class23_Sub4_Sub13.parsePlayerMovement(-3);
+		Class23_Sub13_Sub19.parseTrackedPlayerMovement((byte) -11);
+		Class45.registerNewPlayers(0);
+		Class67.parseTrackedPlayerUpdateMasks(118);
 		for (int i_24_ = i; (Class23_Sub4_Sub10.anInt3061 ^ 0xffffffff) < (i_24_ ^ 0xffffffff); i_24_++) {
 			int i_25_ = Class54.anIntArray857[i_24_];
 			if ((Class23_Sub4_Sub2.aClass38_Sub7_Sub2Array2932[i_25_].anInt2698 ^ 0xffffffff) != (Class89.anInt1511 ^ 0xffffffff)) {
 				Class23_Sub4_Sub2.aClass38_Sub7_Sub2Array2932[i_25_] = null;
 			}
 		}
-		if ((Class23_Sub4_Sub2.anInt2925 ^ 0xffffffff) != (Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.position ^ 0xffffffff)) {
-			throw new RuntimeException("gpp1 pos:" + Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.position + " psize:" + Class23_Sub4_Sub2.anInt2925);
+		if ((Class23_Sub4_Sub2.anInt2925 ^ 0xffffffff) != (Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.pos ^ 0xffffffff)) {
+			throw new RuntimeException("gpp1 pos:" + Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.pos + " psize:" + Class23_Sub4_Sub2.anInt2925);
 		}
 		for (int i_26_ = 0; (i_26_ ^ 0xffffffff) > (Class23_Sub4_Sub11.anInt3067 ^ 0xffffffff); i_26_++) {
 			if (Class23_Sub4_Sub2.aClass38_Sub7_Sub2Array2932[Class23_Sub13_Sub3.anIntArray3700[i_26_]] == null) {
@@ -183,8 +183,8 @@ abstract class Class23_Sub13_Sub10 extends Class23_Sub13
 		anInt3882++;
 		int i = 0;
 		for (int i_33_ = 0; i_33_ < Class30.anInt477; i_33_++) {
-			Class23_Sub13_Sub11 class23_sub13_sub11 = Class23_Sub13_Sub24.method853(-85, i_33_);
-			if ((!bool || class23_sub13_sub11.aBoolean3900) && class23_sub13_sub11.anInt3955 == -1 && class23_sub13_sub11.anInt3915 == -1 && (class23_sub13_sub11.anInt3956 ^ 0xffffffff) == -1 && class23_sub13_sub11.aClass16_3902.method152(48).method173(92, class16) != -1) {
+			ItemDefinition class23_sub13_sub11 = Class23_Sub13_Sub24.method853(-85, i_33_);
+			if ((!bool || class23_sub13_sub11.isUnnoted) && class23_sub13_sub11.anInt3955 == -1 && class23_sub13_sub11.anInt3915 == -1 && (class23_sub13_sub11.anInt3956 ^ 0xffffffff) == -1 && class23_sub13_sub11.name.method152(48).method173(92, class16) != -1) {
 				if (i >= 250) {
 					Class23_Sub1.aShortArray2007 = null;
 					Class1.anInt67 = -1;
@@ -204,7 +204,7 @@ abstract class Class23_Sub13_Sub10 extends Class23_Sub13
 		RSString[] class16s = new RSString[Class1.anInt67];
 		Class23_Sub1.aShortArray2007 = ses;
 		for (int i_36_ = 0; i_36_ < Class1.anInt67; i_36_++)
-			class16s[i_36_] = Class23_Sub13_Sub24.method853(121, ses[i_36_]).aClass16_3902;
+			class16s[i_36_] = Class23_Sub13_Sub24.method853(121, ses[i_36_]).name;
 		if (b <= 108) {
 			method693(-115);
 		}

@@ -122,9 +122,9 @@ abstract class Class38
 			class38_sub1_28_.method1004(i_24_);
 		}
 		Class38_Sub1_Sub1 class38_sub1_sub1 = (Class38_Sub1_Sub1) class38_sub1_28_;
-		if (Class23_Sub4_Sub22.method359(Class23_Sub13_Sub11.anInt3916, i_29_ + i, i_31_ + i_23_, (byte) 120) != i_27_ || i_27_ != Class23_Sub4_Sub22.method359(Class23_Sub13_Sub11.anInt3916, i_30_ + i, i_32_ + i_23_, (byte) 119)) {
+		if (Class23_Sub4_Sub22.method359(ItemDefinition.anInt3916, i_29_ + i, i_31_ + i_23_, (byte) 120) != i_27_ || i_27_ != Class23_Sub4_Sub22.method359(ItemDefinition.anInt3916, i_30_ + i, i_32_ + i_23_, (byte) 119)) {
 			for (int i_33_ = 0; (class38_sub1_sub1.anInt4312 ^ 0xffffffff) < (i_33_ ^ 0xffffffff); i_33_++)
-				class38_sub1_sub1.anIntArray4308[i_33_] += Class23_Sub4_Sub22.method359(Class23_Sub13_Sub11.anInt3916, class38_sub1_sub1.anIntArray4330[i_33_] + i, i_23_ + class38_sub1_sub1.anIntArray4309[i_33_], (byte) 99) + -i_27_;
+				class38_sub1_sub1.anIntArray4308[i_33_] += Class23_Sub4_Sub22.method359(ItemDefinition.anInt3916, class38_sub1_sub1.anIntArray4330[i_33_] + i, i_23_ + class38_sub1_sub1.anIntArray4309[i_33_], (byte) 99) + -i_27_;
 			class38_sub1_sub1.aBoolean4321 = false;
 		}
 		if (i_25_ != -630) {

@@ -7,10 +7,9 @@ public class Class23_Sub5_Sub1 extends Buffer
 	static Class81 aClass81_3527;
 	static int anInt3528;
 	static int anInt3529;
-	static int anInt3530;
 	static boolean[] aBooleanArray3531 = new boolean[5];
 	static int anInt3532;
-	private Class70 aClass70_3533;
+	private ISAACCipher aClass70_3533;
 	static int anInt3534;
 	static int anInt3535;
 	static RSString aClass16_3536;
@@ -35,21 +34,18 @@ public class Class23_Sub5_Sub1 extends Buffer
 	
 	final void method485(int i) {
 		anInt3538++;
-		position = (7 + anInt3540) / 8;
+		pos = (7 + anInt3540) / 8;
 		if (i > -23) {
 			aClass81_3527 = null;
 		}
 	}
 	
-	final void method486(int i, int i_0_) {
-		payload[position++] = (byte) (aClass70_3533.method1261(Class104.method1531(i_0_, 2720)) + i);
-		if (i_0_ == 2976) {
-			anInt3530++;
-		}
+	final void writeOpcode(int i, int i_0_) {
+		payload[pos++] = (byte) (aClass70_3533.method1261(Class104.method1531(i_0_, 2720)) + i);
 	}
 	
 	final void method487(int i) {
-		anInt3540 = 8 * position;
+		anInt3540 = 8 * pos;
 		anInt3537++;
 		if (i != 0) {
 			method485(40);
@@ -88,7 +84,7 @@ public class Class23_Sub5_Sub1 extends Buffer
 	final void method490(int i, int i_5_, int i_6_, byte[] bs) {
 		if (i < -28) {
 			for (int i_7_ = 0; i_5_ > i_7_; i_7_++)
-				bs[i_6_ + i_7_] = (byte) (payload[position++] + -aClass70_3533.method1261(256));
+				bs[i_6_ + i_7_] = (byte) (payload[pos++] + -aClass70_3533.method1261(256));
 			anInt3529++;
 		}
 	}
@@ -102,13 +98,13 @@ public class Class23_Sub5_Sub1 extends Buffer
 			method488(-18, -51);
 		}
 		anInt3534++;
-		return payload[position++] + -aClass70_3533.method1261(256) & 0xff;
+		return payload[pos++] + -aClass70_3533.method1261(256) & 0xff;
 	}
 	
 	final void method492(byte b, int[] is) {
 		anInt3535++;
 		if (b < -96) {
-			aClass70_3533 = new Class70(is);
+			aClass70_3533 = new ISAACCipher(is);
 		}
 	}
 	

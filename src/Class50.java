@@ -88,7 +88,7 @@ public class Class50
 		if (b == 32) {
 			for (/**/; class23_sub13_sub9 != null; class23_sub13_sub9 = (Class23_Sub13_Sub9) Class23_Sub13_Sub17.aClass89_4066.method1431((byte) -89)) {
 				Class38_Sub6 class38_sub6 = class23_sub13_sub9.aClass38_Sub6_3866;
-				if ((Class23_Sub13_Sub11.anInt3916 ^ 0xffffffff) == (class38_sub6.anInt2619 ^ 0xffffffff) && !class38_sub6.aBoolean2622) {
+				if ((ItemDefinition.anInt3916 ^ 0xffffffff) == (class38_sub6.anInt2619 ^ 0xffffffff) && !class38_sub6.aBoolean2622) {
 					if (Class89.anInt1511 >= class38_sub6.anInt2612) {
 						class38_sub6.method1079(Class23_Sub25.anInt2459, -2);
 						if (!class38_sub6.aBoolean2622) {

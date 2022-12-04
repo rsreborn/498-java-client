@@ -72,7 +72,7 @@ public class Class23_Sub4_Sub20 extends Class23_Sub4
 		while (i_4_ < bs.length) {
 			int i_5_ = 64 * (0xff & bs[i_4_++]) + -Class102.anInt1702;
 			int i_6_ = -Class29.anInt445 + (0xff & bs[i_4_++]) * 64;
-			if ((i_5_ ^ 0xffffffff) >= -1 || (i_6_ ^ 0xffffffff) >= -1 || Class70.anInt1238 <= i_5_ - -64 || Class38_Sub7.anInt2697 <= 64 + i_6_) {
+			if ((i_5_ ^ 0xffffffff) >= -1 || (i_6_ ^ 0xffffffff) >= -1 || ISAACCipher.anInt1238 <= i_5_ - -64 || Class38_Sub7.anInt2697 <= 64 + i_6_) {
 				for (int i_7_ = -4096; i_7_ < 0; i_7_++) {
 					int i_8_ = bs[i_4_++];
 					if (i_8_ != 0) {
@@ -91,10 +91,10 @@ public class Class23_Sub4_Sub20 extends Class23_Sub4
 							}
 							Class55.aByteArrayArrayArray879[i_9_][i_10_][(-(i_12_ + 1) << 6) + i_11_] = b;
 							byte b_13_ = bs[i_4_++];
-							if (Class23_Sub13_Sub7.aByteArrayArrayArray3750[i_9_][i_10_] == null) {
-								Class23_Sub13_Sub7.aByteArrayArrayArray3750[i_9_][i_10_] = new byte[4096];
+							if (ObjectDefinition.aByteArrayArrayArray3750[i_9_][i_10_] == null) {
+								ObjectDefinition.aByteArrayArrayArray3750[i_9_][i_10_] = new byte[4096];
 							}
-							Class23_Sub13_Sub7.aByteArrayArrayArray3750[i_9_][i_10_][(-(1 + i_12_) << 6) - -i_11_] = b_13_;
+							ObjectDefinition.aByteArrayArrayArray3750[i_9_][i_10_][(-(1 + i_12_) << 6) - -i_11_] = b_13_;
 						}
 					}
 				}
@@ -122,7 +122,7 @@ public class Class23_Sub4_Sub20 extends Class23_Sub4
 		}
 		int i_15_ = i;
 		if ((i_15_ ^ 0xffffffff) == -1) {
-			anInt3239 = (class23_sub5.method461(-1797813752) << 12) / 255;
+			anInt3239 = (class23_sub5.readUByte() << 12) / 255;
 		}
 		anInt3233++;
 	}

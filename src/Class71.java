@@ -46,12 +46,12 @@ class Class71
 	
 	static final void method1267(int i, byte b, int i_1_) {
 		anInt1270++;
-		if (Class23_Sub13_Sub9.anInt3863 >= 2 || Class38_Sub7_Sub1.anInt4374 != 0 || Class23_Sub13_Sub7.aBoolean3792) {
+		if (Class23_Sub13_Sub9.anInt3863 >= 2 || Class38_Sub7_Sub1.anInt4374 != 0 || ObjectDefinition.aBoolean3792) {
 			RSString class16;
 			if (Class38_Sub7_Sub1.anInt4374 == 1 && Class23_Sub13_Sub9.anInt3863 < 2) {
-				class16 = Class23_Sub4_Sub14.method322(new RSString[] { Class23_Sub13_Sub20.aClass16_4163, Class23_Sub13_Sub7.aClass16_3762, Class23_Sub13_Sub24.aClass16_4281, Class32.aClass16_494 }, -84);
-			} else if (Class23_Sub13_Sub7.aBoolean3792 && Class23_Sub13_Sub9.anInt3863 < 2) {
-				class16 = Class23_Sub4_Sub14.method322(new RSString[] { Class49.aClass16_764, Class23_Sub13_Sub7.aClass16_3762, Class23_Sub13_Sub4.aClass16_3714, Class32.aClass16_494 }, -101);
+				class16 = Class23_Sub4_Sub14.method322(new RSString[] { NPCDefinition.aClass16_4163, ObjectDefinition.aClass16_3762, Class23_Sub13_Sub24.aClass16_4281, Class32.aClass16_494 }, -84);
+			} else if (ObjectDefinition.aBoolean3792 && Class23_Sub13_Sub9.anInt3863 < 2) {
+				class16 = Class23_Sub4_Sub14.method322(new RSString[] { Class49.aClass16_764, ObjectDefinition.aClass16_3762, Class23_Sub13_Sub4.aClass16_3714, Class32.aClass16_494 }, -101);
 			} else {
 				class16 = Class23_Sub13_Sub18.method800(-1 + Class23_Sub13_Sub9.anInt3863, false);
 			}

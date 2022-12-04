@@ -66,19 +66,19 @@ public class Class23_Sub4_Sub16 extends Class23_Sub4
 								break while_42_;
 							}
 						} else {
-							anInt3154 = class23_sub5.method476((byte) -106);
+							anInt3154 = class23_sub5.getUShortBE();
 							break while_44_;
 						}
-						anInt3155 = class23_sub5.method476((byte) -103);
+						anInt3155 = class23_sub5.getUShortBE();
 						break while_44_;
 					} while (false);
-					anInt3158 = class23_sub5.method476((byte) -128);
+					anInt3158 = class23_sub5.getUShortBE();
 					break while_44_;
 				} while (false);
-				anInt3149 = class23_sub5.method476((byte) -118);
+				anInt3149 = class23_sub5.getUShortBE();
 				break while_44_;
 			} while (false);
-			int i_2_ = class23_sub5.method471(120);
+			int i_2_ = class23_sub5.getTriByte(120);
 			anIntArray3150[1] = Class24.method919(i_2_ >> 4, 4080);
 			anIntArray3150[2] = Class24.method919(255, i_2_) >> 12;
 			anIntArray3150[0] = Class24.method919(i_2_ << 4, 267386880);

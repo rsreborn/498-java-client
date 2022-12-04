@@ -156,13 +156,13 @@ public class Class23_Sub4_Sub39 extends Class23_Sub4
 						break while_169_;
 					}
 				} else {
-					anInt3514 = class23_sub5.method476((byte) -122);
+					anInt3514 = class23_sub5.getUShortBE();
 					break while_169_;
 				}
-				anInt3515 = class23_sub5.method476((byte) -116);
+				anInt3515 = class23_sub5.getUShortBE();
 				break while_169_;
 			} while (false);
-			aBoolean2117 = class23_sub5.method461(-1797813752) == 1;
+			aBoolean2117 = class23_sub5.readUByte() == 1;
 		} while (false);
 		if (i_37_ != 1000) {
 			aClass27_3520 = null;

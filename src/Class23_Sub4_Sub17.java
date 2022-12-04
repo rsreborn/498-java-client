@@ -174,13 +174,13 @@ public class Class23_Sub4_Sub17 extends Class23_Sub4
 						break while_45_;
 					}
 				} else {
-					anInt3171 = class23_sub5.method461(-1797813752);
+					anInt3171 = class23_sub5.readUByte();
 					break while_45_;
 				}
-				anInt3175 = class23_sub5.method461(-1797813752);
+				anInt3175 = class23_sub5.readUByte();
 				break while_45_;
 			} while (false);
-			aBoolean2117 = class23_sub5.method461(i_44_ + -1797814752) == 1;
+			aBoolean2117 = class23_sub5.readUByte() == 1;
 		} while (false);
 		if (i_44_ != 1000) {
 			method335(true);

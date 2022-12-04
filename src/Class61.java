@@ -56,8 +56,8 @@ public class Class61
 				Class75.anInt1381 = -1;
 			}
 			int i_9_ = (int) ((double) Class23_Sub13_Sub12.aClass64_3967.anInt999 / Class107.aDouble1838) + Class8.anInt179;
-			if ((Class70.anInt1238 ^ 0xffffffff) > (i_7_ ^ 0xffffffff)) {
-				Canvas_Sub1.anInt55 = -(int) ((double) Class23_Sub13_Sub12.aClass64_3967.anInt1128 / Class107.aDouble1838) + Class70.anInt1238;
+			if ((ISAACCipher.anInt1238 ^ 0xffffffff) > (i_7_ ^ 0xffffffff)) {
+				Canvas_Sub1.anInt55 = -(int) ((double) Class23_Sub13_Sub12.aClass64_3967.anInt1128 / Class107.aDouble1838) + ISAACCipher.anInt1238;
 				Class75.anInt1381 = -1;
 				Class68.anInt1203 = -1;
 			}
@@ -76,10 +76,10 @@ public class Class61
 	
 	static final void method1199(int i, boolean bool, RSString class16) {
 		Class30.anInt473++;
-		Class23_Sub7.outBuffer.method486(68, 2976);
+		Class23_Sub7.aClass23_Sub5_Sub1_2202.writeOpcode(68, 2976);
 		anInt965++;
-		Class23_Sub7.outBuffer.method460((byte) 103, i);
-		Class23_Sub7.outBuffer.method454(class16.method184(114), 1650435232);
+		Class23_Sub7.aClass23_Sub5_Sub1_2202.writeByte(i);
+		Class23_Sub7.aClass23_Sub5_Sub1_2202.putLong2(class16.method184(114), 1650435232);
 		if (bool != false) {
 			method1200((byte) -59);
 		}

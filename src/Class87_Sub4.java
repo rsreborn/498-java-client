@@ -171,11 +171,11 @@ public class Class87_Sub4 extends Class87
 				Class4.method57(i + -7510, true);
 				Class48.method1150((byte) 103);
 				int i_22_ = Class28.anInt424;
-				if ((Class23_Sub13_Sub11.anInt3916 ^ 0xffffffff) > (i_22_ ^ 0xffffffff)) {
-					i_22_ = Class23_Sub13_Sub11.anInt3916;
+				if ((ItemDefinition.anInt3916 ^ 0xffffffff) > (i_22_ ^ 0xffffffff)) {
+					i_22_ = ItemDefinition.anInt3916;
 				}
-				if ((i_22_ ^ 0xffffffff) > (-1 + Class23_Sub13_Sub11.anInt3916 ^ 0xffffffff)) {
-					i_22_ = Class23_Sub13_Sub11.anInt3916 + -1;
+				if ((i_22_ ^ 0xffffffff) > (-1 + ItemDefinition.anInt3916 ^ 0xffffffff)) {
+					i_22_ = ItemDefinition.anInt3916 + -1;
 				}
 				if (Class7.aBoolean170) {
 					Class71_Sub3.method1287(Class28.anInt424);
@@ -188,12 +188,12 @@ public class Class87_Sub4 extends Class87
 						Class44.method1129(i_23_, i_24_, (byte) 118);
 				}
 				Class48.method1150((byte) -93);
-				Class70.method1259(-1);
+				ISAACCipher.method1259(-1);
 				Class23_Sub10_Sub2.method560(118);
 				if (Class23_Sub19.aFrame2385 != null) {
-					Class23_Sub7.outBuffer.method486(7, i + -4590);
+					Class23_Sub7.aClass23_Sub5_Sub1_2202.writeOpcode(7, i + -4590);
 					Class23_Sub4_Sub39.anInt3524++;
-					Class23_Sub7.outBuffer.writeIntBE(1057001181, i ^ ~0x43d2fe69);
+					Class23_Sub7.aClass23_Sub5_Sub1_2202.putInt(1057001181, i ^ ~0x43d2fe69);
 				}
 				if (!Class23_Sub13_Sub26.aBoolean4298) {
 					int i_25_ = (-6 + Class23_Sub4_Sub23.anInt3279) / 8;
@@ -211,8 +211,8 @@ public class Class87_Sub4 extends Class87
 				}
 				Class103.method1521(30, i ^ 0x77aa);
 				Class48.method1150((byte) 100);
-				Class23_Sub7.outBuffer.method486(70, 2976);
-				Class23_Sub13_Sub7.method640((byte) -86);
+				Class23_Sub7.aClass23_Sub5_Sub1_2202.writeOpcode(70, 2976);
+				ObjectDefinition.method640((byte) -86);
 			}
 		}
 	}

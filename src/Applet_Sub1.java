@@ -10,6 +10,8 @@ import java.awt.Frame;
 import java.awt.Graphics;
 import java.awt.Insets;
 import java.awt.Rectangle;
+import java.awt.event.ComponentEvent;
+import java.awt.event.ComponentListener;
 import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
 import java.awt.event.WindowEvent;
@@ -17,8 +19,12 @@ import java.awt.event.WindowListener;
 import java.lang.reflect.Method;
 import java.net.URL;
 
-public abstract class Applet_Sub1 extends Applet implements Runnable, FocusListener, WindowListener
+public abstract class Applet_Sub1 extends Applet implements Runnable, FocusListener, ComponentListener, WindowListener
 {
+	//Resizable Client Shit
+	static int newH;
+	static int newW;
+	
 	static int anInt1;
 	static int anInt2;
 	static int anInt3;
@@ -72,7 +78,7 @@ public abstract class Applet_Sub1 extends Applet implements Runnable, FocusListe
 			Class23_Sub4_Sub19.anInt3205 = i_3_;
 			Class23_Sub19.aFrame2385 = new Frame();
 			Class23_Sub19.aFrame2385.setTitle("Jagex");
-			Class23_Sub19.aFrame2385.setResizable(false);
+			Class23_Sub19.aFrame2385.setResizable(true);//false originally
 			Class23_Sub19.aFrame2385.addWindowListener(this);
 			Class23_Sub19.aFrame2385.setVisible(bool);
 			Class23_Sub19.aFrame2385.toFront();
@@ -350,7 +356,7 @@ public abstract class Applet_Sub1 extends Applet implements Runnable, FocusListe
 			i_7_ = 4;
 		}
 		anInt21++;
-		Class23_Sub13_Sub7 class23_sub13_sub7 = Class38_Sub2.method1037(i, -21035);
+		ObjectDefinition class23_sub13_sub7 = Class38_Sub2.loadObjectDefinition(i, -21035);
 		return class23_sub13_sub7.method647(i_7_, 5836);
 	}
 	
@@ -545,6 +551,7 @@ public abstract class Applet_Sub1 extends Applet implements Runnable, FocusListe
 	
 	public final void run() {
 		anInt6++;
+		addComponentListener(this);
 		try {
 			if (Class9.aString198 != null) {
 				String string = Class9.aString198.toLowerCase();
@@ -605,6 +612,17 @@ public abstract class Applet_Sub1 extends Applet implements Runnable, FocusListe
 	
 	public final void windowIconified(WindowEvent windowevent) {
 		anInt37++;
+	}
+	
+	public void componentShown(ComponentEvent e) {}
+	
+	public void componentHidden(ComponentEvent e) {}
+	
+	public void componentMoved(ComponentEvent e) {}
+	
+	public void componentResized(ComponentEvent e) {
+		newH = e.getComponent().getSize().height  - 508 - 23 - 12 / 2;
+		newW = e.getComponent().getSize().width  - 768 - 9 / 2;
 	}
 	
 	static {

@@ -34,10 +34,10 @@ public class Class4
 			do {
 				if (!Class23_Sub4_Sub7.aBoolean3012 && Class23_Sub24.aClass34_2440 != null) {
 					Class63.anInt987++;
-					Class23_Sub7.outBuffer.method486(56, 2976);
+					Class23_Sub7.aClass23_Sub5_Sub1_2202.writeOpcode(56, 2976);
 					try {
-						Class23_Sub24.aClass34_2440.method977(30000, Class23_Sub7.outBuffer.position, 0, Class23_Sub7.outBuffer.payload);
-						Class23_Sub7.outBuffer.position = 0;
+						Class23_Sub24.aClass34_2440.method977(30000, Class23_Sub7.aClass23_Sub5_Sub1_2202.pos, 0, Class23_Sub7.aClass23_Sub5_Sub1_2202.payload);
+						Class23_Sub7.aClass23_Sub5_Sub1_2202.pos = 0;
 					} catch (java.io.IOException ioexception) {
 						Class23_Sub4_Sub7.aBoolean3012 = true;
 						break;

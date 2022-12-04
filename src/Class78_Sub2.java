@@ -347,7 +347,7 @@ public class Class78_Sub2 extends Class78 implements ImageProducer, ImageObserve
 				for (int i_99_ = 0; i_99_ < 104; i_99_++) {
 					for (int i_100_ = 0; i_100_ < 104; i_100_++) {
 						if ((Class23_Sub4_Sub30.aByteArrayArrayArray3379[1][i_99_][i_100_] & 0x2) == 2) {
-							Class23_Sub13_Sub20.method818(i_99_, i_100_);
+							NPCDefinition.method818(i_99_, i_100_);
 						}
 					}
 				}
@@ -541,7 +541,9 @@ public class Class78_Sub2 extends Class78 implements ImageProducer, ImageObserve
 				if (i != 2874) {
 					method1357(102);
 				}
+				//If we don't have a World List with stuff in it, try and get the stuff
 				if (Class23.aClass53_347 == null) {
+					//So what all of this crap is is it trying to grab a web page that doesn't exist anymore and failing.
 					Class23.aClass53_347 = new Class53(Class23_Sub4_Sub3.aClass9_2939, Class23_Sub4_Sub14.method322(new RSString[] { Class34.aClass16_539, Class23_Sub4_Sub23.method360((byte) -9, Class23_Sub13_Sub15.anInt4036), Class79.aClass16_1887 }, -85).method153((byte) -117));
 				} else {
 					byte[] bs = Class23.aClass53_347.method1171(i ^ 0xb0e);
@@ -549,21 +551,21 @@ public class Class78_Sub2 extends Class78 implements ImageProducer, ImageObserve
 						break;
 					}
 					Buffer class23_sub5 = new Buffer(bs);
-					Class51.anInt793 = class23_sub5.method476((byte) -105);
-					Class23_Sub13_Sub1.aClass82Array3669 = new Class82[Class51.anInt793];
+					Class51.anInt793 = class23_sub5.getUShortBE();
+					Class23_Sub13_Sub1.worldList = new Class82[Class51.anInt793];
 					for (int i_151_ = 0; Class51.anInt793 > i_151_; i_151_++) {
-						Class82 class82 = Class23_Sub13_Sub1.aClass82Array3669[i_151_] = new Class82();
-						int i_152_ = class23_sub5.method476((byte) -126);
+						Class82 class82 = Class23_Sub13_Sub1.worldList[i_151_] = new Class82();
+						int i_152_ = class23_sub5.getUShortBE();
 						class82.aBoolean1450 = (0x8000 & i_152_) != 0;
 						class82.anInt1451 = i_152_ & 0x7fff;
-						class82.aClass16_1449 = class23_sub5.method426(i + -2872);
+						class82.aClass16_1449 = class23_sub5.readString(i + -2872);
 						class82.anInt1447 = class23_sub5.method474(true);
 						class82.anInt1448 = i_151_;
-						class82.anInt1443 = Class23_Sub13_Sub20.method814(class23_sub5.method476((byte) -120), true);
+						class82.anInt1443 = NPCDefinition.method814(class23_sub5.getUShortBE(), true);
 					}
-					Class38_Sub6.method1080(0, i ^ 0xb3a, Class23_Sub13_Sub1.aClass82Array3669, Class23_Sub13_Sub1.aClass82Array3669.length - 1);
+					Class38_Sub6.method1080(0, i ^ 0xb3a, Class23_Sub13_Sub1.worldList, Class23_Sub13_Sub1.worldList.length - 1);
 					Class23.aClass53_347 = null;
-					Class71_Sub2.aBoolean2736 = true;
+					Class71_Sub2.isWorldListReady = true;
 				}
 			} catch (Exception exception) {
 				exception.printStackTrace();

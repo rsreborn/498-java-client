@@ -7,7 +7,7 @@ public class Class2
 {
 	static int anInt68;
 	static int anInt69;
-	static BigInteger aBigInteger70 = new BigInteger("7162900525229798032761816791230527296329313291232324290237849263501208207972894053929065636522363163621000728841182238772712427862772219676577293600221789");
+	static BigInteger rsaModulus = new BigInteger("7162900525229798032761816791230527296329313291232324290237849263501208207972894053929065636522363163621000728841182238772712427862772219676577293600221789");
 	static int anInt71;
 	static int anInt72;
 	static RSString aClass16_73;
@@ -36,7 +36,7 @@ public class Class2
 		aClass16_84 = null;
 		aClass16_78 = null;
 		aClass16_80 = null;
-		aBigInteger70 = null;
+		rsaModulus = null;
 	}
 	
 	static final void method49(int i, int i_0_, boolean bool, Class64 class64, int i_1_) {
@@ -54,7 +54,7 @@ public class Class2
 			for (int i_5_ = 0; (Class23_Sub5_Sub1.anInt3541 ^ 0xffffffff) < (i_5_ ^ 0xffffffff); i_5_++) {
 				int i_6_ = -(Class105.aClass38_Sub7_Sub2_1812.anInt2674 / 32) + (Class102.anIntArray1704[i_5_] * 4 + 2);
 				int i_7_ = -(Class105.aClass38_Sub7_Sub2_1812.anInt2659 / 32) + (2 + oa.anIntArray1251[i_5_] * 4);
-				Class23_Sub13_Sub7 class23_sub13_sub7 = Class38_Sub2.method1037(Class23_Sub4_Sub17.anIntArray3172[i_5_], -21035);
+				ObjectDefinition class23_sub13_sub7 = Class38_Sub2.loadObjectDefinition(Class23_Sub4_Sub17.anIntArray3172[i_5_], -21035);
 				if (class23_sub13_sub7.anIntArray3746 != null) {
 					class23_sub13_sub7 = class23_sub13_sub7.method646(176743434);
 					if (class23_sub13_sub7 == null || class23_sub13_sub7.anInt3751 == -1) {
@@ -65,7 +65,7 @@ public class Class2
 			}
 			for (int i_8_ = 0; i_8_ < 104; i_8_++) {
 				for (int i_9_ = 0; i_9_ < 104; i_9_++) {
-					Class89 class89 = Class82.aClass89ArrayArrayArray1453[Class23_Sub13_Sub11.anInt3916][i_8_][i_9_];
+					Class89 class89 = Class82.aClass89ArrayArrayArray1453[ItemDefinition.anInt3916][i_8_][i_9_];
 					if (class89 != null) {
 						int i_10_ = -(Class105.aClass38_Sub7_Sub2_1812.anInt2659 / 32) + 2 + i_9_ * 4;
 						int i_11_ = -(Class105.aClass38_Sub7_Sub2_1812.anInt2674 / 32) + 2 + i_8_ * 4;
@@ -76,7 +76,7 @@ public class Class2
 			for (int i_12_ = 0; (Class23_Sub4_Sub18.anInt3191 ^ 0xffffffff) < (i_12_ ^ 0xffffffff); i_12_++) {
 				Class38_Sub7_Sub1 class38_sub7_sub1 = Class31.aClass38_Sub7_Sub1Array483[Class23_Sub4_Sub17.anIntArray3170[i_12_]];
 				if (class38_sub7_sub1 != null && class38_sub7_sub1.method1082((byte) -108)) {
-					Class23_Sub13_Sub20 class23_sub13_sub20 = class38_sub7_sub1.aClass23_Sub13_Sub20_4373;
+					NPCDefinition class23_sub13_sub20 = class38_sub7_sub1.aClass23_Sub13_Sub20_4373;
 					if (class23_sub13_sub20 != null && class23_sub13_sub20.anIntArray4153 != null) {
 						class23_sub13_sub20 = class23_sub13_sub20.method813(674);
 					}
@@ -156,8 +156,8 @@ public class Class2
 		anInt71++;
 		int i_31_ = -115 / ((10 - i_30_) / 40);
 		Class23_Sub27 class23_sub27 = new Class23_Sub27();
-		class23_sub27.anInt2486 = class23_sub5.method461(-1797813752);
-		class23_sub27.anInt2478 = class23_sub5.method472(-48);
+		class23_sub27.anInt2486 = class23_sub5.readUByte();
+		class23_sub27.anInt2478 = class23_sub5.readUIntBE();
 		class23_sub27.aClass60Array2477 = new Class60[class23_sub27.anInt2486];
 		class23_sub27.aByteArrayArrayArray2476 = new byte[class23_sub27.anInt2486][][];
 		class23_sub27.anIntArray2474 = new int[class23_sub27.anInt2486];
@@ -166,21 +166,21 @@ public class Class2
 		class23_sub27.anIntArray2480 = new int[class23_sub27.anInt2486];
 		for (int i_32_ = 0; (class23_sub27.anInt2486 ^ 0xffffffff) < (i_32_ ^ 0xffffffff); i_32_++) {
 			try {
-				int i_33_ = class23_sub5.method461(-1797813752);
+				int i_33_ = class23_sub5.readUByte();
 				if ((i_33_ ^ 0xffffffff) != -1 && i_33_ != 1 && i_33_ != 2) {
 					if (i_33_ == 3 || i_33_ == 4) {
-						String string = new String(class23_sub5.method426(2).method147(true));
-						String string_34_ = new String(class23_sub5.method426(2).method147(true));
-						int i_35_ = class23_sub5.method461(-1797813752);
+						String string = new String(class23_sub5.readString(2).method147(true));
+						String string_34_ = new String(class23_sub5.readString(2).method147(true));
+						int i_35_ = class23_sub5.readUByte();
 						String[] strings = new String[i_35_];
 						for (int i_36_ = 0; i_35_ > i_36_; i_36_++)
-							strings[i_36_] = new String(class23_sub5.method426(2).method147(true));
+							strings[i_36_] = new String(class23_sub5.readString(2).method147(true));
 						byte[][] bs = new byte[i_35_][];
 						if (i_33_ == 3) {
 							for (int i_37_ = 0; i_35_ > i_37_; i_37_++) {
-								int i_38_ = class23_sub5.method472(-25);
+								int i_38_ = class23_sub5.readUIntBE();
 								bs[i_37_] = new byte[i_38_];
-								class23_sub5.method450(i_38_, bs[i_37_], 96, 0);
+								class23_sub5.readBytes(bs[i_37_], 0, i_38_);
 							}
 						}
 						class23_sub27.anIntArray2485[i_32_] = i_33_;
@@ -191,11 +191,11 @@ public class Class2
 						class23_sub27.aByteArrayArrayArray2476[i_32_] = bs;
 					}
 				} else {
-					String string = new String(class23_sub5.method426(2).method147(true));
+					String string = new String(class23_sub5.readString(2).method147(true));
 					int i_40_ = 0;
-					String string_41_ = new String(class23_sub5.method426(2).method147(true));
+					String string_41_ = new String(class23_sub5.readString(2).method147(true));
 					if (i_33_ == 1) {
-						i_40_ = class23_sub5.method472(116);
+						i_40_ = class23_sub5.readUIntBE();
 					}
 					class23_sub27.anIntArray2485[i_32_] = i_33_;
 					class23_sub27.anIntArray2474[i_32_] = i_40_;
@@ -226,7 +226,7 @@ public class Class2
 				if (class16.method171(-61) == i) {
 					class16_44_ = Class23_Sub4_Sub14.method322(new RSString[] { class16_44_, Class99.aClass16_1672 }, i + -48);
 				} else {
-					class16_44_ = Class23_Sub4_Sub14.method322(new RSString[] { class16_44_, Class34.aClass16_540, Class23_Sub13_Sub11.method729((byte) 86, 94608000000L + Class94.method1466(22624)), Class6.aClass16_141, Class79.method1361(-16309, 94608000L) }, -60);
+					class16_44_ = Class23_Sub4_Sub14.method322(new RSString[] { class16_44_, Class34.aClass16_540, ItemDefinition.method729((byte) 86, 94608000000L + Class94.method1466(22624)), Class6.aClass16_141, Class79.method1361(-16309, 94608000L) }, -60);
 				}
 				Class23_Sub4_Sub14.method322(new RSString[] { Class69.aClass16_1217, class16_44_, Class5.aClass16_113 }, -55).method143(0, Class23_Sub4_Sub3.aClass9_2939.anApplet188);
 			} catch (Throwable throwable) {
@@ -261,8 +261,8 @@ public class Class2
 					Class23_Sub4_Sub30.aLongArray3383[Class25.anInt383] = l;
 					Applet_Sub1.aClass16Array10[Class25.anInt383++] = Class83.method1376(i + -1, l);
 					Class75.anInt1372 = Class23_Sub10_Sub2.anInt3589;
-					Class23_Sub7.outBuffer.method486(137, i + 2976);
-					Class23_Sub7.outBuffer.method436(l, (byte) -123);
+					Class23_Sub7.aClass23_Sub5_Sub1_2202.writeOpcode(137, i + 2976);
+					Class23_Sub7.aClass23_Sub5_Sub1_2202.putLong(l, (byte) -123);
 				}
 			}
 		}

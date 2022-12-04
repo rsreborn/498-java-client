@@ -23,7 +23,7 @@ public class Class23_Sub13_Sub21 extends Class23_Sub13
 	
 	private final void method826(int i, int i_0_, Buffer class23_sub5) {
 		if (i_0_ == i) {
-			anInt4189 = class23_sub5.method476((byte) -115);
+			anInt4189 = class23_sub5.getUShortBE();
 		}
 		anInt4188++;
 	}
@@ -50,17 +50,17 @@ public class Class23_Sub13_Sub21 extends Class23_Sub13
 	static final void method828(byte b, long l) {
 		anInt4195++;
 		if ((l ^ 0xffffffffffffffffL) != -1L) {
-			Class23_Sub7.outBuffer.method486(244, 2976);
+			Class23_Sub7.aClass23_Sub5_Sub1_2202.writeOpcode(244, 2976);
 			if (b >= 51) {
 				Class29.anInt446++;
-				Class23_Sub7.outBuffer.method436(l, (byte) -124);
+				Class23_Sub7.aClass23_Sub5_Sub1_2202.putLong(l, (byte) -124);
 			}
 		}
 	}
 	
 	final void method829(Buffer class23_sub5, int i) {
 		for (;;) {
-			int i_1_ = class23_sub5.method461(-1797813752);
+			int i_1_ = class23_sub5.readUByte();
 			if ((i_1_ ^ 0xffffffff) == -1) {
 				break;
 			}

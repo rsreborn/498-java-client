@@ -65,10 +65,10 @@ public class Class23_Sub4_Sub38 extends Class23_Sub4
 			method255(null, -98, -99);
 		}
 		if (i == 0) {
-			aClass87Array3507 = new Class87[class23_sub5.method461(i_13_ ^ ~0x6b28761f)];
+			aClass87Array3507 = new Class87[class23_sub5.readUByte()];
 		while_168_:
 			for (int i_14_ = 0; aClass87Array3507.length > i_14_; i_14_++) {
-				int i_15_ = class23_sub5.method461(-1797813752);
+				int i_15_ = class23_sub5.readUByte();
 				int i_16_ = i_15_;
 			while_166_:
 				do {
@@ -88,7 +88,7 @@ public class Class23_Sub4_Sub38 extends Class23_Sub4
 							aClass87Array3507[i_14_] = Class87.method1407(class23_sub5, 0);
 							continue while_168_;
 						}
-						aClass87Array3507[i_14_] = Class23_Sub13_Sub11.method743((byte) -65, class23_sub5);
+						aClass87Array3507[i_14_] = ItemDefinition.method743((byte) -65, class23_sub5);
 						continue while_168_;
 					} while (false);
 					aClass87Array3507[i_14_] = Class73.method1312(class23_sub5, 23090);
@@ -97,7 +97,7 @@ public class Class23_Sub4_Sub38 extends Class23_Sub4
 				aClass87Array3507[i_14_] = RuntimeException_Sub1.method1588(class23_sub5, true);
 			}
 		} else if (i == 1) {
-			aBoolean2117 = class23_sub5.method461(-1797813752) == 1;
+			aBoolean2117 = class23_sub5.readUByte() == 1;
 		}
 	}
 	

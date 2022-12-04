@@ -30,14 +30,14 @@ public class Class23_Sub4_Sub23_Sub1 extends Class23_Sub4_Sub23
 	
 	static final Class23_Sub4 method364(byte b, Buffer class23_sub5) {
 		anInt4476++;
-		class23_sub5.method461(-1797813752);
-		int i = class23_sub5.method461(-1797813752);
+		class23_sub5.readUByte();
+		int i = class23_sub5.readUByte();
 		Class23_Sub4 class23_sub4 = Class63.method1213((byte) 93, i);
-		class23_sub4.anInt2118 = class23_sub5.method461(-1797813752);
-		int i_0_ = class23_sub5.method461(-1797813752);
+		class23_sub4.anInt2118 = class23_sub5.readUByte();
+		int i_0_ = class23_sub5.readUByte();
 		int i_1_ = 87 % ((b - 20) / 36);
 		for (int i_2_ = 0; i_0_ > i_2_; i_2_++) {
-			int i_3_ = class23_sub5.method461(-1797813752);
+			int i_3_ = class23_sub5.readUByte();
 			class23_sub4.method255(class23_sub5, i_3_, 1000);
 		}
 		class23_sub4.method265(-21746);
@@ -95,17 +95,17 @@ public class Class23_Sub4_Sub23_Sub1 extends Class23_Sub4_Sub23
 			int i_19_ = Class105.aClass38_Sub7_Sub2_1812.anInt2659 + -i_16_ >> 7;
 			boolean bool = Class5.method66(0, i_19_, 1, i_18_, true, false, 0, 0, Class105.aClass38_Sub7_Sub2_1812.anIntArray2663[0], 0, Class105.aClass38_Sub7_Sub2_1812.anIntArray2694[0], 0);
 			if (bool) {
-				Class23_Sub7.outBuffer.method460((byte) 125, i_10_);
-				Class23_Sub7.outBuffer.method460((byte) 125, i);
-				Class23_Sub7.outBuffer.method443(Class35.anInt550, (byte) 51);
-				Class23_Sub7.outBuffer.method460((byte) 107, 57);
-				Class23_Sub7.outBuffer.method460((byte) 127, Class23_Sub4_Sub16.anInt3162);
-				Class23_Sub7.outBuffer.method460((byte) 103, Class38_Sub7_Sub2.anInt4410);
-				Class23_Sub7.outBuffer.method460((byte) 112, 89);
-				Class23_Sub7.outBuffer.method443(Class105.aClass38_Sub7_Sub2_1812.anInt2674, (byte) 51);
-				Class23_Sub7.outBuffer.method443(Class105.aClass38_Sub7_Sub2_1812.anInt2659, (byte) 51);
-				Class23_Sub7.outBuffer.method460((byte) 117, Class78.anInt1417);
-				Class23_Sub7.outBuffer.method460((byte) 120, 63);
+				Class23_Sub7.aClass23_Sub5_Sub1_2202.writeByte(i_10_);
+				Class23_Sub7.aClass23_Sub5_Sub1_2202.writeByte(i);
+				Class23_Sub7.aClass23_Sub5_Sub1_2202.putShort(Class35.anInt550, (byte) 51);
+				Class23_Sub7.aClass23_Sub5_Sub1_2202.writeByte(57);
+				Class23_Sub7.aClass23_Sub5_Sub1_2202.writeByte(Class23_Sub4_Sub16.anInt3162);
+				Class23_Sub7.aClass23_Sub5_Sub1_2202.writeByte(Class38_Sub7_Sub2.anInt4410);
+				Class23_Sub7.aClass23_Sub5_Sub1_2202.writeByte(89);
+				Class23_Sub7.aClass23_Sub5_Sub1_2202.putShort(Class105.aClass38_Sub7_Sub2_1812.anInt2674, (byte) 51);
+				Class23_Sub7.aClass23_Sub5_Sub1_2202.putShort(Class105.aClass38_Sub7_Sub2_1812.anInt2659, (byte) 51);
+				Class23_Sub7.aClass23_Sub5_Sub1_2202.writeByte(Class78.anInt1417);
+				Class23_Sub7.aClass23_Sub5_Sub1_2202.writeByte(63);
 			}
 		}
 	}

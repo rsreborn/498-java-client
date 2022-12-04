@@ -97,7 +97,7 @@ public class Class83
 									Class28.method937(Class71_Sub1_Sub1.aClass16_4448, Class50.aClass16_767, Class71_Sub3.aClass16_2743, (byte) 98);
 								} else if (i != 18) {
 									if (i == 19) {
-										Class28.method937(Class23_Sub4_Sub7.aClass16_3009, Class23_Sub13_Sub11.aClass16_3942, Class44.aClass16_678, (byte) 98);
+										Class28.method937(Class23_Sub4_Sub7.aClass16_3009, ItemDefinition.aClass16_3942, Class44.aClass16_678, (byte) 98);
 									} else if (i != 20) {
 										if (i != 22) {
 											if (i == 23) {
@@ -132,7 +132,7 @@ public class Class83
 						Class28.method937(Class71_Sub1_Sub1.aClass16_4450, Class23_Sub13_Sub3.aClass16_3696, Class23_Sub4_Sub21.aClass16_3255, (byte) 98);
 					}
 				} else {
-					Class28.method937(Class71_Sub1_Sub1.aClass16_4432, Class70.aClass16_1231, Class32.aClass16_497, (byte) 98);
+					Class28.method937(Class71_Sub1_Sub1.aClass16_4432, ISAACCipher.aClass16_1231, Class32.aClass16_497, (byte) 98);
 				}
 			} else {
 				Class28.method937(Class71_Sub1_Sub1.aClass16_4440, Class23_Sub4_Sub5.aClass16_2974, Class71_Sub1_Sub1.aClass16_4437, (byte) 98);

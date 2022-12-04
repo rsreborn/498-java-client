@@ -106,45 +106,45 @@ public class Class59
 			method1195(112, 104, -45, -80, 52, -2, 21, -79);
 		}
 		Buffer class23_sub5 = new Buffer(bs);
-		class23_sub5.position = -2 + class23_sub5.payload.length;
-		int i_19_ = class23_sub5.method476((byte) -110);
+		class23_sub5.pos = -2 + class23_sub5.payload.length;
+		int i_19_ = class23_sub5.getUShortBE();
 		int i_20_ = -14 + class23_sub5.payload.length - i_19_;
-		class23_sub5.position = i_20_;
-		int i_21_ = class23_sub5.method472(-5);
-		class23_sub13_sub23.anInt4247 = class23_sub5.method476((byte) -101);
-		class23_sub13_sub23.anInt4234 = class23_sub5.method476((byte) -108);
-		class23_sub13_sub23.anInt4241 = class23_sub5.method476((byte) -120);
-		class23_sub13_sub23.anInt4246 = class23_sub5.method476((byte) -118);
-		int i_22_ = class23_sub5.method461(-1797813752);
+		class23_sub5.pos = i_20_;
+		int i_21_ = class23_sub5.readUIntBE();
+		class23_sub13_sub23.anInt4247 = class23_sub5.getUShortBE();
+		class23_sub13_sub23.anInt4234 = class23_sub5.getUShortBE();
+		class23_sub13_sub23.anInt4241 = class23_sub5.getUShortBE();
+		class23_sub13_sub23.anInt4246 = class23_sub5.getUShortBE();
+		int i_22_ = class23_sub5.readUByte();
 		if (i_22_ > 0) {
 			class23_sub13_sub23.anOaArray4235 = new oa[i_22_];
 			for (int i_23_ = 0; (i_23_ ^ 0xffffffff) > (i_22_ ^ 0xffffffff); i_23_++) {
-				int i_24_ = class23_sub5.method476((byte) -117);
+				int i_24_ = class23_sub5.getUShortBE();
 				oa var_oa = new oa(RuntimeException_Sub1.method1586((byte) -51, i_24_));
 				class23_sub13_sub23.anOaArray4235[i_23_] = var_oa;
 				while ((i_24_-- ^ 0xffffffff) < -1) {
-					int i_25_ = class23_sub5.method472(-39);
-					int i_26_ = class23_sub5.method472(i_18_ ^ 0x43c6);
+					int i_25_ = class23_sub5.readUIntBE();
+					int i_26_ = class23_sub5.readUIntBE();
 					var_oa.a(new Class23_Sub20(i_26_), (byte) -14, (long) i_25_);
 				}
 			}
 		}
-		class23_sub5.position = 0;
+		class23_sub5.pos = 0;
 		class23_sub13_sub23.aClass16_4251 = class23_sub5.method451((byte) -115);
 		class23_sub13_sub23.anIntArray4253 = new int[i_21_];
 		class23_sub13_sub23.aClass16Array4237 = new RSString[i_21_];
 		class23_sub13_sub23.anIntArray4236 = new int[i_21_];
 		int i_27_ = 0;
-		while (i_20_ > class23_sub5.position) {
-			int i_28_ = class23_sub5.method476((byte) -120);
+		while (i_20_ > class23_sub5.pos) {
+			int i_28_ = class23_sub5.getUShortBE();
 			if (i_28_ != 3) {
 				if (i_28_ < 100 && i_28_ != 21 && i_28_ != 38 && i_28_ != 39) {
-					class23_sub13_sub23.anIntArray4253[i_27_] = class23_sub5.method472(117);
+					class23_sub13_sub23.anIntArray4253[i_27_] = class23_sub5.readUIntBE();
 				} else {
-					class23_sub13_sub23.anIntArray4253[i_27_] = class23_sub5.method461(-1797813752);
+					class23_sub13_sub23.anIntArray4253[i_27_] = class23_sub5.readUByte();
 				}
 			} else {
-				class23_sub13_sub23.aClass16Array4237[i_27_] = class23_sub5.method426(2);
+				class23_sub13_sub23.aClass16Array4237[i_27_] = class23_sub5.readString(2);
 			}
 			class23_sub13_sub23.anIntArray4236[i_27_++] = i_28_;
 		}

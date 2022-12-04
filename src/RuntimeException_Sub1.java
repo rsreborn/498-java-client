@@ -93,7 +93,7 @@ public class RuntimeException_Sub1 extends RuntimeException
 		if (bool != true) {
 			return null;
 		}
-		return new Class87_Sub1(class23_sub5.method474(true), class23_sub5.method474(true), class23_sub5.method474(bool), class23_sub5.method474(true), class23_sub5.method471(114), class23_sub5.method471(80), class23_sub5.method461(-1797813752));
+		return new Class87_Sub1(class23_sub5.method474(true), class23_sub5.method474(true), class23_sub5.method474(bool), class23_sub5.method474(true), class23_sub5.getTriByte(114), class23_sub5.getTriByte(80), class23_sub5.readUByte());
 	}
 	
 	static final void method1589(int i, int i_17_, int i_18_, int i_19_, boolean bool) {

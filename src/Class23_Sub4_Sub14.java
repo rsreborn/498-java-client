@@ -80,13 +80,13 @@ public class Class23_Sub4_Sub14 extends Class23_Sub4
 							break while_41_;
 						}
 					} else {
-						anInt3125 = class23_sub5.method476((byte) -127);
+						anInt3125 = class23_sub5.getUShortBE();
 						return;
 					}
-					anInt3136 = class23_sub5.method476((byte) -114);
+					anInt3136 = class23_sub5.getUShortBE();
 					return;
 				} while (false);
-				anInt3122 = class23_sub5.method476((byte) -123);
+				anInt3122 = class23_sub5.getUShortBE();
 			} while (false);
 		}
 	}
@@ -118,12 +118,12 @@ public class Class23_Sub4_Sub14 extends Class23_Sub4
 		anInt3127++;
 	}
 	
-	static final int method321(Buffer class23_sub5, RSString class16, int i) {
+	static final int putString(Buffer class23_sub5, RSString class16, int i) {
 		anInt3123++;
-		int i_19_ = class23_sub5.position;
+		int i_19_ = class23_sub5.pos;
 		class23_sub5.method467(class16.anInt1896, 15549);
-		class23_sub5.position += Class69.aClass106_1206.method1579(i ^ ~0x4ee1c480, i, class16.aByteArray1906, class16.anInt1896, class23_sub5.position, class23_sub5.payload);
-		return class23_sub5.position + -i_19_;
+		class23_sub5.pos += Class69.aClass106_1206.method1579(i ^ ~0x4ee1c480, i, class16.aByteArray1906, class16.anInt1896, class23_sub5.pos, class23_sub5.payload);
+		return class23_sub5.pos + -i_19_;
 	}
 	
 	static final RSString method322(RSString[] class16s, int i) {

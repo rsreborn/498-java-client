@@ -113,13 +113,13 @@ public class Class103
 				aClass16_1726 = null;
 			}
 			if (i == 20 || i == 40) {
-				Buffer.anInt2127 = 0;
-				Class23_Sub13_Sub7.anInt3781 = 0;
+				Buffer.loginStage = 0;
+				ObjectDefinition.anInt3781 = 0;
 				Class105_Sub1.anInt2854 = 0;
 			}
-			if (i != 20 && i != 40 && Class23_Sub13_Sub20.aClass34_4150 != null) {
-				Class23_Sub13_Sub20.aClass34_4150.method976(false);
-				Class23_Sub13_Sub20.aClass34_4150 = null;
+			if (i != 20 && i != 40 && NPCDefinition.aClass34_4150 != null) {
+				NPCDefinition.aClass34_4150.method976(false);
+				NPCDefinition.aClass34_4150 = null;
 			}
 			if (Class49.anInt756 == 25) {
 				Class23_Sub4_Sub17.anInt3179 = 0;
@@ -133,6 +133,7 @@ public class Class103
 			} else {
 				Class23_Sub12.method597(2);
 			}
+			System.out.println("Setting Client State to " + i);
 			Class49.anInt756 = i;
 		}
 	}

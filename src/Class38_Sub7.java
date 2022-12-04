@@ -263,7 +263,7 @@ abstract class Class38_Sub7 extends Class38
 	
 	static final void method1088(int i, int i_13_, int i_14_, int i_15_, int i_16_) {
 		Class8.anInt179 = i * anInt2697 / i_13_;
-		Canvas_Sub1.anInt55 = i_14_ * Class70.anInt1238 / i_15_;
+		Canvas_Sub1.anInt55 = i_14_ * ISAACCipher.anInt1238 / i_15_;
 		if (i_16_ != 4096) {
 			method1087(false);
 		}
@@ -307,7 +307,7 @@ abstract class Class38_Sub7 extends Class38
 		while (bs.length > i) {
 			int i_17_ = bs[i++] * 64 - Class102.anInt1702;
 			int i_18_ = bs[i++] * 64 - Class29.anInt445;
-			if ((i_17_ ^ 0xffffffff) >= -1 || (i_18_ ^ 0xffffffff) >= -1 || (Class70.anInt1238 ^ 0xffffffff) >= (i_17_ + 64 ^ 0xffffffff) || 64 + i_18_ >= anInt2697) {
+			if ((i_17_ ^ 0xffffffff) >= -1 || (i_18_ ^ 0xffffffff) >= -1 || (ISAACCipher.anInt1238 ^ 0xffffffff) >= (i_17_ + 64 ^ 0xffffffff) || 64 + i_18_ >= anInt2697) {
 				for (int i_19_ = 0; i_19_ < 64; i_19_++) {
 					for (int i_20_ = -64; (i_20_ ^ 0xffffffff) > -1; i_20_++) {
 						int i_21_ = bs[i++];
@@ -351,7 +351,7 @@ abstract class Class38_Sub7 extends Class38
 								if (Class23_Sub13_Sub10.anIntArrayArrayArray3881[i_22_][i_23_] == null) {
 									Class23_Sub13_Sub10.anIntArrayArrayArray3881[i_22_][i_23_] = new int[4096];
 								}
-								Class23_Sub13_Sub7 class23_sub13_sub7 = Class38_Sub2.method1037(--i_29_, -21035);
+								ObjectDefinition class23_sub13_sub7 = Class38_Sub2.loadObjectDefinition(--i_29_, -21035);
 								if (class23_sub13_sub7.anIntArray3746 != null) {
 									class23_sub13_sub7 = class23_sub13_sub7.method646(176743434);
 									if (class23_sub13_sub7 == null || (class23_sub13_sub7.anInt3751 ^ 0xffffffff) == 0) {

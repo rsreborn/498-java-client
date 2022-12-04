@@ -38,7 +38,7 @@ public class Class23_Sub13_Sub16 extends Class23_Sub13
 		}
 		int i_6_ = (int) (l >>> 32) & 0x7fffffff;
 		if (i_4_ == 10 || i_4_ == 11 || i_4_ == 22) {
-			Class23_Sub13_Sub7 class23_sub13_sub7 = Class38_Sub2.method1037(i_6_, -21035);
+			ObjectDefinition class23_sub13_sub7 = Class38_Sub2.loadObjectDefinition(i_6_, -21035);
 			int i_7_;
 			int i_8_;
 			if ((i_5_ ^ 0xffffffff) != -1 && i_5_ != 2) {
@@ -145,7 +145,7 @@ public class Class23_Sub13_Sub16 extends Class23_Sub13
 	static final void method785(int i, int i_21_, int i_22_, byte[][][] bs, int i_23_, byte b) {
 		Class73.anInt1321++;
 		Class11.anInt221 = 0;
-		for (int i_24_ = Class23_Sub13_Sub20.anInt4172; i_24_ < Class23_Sub4_Sub18.anInt3196; i_24_++) {
+		for (int i_24_ = NPCDefinition.anInt4172; i_24_ < Class23_Sub4_Sub18.anInt3196; i_24_++) {
 			Class23_Sub1[][] class23_sub1s = Class23_Sub24.aClass23_Sub1ArrayArrayArray2442[i_24_];
 			for (int i_25_ = Class23_Sub4_Sub37.anInt3493; i_25_ < Class23_Sub4_Sub7.anInt3004; i_25_++) {
 				for (int i_26_ = Class23_Sub1.anInt2006; i_26_ < Class23_Sub24.anInt2448; i_26_++) {
@@ -169,7 +169,7 @@ public class Class23_Sub13_Sub16 extends Class23_Sub13
 				}
 			}
 		}
-		for (int i_27_ = Class23_Sub13_Sub20.anInt4172; i_27_ < Class23_Sub4_Sub18.anInt3196; i_27_++) {
+		for (int i_27_ = NPCDefinition.anInt4172; i_27_ < Class23_Sub4_Sub18.anInt3196; i_27_++) {
 			Class23_Sub1[][] class23_sub1s = Class23_Sub24.aClass23_Sub1ArrayArrayArray2442[i_27_];
 			for (int i_28_ = -Class23_Sub4_Sub15.anInt3138; i_28_ <= 0; i_28_++) {
 				int i_29_ = Canvas_Sub1.anInt51 + i_28_;
@@ -214,7 +214,7 @@ public class Class23_Sub13_Sub16 extends Class23_Sub13
 				}
 			}
 		}
-		for (int i_34_ = Class23_Sub13_Sub20.anInt4172; i_34_ < Class23_Sub4_Sub18.anInt3196; i_34_++) {
+		for (int i_34_ = NPCDefinition.anInt4172; i_34_ < Class23_Sub4_Sub18.anInt3196; i_34_++) {
 			Class23_Sub1[][] class23_sub1s = Class23_Sub24.aClass23_Sub1ArrayArrayArray2442[i_34_];
 			for (int i_35_ = -Class23_Sub4_Sub15.anInt3138; i_35_ <= 0; i_35_++) {
 				int i_36_ = Canvas_Sub1.anInt51 + i_35_;

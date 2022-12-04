@@ -38,8 +38,8 @@ public class Class23_Sub13_Sub25 extends Class23_Sub13
 					if (!class38_sub7_sub1.aClass23_Sub13_Sub20_4373.aBoolean4169) {
 						l |= ~0x7fffffffffffffffL;
 					}
-					class38_sub7_sub1.anInt2656 = Class23_Sub4_Sub22.method359(Class23_Sub13_Sub11.anInt3916, (-1 + class38_sub7_sub1.anInt2668) * 64 + class38_sub7_sub1.anInt2674, -64 - (-(class38_sub7_sub1.anInt2668 * 64) - class38_sub7_sub1.anInt2659), (byte) -76);
-					Class38.method993(Class23_Sub13_Sub11.anInt3916, class38_sub7_sub1.anInt2674, class38_sub7_sub1.anInt2659, class38_sub7_sub1.anInt2656, -4 + 64 * class38_sub7_sub1.anInt2668, class38_sub7_sub1, class38_sub7_sub1.anInt2680, l, class38_sub7_sub1.aBoolean2645);
+					class38_sub7_sub1.anInt2656 = Class23_Sub4_Sub22.method359(ItemDefinition.anInt3916, (-1 + class38_sub7_sub1.anInt2668) * 64 + class38_sub7_sub1.anInt2674, -64 - (-(class38_sub7_sub1.anInt2668 * 64) - class38_sub7_sub1.anInt2659), (byte) -76);
+					Class38.method993(ItemDefinition.anInt3916, class38_sub7_sub1.anInt2674, class38_sub7_sub1.anInt2659, class38_sub7_sub1.anInt2656, -4 + 64 * class38_sub7_sub1.anInt2668, class38_sub7_sub1, class38_sub7_sub1.anInt2680, l, class38_sub7_sub1.aBoolean2645);
 				}
 			}
 		}
@@ -224,7 +224,7 @@ public class Class23_Sub13_Sub25 extends Class23_Sub13
 		boolean bool_15_ = false;
 		if (l != 0L) {
 			i_14_ = 0x7fffffff & (int) (l >>> 32);
-			Class23_Sub13_Sub7 class23_sub13_sub7 = Class38_Sub2.method1037(i_14_, -21035);
+			ObjectDefinition class23_sub13_sub7 = Class38_Sub2.loadObjectDefinition(i_14_, -21035);
 			int i_16_ = (0x7df06 & (int) l) >> 14;
 			int i_17_ = (0x39a584 & (int) l) >> 20;
 			if (i_10_ == 0) {
@@ -237,7 +237,7 @@ public class Class23_Sub13_Sub25 extends Class23_Sub13
 				Class44.method1127(i_13_, i, i_12_);
 			}
 			if (i_10_ == 2) {
-				Class23_Sub13_Sub11.method731(i_13_, i, i_12_);
+				ItemDefinition.method731(i_13_, i, i_12_);
 				if (class23_sub13_sub7.anInt3806 != 0 && i - -class23_sub13_sub7.anInt3752 < 104 && i_12_ - -class23_sub13_sub7.anInt3752 < 104 && i + class23_sub13_sub7.anInt3754 < 104 && i_12_ + class23_sub13_sub7.anInt3754 < 104) {
 					class72.method1299(i, class23_sub13_sub7.anInt3752, 31317, class23_sub13_sub7.aBoolean3763, class23_sub13_sub7.anInt3754, i_17_, i_12_);
 				}

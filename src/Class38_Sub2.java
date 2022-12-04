@@ -81,7 +81,7 @@ public class Class38_Sub2 extends Class38
 			while (bs.length > i) {
 				int i_13_ = -Class102.anInt1702 + (bs[i++] & 0xff) * 64;
 				int i_14_ = (0xff & bs[i++]) * 64 + -Class29.anInt445;
-				if ((i_13_ ^ 0xffffffff) < -1 && i_14_ > 0 && Class70.anInt1238 > i_13_ - -64 && (Class38_Sub7.anInt2697 ^ 0xffffffff) < (i_14_ + 64 ^ 0xffffffff)) {
+				if ((i_13_ ^ 0xffffffff) < -1 && i_14_ > 0 && ISAACCipher.anInt1238 > i_13_ - -64 && (Class38_Sub7.anInt2697 ^ 0xffffffff) < (i_14_ + 64 ^ 0xffffffff)) {
 					int i_15_ = i_13_ >> 6;
 					int i_16_ = -1 + (Class38_Sub7.anInt2697 + -i_14_) >> 6;
 					for (int i_17_ = 0; i_17_ < 64; i_17_++) {
@@ -112,14 +112,14 @@ public class Class38_Sub2 extends Class38
 		}
 	}
 	
-	static final Class23_Sub13_Sub7 method1037(int i, int i_23_) {
+	static final ObjectDefinition loadObjectDefinition(int i, int i_23_) {
 		anInt2492++;
-		Class23_Sub13_Sub7 class23_sub13_sub7 = (Class23_Sub13_Sub7) Class26.aClass5_395.method62(-33, (long) i);
+		ObjectDefinition class23_sub13_sub7 = (ObjectDefinition) Class26.aClass5_395.method62(-33, (long) i);
 		if (class23_sub13_sub7 != null) {
 			return class23_sub13_sub7;
 		}
 		byte[] bs = Class23_Sub13_Sub4.aClass105_3717.method1544(Class38_Sub5.method1071(i_23_ ^ 0x525e, i), i_23_ + 21035, Class23_Sub13_Sub12.method744(1782395528, i));
-		class23_sub13_sub7 = new Class23_Sub13_Sub7();
+		class23_sub13_sub7 = new ObjectDefinition();
 		class23_sub13_sub7.anInt3791 = i;
 		if (bs != null) {
 			class23_sub13_sub7.method641(new Buffer(bs), 1);

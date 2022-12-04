@@ -190,7 +190,7 @@ public class Class34 implements Runnable
 		method976(false);
 	}
 	
-	final int method973(int i) throws IOException {
+	final int read(int i) throws IOException {
 		if (i >= -7) {
 			return 57;
 		}
@@ -207,7 +207,7 @@ public class Class34 implements Runnable
 		}
 		anInt537++;
 		if (!aBoolean538) {
-			int i_10_;
+			int i_10_ = 0;
 			for (/**/; (i ^ 0xffffffff) < -1; i -= i_10_) {
 				i_10_ = anInputStream546.read(bs, i_9_, i);
 				if ((i_10_ ^ 0xffffffff) >= -1) {

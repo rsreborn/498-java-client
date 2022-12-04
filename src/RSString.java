@@ -149,12 +149,12 @@ public class RSString implements Interface4
 						Class91.method1452(class23_sub9, (byte) -104);
 					}
 					if (Class23_Sub13_Sub19.aClass64_4132 != null && Class23_Sub4_Sub3.method281((byte) 116, Class23_Sub4_Sub8.aClass64_3028) != null) {
-						Class23_Sub7.outBuffer.method486(234, 2976);
+						Class23_Sub7.aClass23_Sub5_Sub1_2202.writeOpcode(234, 2976);
 						Class23_Sub13_Sub22.anInt4220++;
-						Class23_Sub7.outBuffer.method443(Class23_Sub13_Sub19.aClass64_4132.anInt1005, (byte) 51);
-						Class23_Sub7.outBuffer.method445(Class23_Sub4_Sub8.aClass64_3028.anInt1098, (byte) 66);
-						Class23_Sub7.outBuffer.method481(Class23_Sub13_Sub19.aClass64_4132.anInt1098, (byte) -67);
-						Class23_Sub7.outBuffer.method463(-38, Class23_Sub4_Sub8.aClass64_3028.anInt1005);
+						Class23_Sub7.aClass23_Sub5_Sub1_2202.putShort(Class23_Sub13_Sub19.aClass64_4132.anInt1005, (byte) 51);
+						Class23_Sub7.aClass23_Sub5_Sub1_2202.putInt1(Class23_Sub4_Sub8.aClass64_3028.anInt1098, (byte) 66);
+						Class23_Sub7.aClass23_Sub5_Sub1_2202.putInt2(Class23_Sub13_Sub19.aClass64_4132.anInt1098, (byte) -67);
+						Class23_Sub7.aClass23_Sub5_Sub1_2202.putShortA(-38, Class23_Sub4_Sub8.aClass64_3028.anInt1005);
 					}
 				}
 				Class23_Sub4_Sub8.aClass64_3028 = null;
@@ -1035,7 +1035,12 @@ public class RSString implements Interface4
 	
 	public final String toString() {
 		anInt1935++;
-		throw new RuntimeException();
+		StringBuilder s = new StringBuilder();
+		for (byte b : aByteArray1906) {
+			s.append((char)b);
+		}
+		return s.toString();
+		//throw new RuntimeException();
 	}
 	
 	/*synthetic*/ static Class method185(String string) {

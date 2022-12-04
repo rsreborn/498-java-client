@@ -411,20 +411,20 @@ abstract class Class105
 		anInt1762++;
 		anInt1799 = Class23_Sub27.method912(bs.length, bs, 25);
 		Buffer class23_sub5 = new Buffer(Class69.method1258(b ^ ~0x61, bs));
-		int i = class23_sub5.method461(-1797813752);
+		int i = class23_sub5.readUByte();
 		if (i != 5 && i != 6) {
 			throw new RuntimeException("Incorrect JS5 protocol number: " + i);
 		}
 		if (i >= 6) {
-			class23_sub5.method472(b ^ ~0x64);
+			class23_sub5.readUIntBE();
 		}
 		int i_25_ = 0;
-		int i_26_ = class23_sub5.method461(-1797813752);
+		int i_26_ = class23_sub5.readUByte();
 		int i_27_ = -1;
-		anInt1759 = class23_sub5.method476((byte) -122);
+		anInt1759 = class23_sub5.getUShortBE();
 		anIntArray1758 = new int[anInt1759];
 		for (int i_28_ = 0; anInt1759 > i_28_; i_28_++) {
-			anIntArray1758[i_28_] = i_25_ += class23_sub5.method476((byte) -113);
+			anIntArray1758[i_28_] = i_25_ += class23_sub5.getUShortBE();
 			if (i_27_ < anIntArray1758[i_28_]) {
 				i_27_ = anIntArray1758[i_28_];
 			}
@@ -441,18 +441,18 @@ abstract class Class105
 			for (int i_29_ = 0; (i_29_ ^ 0xffffffff) > (1 + i_27_ ^ 0xffffffff); i_29_++)
 				anIntArray1776[i_29_] = -1;
 			for (int i_30_ = 0; (anInt1759 ^ 0xffffffff) < (i_30_ ^ 0xffffffff); i_30_++)
-				anIntArray1776[anIntArray1758[i_30_]] = class23_sub5.method472(113);
+				anIntArray1776[anIntArray1758[i_30_]] = class23_sub5.readUIntBE();
 			aClass68_1779 = new Class68(anIntArray1776);
 		}
 		for (int i_31_ = 0; (anInt1759 ^ 0xffffffff) < (i_31_ ^ 0xffffffff); i_31_++)
-			anIntArray1781[anIntArray1758[i_31_]] = class23_sub5.method472(b + 84);
+			anIntArray1781[anIntArray1758[i_31_]] = class23_sub5.readUIntBE();
 		for (int i_32_ = 0; i_32_ < anInt1759; i_32_++)
-			anIntArray1787[anIntArray1758[i_32_]] = class23_sub5.method472(101);
+			anIntArray1787[anIntArray1758[i_32_]] = class23_sub5.readUIntBE();
 		if (b != -98) {
 			method1551((byte) 74, null);
 		}
 		for (int i_33_ = 0; anInt1759 > i_33_; i_33_++)
-			anIntArray1754[anIntArray1758[i_33_]] = class23_sub5.method476((byte) -98);
+			anIntArray1754[anIntArray1758[i_33_]] = class23_sub5.getUShortBE();
 		for (int i_34_ = 0; (i_34_ ^ 0xffffffff) > (anInt1759 ^ 0xffffffff); i_34_++) {
 			i_25_ = 0;
 			int i_35_ = anIntArray1758[i_34_];
@@ -460,7 +460,7 @@ abstract class Class105
 			int i_37_ = -1;
 			anIntArrayArray1780[i_35_] = new int[i_36_];
 			for (int i_38_ = 0; i_36_ > i_38_; i_38_++) {
-				int i_39_ = anIntArrayArray1780[i_35_][i_38_] = i_25_ += class23_sub5.method476((byte) -123);
+				int i_39_ = anIntArrayArray1780[i_35_][i_38_] = i_25_ += class23_sub5.getUShortBE();
 				if ((i_39_ ^ 0xffffffff) < (i_37_ ^ 0xffffffff)) {
 					i_37_ = i_39_;
 				}
@@ -486,7 +486,7 @@ abstract class Class105
 					} else {
 						i_45_ = i_44_;
 					}
-					anIntArrayArray1788[i_41_][i_45_] = class23_sub5.method472(Class104.method1531(b, -104));
+					anIntArrayArray1788[i_41_][i_45_] = class23_sub5.readUIntBE();
 				}
 				aClass68Array1774[i_41_] = new Class68(anIntArrayArray1788[i_41_]);
 			}
@@ -683,11 +683,11 @@ abstract class Class105
 			int i_65_ = 0xff & bs_62_[--i_64_];
 			Buffer class23_sub5 = new Buffer(bs_62_);
 			i_64_ -= 4 * (i_65_ * i_58_);
-			class23_sub5.position = i_64_;
+			class23_sub5.pos = i_64_;
 			for (int i_66_ = 0; (i_66_ ^ 0xffffffff) > (i_65_ ^ 0xffffffff); i_66_++) {
 				int i_67_ = 0;
 				for (int i_68_ = 0; (i_58_ ^ 0xffffffff) < (i_68_ ^ 0xffffffff); i_68_++) {
-					i_67_ += class23_sub5.method472(-94);
+					i_67_ += class23_sub5.readUIntBE();
 					is_63_[i_68_] += i_67_;
 				}
 			}
@@ -697,11 +697,11 @@ abstract class Class105
 				is_63_[i_70_] = 0;
 			}
 			int i_71_ = 0;
-			class23_sub5.position = i_64_;
+			class23_sub5.pos = i_64_;
 			for (int i_72_ = 0; (i_65_ ^ 0xffffffff) < (i_72_ ^ 0xffffffff); i_72_++) {
 				int i_73_ = 0;
 				for (int i_74_ = 0; i_58_ > i_74_; i_74_++) {
-					i_73_ += class23_sub5.method472(-127);
+					i_73_ += class23_sub5.readUIntBE();
 					Class3.method56(bs_62_, i_71_, bs_69_[i_74_], is_63_[i_74_], i_73_);
 					i_71_ += i_73_;
 					is_63_[i_74_] += i_73_;

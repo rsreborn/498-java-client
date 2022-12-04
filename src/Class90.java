@@ -83,7 +83,7 @@ public class Class90
 		Class45.aClass16_693 = Class23_Sub13_Sub21.aClass16_4187;
 		Class23_Sub8.aClass16_2238 = Class100.aClass16_1687;
 		Class23_Sub13_Sub18.aClass16_4095 = Class23_Sub13_Sub8_Sub1.aClass16_4490;
-		Class23_Sub13_Sub21.aClass16_4186 = Class70.aClass16_1235;
+		Class23_Sub13_Sub21.aClass16_4186 = ISAACCipher.aClass16_1235;
 		Class25.aClass16_392 = Class23_Sub16.aClass16_2353;
 		Class81.aClass16_1436 = Class23_Sub9.aClass16_2259;
 		Class23_Sub2.aClass16_2043 = Class102.aClass16_1714;
@@ -92,7 +92,7 @@ public class Class90
 		Class23_Sub4_Sub37.aClass16_3475 = Class72.aClass16_1312;
 		Class59.aClass16_926 = Class2.aClass16_77;
 		Class31.aClass16_487 = Class23_Sub10_Sub3.aClass16_3657;
-		Class48.aClass16_746 = Class23_Sub13_Sub7.aClass16_3739;
+		Class48.aClass16_746 = ObjectDefinition.aClass16_3739;
 		Class83.aClass16_1464 = Class68.aClass16_1191;
 		Class23_Sub4_Sub6.aClass16_2982 = Class23_Sub13_Sub14.aClass16_4005;
 		Class2.aClass16_83 = Class23_Sub20.aClass16_2404;
@@ -101,7 +101,7 @@ public class Class90
 		Class71_Sub1_Sub1.aClass16_4439 = Class23_Sub13_Sub16.aClass16_4048;
 		Class102.aClass16_1709 = RuntimeException_Sub1.aClass16_1845;
 		Class59.aClass16_919 = Class23_Sub16.aClass16_2361;
-		Class23_Sub13_Sub11.aClass16_3942 = Class23_Sub16.aClass16_2355;
+		ItemDefinition.aClass16_3942 = Class23_Sub16.aClass16_2355;
 		Class23_Sub4_Sub11.aClass16_3068 = Class23_Sub24.aClass16_2443;
 		Class42.aClass16_653 = Class23_Sub4_Sub34.aClass16_3445;
 		Class23_Sub4_Sub32.aClass16_3419 = Class71_Sub2.aClass16_2738;
@@ -111,7 +111,7 @@ public class Class90
 		Class50.aClass16_767 = Class23_Sub13_Sub14.aClass16_4004;
 		Class71_Sub1_Sub1.aClass16_4423 = Class23_Sub13_Sub16.aClass16_4048;
 		Class87_Sub4.aClass16_2833 = aClass16_1540;
-		Class71_Sub2_Sub1.aClass16_4474 = Class70.aClass16_1223;
+		Class71_Sub2_Sub1.aClass16_4474 = ISAACCipher.aClass16_1223;
 		Class59.aClass16_925 = Class103.aClass16_1720;
 		Buffer.aClass16_2163 = Class67.aClass16_1170;
 		Class106.aClass16_1830 = Class86.aClass16_1861;
@@ -119,7 +119,7 @@ public class Class90
 		Class23_Sub13_Sub13.aClass16_3989 = Class72.aClass16_1301;
 		Class38_Sub5.aClass16_2584 = Class95.aClass16_1620;
 		Class71_Sub1_Sub1.aClass16_4453 = Class23_Sub13_Sub16.aClass16_4048;
-		Class23_Sub13_Sub20.aClass16_4163 = Class13.aClass16_248;
+		NPCDefinition.aClass16_4163 = Class13.aClass16_248;
 		Class87_Sub1.aClass16_2789 = Class1.aClass16_65;
 		Class97.aClass16_1642 = Class38_Sub7.aClass16_2628;
 		Class71_Sub1_Sub1.aClass16_4441 = Class23_Sub13_Sub16.aClass16_4048;
@@ -157,7 +157,7 @@ public class Class90
 		Class23_Sub4_Sub4.aClass16_2963 = Class23_Sub13_Sub18.aClass16_4097;
 		Class2.aClass16_81 = Class23_Sub13_Sub17.aClass16_4063;
 		Class71_Sub1_Sub1.aClass16_4446 = Class23_Sub13_Sub16.aClass16_4048;
-		Class23_Sub13_Sub11.aClass16_3914 = Class23_Sub13_Sub25.aClass16_4296;
+		ItemDefinition.aClass16_3914 = Class23_Sub13_Sub25.aClass16_4296;
 		Class23_Sub4_Sub39.aClass16_3512 = Class45.aClass16_698;
 		Class105_Sub1.aClass16_2862 = Class23_Sub4_Sub13.aClass16_3115;
 		Class23_Sub4_Sub26.aClass16_3320 = Class23_Sub10_Sub2.aClass16_3599;
@@ -190,7 +190,7 @@ public class Class90
 		aClass16_1529 = Class5.aClass16_108;
 		Class31.aClass16_493 = Class38_Sub5.aClass16_2589;
 		Class23_Sub4_Sub23_Sub1.aClass16_4486 = oa.aClass16_1245;
-		Class70.aClass16_1231 = Class38.aClass16_586;
+		ISAACCipher.aClass16_1231 = Class38.aClass16_586;
 		Class87.aClass16_1482 = Class19.aClass16_322;
 		Class44.aClass16_678 = Class64.aClass16_1146;
 		client.aClass16_1979 = Class6.aClass16_128;
@@ -246,7 +246,7 @@ public class Class90
 		Class71_Sub1_Sub1.aClass16_4456 = Class73.aClass16_1323;
 		Class38_Sub7.aClass16_2703 = Class23_Sub13.aClass16_2313;
 		Class94.aClass16_1599 = Class6.aClass16_136;
-		Class23_Sub13_Sub7.aClass16_3762 = Class65.aClass16_1154;
+		ObjectDefinition.aClass16_3762 = Class65.aClass16_1154;
 		Applet_Sub1.aClass16_16 = Class11.aClass16_227;
 		Class71_Sub1_Sub1.aClass16_4444 = Class23_Sub13_Sub16.aClass16_4048;
 		Class64.aClass16_1148 = Class23_Sub13_Sub16.aClass16_4047;
@@ -316,11 +316,11 @@ public class Class90
 	
 	Class90(Buffer class23_sub5) {
 		aByte1544 = class23_sub5.method452(-16933672);
-		anInt1528 = class23_sub5.method476((byte) -103);
-		anInt1537 = class23_sub5.method472(-6);
-		anInt1547 = class23_sub5.method472(-15);
-		anInt1531 = class23_sub5.method472(-85);
-		anInt1534 = class23_sub5.method472(109);
+		anInt1528 = class23_sub5.getUShortBE();
+		anInt1537 = class23_sub5.readUIntBE();
+		anInt1547 = class23_sub5.readUIntBE();
+		anInt1531 = class23_sub5.readUIntBE();
+		anInt1534 = class23_sub5.readUIntBE();
 	}
 	
 	static {

@@ -158,12 +158,12 @@ public class Class106
 		if (Class23_Sub4_Sub37.anInt3492 > 383) {
 			Class23_Sub4_Sub37.anInt3492 = 383;
 		}
-		int i_8_ = Class23_Sub4_Sub22.method359(Class23_Sub13_Sub11.anInt3916, Class23_Sub4_Sub26.anInt3318, Class2.anInt82, (byte) 127);
+		int i_8_ = Class23_Sub4_Sub22.method359(ItemDefinition.anInt3916, Class23_Sub4_Sub26.anInt3318, Class2.anInt82, (byte) 127);
 		int i_9_ = 0;
 		if (i > 3 && i_7_ > 3 && i < 100 && i_7_ < 100) {
 			for (int i_10_ = -4 + i; i + 4 >= i_10_; i_10_++) {
 				for (int i_11_ = -4 + i_7_; (i_11_ ^ 0xffffffff) >= (i_7_ + 4 ^ 0xffffffff); i_11_++) {
-					int i_12_ = Class23_Sub13_Sub11.anInt3916;
+					int i_12_ = ItemDefinition.anInt3916;
 					if (i_12_ < 3 && (Class23_Sub4_Sub30.aByteArrayArrayArray3379[1][i_10_][i_11_] & 0x2) == 2) {
 						i_12_++;
 					}

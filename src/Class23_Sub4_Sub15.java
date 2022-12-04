@@ -199,7 +199,7 @@ public class Class23_Sub4_Sub15 extends Class23_Sub4
 	final void method255(Buffer class23_sub5, int i, int i_38_) {
 		anInt3140++;
 		if ((i ^ 0xffffffff) == -1) {
-			aBoolean2117 = class23_sub5.method461(-1797813752) == 1;
+			aBoolean2117 = class23_sub5.readUByte() == 1;
 		}
 		if (i_38_ != 1000) {
 			method260(100, -76);

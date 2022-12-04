@@ -59,7 +59,7 @@ public class Class23_Sub13_Sub18 extends Class23_Sub13
 	
 	final void method793(int i, Buffer class23_sub5) {
 		for (;;) {
-			int i_4_ = class23_sub5.method461(-1797813752);
+			int i_4_ = class23_sub5.readUByte();
 			if ((i_4_ ^ 0xffffffff) == -1) {
 				break;
 			}
@@ -111,8 +111,8 @@ public class Class23_Sub13_Sub18 extends Class23_Sub13
 				}
 				Class23_Sub13_Sub26 class23_sub13_sub26 = (Class23_Sub13_Sub26) Class8.anOa172.a((byte) -25);
 				Buffer class23_sub5 = new Buffer(4);
-				class23_sub5.method460((byte) 127, 1);
-				class23_sub5.method457(-483923896, (int) class23_sub13_sub26.aLong358);
+				class23_sub5.writeByte(1);
+				class23_sub5.putTriByte(-483923896, (int) class23_sub13_sub26.aLong358);
 				Class23_Sub23.aClass34_2427.method977(30000, 4, 0, class23_sub5.payload);
 				Class42.anOa649.a(class23_sub13_sub26, (byte) -14, class23_sub13_sub26.aLong358);
 				Class4.anInt89++;
@@ -121,15 +121,15 @@ public class Class23_Sub13_Sub18 extends Class23_Sub13
 			for (/**/; Class23_Sub13_Sub8_Sub1.anInt4501 < 20 && Class68.anInt1190 > 0; Class23_Sub13_Sub8_Sub1.anInt4501++) {
 				Class23_Sub13_Sub26 class23_sub13_sub26 = (Class23_Sub13_Sub26) Class23_Sub4_Sub39.aClass27_3520.method933(128);
 				Buffer class23_sub5 = new Buffer(4);
-				class23_sub5.method460((byte) 108, 0);
-				class23_sub5.method457(-483923896, (int) class23_sub13_sub26.aLong358);
+				class23_sub5.writeByte(0);
+				class23_sub5.putTriByte(-483923896, (int) class23_sub13_sub26.aLong358);
 				Class23_Sub23.aClass34_2427.method977(30000, 4, 0, class23_sub5.payload);
 				class23_sub13_sub26.method601(false);
 				Class87_Sub3.anOa2812.a(class23_sub13_sub26, (byte) -14, class23_sub13_sub26.aLong358);
 				Class68.anInt1190--;
 			}
 			for (int i_7_ = 0; i_7_ < 100; i_7_++) {
-				int i_8_ = Class23_Sub23.aClass34_2427.method973(-46);
+				int i_8_ = Class23_Sub23.aClass34_2427.read(-46);
 				if ((i_8_ ^ 0xffffffff) > -1) {
 					throw new IOException();
 				}
@@ -148,20 +148,20 @@ public class Class23_Sub13_Sub18 extends Class23_Sub13
 				if (i_9_ <= 0) {
 					int i_10_ = Class23_Sub4_Sub9.aClass23_Sub5_3035.payload.length + -Class23_Sub4_Sub1.aClass23_Sub13_Sub26_2894.aByte4302;
 					int i_11_ = -Class51.anInt799 + 512;
-					if ((i_10_ - Class23_Sub4_Sub9.aClass23_Sub5_3035.position ^ 0xffffffff) > (i_11_ ^ 0xffffffff)) {
-						i_11_ = i_10_ + -Class23_Sub4_Sub9.aClass23_Sub5_3035.position;
+					if ((i_10_ - Class23_Sub4_Sub9.aClass23_Sub5_3035.pos ^ 0xffffffff) > (i_11_ ^ 0xffffffff)) {
+						i_11_ = i_10_ + -Class23_Sub4_Sub9.aClass23_Sub5_3035.pos;
 					}
 					if (i_11_ > i_8_) {
 						i_11_ = i_8_;
 					}
-					Class23_Sub23.aClass34_2427.method974(i_11_, 126, Class23_Sub4_Sub9.aClass23_Sub5_3035.position, Class23_Sub4_Sub9.aClass23_Sub5_3035.payload);
+					Class23_Sub23.aClass34_2427.method974(i_11_, 126, Class23_Sub4_Sub9.aClass23_Sub5_3035.pos, Class23_Sub4_Sub9.aClass23_Sub5_3035.payload);
 					if (Class95.aByte1613 != 0) {
 						for (int i_12_ = 0; i_11_ > i_12_; i_12_++)
-							Class23_Sub4_Sub9.aClass23_Sub5_3035.payload[Class23_Sub4_Sub9.aClass23_Sub5_3035.position - -i_12_] = (byte) Class104.method1531(Class23_Sub4_Sub9.aClass23_Sub5_3035.payload[Class23_Sub4_Sub9.aClass23_Sub5_3035.position + i_12_], Class95.aByte1613);
+							Class23_Sub4_Sub9.aClass23_Sub5_3035.payload[Class23_Sub4_Sub9.aClass23_Sub5_3035.pos - -i_12_] = (byte) Class104.method1531(Class23_Sub4_Sub9.aClass23_Sub5_3035.payload[Class23_Sub4_Sub9.aClass23_Sub5_3035.pos + i_12_], Class95.aByte1613);
 					}
-					Class23_Sub4_Sub9.aClass23_Sub5_3035.position += i_11_;
+					Class23_Sub4_Sub9.aClass23_Sub5_3035.pos += i_11_;
 					Class51.anInt799 += i_11_;
-					if (i_10_ != Class23_Sub4_Sub9.aClass23_Sub5_3035.position) {
+					if (i_10_ != Class23_Sub4_Sub9.aClass23_Sub5_3035.pos) {
 						if (Class51.anInt799 != 512) {
 							break;
 						}
@@ -172,9 +172,9 @@ public class Class23_Sub13_Sub18 extends Class23_Sub13
 							for (int i_13_ = 0; i_13_ < 256; i_13_++) {
 								Class105_Sub1 class105_sub1 = Class54.aClass105_Sub1Array853[i_13_];
 								if (class105_sub1 != null) {
-									Class89.aClass23_Sub5_1514.position = 5 + 8 * i_13_;
-									int i_14_ = Class89.aClass23_Sub5_1514.method472(-46);
-									int i_15_ = Class89.aClass23_Sub5_1514.method472(-49);
+									Class89.aClass23_Sub5_1514.pos = 5 + 8 * i_13_;
+									int i_14_ = Class89.aClass23_Sub5_1514.readUIntBE();
+									int i_15_ = Class89.aClass23_Sub5_1514.readUIntBE();
 									class105_sub1.method1566(i_15_, 96, i_14_);
 								}
 							}
@@ -208,26 +208,28 @@ public class Class23_Sub13_Sub18 extends Class23_Sub13
 						Class23_Sub4_Sub9.aClass23_Sub5_3035 = null;
 					}
 				} else {
-					int i_17_ = -Class73.aClass23_Sub5_1324.position + i_9_;
+					int i_17_ = -Class73.aClass23_Sub5_1324.pos + i_9_;
 					if ((i_17_ ^ 0xffffffff) < (i_8_ ^ 0xffffffff)) {
 						i_17_ = i_8_;
 					}
-					Class23_Sub23.aClass34_2427.method974(i_17_, 125, Class73.aClass23_Sub5_1324.position, Class73.aClass23_Sub5_1324.payload);
+					Class23_Sub23.aClass34_2427.method974(i_17_, 125, Class73.aClass23_Sub5_1324.pos, Class73.aClass23_Sub5_1324.payload);
 					if (Class95.aByte1613 != 0) {
 						for (int i_18_ = 0; (i_17_ ^ 0xffffffff) < (i_18_ ^ 0xffffffff); i_18_++)
-							Class73.aClass23_Sub5_1324.payload[Class73.aClass23_Sub5_1324.position + i_18_] = (byte) Class104.method1531(Class73.aClass23_Sub5_1324.payload[Class73.aClass23_Sub5_1324.position + i_18_], Class95.aByte1613);
+							Class73.aClass23_Sub5_1324.payload[Class73.aClass23_Sub5_1324.pos + i_18_] = (byte) Class104.method1531(Class73.aClass23_Sub5_1324.payload[Class73.aClass23_Sub5_1324.pos + i_18_], Class95.aByte1613);
 					}
-					Class73.aClass23_Sub5_1324.position += i_17_;
-					if ((i_9_ ^ 0xffffffff) < (Class73.aClass23_Sub5_1324.position ^ 0xffffffff)) {
+					Class73.aClass23_Sub5_1324.pos += i_17_;
+					if ((i_9_ ^ 0xffffffff) < (Class73.aClass23_Sub5_1324.pos ^ 0xffffffff)) {
 						break;
 					}
 					if (Class23_Sub4_Sub1.aClass23_Sub13_Sub26_2894 == null) {
-						Class73.aClass23_Sub5_1324.position = 0;
-						int i_19_ = Class73.aClass23_Sub5_1324.method461(-1797813752);
-						int i_20_ = Class73.aClass23_Sub5_1324.method476((byte) -105);
-						int i_21_ = Class73.aClass23_Sub5_1324.method461(-1797813752);
+						Class73.aClass23_Sub5_1324.pos = 0;
+						int i_19_ = Class73.aClass23_Sub5_1324.readUByte();
+						//System.out.println("Cache = " + i_19_);
+						int i_20_ = Class73.aClass23_Sub5_1324.getUShortBE();
+						//System.out.println("File = " + i_20_);
+						int i_21_ = Class73.aClass23_Sub5_1324.readUByte();
 						long l_22_ = (long) ((i_19_ << 16) + i_20_);
-						int i_23_ = Class73.aClass23_Sub5_1324.method472(-2);
+						int i_23_ = Class73.aClass23_Sub5_1324.readUIntBE();
 						Class23_Sub13_Sub26 class23_sub13_sub26 = (Class23_Sub13_Sub26) Class42.anOa649.a((byte) -120, l_22_);
 						Class23_Sub4_Sub4.aBoolean2968 = true;
 						if (class23_sub13_sub26 == null) {
@@ -240,16 +242,16 @@ public class Class23_Sub13_Sub18 extends Class23_Sub13
 						Class23_Sub4_Sub1.aClass23_Sub13_Sub26_2894 = class23_sub13_sub26;
 						int i_24_ = i_21_ != 0 ? 9 : 5;
 						Class23_Sub4_Sub9.aClass23_Sub5_3035 = new Buffer(i_23_ + (i_24_ - -Class23_Sub4_Sub1.aClass23_Sub13_Sub26_2894.aByte4302));
-						Class23_Sub4_Sub9.aClass23_Sub5_3035.method460((byte) 118, i_21_);
-						Class23_Sub4_Sub9.aClass23_Sub5_3035.writeIntBE(i_23_, -1137894376);
+						Class23_Sub4_Sub9.aClass23_Sub5_3035.writeByte(i_21_);
+						Class23_Sub4_Sub9.aClass23_Sub5_3035.putInt(i_23_, -1137894376);
 						Class51.anInt799 = 8;
-						Class73.aClass23_Sub5_1324.position = 0;
+						Class73.aClass23_Sub5_1324.pos = 0;
 					} else if ((Class51.anInt799 ^ 0xffffffff) == -1) {
 						if ((Class73.aClass23_Sub5_1324.payload[0] ^ 0xffffffff) != 0) {
 							Class23_Sub4_Sub1.aClass23_Sub13_Sub26_2894 = null;
 						} else {
 							Class51.anInt799 = 1;
-							Class73.aClass23_Sub5_1324.position = 0;
+							Class73.aClass23_Sub5_1324.pos = 0;
 						}
 					}
 				}
@@ -318,37 +320,37 @@ public class Class23_Sub13_Sub18 extends Class23_Sub13
 					if (i != 40) {
 						if (i != 41) {
 							if (i >= 60 && i < 70) {
-								anIntArray4092[i - 60] = class23_sub5.method476((byte) -119);
+								anIntArray4092[i - 60] = class23_sub5.getUShortBE();
 							}
 						} else {
-							int i_29_ = class23_sub5.method461(-1797813752);
+							int i_29_ = class23_sub5.readUByte();
 							aShortArray4098 = new short[i_29_];
 							aShortArray4091 = new short[i_29_];
 							for (int i_30_ = 0; (i_30_ ^ 0xffffffff) > (i_29_ ^ 0xffffffff); i_30_++) {
-								aShortArray4091[i_30_] = (short) class23_sub5.method476((byte) -115);
-								aShortArray4098[i_30_] = (short) class23_sub5.method476((byte) -103);
+								aShortArray4091[i_30_] = (short) class23_sub5.getUShortBE();
+								aShortArray4098[i_30_] = (short) class23_sub5.getUShortBE();
 							}
 						}
 					} else {
-						int i_31_ = class23_sub5.method461(-1797813752);
+						int i_31_ = class23_sub5.readUByte();
 						aShortArray4087 = new short[i_31_];
 						aShortArray4101 = new short[i_31_];
 						for (int i_32_ = 0; i_31_ > i_32_; i_32_++) {
-							aShortArray4101[i_32_] = (short) class23_sub5.method476((byte) -99);
-							aShortArray4087[i_32_] = (short) class23_sub5.method476((byte) -112);
+							aShortArray4101[i_32_] = (short) class23_sub5.getUShortBE();
+							aShortArray4087[i_32_] = (short) class23_sub5.getUShortBE();
 						}
 					}
 				} else {
 					aBoolean4096 = true;
 				}
 			} else {
-				int i_33_ = class23_sub5.method461(i_28_ ^ 0x6b281e49);
+				int i_33_ = class23_sub5.readUByte();
 				anIntArray4079 = new int[i_33_];
 				for (int i_34_ = 0; i_33_ > i_34_; i_34_++)
-					anIntArray4079[i_34_] = class23_sub5.method476((byte) -101);
+					anIntArray4079[i_34_] = class23_sub5.getUShortBE();
 			}
 		} else {
-			anInt4102 = class23_sub5.method461(-1797813752);
+			anInt4102 = class23_sub5.readUByte();
 		}
 	}
 	
@@ -383,7 +385,7 @@ public class Class23_Sub13_Sub18 extends Class23_Sub13
 		if ((Class98.aClass16Array1655[i].method171(-61) ^ 0xffffffff) >= -1) {
 			return Class23_Sub13_Sub26.aClass16Array4307[i];
 		}
-		return Class23_Sub4_Sub14.method322(new RSString[] { Class23_Sub13_Sub26.aClass16Array4307[i], Class23_Sub13_Sub7.aClass16_3762, Class98.aClass16Array1655[i] }, -110);
+		return Class23_Sub4_Sub14.method322(new RSString[] { Class23_Sub13_Sub26.aClass16Array4307[i], ObjectDefinition.aClass16_3762, Class98.aClass16Array1655[i] }, -110);
 	}
 	
 	final boolean method801(byte b) {

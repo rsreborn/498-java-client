@@ -26,7 +26,7 @@ public class Class23_Sub4_Sub24 extends Class23_Sub4
 		}
 		int i_10_ = i_4_ + -i_3_;
 		int i_11_ = (-i_5_ + i_1_ << 16) / i_10_;
-		if (i_4_ < Class70.anInt1238) {
+		if (i_4_ < ISAACCipher.anInt1238) {
 			i_10_++;
 		}
 		for (int i_12_ = 0; i_12_ < i_10_; i_12_++) {
@@ -38,7 +38,7 @@ public class Class23_Sub4_Sub24 extends Class23_Sub4
 				i_14_ += i_5_;
 				i_13_ += i_5_;
 				byte[][] bs = Class55.aByteArrayArrayArray879[i_16_];
-				byte[][] bs_17_ = Class23_Sub13_Sub7.aByteArrayArrayArray3750[i_16_];
+				byte[][] bs_17_ = ObjectDefinition.aByteArrayArrayArray3750[i_16_];
 				byte[][] bs_18_ = Class23_Sub4_Sub35.aByteArrayArrayArray3457[i_16_];
 				int[][] is = Class102.anIntArrayArrayArray1713[i_16_];
 				byte[][] bs_19_ = Class47.aByteArrayArrayArray737[i_16_];
@@ -309,7 +309,7 @@ public class Class23_Sub4_Sub24 extends Class23_Sub4
 	
 	final void method255(Buffer class23_sub5, int i, int i_77_) {
 		if (i == 0) {
-			aBoolean2117 = class23_sub5.method461(-1797813752) == 1;
+			aBoolean2117 = class23_sub5.readUByte() == 1;
 		}
 		anInt3292++;
 		if (i_77_ != 1000) {
