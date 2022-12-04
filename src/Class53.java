@@ -134,7 +134,8 @@ public class Class53
 	}
 	
 	Class53(Class9 class9, URL url) {
-	System.out.println("Nice! Found the world button list!");
+		// @todo refactor this to call the game server - Kat 3/Dec/22
+		System.out.println("Nice! Found the world button list!");
 		/*
 		 * //Now do we have it communicate with the server or rig it? I think we should
 		 * rig it lmao
