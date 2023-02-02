@@ -151,7 +151,7 @@ public class Class42
 				Class23_Sub7.aClass23_Sub5_Sub1_2202.writeByte(i);
 				Class23_Sub7.aClass23_Sub5_Sub1_2202.putInt(498, -1137894376);
 				Class23_Sub24.aClass34_2440.method977(30000, 6, 0, Class23_Sub7.aClass23_Sub5_Sub1_2202.payload);
-				Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.pos = 0;
+				Class23_Sub13_Sub4.inBuffer.pos = 0;
 				Buffer.loginStage = 3;
 			}
 			if (Buffer.loginStage == 3) {
@@ -172,23 +172,23 @@ public class Class42
 					Class83.method1379(true, i);
 					return;
 				}
-				Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.pos = 0;
+				Class23_Sub13_Sub4.inBuffer.pos = 0;
 				Buffer.loginStage = 4;
 			}
 			if (Buffer.loginStage == 4) {
-				if (Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.pos < 8) {
+				if (Class23_Sub13_Sub4.inBuffer.pos < 8) {
 					int i = Class23_Sub24.aClass34_2440.read(b ^ 0x41);
-					if (-Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.pos + 8 < i) {
-						i = -Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.pos + 8;
+					if (-Class23_Sub13_Sub4.inBuffer.pos + 8 < i) {
+						i = -Class23_Sub13_Sub4.inBuffer.pos + 8;
 					}
 					if ((i ^ 0xffffffff) < -1) {
-						Class23_Sub24.aClass34_2440.method974(i, 106, Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.pos, Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.payload);
-						Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.pos += i;
+						Class23_Sub24.aClass34_2440.method974(i, 106, Class23_Sub13_Sub4.inBuffer.pos, Class23_Sub13_Sub4.inBuffer.payload);
+						Class23_Sub13_Sub4.inBuffer.pos += i;
 					}
 				}
-				if (Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.pos == 8) {
-					Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.pos = 0;
-					Class87.aLong1489 = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.readLong(-116);
+				if (Class23_Sub13_Sub4.inBuffer.pos == 8) {
+					Class23_Sub13_Sub4.inBuffer.pos = 0;
+					Class87.aLong1489 = Class23_Sub13_Sub4.inBuffer.readLong(-116);
 					Buffer.loginStage = 5;
 				}
 			}
@@ -254,7 +254,7 @@ public class Class42
 				 */
                 for (int i = 0; i < 4; i++)
 					is[i] += 50;
-				Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method492((byte) -99, is);
+				Class23_Sub13_Sub4.inBuffer.method492((byte) -99, is);
 				System.out.println("set loginStage to 6.");
 				Buffer.loginStage = 6;
 			}
@@ -310,20 +310,20 @@ public class Class42
 				System.out.println("x5 = "+Class23_Sub4_Sub10.anInt3049);
 				Class30.anInt478 = Class23_Sub24.aClass34_2440.method971((byte) 10);
 				System.out.println("x6 = "+Class30.anInt478);
-				Class23_Sub24.aClass34_2440.method974(1, b ^ ~0x76, 0, Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.payload);
-				Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.pos = 0;
-				Class23_Sub13_Sub24.anInt4275 = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method491((byte) 47);
+				Class23_Sub24.aClass34_2440.method974(1, b ^ ~0x76, 0, Class23_Sub13_Sub4.inBuffer.payload);
+				Class23_Sub13_Sub4.inBuffer.pos = 0;
+				Class23_Sub13_Sub24.anInt4275 = Class23_Sub13_Sub4.inBuffer.method491((byte) 47);
 				System.out.println("x7 = "+Class23_Sub13_Sub24.anInt4275);
-				Class23_Sub24.aClass34_2440.method974(2, 110, 0, Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.payload);
-				Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.pos = 0;
-				Class23_Sub4_Sub2.anInt2925 = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.getUShortBE();
+				Class23_Sub24.aClass34_2440.method974(2, 110, 0, Class23_Sub13_Sub4.inBuffer.payload);
+				Class23_Sub13_Sub4.inBuffer.pos = 0;
+				Class23_Sub4_Sub2.anInt2925 = Class23_Sub13_Sub4.inBuffer.getUShortBE();
 				System.out.println("x8 = "+Class23_Sub4_Sub2.anInt2925);
 				Buffer.loginStage = 10;
 			}
 			if (Buffer.loginStage == 10) {
 				if (Class23_Sub24.aClass34_2440.read(b ^ 0xc) >= Class23_Sub4_Sub2.anInt2925) {
-					Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.pos = 0;
-					Class23_Sub24.aClass34_2440.method974(Class23_Sub4_Sub2.anInt2925, 119, 0, Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.payload);
+					Class23_Sub13_Sub4.inBuffer.pos = 0;
+					Class23_Sub24.aClass34_2440.method974(Class23_Sub4_Sub2.anInt2925, 119, 0, Class23_Sub13_Sub4.inBuffer.payload);
 					Class23_Sub19.method878(0);
 					Class23_Sub4_Sub23.anInt3279 = -1;
 					Class23_Sub4_Sub31.constructMapRegion(false, -73);

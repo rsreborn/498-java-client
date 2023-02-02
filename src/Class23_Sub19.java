@@ -1392,7 +1392,7 @@ public class Class23_Sub19 extends Class23
 		Class23_Sub7.aClass23_Sub5_Sub1_2202.pos = 0;
 		Class25.anInt388 = -1;
 		Class23_Sub4_Sub31.anInt3400 = 0;
-		Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.pos = 0;
+		Class23_Sub13_Sub4.inBuffer.pos = 0;
 		Class23_Sub13.anInt2316 = 0;
 		for (int i_12_ = 0; Class23_Sub27.aClass10Array2488.length > i_12_; i_12_++)
 			Class23_Sub27.aClass10Array2488[i_12_] = null;

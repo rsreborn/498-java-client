@@ -96,8 +96,8 @@ public class Class45
 	static final void registerNewPlayers(int i) {
 		if (i == 0) {
 			anInt681++;
-			while (Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method488(1693770787, Class23_Sub4_Sub2.anInt2925) >= 11) {
-				int i_2_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method489((byte) 113, 11);
+			while (Class23_Sub13_Sub4.inBuffer.method488(1693770787, Class23_Sub4_Sub2.anInt2925) >= 11) {
+				int i_2_ = Class23_Sub13_Sub4.inBuffer.method489((byte) 113, 11);
 				if (i_2_ == 2047) {
 					break;
 				}
@@ -112,17 +112,17 @@ public class Class45
 				Class23_Sub13_Sub3.anIntArray3700[Class23_Sub4_Sub11.anInt3067++] = i_2_;
 				Class38_Sub7_Sub2 class38_sub7_sub2 = Class23_Sub4_Sub2.aClass38_Sub7_Sub2Array2932[i_2_];
 				class38_sub7_sub2.anInt2698 = Class89.anInt1511;
-				int i_3_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method489((byte) 118, 1);
+				int i_3_ = Class23_Sub13_Sub4.inBuffer.method489((byte) 118, 1);
 				if (i_3_ == 1) {
 					Class94.anIntArray1603[Class23_Sub2.anInt2048++] = i_2_;
 				}
-				int i_4_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method489((byte) 124, 5);
-				int i_5_ = Class23_Sub4_Sub13.anIntArray3097[Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method489((byte) 118, 3)];
+				int i_4_ = Class23_Sub13_Sub4.inBuffer.method489((byte) 124, 5);
+				int i_5_ = Class23_Sub4_Sub13.anIntArray3097[Class23_Sub13_Sub4.inBuffer.method489((byte) 118, 3)];
 				if (bool) {
 					class38_sub7_sub2.anInt2682 = class38_sub7_sub2.anInt2680 = i_5_;
 				}
-				int i_6_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method489((byte) 121, 1);
-				int i_7_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method489((byte) 124, 5);
+				int i_6_ = Class23_Sub13_Sub4.inBuffer.method489((byte) 121, 1);
+				int i_7_ = Class23_Sub13_Sub4.inBuffer.method489((byte) 124, 5);
 				if (i_4_ > 15) {
 					i_4_ -= 32;
 				}
@@ -131,7 +131,7 @@ public class Class45
 				}
 				class38_sub7_sub2.method1085(i_7_ + Class105.aClass38_Sub7_Sub2_1812.anIntArray2663[0], (byte) -116, i_6_ == 1, Class105.aClass38_Sub7_Sub2_1812.anIntArray2694[0] - -i_4_);
 			}
-			Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method485(-110);
+			Class23_Sub13_Sub4.inBuffer.method485(-110);
 		}
 	}
 	

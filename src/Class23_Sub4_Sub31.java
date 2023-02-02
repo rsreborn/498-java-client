@@ -31,31 +31,31 @@ public class Class23_Sub4_Sub31 extends Class23_Sub4
 		anInt3390++;
 		Class23_Sub13_Sub26.aBoolean4298 = bool;
 		if (Class23_Sub13_Sub26.aBoolean4298) {
-			Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method487(0);
+			Class23_Sub13_Sub4.inBuffer.method487(0);
 			for (int i_12_ = 0; i_12_ < 4; i_12_++) {
 				for (int i_13_ = 0; i_13_ < 13; i_13_++) {
 					for (int i_14_ = 0; i_14_ < 13; i_14_++) {
-						int i_15_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method489((byte) 110, 1);
+						int i_15_ = Class23_Sub13_Sub4.inBuffer.method489((byte) 110, 1);
 						if (i_15_ != 1) {
 							Class94.anIntArrayArrayArray1602[i_12_][i_13_][i_14_] = -1;
 						} else {
-							Class94.anIntArrayArrayArray1602[i_12_][i_13_][i_14_] = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method489((byte) 123, 26);
+							Class94.anIntArrayArrayArray1602[i_12_][i_13_][i_14_] = Class23_Sub13_Sub4.inBuffer.method489((byte) 123, 26);
 						}
 					}
 				}
 			}
-			Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method485(-113);
-			int i_16_ = (-Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.pos + Class23_Sub4_Sub2.anInt2925) / 16;
+			Class23_Sub13_Sub4.inBuffer.method485(-113);
+			int i_16_ = (-Class23_Sub13_Sub4.inBuffer.pos + Class23_Sub4_Sub2.anInt2925) / 16;
 			Class23_Sub2.anIntArrayArray2054 = new int[i_16_][4];
 			for (int i_17_ = 0; (i_16_ ^ 0xffffffff) < (i_17_ ^ 0xffffffff); i_17_++) {
 				for (int i_18_ = 0; i_18_ < 4; i_18_++)
-					Class23_Sub2.anIntArrayArray2054[i_17_][i_18_] = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.readUIntBE();
+					Class23_Sub2.anIntArrayArray2054[i_17_][i_18_] = Class23_Sub13_Sub4.inBuffer.readUIntBE();
 			}
-			int i_19_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method453(65280);
-			int i_20_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method480((byte) 82);
-			int i_21_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.getUShortBE();
-			int i_22_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method453(65280);
-			int i_23_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.readUByte();
+			int i_19_ = Class23_Sub13_Sub4.inBuffer.method453(65280);
+			int i_20_ = Class23_Sub13_Sub4.inBuffer.method480((byte) 82);
+			int i_21_ = Class23_Sub13_Sub4.inBuffer.getUShortBE();
+			int i_22_ = Class23_Sub13_Sub4.inBuffer.method453(65280);
+			int i_23_ = Class23_Sub13_Sub4.inBuffer.readUByte();
 			Class53.aByteArrayArray843 = new byte[i_16_][];
 			Class23_Sub4_Sub23.anIntArray3282 = new int[i_16_];
 			Class23_Sub8.aByteArrayArray2235 = new byte[i_16_][];
@@ -90,21 +90,21 @@ public class Class23_Sub4_Sub31 extends Class23_Sub4
 			}
 			Class23_Sub4_Sub19.method342(i_23_, i_20_, 31362, i_19_, i_21_, i_22_);
 		} else {
-			int i_0_ = (Class23_Sub4_Sub2.anInt2925 + -Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.pos) / 16;
+			int i_0_ = (Class23_Sub4_Sub2.anInt2925 + -Class23_Sub13_Sub4.inBuffer.pos) / 16;
 			Class23_Sub2.anIntArrayArray2054 = new int[i_0_][4];
 			for (int i_1_ = 0; i_1_ < i_0_; i_1_++) {
 				for (int i_2_ = 0; i_2_ < 4; i_2_++)
-					Class23_Sub2.anIntArrayArray2054[i_1_][i_2_] = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.readUIntBE();
+					Class23_Sub2.anIntArrayArray2054[i_1_][i_2_] = Class23_Sub13_Sub4.inBuffer.readUIntBE();
 			}
-			int i_3_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.getUShortBE();
-			int i_4_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.getUShortBE();
+			int i_3_ = Class23_Sub13_Sub4.inBuffer.getUShortBE();
+			int i_4_ = Class23_Sub13_Sub4.inBuffer.getUShortBE();
 			boolean bool_5_ = false;
-			int i_6_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.getUShortBE();
+			int i_6_ = Class23_Sub13_Sub4.inBuffer.getUShortBE();
 			if ((i_4_ / 8 == 48 || i_4_ / 8 == 49) && i_3_ / 8 == 48) {
 				bool_5_ = true;
 			}
-			int i_7_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.readUByte();
-			int i_8_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.getUShortBE();
+			int i_7_ = Class23_Sub13_Sub4.inBuffer.readUByte();
+			int i_8_ = Class23_Sub13_Sub4.inBuffer.getUShortBE();
 			Class53.aByteArrayArray843 = new byte[i_0_][];
 			if (i_4_ / 8 == 48 && i_3_ / 8 == 148) {
 				bool_5_ = true;

@@ -126,8 +126,8 @@ abstract class Class23_Sub13_Sub10 extends Class23_Sub13
 				Class23_Sub4_Sub2.aClass38_Sub7_Sub2Array2932[i_25_] = null;
 			}
 		}
-		if ((Class23_Sub4_Sub2.anInt2925 ^ 0xffffffff) != (Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.pos ^ 0xffffffff)) {
-			throw new RuntimeException("gpp1 pos:" + Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.pos + " psize:" + Class23_Sub4_Sub2.anInt2925);
+		if ((Class23_Sub4_Sub2.anInt2925 ^ 0xffffffff) != (Class23_Sub13_Sub4.inBuffer.pos ^ 0xffffffff)) {
+			throw new RuntimeException("gpp1 pos:" + Class23_Sub13_Sub4.inBuffer.pos + " psize:" + Class23_Sub4_Sub2.anInt2925);
 		}
 		for (int i_26_ = 0; (i_26_ ^ 0xffffffff) > (Class23_Sub4_Sub11.anInt3067 ^ 0xffffffff); i_26_++) {
 			if (Class23_Sub4_Sub2.aClass38_Sub7_Sub2Array2932[Class23_Sub13_Sub3.anIntArray3700[i_26_]] == null) {

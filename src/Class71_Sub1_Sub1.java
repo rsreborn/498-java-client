@@ -787,8 +787,8 @@ public class Class71_Sub1_Sub1 extends Class71_Sub1
 					Class31.aClass38_Sub7_Sub1Array483[i_8_] = null;
 				}
 			}
-			if ((Class23_Sub4_Sub2.anInt2925 ^ 0xffffffff) != (Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.pos ^ 0xffffffff)) {
-				throw new RuntimeException("gnp1 pos:" + Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.pos + " psize:" + Class23_Sub4_Sub2.anInt2925);
+			if ((Class23_Sub4_Sub2.anInt2925 ^ 0xffffffff) != (Class23_Sub13_Sub4.inBuffer.pos ^ 0xffffffff)) {
+				throw new RuntimeException("gnp1 pos:" + Class23_Sub13_Sub4.inBuffer.pos + " psize:" + Class23_Sub4_Sub2.anInt2925);
 			}
 			for (int i_9_ = 0; (Class23_Sub4_Sub18.anInt3191 ^ 0xffffffff) < (i_9_ ^ 0xffffffff); i_9_++) {
 				if (Class31.aClass38_Sub7_Sub1Array483[Class23_Sub4_Sub17.anIntArray3170[i_9_]] == null) {

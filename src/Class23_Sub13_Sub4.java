@@ -11,7 +11,7 @@ public class Class23_Sub13_Sub4 extends Class23_Sub13
 	static int anInt3708;
 	protected int anInt3709 = -1;
 	protected int anInt3710;
-	static Class23_Sub5_Sub1 aClass23_Sub5_Sub1_3711;
+	static Class23_Sub5_Sub1 inBuffer;
 	static int anInt3712;
 	static int anInt3713;
 	static RSString aClass16_3714 = null;
@@ -51,7 +51,7 @@ public class Class23_Sub13_Sub4 extends Class23_Sub13
 	
 	static final void method618(int i, int i_2_, int i_3_, int i_4_, int i_5_) {
 		if (i_4_ != -717) {
-			aClass23_Sub5_Sub1_3711 = null;
+			inBuffer = null;
 		}
 		for (int i_6_ = 0; (i_6_ ^ 0xffffffff) > (Class23_Sub4_Sub25.anInt3306 ^ 0xffffffff); i_6_++) {
 			if ((Class23_Sub4_Sub9.anIntArray3034[i_6_] + Class24.anIntArray372[i_6_] ^ 0xffffffff) < (i ^ 0xffffffff) && (Class23_Sub4_Sub9.anIntArray3034[i_6_] ^ 0xffffffff) > (i + i_2_ ^ 0xffffffff) && Class55.anIntArray865[i_6_] + Class23_Sub11.anIntArray2286[i_6_] > i_5_ && Class23_Sub11.anIntArray2286[i_6_] < i_3_ + i_5_) {
@@ -147,7 +147,7 @@ public class Class23_Sub13_Sub4 extends Class23_Sub13
 		aClass16_3714 = null;
 		aClass23_Sub13_Sub10Array3718 = null;
 		aClass105_3717 = null;
-		aClass23_Sub5_Sub1_3711 = null;
+		inBuffer = null;
 		if (i != -2903) {
 			method618(-8, -124, 5, 72, -21);
 		}
@@ -306,6 +306,6 @@ public class Class23_Sub13_Sub4 extends Class23_Sub13
 	}
 	
 	static {
-		aClass23_Sub5_Sub1_3711 = new Class23_Sub5_Sub1(5000);
+		inBuffer = new Class23_Sub5_Sub1(5000);
 	}
 }

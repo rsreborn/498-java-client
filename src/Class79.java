@@ -88,7 +88,7 @@ public class Class79 implements Interface2
 		} catch (Exception exception) {
 			String string = "T2 - " + Class23_Sub13_Sub24.anInt4275 + "," + Class25.anInt388 + "," + Class25.anInt379 + " - " + Class23_Sub4_Sub2.anInt2925 + "," + (Class42.anInt662 + Class105.aClass38_Sub7_Sub2_1812.anIntArray2663[0]) + "," + (Class105.aClass38_Sub7_Sub2_1812.anIntArray2694[0] + Class58.anInt903) + " - ";
 			for (int i_0_ = 0; (i_0_ ^ 0xffffffff) > (Class23_Sub4_Sub2.anInt2925 ^ 0xffffffff) && i_0_ < 50; i_0_++)
-				string += Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.payload[i_0_] + ",";
+				string += Class23_Sub13_Sub4.inBuffer.payload[i_0_] + ",";
 			Class26.method925(95, exception, string);
 			Class23_Sub4_Sub15.method326(true);
 			return true;

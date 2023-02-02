@@ -117,8 +117,8 @@ public class Class23_Sub4_Sub26 extends Class23_Sub4
 	
 	static final void method379(int i) {
 		anInt3324++;
-		Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method487(0);
-		int i_15_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method489((byte) 126, 8);
+		Class23_Sub13_Sub4.inBuffer.method487(0);
+		int i_15_ = Class23_Sub13_Sub4.inBuffer.method489((byte) 126, 8);
 		if ((i_15_ ^ 0xffffffff) > (Class23_Sub4_Sub18.anInt3191 ^ 0xffffffff)) {
 			for (int i_16_ = i_15_; (i_16_ ^ 0xffffffff) > (Class23_Sub4_Sub18.anInt3191 ^ 0xffffffff); i_16_++)
 				Class54.anIntArray857[Class23_Sub4_Sub10.anInt3061++] = Class23_Sub4_Sub17.anIntArray3170[i_16_];
@@ -132,12 +132,12 @@ public class Class23_Sub4_Sub26 extends Class23_Sub4
 			for (/**/; (i_15_ ^ 0xffffffff) < (i_17_ ^ 0xffffffff); i_17_++) {
 				int i_18_ = Class23_Sub4_Sub17.anIntArray3170[i_17_];
 				Class38_Sub7_Sub1 class38_sub7_sub1 = Class31.aClass38_Sub7_Sub1Array483[i_18_];
-				int i_19_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method489((byte) 122, 1);
+				int i_19_ = Class23_Sub13_Sub4.inBuffer.method489((byte) 122, 1);
 				if (i_19_ == 0) {
 					Class23_Sub4_Sub17.anIntArray3170[Class23_Sub4_Sub18.anInt3191++] = i_18_;
 					class38_sub7_sub1.anInt2698 = Class89.anInt1511;
 				} else {
-					int i_20_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method489((byte) 119, 2);
+					int i_20_ = Class23_Sub13_Sub4.inBuffer.method489((byte) 119, 2);
 					if (i_20_ == 0) {
 						Class23_Sub4_Sub17.anIntArray3170[Class23_Sub4_Sub18.anInt3191++] = i_18_;
 						class38_sub7_sub1.anInt2698 = Class89.anInt1511;
@@ -145,20 +145,20 @@ public class Class23_Sub4_Sub26 extends Class23_Sub4
 					} else if (i_20_ == 1) {
 						Class23_Sub4_Sub17.anIntArray3170[Class23_Sub4_Sub18.anInt3191++] = i_18_;
 						class38_sub7_sub1.anInt2698 = Class89.anInt1511;
-						int i_21_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method489((byte) 126, 3);
+						int i_21_ = Class23_Sub13_Sub4.inBuffer.method489((byte) 126, 3);
 						class38_sub7_sub1.method1084(i_21_, false, -30438);
-						int i_22_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method489((byte) 120, 1);
+						int i_22_ = Class23_Sub13_Sub4.inBuffer.method489((byte) 120, 1);
 						if (i_22_ == 1) {
 							Class94.anIntArray1603[Class23_Sub2.anInt2048++] = i_18_;
 						}
 					} else if (i_20_ == 2) {
 						Class23_Sub4_Sub17.anIntArray3170[Class23_Sub4_Sub18.anInt3191++] = i_18_;
 						class38_sub7_sub1.anInt2698 = Class89.anInt1511;
-						int i_23_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method489((byte) 119, 3);
+						int i_23_ = Class23_Sub13_Sub4.inBuffer.method489((byte) 119, 3);
 						class38_sub7_sub1.method1084(i_23_, true, -30438);
-						int i_24_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method489((byte) 118, 3);
+						int i_24_ = Class23_Sub13_Sub4.inBuffer.method489((byte) 118, 3);
 						class38_sub7_sub1.method1084(i_24_, true, -30438);
-						int i_25_ = Class23_Sub13_Sub4.aClass23_Sub5_Sub1_3711.method489((byte) 110, 1);
+						int i_25_ = Class23_Sub13_Sub4.inBuffer.method489((byte) 110, 1);
 						if (i_25_ == 1) {
 							Class94.anIntArray1603[Class23_Sub2.anInt2048++] = i_18_;
 						}
